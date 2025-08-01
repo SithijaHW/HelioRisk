@@ -1,0 +1,2064 @@
+Date,Time,Duration,Region,Disruption_Type,Impact_Level,Infrastructure
+2016-03-01,04:51,46,North America,Accuracy Drop,High,GPS
+2019-12-22,06:51,28,Oceania,Accuracy Drop,Medium,GPS
+2016-07-13,18:27,42,Asia,Signal Loss,High,GPS
+2022-07-27,01:36,10,North America,Accuracy Drop,Low,GPS
+2021-03-18,02:49,20,Asia,Accuracy Drop,Medium,GPS
+2024-03-13,04:36,3,Oceania,Timing Error,Low,GPS
+2015-02-04,15:23,20,Europe,Signal Loss,Medium,GPS
+2016-12-26,20:34,54,North America,Timing Error,High,GPS
+2015-04-05,03:22,2,North America,Timing Error,Low,GPS
+2020-08-17,21:02,35,Europe,Signal Loss,High,GPS
+2019-04-14,16:09,23,Asia,Accuracy Drop,Medium,GPS
+2022-12-25,06:47,53,Asia,Timing Error,High,GPS
+2024-07-17,12:26,52,Europe,Timing Error,High,GPS
+2024-03-13,17:52,14,Europe,Timing Error,Medium,GPS
+2019-12-07,23:33,5,North America,Timing Error,Low,GPS
+2023-06-08,00:48,43,Europe,Signal Loss,High,GPS
+2023-10-18,01:55,3,Oceania,Accuracy Drop,Low,GPS
+2023-03-12,07:46,24,Oceania,Accuracy Drop,Medium,GPS
+2019-11-07,10:47,48,North America,Accuracy Drop,High,GPS
+2024-06-07,08:56,11,Oceania,Accuracy Drop,Medium,GPS
+2023-12-25,05:05,28,North America,Accuracy Drop,Medium,GPS
+2018-12-13,01:15,56,North America,Timing Error,High,GPS
+2022-01-26,20:36,24,Asia,Signal Loss,Medium,GPS
+2018-07-13,23:43,4,Europe,Timing Error,Low,GPS
+2021-03-26,15:41,43,North America,Accuracy Drop,High,GPS
+2017-04-06,13:47,18,North America,Accuracy Drop,Medium,GPS
+2021-04-03,20:48,52,North America,Signal Loss,High,GPS
+2020-01-24,19:33,48,Asia,Signal Loss,High,GPS
+2019-07-28,03:20,14,Asia,Accuracy Drop,Medium,GPS
+2019-07-18,11:08,5,North America,Accuracy Drop,Low,GPS
+2019-08-11,10:29,45,Oceania,Signal Loss,High,GPS
+2018-09-20,12:21,36,Asia,Timing Error,High,GPS
+2016-06-05,18:19,17,Asia,Accuracy Drop,Medium,GPS
+2021-01-30,00:42,47,North America,Timing Error,High,GPS
+2023-10-25,08:31,37,Oceania,Signal Loss,High,GPS
+2016-12-09,01:12,49,Oceania,Signal Loss,High,GPS
+2015-09-09,17:05,53,Europe,Signal Loss,High,GPS
+2020-06-06,11:00,12,Asia,Timing Error,Medium,GPS
+2023-03-08,10:19,50,Asia,Accuracy Drop,High,GPS
+2022-01-18,08:53,12,Oceania,Signal Loss,Medium,GPS
+2016-10-17,03:24,22,Oceania,Timing Error,Medium,GPS
+2017-04-18,10:56,38,Oceania,Signal Loss,High,GPS
+2019-09-24,02:06,39,Asia,Accuracy Drop,High,GPS
+2017-12-28,03:49,20,North America,Timing Error,Medium,GPS
+2022-12-13,06:37,31,Asia,Timing Error,High,GPS
+2015-04-07,11:36,42,Oceania,Accuracy Drop,High,GPS
+2015-01-28,17:29,43,North America,Timing Error,High,GPS
+2020-10-03,02:45,41,North America,Timing Error,High,GPS
+2021-05-13,06:22,39,Asia,Signal Loss,High,GPS
+2023-09-19,18:43,55,Asia,Signal Loss,High,GPS
+2015-03-06,17:15,43,North America,Signal Loss,High,GPS
+2015-12-16,03:08,21,North America,Signal Loss,Medium,GPS
+2023-11-16,01:36,58,Asia,Accuracy Drop,High,GPS
+2024-06-19,15:40,58,Oceania,Accuracy Drop,High,GPS
+2020-04-05,18:01,58,Asia,Signal Loss,High,GPS
+2017-08-12,17:40,26,North America,Signal Loss,Medium,GPS
+2023-01-23,15:23,36,Oceania,Signal Loss,High,GPS
+2015-08-04,06:18,8,Asia,Signal Loss,Low,GPS
+2016-05-22,07:28,35,Asia,Signal Loss,High,GPS
+2016-03-29,17:25,59,Europe,Accuracy Drop,High,GPS
+2015-04-13,22:14,40,North America,Timing Error,High,GPS
+2024-12-16,19:13,31,Asia,Timing Error,High,GPS
+2022-05-27,19:07,56,Europe,Accuracy Drop,High,GPS
+2019-10-25,19:57,10,Oceania,Timing Error,Low,GPS
+2015-02-27,06:17,34,Oceania,Signal Loss,High,GPS
+2017-01-23,14:01,52,North America,Signal Loss,High,GPS
+2018-04-04,09:54,5,North America,Timing Error,Low,GPS
+2024-03-17,22:04,9,Oceania,Accuracy Drop,Low,GPS
+2018-04-18,06:42,37,Asia,Signal Loss,High,GPS
+2015-06-13,17:26,23,Oceania,Timing Error,Medium,GPS
+2015-08-04,02:40,54,Europe,Accuracy Drop,High,GPS
+2024-02-29,23:47,53,Europe,Signal Loss,High,GPS
+2024-12-10,23:40,6,Oceania,Timing Error,Low,GPS
+2020-06-27,06:43,26,Europe,Signal Loss,Medium,GPS
+2016-06-11,04:20,42,Europe,Accuracy Drop,High,GPS
+2016-09-17,01:40,23,North America,Signal Loss,Medium,GPS
+2017-12-02,06:31,35,Asia,Timing Error,High,GPS
+2017-05-04,16:30,23,Europe,Accuracy Drop,Medium,GPS
+2021-06-21,05:17,41,Europe,Timing Error,High,GPS
+2022-10-25,23:52,20,North America,Accuracy Drop,Medium,GPS
+2024-05-16,03:03,40,Oceania,Timing Error,High,GPS
+2019-02-01,15:13,57,Oceania,Accuracy Drop,High,GPS
+2018-01-12,16:42,59,Asia,Signal Loss,High,GPS
+2024-07-15,16:20,18,Asia,Signal Loss,Medium,GPS
+2021-11-04,10:34,56,North America,Signal Loss,High,GPS
+2023-07-21,09:02,56,Asia,Signal Loss,High,GPS
+2024-06-15,13:55,51,Europe,Accuracy Drop,High,GPS
+2020-04-28,09:45,33,Oceania,Accuracy Drop,High,GPS
+2020-08-06,23:17,52,North America,Timing Error,High,GPS
+2022-12-24,20:44,28,North America,Timing Error,Medium,GPS
+2015-12-29,06:01,43,Oceania,Timing Error,High,GPS
+2018-01-12,04:25,2,Asia,Timing Error,Low,GPS
+2019-05-11,09:41,11,Oceania,Signal Loss,Medium,GPS
+2024-02-03,19:41,29,North America,Accuracy Drop,Medium,GPS
+2019-10-29,04:41,56,Europe,Timing Error,High,GPS
+2021-06-18,03:38,6,Oceania,Signal Loss,Low,GPS
+2021-04-13,15:51,22,Europe,Accuracy Drop,Medium,GPS
+2015-09-02,21:37,45,Asia,Signal Loss,High,GPS
+2018-03-29,22:41,43,Oceania,Timing Error,High,GPS
+2019-11-21,16:21,38,North America,Signal Loss,High,GPS
+2015-12-27,15:48,8,North America,Signal Loss,Low,GPS
+2021-03-16,20:36,27,Asia,Accuracy Drop,Medium,GPS
+2023-09-17,14:42,6,Asia,Accuracy Drop,Low,GPS
+2021-09-18,06:58,6,Oceania,Timing Error,Low,GPS
+2016-05-14,01:04,50,North America,Timing Error,High,GPS
+2022-10-27,11:31,23,Oceania,Accuracy Drop,Medium,GPS
+2016-04-20,08:43,5,Oceania,Accuracy Drop,Low,GPS
+2020-12-11,05:14,27,Oceania,Timing Error,Medium,GPS
+2020-09-16,05:27,44,Asia,Timing Error,High,GPS
+2016-03-22,00:02,45,North America,Accuracy Drop,High,GPS
+2016-12-24,08:39,14,Europe,Timing Error,Medium,GPS
+2019-02-13,03:45,56,Europe,Timing Error,High,GPS
+2019-05-31,17:29,31,Asia,Timing Error,High,GPS
+2016-09-28,05:04,59,Europe,Accuracy Drop,High,GPS
+2020-09-13,10:53,42,North America,Accuracy Drop,High,GPS
+2021-03-09,02:01,37,Europe,Signal Loss,High,GPS
+2015-06-24,12:48,5,Europe,Signal Loss,Low,GPS
+2015-10-29,18:51,19,Asia,Accuracy Drop,Medium,GPS
+2023-12-25,12:17,18,North America,Timing Error,Medium,GPS
+2024-05-04,15:07,13,Europe,Signal Loss,Medium,GPS
+2016-04-13,16:45,40,Asia,Signal Loss,High,GPS
+2016-07-15,12:17,21,Oceania,Accuracy Drop,Medium,GPS
+2017-03-01,02:49,45,Europe,Accuracy Drop,High,GPS
+2020-10-12,06:18,14,North America,Accuracy Drop,Medium,GPS
+2024-08-28,20:23,29,North America,Accuracy Drop,Medium,GPS
+2022-04-28,03:11,16,North America,Accuracy Drop,Medium,GPS
+2015-09-13,19:36,22,Asia,Accuracy Drop,Medium,GPS
+2024-02-13,23:00,29,Europe,Accuracy Drop,Medium,GPS
+2021-12-13,09:01,41,North America,Signal Loss,High,GPS
+2021-02-25,03:45,46,Asia,Accuracy Drop,High,GPS
+2018-05-22,10:23,28,Asia,Signal Loss,Medium,GPS
+2015-08-18,08:47,58,Oceania,Signal Loss,High,GPS
+2017-04-16,10:53,10,Oceania,Timing Error,Low,GPS
+2023-07-16,22:41,19,Europe,Signal Loss,Medium,GPS
+2021-04-05,23:00,24,Oceania,Accuracy Drop,Medium,GPS
+2017-04-26,12:19,26,Asia,Signal Loss,Medium,GPS
+2019-03-31,01:42,43,Europe,Timing Error,High,GPS
+2021-11-16,02:58,51,Oceania,Accuracy Drop,High,GPS
+2015-03-27,01:16,58,Asia,Timing Error,High,GPS
+2018-06-14,13:26,31,Oceania,Signal Loss,High,GPS
+2022-04-01,23:50,46,Asia,Accuracy Drop,High,GPS
+2019-01-11,13:51,10,Europe,Accuracy Drop,Low,GPS
+2024-08-23,19:28,54,Asia,Accuracy Drop,High,GPS
+2017-10-31,03:35,12,North America,Timing Error,Medium,GPS
+2015-10-12,09:02,44,Asia,Accuracy Drop,High,GPS
+2023-11-13,08:32,40,North America,Timing Error,High,GPS
+2020-07-25,07:12,47,North America,Accuracy Drop,High,GPS
+2021-10-12,13:36,6,North America,Signal Loss,Low,GPS
+2016-10-03,22:39,4,Europe,Signal Loss,Low,GPS
+2024-08-05,08:21,20,North America,Accuracy Drop,Medium,GPS
+2019-05-23,23:27,25,Oceania,Timing Error,Medium,GPS
+2019-09-16,17:46,53,Oceania,Signal Loss,High,GPS
+2019-07-22,22:54,21,Oceania,Accuracy Drop,Medium,GPS
+2019-06-21,06:09,36,North America,Accuracy Drop,High,GPS
+2018-08-03,08:33,45,Europe,Accuracy Drop,High,GPS
+2017-12-23,23:09,17,Europe,Accuracy Drop,Medium,GPS
+2023-04-24,23:38,57,Asia,Accuracy Drop,High,GPS
+2019-08-18,12:27,7,Europe,Timing Error,Low,GPS
+2017-12-15,02:22,14,Europe,Timing Error,Medium,GPS
+2019-03-17,08:24,52,Asia,Timing Error,High,GPS
+2018-01-19,17:06,7,Oceania,Accuracy Drop,Low,GPS
+2023-11-04,08:49,39,Asia,Signal Loss,High,GPS
+2019-06-27,12:35,56,Asia,Timing Error,High,GPS
+2022-11-02,13:00,15,Oceania,Signal Loss,Medium,GPS
+2022-03-29,07:01,50,Asia,Accuracy Drop,High,GPS
+2016-02-06,12:53,3,Asia,Timing Error,Low,GPS
+2018-08-28,18:23,28,Asia,Signal Loss,Medium,GPS
+2024-08-28,20:59,4,North America,Timing Error,Low,GPS
+2016-11-05,19:55,40,Asia,Timing Error,High,GPS
+2016-09-11,01:24,48,Europe,Timing Error,High,GPS
+2022-10-06,02:30,23,Asia,Signal Loss,Medium,GPS
+2024-03-13,07:56,8,Asia,Accuracy Drop,Low,GPS
+2022-05-12,23:17,12,Asia,Signal Loss,Medium,GPS
+2021-10-10,14:14,26,Oceania,Signal Loss,Medium,GPS
+2024-06-24,05:56,17,Europe,Signal Loss,Medium,GPS
+2016-08-31,01:01,50,Asia,Signal Loss,High,GPS
+2020-07-31,22:02,45,North America,Accuracy Drop,High,GPS
+2022-10-20,15:38,19,North America,Timing Error,Medium,GPS
+2021-02-24,05:03,33,Oceania,Timing Error,High,GPS
+2024-07-12,16:31,47,Asia,Timing Error,High,GPS
+2016-11-23,09:44,36,Asia,Timing Error,High,GPS
+2024-06-05,13:37,54,North America,Timing Error,High,GPS
+2021-07-10,22:59,20,Europe,Signal Loss,Medium,GPS
+2019-07-27,00:48,58,Asia,Signal Loss,High,GPS
+2017-11-02,12:18,7,Oceania,Timing Error,Low,GPS
+2020-02-28,03:19,11,Oceania,Timing Error,Medium,GPS
+2021-07-19,11:03,49,North America,Accuracy Drop,High,GPS
+2021-01-17,11:47,58,Asia,Accuracy Drop,High,GPS
+2018-03-08,22:36,21,Europe,Timing Error,Medium,GPS
+2022-11-08,17:28,44,Asia,Accuracy Drop,High,GPS
+2017-01-22,16:49,41,Europe,Accuracy Drop,High,GPS
+2017-07-07,17:09,31,Europe,Signal Loss,High,GPS
+2023-04-26,13:00,49,North America,Timing Error,High,GPS
+2016-12-26,03:51,3,Asia,Timing Error,Low,GPS
+2016-08-06,12:27,29,Asia,Timing Error,Medium,GPS
+2022-10-20,02:56,35,Europe,Timing Error,High,GPS
+2022-01-24,18:17,31,North America,Timing Error,High,GPS
+2016-03-15,13:09,53,Oceania,Timing Error,High,GPS
+2017-02-05,22:13,49,Europe,Signal Loss,High,GPS
+2021-09-01,15:47,48,Asia,Signal Loss,High,GPS
+2019-06-04,07:57,51,North America,Timing Error,High,GPS
+2019-08-01,17:07,29,North America,Timing Error,Medium,GPS
+2024-04-08,05:14,29,Oceania,Timing Error,Medium,GPS
+2024-06-07,02:33,27,Europe,Signal Loss,Medium,GPS
+2015-05-19,00:15,20,Europe,Signal Loss,Medium,GPS
+2017-01-17,09:33,9,Asia,Timing Error,Low,GPS
+2023-12-03,16:23,53,Oceania,Signal Loss,High,GPS
+2021-04-12,15:08,14,North America,Accuracy Drop,Medium,GPS
+2024-11-08,12:18,38,Asia,Accuracy Drop,High,GPS
+2023-09-02,05:02,32,Europe,Signal Loss,High,GPS
+2021-07-21,15:29,36,Asia,Timing Error,High,GPS
+2019-04-13,07:32,4,Oceania,Signal Loss,Low,GPS
+2023-12-28,21:44,26,Oceania,Signal Loss,Medium,GPS
+2023-09-30,19:01,50,Europe,Signal Loss,High,GPS
+2019-07-23,12:24,59,Asia,Timing Error,High,GPS
+2024-01-19,19:24,11,North America,Timing Error,Medium,GPS
+2020-09-02,01:53,55,Asia,Timing Error,High,GPS
+2023-04-15,04:17,23,Asia,Timing Error,Medium,GPS
+2023-09-04,02:31,12,Oceania,Timing Error,Medium,GPS
+2016-08-08,21:07,10,Asia,Timing Error,Low,GPS
+2018-04-13,01:46,6,Asia,Signal Loss,Low,GPS
+2020-06-02,18:50,57,Europe,Signal Loss,High,GPS
+2019-11-29,07:56,35,Europe,Signal Loss,High,GPS
+2017-01-01,16:34,37,Europe,Signal Loss,High,GPS
+2023-01-01,10:54,29,North America,Signal Loss,Medium,GPS
+2018-03-06,16:40,37,Oceania,Accuracy Drop,High,GPS
+2021-02-09,17:12,49,Oceania,Signal Loss,High,GPS
+2020-09-15,02:12,12,Europe,Signal Loss,Medium,GPS
+2021-12-31,16:33,29,North America,Timing Error,Medium,GPS
+2020-12-09,11:39,18,North America,Signal Loss,Medium,GPS
+2021-12-05,13:47,31,North America,Signal Loss,High,GPS
+2016-03-01,10:22,42,Asia,Accuracy Drop,High,GPS
+2017-12-17,15:01,10,North America,Accuracy Drop,Low,GPS
+2016-06-09,06:39,19,Oceania,Timing Error,Medium,GPS
+2017-05-08,08:30,1,Oceania,Accuracy Drop,Low,GPS
+2016-08-14,16:23,15,North America,Accuracy Drop,Medium,GPS
+2015-10-27,08:55,49,Europe,Accuracy Drop,High,GPS
+2022-07-22,16:29,15,Asia,Timing Error,Medium,GPS
+2021-05-27,01:41,53,Europe,Accuracy Drop,High,GPS
+2016-09-14,01:20,42,Oceania,Accuracy Drop,High,GPS
+2024-07-31,22:02,1,Asia,Timing Error,Low,GPS
+2021-07-07,02:02,1,North America,Signal Loss,Low,GPS
+2022-11-28,07:45,49,North America,Signal Loss,High,GPS
+2019-10-16,14:12,24,Asia,Signal Loss,Medium,GPS
+2017-02-09,03:41,49,North America,Signal Loss,High,GPS
+2024-05-12,22:36,10,Asia,Signal Loss,Low,GPS
+2022-02-02,13:39,2,Europe,Timing Error,Low,GPS
+2020-08-29,04:16,2,Oceania,Timing Error,Low,GPS
+2024-09-12,07:52,41,North America,Timing Error,High,GPS
+2022-09-28,13:58,59,Europe,Timing Error,High,GPS
+2019-03-25,00:42,15,Asia,Signal Loss,Medium,GPS
+2016-09-19,03:18,14,Oceania,Timing Error,Medium,GPS
+2015-10-01,12:05,6,Oceania,Accuracy Drop,Low,GPS
+2016-05-09,01:55,12,Asia,Timing Error,Medium,GPS
+2023-01-19,11:22,13,Oceania,Signal Loss,Medium,GPS
+2018-03-05,15:34,58,Asia,Accuracy Drop,High,GPS
+2018-05-27,13:32,35,North America,Signal Loss,High,GPS
+2022-12-29,08:30,9,Asia,Timing Error,Low,GPS
+2021-10-10,15:29,15,Oceania,Timing Error,Medium,GPS
+2015-03-05,08:52,17,Asia,Signal Loss,Medium,GPS
+2024-08-11,02:19,12,Asia,Accuracy Drop,Medium,GPS
+2019-09-21,13:55,41,Oceania,Signal Loss,High,GPS
+2024-12-19,19:28,51,Asia,Accuracy Drop,High,GPS
+2016-10-14,23:39,14,Asia,Timing Error,Medium,GPS
+2017-07-04,04:15,46,Oceania,Timing Error,High,GPS
+2023-11-09,07:50,11,Europe,Accuracy Drop,Medium,GPS
+2021-06-14,07:52,30,Oceania,Accuracy Drop,Medium,GPS
+2020-02-17,12:56,58,Europe,Timing Error,High,GPS
+2023-12-16,02:59,46,North America,Timing Error,High,GPS
+2022-11-11,10:35,32,Oceania,Timing Error,High,GPS
+2018-03-20,20:28,46,Europe,Signal Loss,High,GPS
+2022-04-22,20:23,34,Asia,Accuracy Drop,High,GPS
+2017-10-09,17:58,20,Oceania,Signal Loss,Medium,GPS
+2015-04-23,12:46,43,Europe,Timing Error,High,GPS
+2024-09-04,03:39,55,North America,Accuracy Drop,High,GPS
+2023-02-07,00:10,40,Europe,Accuracy Drop,High,GPS
+2020-10-12,22:21,58,Europe,Timing Error,High,GPS
+2015-03-25,04:22,40,North America,Accuracy Drop,High,GPS
+2017-01-24,20:03,51,North America,Accuracy Drop,High,GPS
+2021-07-23,03:07,23,North America,Accuracy Drop,Medium,GPS
+2023-11-12,05:31,25,North America,Signal Loss,Medium,GPS
+2015-12-01,11:31,43,North America,Signal Loss,High,GPS
+2015-01-21,16:19,8,North America,Accuracy Drop,Low,GPS
+2022-11-08,13:19,49,North America,Signal Loss,High,GPS
+2024-03-06,17:44,34,Europe,Accuracy Drop,High,GPS
+2024-11-12,03:49,33,Europe,Accuracy Drop,High,GPS
+2018-06-06,09:22,48,Oceania,Accuracy Drop,High,GPS
+2016-01-07,19:52,7,Asia,Accuracy Drop,Low,GPS
+2018-11-24,09:23,43,Oceania,Timing Error,High,GPS
+2024-06-03,08:14,47,Oceania,Accuracy Drop,High,GPS
+2020-05-26,06:09,55,Asia,Signal Loss,High,GPS
+2024-01-31,13:16,10,Oceania,Signal Loss,Low,GPS
+2016-12-08,15:55,7,North America,Timing Error,Low,GPS
+2021-08-19,15:16,40,Asia,Accuracy Drop,High,GPS
+2022-02-16,13:45,47,Oceania,Accuracy Drop,High,GPS
+2019-08-12,00:47,35,Oceania,Signal Loss,High,GPS
+2022-04-24,13:41,43,North America,Signal Loss,High,GPS
+2020-10-30,12:28,52,Asia,Timing Error,High,GPS
+2015-05-24,12:41,10,Oceania,Accuracy Drop,Low,GPS
+2015-03-17,01:35,43,North America,Accuracy Drop,High,GPS
+2017-07-24,02:31,53,North America,Signal Loss,High,GPS
+2023-09-01,15:49,2,North America,Signal Loss,Low,GPS
+2019-04-09,08:15,34,Asia,Accuracy Drop,High,GPS
+2021-08-16,05:20,19,Asia,Accuracy Drop,Medium,GPS
+2016-11-28,20:19,20,North America,Timing Error,Medium,GPS
+2022-01-03,04:02,47,Europe,Accuracy Drop,High,GPS
+2016-03-15,06:52,34,North America,Accuracy Drop,High,GPS
+2016-05-06,21:36,53,Europe,Accuracy Drop,High,GPS
+2017-04-06,08:07,34,Europe,Signal Loss,High,GPS
+2015-11-21,13:45,12,Europe,Timing Error,Medium,GPS
+2023-11-02,10:05,25,North America,Timing Error,Medium,GPS
+2019-07-07,01:40,45,Asia,Accuracy Drop,High,GPS
+2020-03-31,15:38,30,Europe,Timing Error,Medium,GPS
+2022-09-01,21:28,28,North America,Accuracy Drop,Medium,GPS
+2018-09-14,05:30,47,Asia,Accuracy Drop,High,GPS
+2017-11-24,19:34,33,Europe,Accuracy Drop,High,GPS
+2017-06-14,04:38,24,Europe,Timing Error,Medium,GPS
+2017-01-31,05:02,16,Oceania,Signal Loss,Medium,GPS
+2017-08-11,11:04,10,Europe,Accuracy Drop,Low,GPS
+2015-12-09,13:58,16,Oceania,Timing Error,Medium,GPS
+2021-04-08,04:35,24,Asia,Accuracy Drop,Medium,GPS
+2016-02-23,14:50,50,North America,Timing Error,High,GPS
+2018-03-05,10:50,51,Asia,Timing Error,High,GPS
+2018-10-21,07:25,23,North America,Signal Loss,Medium,GPS
+2019-04-16,23:40,40,North America,Accuracy Drop,High,GPS
+2022-09-03,19:46,6,Asia,Accuracy Drop,Low,GPS
+2023-08-25,23:05,55,Asia,Accuracy Drop,High,GPS
+2016-03-10,00:52,17,Oceania,Accuracy Drop,Medium,GPS
+2018-08-23,01:59,44,Europe,Timing Error,High,GPS
+2018-12-28,12:08,15,Europe,Timing Error,Medium,GPS
+2017-05-18,17:49,36,Oceania,Timing Error,High,GPS
+2024-01-31,01:21,21,North America,Timing Error,Medium,GPS
+2016-01-12,14:38,3,North America,Accuracy Drop,Low,GPS
+2021-04-26,15:02,21,Oceania,Accuracy Drop,Medium,GPS
+2022-09-25,23:08,51,Europe,Timing Error,High,GPS
+2023-03-30,22:35,48,Asia,Signal Loss,High,GPS
+2016-12-25,02:14,47,North America,Accuracy Drop,High,GPS
+2024-04-03,09:12,28,North America,Timing Error,Medium,GPS
+2021-10-02,09:09,3,Europe,Timing Error,Low,GPS
+2020-08-26,19:00,39,Oceania,Timing Error,High,GPS
+2016-08-16,06:07,33,Europe,Timing Error,High,GPS
+2024-06-21,22:26,8,Europe,Signal Loss,Low,GPS
+2021-12-16,07:41,3,Europe,Signal Loss,Low,GPS
+2024-04-24,05:57,24,Oceania,Timing Error,Medium,GPS
+2016-01-17,13:23,37,Europe,Accuracy Drop,High,GPS
+2024-01-24,02:58,56,Asia,Signal Loss,High,GPS
+2019-01-12,22:25,31,North America,Signal Loss,High,GPS
+2021-10-02,19:32,48,Oceania,Signal Loss,High,GPS
+2015-09-27,06:45,19,North America,Timing Error,Medium,GPS
+2024-07-05,03:31,18,North America,Accuracy Drop,Medium,GPS
+2015-12-09,04:35,16,Asia,Timing Error,Medium,GPS
+2024-01-25,11:13,24,North America,Timing Error,Medium,GPS
+2022-05-13,01:55,13,Oceania,Signal Loss,Medium,GPS
+2015-10-28,00:08,25,Europe,Accuracy Drop,Medium,GPS
+2018-04-15,00:45,50,Oceania,Signal Loss,High,GPS
+2018-06-25,16:08,35,North America,Signal Loss,High,GPS
+2018-01-03,14:36,36,Oceania,Accuracy Drop,High,GPS
+2023-05-23,23:47,38,Europe,Timing Error,High,GPS
+2021-02-07,05:16,42,Europe,Accuracy Drop,High,GPS
+2019-07-15,21:30,40,Asia,Accuracy Drop,High,GPS
+2022-08-09,02:53,13,Asia,Signal Loss,Medium,GPS
+2024-12-19,21:47,23,Oceania,Signal Loss,Medium,GPS
+2022-05-16,09:58,17,Oceania,Accuracy Drop,Medium,GPS
+2017-03-13,22:07,37,Oceania,Timing Error,High,GPS
+2024-09-10,12:49,8,Asia,Signal Loss,Low,GPS
+2019-08-23,12:41,12,Europe,Signal Loss,Medium,GPS
+2020-08-06,00:21,37,North America,Signal Loss,High,GPS
+2021-04-29,18:22,41,Europe,Accuracy Drop,High,GPS
+2015-05-18,23:17,49,North America,Timing Error,High,GPS
+2018-01-10,03:58,20,Europe,Signal Loss,Medium,GPS
+2019-04-17,08:05,24,Europe,Accuracy Drop,Medium,GPS
+2020-01-12,11:38,51,Asia,Timing Error,High,GPS
+2020-10-07,12:32,9,Oceania,Accuracy Drop,Low,GPS
+2024-05-22,11:12,55,Asia,Accuracy Drop,High,GPS
+2022-06-23,09:07,29,North America,Accuracy Drop,Medium,GPS
+2024-08-29,21:24,6,Asia,Timing Error,Low,GPS
+2024-05-16,03:35,13,Europe,Signal Loss,Medium,GPS
+2019-05-15,14:29,9,Europe,Timing Error,Low,GPS
+2022-06-24,01:28,3,Oceania,Accuracy Drop,Low,GPS
+2017-12-03,19:40,45,Asia,Accuracy Drop,High,GPS
+2017-11-17,17:33,42,Asia,Signal Loss,High,GPS
+2022-10-25,06:00,5,Oceania,Accuracy Drop,Low,GPS
+2024-03-11,01:22,37,Europe,Signal Loss,High,GPS
+2021-02-03,23:20,9,North America,Timing Error,Low,GPS
+2017-06-24,13:56,53,North America,Signal Loss,High,GPS
+2022-09-14,00:45,10,North America,Timing Error,Low,GPS
+2022-01-11,23:53,30,North America,Timing Error,Medium,GPS
+2015-10-19,04:59,23,Asia,Accuracy Drop,Medium,GPS
+2015-12-31,15:31,3,Oceania,Accuracy Drop,Low,GPS
+2019-02-13,10:28,13,North America,Signal Loss,Medium,GPS
+2015-06-30,20:29,37,North America,Signal Loss,High,GPS
+2021-06-15,07:16,8,Europe,Signal Loss,Low,GPS
+2018-10-19,20:03,39,North America,Accuracy Drop,High,GPS
+2024-05-24,15:02,48,Asia,Signal Loss,High,GPS
+2024-01-04,06:18,45,North America,Signal Loss,High,GPS
+2017-10-24,08:35,6,Oceania,Accuracy Drop,Low,GPS
+2018-01-05,07:58,51,Asia,Timing Error,High,GPS
+2016-02-28,17:14,52,North America,Timing Error,High,GPS
+2022-12-14,20:49,45,North America,Signal Loss,High,GPS
+2017-04-15,03:50,50,North America,Signal Loss,High,GPS
+2020-11-17,12:24,42,North America,Signal Loss,High,GPS
+2020-12-13,20:27,47,Oceania,Accuracy Drop,High,GPS
+2016-10-21,10:16,46,North America,Accuracy Drop,High,GPS
+2019-01-07,20:07,56,Oceania,Timing Error,High,GPS
+2022-09-24,09:44,16,North America,Signal Loss,Medium,GPS
+2022-03-23,23:10,7,Asia,Signal Loss,Low,GPS
+2018-08-22,15:55,39,Europe,Timing Error,High,GPS
+2018-08-05,03:04,1,Asia,Timing Error,Low,GPS
+2022-10-16,14:58,15,North America,Signal Loss,Medium,GPS
+2017-01-19,01:06,54,Asia,Signal Loss,High,GPS
+2021-02-18,11:49,35,North America,Accuracy Drop,High,GPS
+2017-03-29,12:27,29,Asia,Signal Loss,Medium,GPS
+2021-01-21,13:16,31,Europe,Signal Loss,High,GPS
+2020-06-08,05:14,8,Oceania,Timing Error,Low,GPS
+2018-06-25,07:34,31,Asia,Signal Loss,High,GPS
+2018-03-15,14:48,35,Oceania,Timing Error,High,GPS
+2018-05-20,11:54,34,Oceania,Timing Error,High,GPS
+2016-07-27,04:39,46,Oceania,Signal Loss,High,GPS
+2019-11-19,20:35,12,Asia,Timing Error,Medium,GPS
+2020-12-24,02:41,15,Asia,Timing Error,Medium,GPS
+2022-02-27,16:10,57,Oceania,Signal Loss,High,GPS
+2021-02-27,06:08,59,Asia,Timing Error,High,GPS
+2021-03-26,21:08,21,North America,Signal Loss,Medium,GPS
+2018-07-05,10:17,29,Oceania,Accuracy Drop,Medium,GPS
+2020-07-16,04:00,35,Europe,Accuracy Drop,High,GPS
+2020-09-17,03:28,52,Oceania,Signal Loss,High,GPS
+2017-09-27,12:29,45,Europe,Timing Error,High,GPS
+2022-05-08,14:45,9,Europe,Timing Error,Low,GPS
+2017-04-08,12:06,38,North America,Signal Loss,High,GPS
+2019-02-25,21:56,56,Asia,Accuracy Drop,High,GPS
+2019-05-23,11:07,5,Asia,Accuracy Drop,Low,GPS
+2023-09-02,04:55,30,Europe,Timing Error,Medium,GPS
+2023-10-16,12:53,7,Europe,Signal Loss,Low,GPS
+2023-04-10,23:28,13,Oceania,Signal Loss,Medium,GPS
+2020-10-13,21:52,31,Oceania,Accuracy Drop,High,GPS
+2015-08-16,06:03,12,North America,Accuracy Drop,Medium,GPS
+2015-02-19,00:39,45,Oceania,Signal Loss,High,GPS
+2022-11-22,00:02,1,Europe,Timing Error,Low,GPS
+2023-10-01,00:07,33,North America,Signal Loss,High,GPS
+2015-10-12,20:52,30,Oceania,Signal Loss,Medium,GPS
+2018-09-13,18:54,54,Europe,Timing Error,High,GPS
+2020-05-09,18:25,36,Asia,Accuracy Drop,High,GPS
+2020-12-04,00:33,38,Asia,Timing Error,High,GPS
+2022-11-05,07:07,11,Oceania,Timing Error,Medium,GPS
+2022-03-09,18:11,6,Asia,Accuracy Drop,Low,GPS
+2015-05-03,01:45,30,North America,Signal Loss,Medium,GPS
+2024-06-25,16:32,46,Asia,Timing Error,High,GPS
+2021-01-12,10:06,55,Oceania,Timing Error,High,GPS
+2017-11-09,09:32,26,Asia,Accuracy Drop,Medium,GPS
+2019-03-22,02:27,42,Europe,Timing Error,High,GPS
+2016-07-08,03:31,41,Asia,Timing Error,High,GPS
+2015-05-21,02:11,39,Europe,Timing Error,High,GPS
+2021-10-26,17:09,4,North America,Signal Loss,Low,GPS
+2017-07-17,22:48,2,North America,Accuracy Drop,Low,GPS
+2017-10-06,10:33,4,Europe,Accuracy Drop,Low,GPS
+2022-12-16,20:12,49,Europe,Accuracy Drop,High,GPS
+2022-05-31,16:45,36,Asia,Accuracy Drop,High,GPS
+2016-11-30,05:42,55,North America,Signal Loss,High,GPS
+2019-04-23,21:41,28,Asia,Signal Loss,Medium,GPS
+2019-07-18,10:35,38,Europe,Signal Loss,High,GPS
+2023-05-11,13:25,57,North America,Signal Loss,High,GPS
+2022-04-19,19:44,36,Europe,Timing Error,High,GPS
+2015-04-30,14:23,4,North America,Signal Loss,Low,GPS
+2018-09-05,04:48,51,Asia,Timing Error,High,GPS
+2023-06-06,08:08,1,Asia,Signal Loss,Low,GPS
+2022-07-20,20:06,6,Asia,Timing Error,Low,GPS
+2023-09-11,16:59,42,Oceania,Timing Error,High,GPS
+2022-03-17,10:29,55,Asia,Timing Error,High,GPS
+2024-02-29,21:52,52,Europe,Signal Loss,High,GPS
+2022-12-07,17:21,53,Oceania,Accuracy Drop,High,GPS
+2022-04-16,04:30,55,Asia,Timing Error,High,GPS
+2022-01-05,06:41,34,North America,Signal Loss,High,GPS
+2020-08-15,18:37,55,Europe,Accuracy Drop,High,GPS
+2020-12-02,08:08,2,North America,Signal Loss,Low,GPS
+2023-11-21,09:32,50,North America,Timing Error,High,GPS
+2016-02-07,07:30,22,North America,Signal Loss,Medium,GPS
+2022-04-15,20:33,37,Europe,Accuracy Drop,High,GPS
+2024-01-18,22:43,49,Oceania,Timing Error,High,GPS
+2019-04-01,15:35,33,Europe,Timing Error,High,GPS
+2018-11-14,12:23,18,Asia,Timing Error,Medium,GPS
+2022-04-06,11:38,2,Europe,Signal Loss,Low,GPS
+2018-08-01,19:45,6,Oceania,Accuracy Drop,Low,GPS
+2021-07-21,14:17,55,Oceania,Timing Error,High,GPS
+2020-06-26,10:58,35,Asia,Accuracy Drop,High,GPS
+2015-04-20,20:51,44,Oceania,Signal Loss,High,GPS
+2021-02-07,15:37,36,Asia,Accuracy Drop,High,GPS
+2022-01-27,05:52,31,Europe,Accuracy Drop,High,GPS
+2015-01-21,07:26,19,Oceania,Signal Loss,Medium,GPS
+2021-05-01,23:48,21,Asia,Accuracy Drop,Medium,GPS
+2019-11-20,18:29,43,Oceania,Accuracy Drop,High,GPS
+2015-12-08,21:01,40,Europe,Signal Loss,High,GPS
+2024-05-31,12:37,27,North America,Signal Loss,Medium,GPS
+2017-09-21,18:04,42,Oceania,Timing Error,High,GPS
+2024-06-23,23:24,32,Asia,Signal Loss,High,GPS
+2017-08-17,13:57,45,Asia,Signal Loss,High,GPS
+2016-05-10,23:00,52,Europe,Signal Loss,High,GPS
+2017-07-23,18:33,54,Oceania,Timing Error,High,GPS
+2019-03-07,02:34,28,North America,Accuracy Drop,Medium,GPS
+2020-04-16,01:52,49,Asia,Timing Error,High,GPS
+2019-08-01,02:43,23,Oceania,Accuracy Drop,Medium,GPS
+2020-10-31,13:25,39,Europe,Accuracy Drop,High,GPS
+2022-12-31,12:27,24,Oceania,Accuracy Drop,Medium,GPS
+2018-06-03,15:02,10,Asia,Signal Loss,Low,GPS
+2021-05-20,22:17,56,Europe,Timing Error,High,GPS
+2015-05-24,15:22,57,Europe,Timing Error,High,GPS
+2022-09-25,12:18,5,Europe,Accuracy Drop,Low,GPS
+2015-03-19,22:19,24,North America,Signal Loss,Medium,GPS
+2017-11-21,02:40,15,Europe,Accuracy Drop,Medium,GPS
+2021-06-03,15:26,1,North America,Accuracy Drop,Low,GPS
+2017-01-18,12:27,11,North America,Signal Loss,Medium,GPS
+2017-01-02,01:19,54,Asia,Timing Error,High,GPS
+2023-11-01,15:31,14,North America,Signal Loss,Medium,GPS
+2022-08-13,16:11,36,Europe,Signal Loss,High,GPS
+2015-02-09,13:55,31,North America,Timing Error,High,GPS
+2020-10-31,03:23,15,Oceania,Signal Loss,Medium,GPS
+2017-09-14,05:36,30,Asia,Accuracy Drop,Medium,GPS
+2019-08-02,19:02,47,Europe,Timing Error,High,GPS
+2015-09-05,12:16,59,Europe,Signal Loss,High,GPS
+2018-02-21,08:21,54,North America,Timing Error,High,GPS
+2024-11-02,03:29,47,Oceania,Signal Loss,High,GPS
+2022-10-20,07:45,39,Europe,Accuracy Drop,High,GPS
+2019-05-05,06:24,4,Oceania,Signal Loss,Low,GPS
+2015-10-25,02:14,32,Oceania,Signal Loss,High,GPS
+2018-02-01,07:48,57,North America,Accuracy Drop,High,GPS
+2015-01-18,19:29,5,Asia,Accuracy Drop,Low,GPS
+2016-02-24,16:55,55,Asia,Accuracy Drop,High,GPS
+2017-04-17,23:48,23,Oceania,Signal Loss,Medium,GPS
+2017-03-01,07:53,39,Oceania,Timing Error,High,GPS
+2024-01-30,08:56,52,Asia,Signal Loss,High,GPS
+2024-08-17,20:53,25,North America,Signal Loss,Medium,GPS
+2023-03-17,14:34,11,Asia,Signal Loss,Medium,GPS
+2017-06-03,12:41,47,Europe,Accuracy Drop,High,GPS
+2019-04-22,12:51,11,North America,Accuracy Drop,Medium,GPS
+2015-07-28,21:51,1,Europe,Accuracy Drop,Low,GPS
+2019-11-16,09:13,4,North America,Timing Error,Low,GPS
+2023-06-01,17:01,44,North America,Signal Loss,High,GPS
+2021-03-23,05:53,36,North America,Accuracy Drop,High,GPS
+2018-06-01,07:00,23,Asia,Accuracy Drop,Medium,GPS
+2021-10-21,17:47,52,North America,Timing Error,High,GPS
+2023-04-20,11:52,4,Asia,Timing Error,Low,GPS
+2016-03-05,08:35,59,North America,Timing Error,High,GPS
+2022-05-29,23:15,14,Asia,Accuracy Drop,Medium,GPS
+2019-10-28,21:36,59,North America,Accuracy Drop,High,GPS
+2023-02-18,21:51,10,Europe,Signal Loss,Low,GPS
+2023-10-24,02:04,23,Europe,Accuracy Drop,Medium,GPS
+2021-03-15,15:53,33,Asia,Signal Loss,High,GPS
+2019-03-14,08:51,57,North America,Timing Error,High,GPS
+2015-06-27,02:19,33,Asia,Timing Error,High,GPS
+2016-03-02,02:39,11,North America,Signal Loss,Medium,GPS
+2019-06-09,21:58,21,Oceania,Timing Error,Medium,GPS
+2021-05-26,16:18,2,Europe,Signal Loss,Low,GPS
+2023-04-24,19:05,52,North America,Accuracy Drop,High,GPS
+2021-07-26,19:17,6,Oceania,Timing Error,Low,GPS
+2016-04-17,02:48,11,Asia,Timing Error,Medium,GPS
+2023-11-16,15:12,21,Asia,Signal Loss,Medium,GPS
+2019-12-13,06:38,28,Asia,Accuracy Drop,Medium,GPS
+2017-09-25,08:58,12,Oceania,Timing Error,Medium,GPS
+2019-01-30,18:33,3,Asia,Signal Loss,Low,GPS
+2020-10-10,19:10,17,Europe,Timing Error,Medium,GPS
+2015-08-26,09:46,53,Oceania,Signal Loss,High,GPS
+2015-01-26,08:58,47,Asia,Timing Error,High,GPS
+2019-07-16,13:47,8,Asia,Accuracy Drop,Low,GPS
+2023-11-16,20:28,33,Asia,Timing Error,High,GPS
+2021-09-20,14:41,32,Europe,Accuracy Drop,High,GPS
+2023-06-10,05:34,13,Oceania,Signal Loss,Medium,GPS
+2023-07-18,10:15,51,North America,Signal Loss,High,GPS
+2023-04-07,05:13,52,North America,Accuracy Drop,High,GPS
+2023-08-04,11:41,25,Europe,Signal Loss,Medium,GPS
+2023-07-05,10:10,11,North America,Timing Error,Medium,GPS
+2020-03-07,10:38,4,North America,Signal Loss,Low,GPS
+2020-08-30,04:10,48,Europe,Timing Error,High,GPS
+2023-11-11,04:10,13,North America,Timing Error,Medium,GPS
+2015-08-08,02:16,58,Oceania,Accuracy Drop,High,GPS
+2019-07-19,05:52,44,North America,Timing Error,High,GPS
+2021-10-01,05:09,30,Europe,Signal Loss,Medium,GPS
+2023-10-24,17:02,14,Europe,Timing Error,Medium,GPS
+2024-11-25,06:06,32,North America,Accuracy Drop,High,GPS
+2015-07-28,23:55,52,Oceania,Timing Error,High,GPS
+2018-02-14,12:21,24,Asia,Timing Error,Medium,GPS
+2022-11-04,13:52,8,North America,Timing Error,Low,GPS
+2018-02-20,16:00,26,North America,Signal Loss,Medium,GPS
+2016-10-18,15:01,18,Europe,Signal Loss,Medium,GPS
+2015-12-01,23:11,39,North America,Signal Loss,High,GPS
+2021-05-30,15:07,26,Oceania,Signal Loss,Medium,GPS
+2024-10-22,21:47,50,Asia,Signal Loss,High,GPS
+2017-05-16,13:52,26,Asia,Signal Loss,Medium,GPS
+2019-02-10,05:52,26,North America,Accuracy Drop,Medium,GPS
+2017-03-08,12:22,57,Oceania,Accuracy Drop,High,GPS
+2022-11-07,10:29,11,Oceania,Timing Error,Medium,GPS
+2017-01-05,23:54,35,Asia,Accuracy Drop,High,GPS
+2022-01-04,15:10,14,Europe,Accuracy Drop,Medium,GPS
+2019-02-18,15:14,21,Asia,Signal Loss,Medium,GPS
+2020-04-22,16:48,28,Oceania,Timing Error,Medium,GPS
+2017-07-07,18:37,55,Oceania,Signal Loss,High,GPS
+2015-08-22,07:51,21,North America,Accuracy Drop,Medium,GPS
+2024-09-18,15:27,40,Oceania,Accuracy Drop,High,GPS
+2018-06-05,19:18,19,North America,Timing Error,Medium,GPS
+2016-07-24,21:39,41,Asia,Signal Loss,High,GPS
+2018-12-28,04:03,58,Europe,Timing Error,High,GPS
+2021-05-26,11:57,3,Oceania,Timing Error,Low,GPS
+2023-08-16,22:28,16,Europe,Accuracy Drop,Medium,GPS
+2024-03-07,10:21,47,Asia,Timing Error,High,GPS
+2022-10-24,04:01,46,Europe,Timing Error,High,GPS
+2020-02-10,18:43,27,North America,Accuracy Drop,Medium,GPS
+2020-08-20,04:40,17,Asia,Accuracy Drop,Medium,GPS
+2017-01-06,13:49,49,Asia,Signal Loss,High,GPS
+2017-10-05,00:55,3,Europe,Accuracy Drop,Low,GPS
+2022-05-30,07:58,16,Oceania,Accuracy Drop,Medium,GPS
+2022-08-14,06:35,3,Oceania,Accuracy Drop,Low,GPS
+2024-11-28,18:54,9,North America,Timing Error,Low,GPS
+2020-04-12,16:50,34,Oceania,Timing Error,High,GPS
+2024-02-12,21:59,21,Europe,Signal Loss,Medium,GPS
+2019-01-03,05:06,3,North America,Signal Loss,Low,GPS
+2019-01-07,08:28,26,Europe,Accuracy Drop,Medium,GPS
+2019-01-15,02:48,4,Oceania,Signal Loss,Low,GPS
+2023-03-15,10:26,30,Asia,Accuracy Drop,Medium,GPS
+2024-05-10,01:03,27,Oceania,Timing Error,Medium,GPS
+2019-04-16,14:37,9,North America,Timing Error,Low,GPS
+2019-10-10,05:30,52,Asia,Timing Error,High,GPS
+2017-12-28,00:11,43,Asia,Accuracy Drop,High,GPS
+2015-09-09,23:12,41,Asia,Signal Loss,High,GPS
+2017-05-10,05:27,41,North America,Signal Loss,High,GPS
+2023-12-17,06:07,46,Oceania,Signal Loss,High,GPS
+2023-06-29,07:56,36,Europe,Accuracy Drop,High,GPS
+2024-10-07,16:17,34,Asia,Signal Loss,High,GPS
+2018-04-14,02:17,52,North America,Timing Error,High,GPS
+2016-05-16,02:14,3,Oceania,Timing Error,Low,GPS
+2015-08-15,03:02,37,Europe,Signal Loss,High,GPS
+2022-05-02,10:22,5,Asia,Timing Error,Low,GPS
+2021-10-03,18:45,30,Oceania,Signal Loss,Medium,GPS
+2021-06-22,23:57,11,Oceania,Signal Loss,Medium,GPS
+2024-07-26,22:08,22,Asia,Accuracy Drop,Medium,GPS
+2018-01-16,04:09,33,Asia,Accuracy Drop,High,GPS
+2017-07-18,10:11,55,Europe,Signal Loss,High,GPS
+2023-10-22,11:11,37,Oceania,Accuracy Drop,High,GPS
+2016-09-02,15:09,15,Asia,Timing Error,Medium,GPS
+2019-01-24,23:53,53,Oceania,Accuracy Drop,High,GPS
+2019-08-10,09:06,51,Oceania,Signal Loss,High,GPS
+2015-08-26,10:54,29,Europe,Signal Loss,Medium,GPS
+2020-10-23,12:30,23,Europe,Timing Error,Medium,GPS
+2023-08-01,03:32,24,Europe,Accuracy Drop,Medium,GPS
+2015-01-08,04:50,21,North America,Timing Error,Medium,GPS
+2015-02-13,14:56,41,Europe,Timing Error,High,GPS
+2024-01-15,17:42,20,Europe,Signal Loss,Medium,GPS
+2023-01-17,23:33,33,Europe,Signal Loss,High,GPS
+2019-06-30,22:14,51,Europe,Timing Error,High,GPS
+2023-09-01,06:49,45,Europe,Accuracy Drop,High,GPS
+2017-03-25,00:18,24,Asia,Accuracy Drop,Medium,GPS
+2019-03-20,02:20,56,Asia,Signal Loss,High,GPS
+2017-07-20,00:14,8,North America,Signal Loss,Low,GPS
+2018-10-24,12:28,41,North America,Signal Loss,High,GPS
+2018-09-05,13:39,54,Oceania,Signal Loss,High,GPS
+2017-08-29,16:28,18,Asia,Timing Error,Medium,GPS
+2024-05-02,05:08,1,Oceania,Accuracy Drop,Low,GPS
+2022-10-19,18:44,12,Asia,Timing Error,Medium,GPS
+2017-01-21,10:47,47,Oceania,Timing Error,High,GPS
+2023-03-13,13:54,48,Oceania,Timing Error,High,GPS
+2020-01-30,17:19,47,Europe,Signal Loss,High,GPS
+2021-04-08,20:41,15,Asia,Timing Error,Medium,GPS
+2020-05-08,13:25,44,Europe,Timing Error,High,GPS
+2021-07-26,18:30,3,Oceania,Signal Loss,Low,GPS
+2024-04-14,02:19,13,North America,Signal Loss,Medium,GPS
+2018-01-29,23:36,37,Asia,Timing Error,High,GPS
+2018-01-23,09:09,11,Europe,Accuracy Drop,Medium,GPS
+2023-07-19,10:34,20,Asia,Signal Loss,Medium,GPS
+2021-04-25,03:36,17,Asia,Timing Error,Medium,GPS
+2019-08-09,07:41,46,Oceania,Timing Error,High,GPS
+2023-10-22,16:15,44,Asia,Timing Error,High,GPS
+2018-06-02,02:23,22,Oceania,Signal Loss,Medium,GPS
+2023-02-02,23:44,46,North America,Timing Error,High,GPS
+2018-05-31,11:48,30,Oceania,Timing Error,Medium,GPS
+2015-09-04,19:41,28,Oceania,Signal Loss,Medium,GPS
+2023-02-06,02:30,55,Oceania,Accuracy Drop,High,GPS
+2024-04-28,17:58,38,Europe,Signal Loss,High,GPS
+2019-12-04,17:59,29,Asia,Timing Error,Medium,GPS
+2019-02-12,10:14,8,Oceania,Signal Loss,Low,GPS
+2020-11-20,16:22,51,Europe,Accuracy Drop,High,GPS
+2022-05-20,23:25,11,Oceania,Accuracy Drop,Medium,GPS
+2017-09-01,11:32,59,North America,Accuracy Drop,High,GPS
+2023-10-03,23:19,47,North America,Timing Error,High,GPS
+2022-12-24,09:28,59,North America,Accuracy Drop,High,GPS
+2018-03-03,16:51,6,Oceania,Signal Loss,Low,GPS
+2016-06-11,16:01,47,Oceania,Timing Error,High,GPS
+2024-03-05,12:24,26,North America,Timing Error,Medium,GPS
+2023-10-23,17:02,4,North America,Signal Loss,Low,GPS
+2023-09-24,09:30,9,Oceania,Accuracy Drop,Low,GPS
+2017-06-22,21:13,12,Oceania,Timing Error,Medium,GPS
+2020-04-21,13:59,4,North America,Accuracy Drop,Low,GPS
+2015-08-20,19:17,44,North America,Accuracy Drop,High,GPS
+2019-11-25,12:55,52,Asia,Signal Loss,High,GPS
+2018-01-30,02:50,57,North America,Signal Loss,High,GPS
+2019-05-25,11:35,53,Europe,Timing Error,High,GPS
+2022-11-22,06:18,30,Europe,Accuracy Drop,Medium,GPS
+2018-07-13,03:39,52,Europe,Timing Error,High,GPS
+2024-09-05,03:23,40,Asia,Timing Error,High,GPS
+2022-11-17,13:06,55,Asia,Timing Error,High,GPS
+2015-08-14,21:14,59,Europe,Timing Error,High,GPS
+2019-08-09,14:41,17,Oceania,Accuracy Drop,Medium,GPS
+2015-01-24,20:55,7,North America,Signal Loss,Low,GPS
+2018-09-11,15:59,31,Asia,Accuracy Drop,High,GPS
+2018-12-22,16:59,50,Asia,Signal Loss,High,GPS
+2023-05-07,06:22,9,North America,Accuracy Drop,Low,GPS
+2018-08-31,10:42,24,North America,Timing Error,Medium,GPS
+2015-08-17,17:42,42,Oceania,Accuracy Drop,High,GPS
+2020-12-05,19:57,16,North America,Timing Error,Medium,GPS
+2023-10-16,22:36,45,North America,Timing Error,High,GPS
+2015-11-29,17:26,53,Oceania,Signal Loss,High,GPS
+2019-04-18,21:56,13,Europe,Accuracy Drop,Medium,GPS
+2015-11-22,18:48,44,Asia,Signal Loss,High,GPS
+2020-01-03,00:21,15,Asia,Accuracy Drop,Medium,GPS
+2021-03-25,00:10,43,Europe,Accuracy Drop,High,GPS
+2019-03-05,18:16,51,Asia,Signal Loss,High,GPS
+2021-04-23,00:10,53,Asia,Signal Loss,High,GPS
+2024-07-24,19:51,17,Oceania,Accuracy Drop,Medium,GPS
+2016-10-15,10:41,33,Oceania,Timing Error,High,GPS
+2017-04-13,02:16,13,North America,Timing Error,Medium,GPS
+2018-03-20,22:32,34,North America,Signal Loss,High,GPS
+2015-10-19,04:20,24,Europe,Signal Loss,Medium,GPS
+2016-08-24,17:34,40,Oceania,Accuracy Drop,High,GPS
+2024-01-16,01:11,4,Asia,Timing Error,Low,GPS
+2022-11-16,18:37,45,Asia,Signal Loss,High,GPS
+2022-11-09,23:48,50,Asia,Timing Error,High,GPS
+2024-06-25,10:50,47,Europe,Timing Error,High,GPS
+2016-03-09,19:08,10,Asia,Signal Loss,Low,GPS
+2017-01-29,15:17,57,Europe,Signal Loss,High,GPS
+2019-09-14,06:14,39,Oceania,Timing Error,High,GPS
+2019-12-13,05:00,14,Asia,Timing Error,Medium,GPS
+2018-10-16,22:07,21,Asia,Signal Loss,Medium,GPS
+2015-05-18,01:46,13,Europe,Timing Error,Medium,GPS
+2019-12-08,12:52,26,Europe,Accuracy Drop,Medium,GPS
+2021-03-10,10:54,18,North America,Signal Loss,Medium,GPS
+2015-08-13,00:22,11,Oceania,Accuracy Drop,Medium,GPS
+2024-10-22,04:01,25,Oceania,Accuracy Drop,Medium,GPS
+2022-12-11,13:23,29,Oceania,Accuracy Drop,Medium,GPS
+2018-09-30,12:52,41,Asia,Accuracy Drop,High,GPS
+2019-11-23,01:10,49,Oceania,Signal Loss,High,GPS
+2018-11-03,22:23,1,Europe,Signal Loss,Low,GPS
+2023-01-22,16:15,51,North America,Accuracy Drop,High,GPS
+2015-12-02,03:09,4,Asia,Signal Loss,Low,GPS
+2017-02-18,01:46,5,Oceania,Accuracy Drop,Low,GPS
+2020-11-08,19:01,9,Oceania,Timing Error,Low,GPS
+2023-07-12,22:45,18,Asia,Signal Loss,Medium,GPS
+2017-02-10,14:27,11,Oceania,Accuracy Drop,Medium,GPS
+2019-04-28,11:25,1,Oceania,Timing Error,Low,GPS
+2022-11-07,19:21,23,Oceania,Timing Error,Medium,GPS
+2019-07-20,14:01,42,North America,Signal Loss,High,GPS
+2019-12-06,17:21,10,Europe,Accuracy Drop,Low,GPS
+2018-11-04,20:07,17,Asia,Signal Loss,Medium,GPS
+2022-06-10,13:47,17,North America,Timing Error,Medium,GPS
+2015-05-10,13:48,17,Asia,Signal Loss,Medium,GPS
+2021-01-14,05:49,47,Asia,Timing Error,High,GPS
+2015-02-11,09:51,17,Asia,Signal Loss,Medium,GPS
+2015-10-05,19:59,39,Europe,Accuracy Drop,High,GPS
+2017-12-08,17:19,5,North America,Signal Loss,Low,GPS
+2016-11-27,14:26,9,North America,Accuracy Drop,Low,GPS
+2015-04-05,04:42,19,Asia,Timing Error,Medium,GPS
+2018-10-28,00:38,47,Oceania,Timing Error,High,GPS
+2018-01-24,22:03,29,North America,Accuracy Drop,Medium,GPS
+2023-01-05,02:16,12,Oceania,Signal Loss,Medium,GPS
+2024-04-23,08:22,24,Asia,Signal Loss,Medium,GPS
+2020-10-20,19:44,36,North America,Timing Error,High,GPS
+2024-11-27,07:43,36,Oceania,Accuracy Drop,High,GPS
+2017-06-09,09:06,26,Oceania,Timing Error,Medium,GPS
+2018-10-21,10:42,17,North America,Timing Error,Medium,GPS
+2018-06-05,20:38,26,North America,Signal Loss,Medium,GPS
+2016-07-02,04:03,22,Oceania,Accuracy Drop,Medium,GPS
+2021-09-29,21:49,47,Asia,Timing Error,High,GPS
+2021-08-27,15:01,45,Europe,Accuracy Drop,High,GPS
+2023-02-01,05:34,9,Europe,Signal Loss,Low,GPS
+2023-05-24,07:25,10,Europe,Timing Error,Low,GPS
+2023-01-10,06:13,34,North America,Signal Loss,High,GPS
+2019-09-09,18:35,7,North America,Accuracy Drop,Low,GPS
+2017-10-01,20:14,30,Europe,Signal Loss,Medium,GPS
+2022-10-05,13:59,47,North America,Accuracy Drop,High,GPS
+2015-08-20,20:13,45,Asia,Timing Error,High,GPS
+2022-06-08,07:25,27,Europe,Accuracy Drop,Medium,GPS
+2015-07-09,09:13,14,Europe,Accuracy Drop,Medium,GPS
+2017-08-20,01:23,8,North America,Timing Error,Low,GPS
+2016-01-07,20:14,35,Oceania,Signal Loss,High,GPS
+2023-01-28,16:55,11,Oceania,Signal Loss,Medium,GPS
+2017-12-07,19:08,19,Asia,Accuracy Drop,Medium,GPS
+2017-12-23,17:36,25,North America,Timing Error,Medium,GPS
+2022-08-09,23:48,30,Europe,Timing Error,Medium,GPS
+2020-08-20,22:32,12,North America,Signal Loss,Medium,GPS
+2015-01-18,20:06,14,North America,Accuracy Drop,Medium,GPS
+2020-02-20,18:22,54,Europe,Accuracy Drop,High,GPS
+2023-09-06,12:34,56,Europe,Timing Error,High,GPS
+2022-01-15,09:28,3,Asia,Timing Error,Low,GPS
+2016-12-02,09:34,59,Asia,Signal Loss,High,GPS
+2019-04-01,17:55,55,Oceania,Accuracy Drop,High,GPS
+2024-07-12,17:23,15,Asia,Accuracy Drop,Medium,GPS
+2019-09-02,09:05,19,Europe,Signal Loss,Medium,GPS
+2022-06-03,09:44,28,Europe,Signal Loss,Medium,GPS
+2019-07-21,17:22,42,North America,Timing Error,High,GPS
+2024-04-22,14:45,53,North America,Accuracy Drop,High,GPS
+2017-01-13,23:35,29,Oceania,Timing Error,Medium,GPS
+2017-06-06,13:52,56,Europe,Signal Loss,High,GPS
+2022-05-25,02:17,59,Europe,Signal Loss,High,GPS
+2019-05-03,13:12,39,Oceania,Timing Error,High,GPS
+2017-02-07,00:10,53,Europe,Accuracy Drop,High,GPS
+2019-09-28,12:25,29,Asia,Accuracy Drop,Medium,GPS
+2023-02-28,20:33,5,Europe,Accuracy Drop,Low,GPS
+2020-12-12,10:17,58,North America,Accuracy Drop,High,GPS
+2024-12-12,06:45,55,North America,Accuracy Drop,High,GPS
+2017-04-26,12:12,41,North America,Signal Loss,High,GPS
+2020-01-31,16:50,44,Asia,Timing Error,High,GPS
+2021-10-06,23:02,32,Europe,Signal Loss,High,GPS
+2024-04-18,11:47,34,Europe,Accuracy Drop,High,GPS
+2024-05-07,22:21,57,Oceania,Accuracy Drop,High,GPS
+2023-07-22,20:37,41,North America,Accuracy Drop,High,GPS
+2015-12-02,06:24,2,North America,Accuracy Drop,Low,GPS
+2015-02-17,06:52,3,Europe,Timing Error,Low,GPS
+2020-09-01,23:48,11,Oceania,Accuracy Drop,Medium,GPS
+2015-07-04,03:46,30,North America,Accuracy Drop,Medium,GPS
+2016-11-17,17:05,11,Oceania,Signal Loss,Medium,GPS
+2017-05-25,10:10,22,Europe,Signal Loss,Medium,GPS
+2021-12-12,13:28,50,North America,Timing Error,High,GPS
+2018-01-15,23:01,51,North America,Timing Error,High,GPS
+2018-11-26,10:37,14,North America,Signal Loss,Medium,GPS
+2015-11-11,17:11,24,Europe,Signal Loss,Medium,GPS
+2016-06-22,18:52,53,Oceania,Accuracy Drop,High,GPS
+2018-09-03,22:38,5,Europe,Signal Loss,Low,GPS
+2016-04-18,02:48,7,Asia,Timing Error,Low,GPS
+2015-05-22,05:02,7,Europe,Accuracy Drop,Low,GPS
+2021-01-14,12:49,59,Asia,Timing Error,High,GPS
+2017-11-10,00:31,7,North America,Signal Loss,Low,GPS
+2016-03-08,12:17,58,Europe,Signal Loss,High,GPS
+2016-05-24,12:13,24,Oceania,Timing Error,Medium,GPS
+2020-01-19,20:02,46,Europe,Signal Loss,High,GPS
+2019-12-06,22:36,17,Asia,Timing Error,Medium,GPS
+2022-08-11,10:16,49,North America,Timing Error,High,GPS
+2020-07-06,17:10,10,Oceania,Signal Loss,Low,GPS
+2021-04-25,05:23,26,Asia,Signal Loss,Medium,GPS
+2021-02-06,03:45,11,North America,Signal Loss,Medium,GPS
+2015-02-14,03:53,44,North America,Signal Loss,High,GPS
+2020-11-20,21:58,27,North America,Timing Error,Medium,GPS
+2021-09-16,07:11,19,North America,Accuracy Drop,Medium,GPS
+2022-09-08,13:54,45,Oceania,Timing Error,High,GPS
+2016-01-16,10:22,34,Europe,Timing Error,High,GPS
+2015-07-14,16:17,17,Asia,Timing Error,Medium,GPS
+2015-03-06,22:53,36,Oceania,Accuracy Drop,High,GPS
+2019-11-13,12:26,16,Europe,Signal Loss,Medium,GPS
+2022-10-11,01:51,20,North America,Accuracy Drop,Medium,GPS
+2015-09-26,08:49,5,Oceania,Accuracy Drop,Low,GPS
+2019-06-07,07:39,16,Europe,Signal Loss,Medium,GPS
+2021-10-03,08:03,39,Europe,Timing Error,High,GPS
+2018-10-14,11:38,38,Europe,Timing Error,High,GPS
+2018-04-26,17:28,10,Europe,Accuracy Drop,Low,GPS
+2022-11-08,13:56,56,Oceania,Signal Loss,High,GPS
+2022-08-22,20:01,58,Oceania,Accuracy Drop,High,GPS
+2015-03-18,17:05,29,Oceania,Accuracy Drop,Medium,GPS
+2017-08-18,02:10,13,Europe,Timing Error,Medium,GPS
+2016-07-31,14:44,19,Oceania,Accuracy Drop,Medium,GPS
+2024-12-16,20:20,26,Europe,Timing Error,Medium,GPS
+2023-07-19,06:56,37,Oceania,Accuracy Drop,High,GPS
+2015-10-07,16:50,36,Oceania,Timing Error,High,GPS
+2022-06-11,15:31,6,North America,Accuracy Drop,Low,GPS
+2015-02-09,16:48,20,Oceania,Accuracy Drop,Medium,GPS
+2016-06-15,15:29,32,Oceania,Signal Loss,High,GPS
+2022-12-12,20:52,43,North America,Timing Error,High,GPS
+2023-05-01,04:02,4,Oceania,Timing Error,Low,GPS
+2015-07-19,07:26,6,North America,Timing Error,Low,GPS
+2021-03-17,17:49,45,North America,Timing Error,High,GPS
+2023-02-22,18:09,24,Oceania,Signal Loss,Medium,GPS
+2018-09-21,09:34,41,Oceania,Signal Loss,High,GPS
+2022-09-02,08:41,24,Europe,Accuracy Drop,Medium,GPS
+2019-11-20,17:28,8,Asia,Timing Error,Low,GPS
+2017-07-26,21:08,12,North America,Timing Error,Medium,GPS
+2019-03-22,19:24,35,North America,Accuracy Drop,High,GPS
+2015-10-07,17:08,46,North America,Timing Error,High,GPS
+2017-10-19,16:35,4,Europe,Accuracy Drop,Low,GPS
+2018-10-15,16:19,32,Asia,Accuracy Drop,High,GPS
+2018-11-12,19:55,25,Europe,Signal Loss,Medium,GPS
+2019-04-23,18:01,20,Asia,Accuracy Drop,Medium,GPS
+2021-04-16,16:09,51,Asia,Accuracy Drop,High,GPS
+2022-01-28,12:47,25,Europe,Accuracy Drop,Medium,GPS
+2019-10-06,23:46,15,North America,Signal Loss,Medium,GPS
+2015-02-24,04:17,53,Asia,Signal Loss,High,GPS
+2021-09-06,21:38,26,Asia,Accuracy Drop,Medium,GPS
+2021-12-05,10:39,31,North America,Signal Loss,High,GPS
+2021-05-07,23:00,4,Europe,Signal Loss,Low,GPS
+2020-08-07,19:43,43,Asia,Accuracy Drop,High,GPS
+2021-05-19,07:31,29,Europe,Accuracy Drop,Medium,GPS
+2020-08-25,21:10,50,Oceania,Accuracy Drop,High,GPS
+2017-08-11,16:01,41,North America,Signal Loss,High,GPS
+2019-03-09,07:26,12,North America,Timing Error,Medium,GPS
+2020-03-04,02:48,51,Oceania,Accuracy Drop,High,GPS
+2024-06-16,21:49,39,Oceania,Timing Error,High,GPS
+2021-09-12,14:34,17,Asia,Accuracy Drop,Medium,GPS
+2022-10-06,00:54,16,Oceania,Signal Loss,Medium,GPS
+2017-06-15,13:14,15,Oceania,Signal Loss,Medium,GPS
+2020-04-14,07:52,4,North America,Timing Error,Low,GPS
+2018-08-15,09:02,24,Europe,Timing Error,Medium,GPS
+2023-06-14,04:10,6,Europe,Signal Loss,Low,GPS
+2016-03-04,08:43,23,Europe,Accuracy Drop,Medium,GPS
+2024-12-01,19:51,55,Asia,Signal Loss,High,GPS
+2018-07-26,18:24,42,Oceania,Accuracy Drop,High,GPS
+2023-05-29,13:34,13,Oceania,Timing Error,Medium,GPS
+2019-03-03,19:07,3,Europe,Accuracy Drop,Low,GPS
+2022-04-29,23:43,32,North America,Signal Loss,High,GPS
+2021-09-10,16:50,24,Europe,Accuracy Drop,Medium,GPS
+2016-03-09,16:22,51,North America,Signal Loss,High,GPS
+2018-03-24,05:36,49,Oceania,Accuracy Drop,High,GPS
+2022-01-09,19:00,15,Europe,Signal Loss,Medium,GPS
+2020-12-31,15:14,3,North America,Accuracy Drop,Low,GPS
+2020-03-01,20:37,21,Europe,Timing Error,Medium,GPS
+2021-04-03,05:34,53,Oceania,Timing Error,High,GPS
+2016-02-28,06:51,34,North America,Signal Loss,High,GPS
+2023-03-15,01:25,39,Oceania,Timing Error,High,GPS
+2015-06-03,10:42,18,Asia,Signal Loss,Medium,GPS
+2024-05-31,00:22,18,Asia,Signal Loss,Medium,GPS
+2017-08-26,19:29,27,Oceania,Timing Error,Medium,GPS
+2018-06-27,08:29,52,Oceania,Accuracy Drop,High,GPS
+2016-10-04,10:05,57,Oceania,Timing Error,High,GPS
+2020-12-07,00:21,22,Europe,Accuracy Drop,Medium,GPS
+2020-04-14,22:54,43,North America,Signal Loss,High,GPS
+2021-01-07,01:49,51,North America,Accuracy Drop,High,GPS
+2020-09-23,23:53,34,Oceania,Accuracy Drop,High,GPS
+2021-02-15,03:43,19,Europe,Signal Loss,Medium,GPS
+2022-09-29,01:35,55,Asia,Timing Error,High,GPS
+2018-09-27,12:10,46,Asia,Timing Error,High,GPS
+2022-04-28,22:32,4,North America,Accuracy Drop,Low,GPS
+2017-05-12,20:41,40,Oceania,Timing Error,High,GPS
+2022-01-24,13:45,13,Asia,Signal Loss,Medium,GPS
+2019-04-13,10:04,30,Oceania,Signal Loss,Medium,GPS
+2016-01-31,02:17,40,Europe,Timing Error,High,GPS
+2018-04-24,21:18,48,Oceania,Timing Error,High,GPS
+2016-08-12,18:56,5,Oceania,Timing Error,Low,GPS
+2019-12-29,15:17,28,Asia,Timing Error,Medium,GPS
+2024-11-09,18:46,57,Europe,Timing Error,High,GPS
+2015-03-24,14:51,56,North America,Signal Loss,High,GPS
+2016-12-28,01:29,59,North America,Accuracy Drop,High,GPS
+2020-12-09,05:34,17,North America,Timing Error,Medium,GPS
+2022-01-10,21:19,40,Europe,Signal Loss,High,GPS
+2024-10-25,10:36,12,North America,Accuracy Drop,Medium,GPS
+2022-06-27,16:50,57,North America,Signal Loss,High,GPS
+2023-07-24,22:32,11,North America,Timing Error,Medium,GPS
+2015-08-08,00:41,35,North America,Signal Loss,High,GPS
+2018-09-08,03:56,14,Europe,Signal Loss,Medium,GPS
+2020-09-23,08:40,19,Europe,Timing Error,Medium,GPS
+2018-08-05,01:57,27,Oceania,Timing Error,Medium,GPS
+2018-01-22,04:54,24,North America,Timing Error,Medium,GPS
+2021-05-18,10:16,39,North America,Signal Loss,High,GPS
+2020-07-03,16:07,49,Oceania,Accuracy Drop,High,GPS
+2015-11-11,12:44,34,Europe,Accuracy Drop,High,GPS
+2023-03-19,18:47,50,Asia,Timing Error,High,GPS
+2024-01-15,18:59,33,Asia,Timing Error,High,GPS
+2017-12-16,16:26,52,Asia,Timing Error,High,GPS
+2017-09-05,13:11,2,Oceania,Signal Loss,Low,GPS
+2023-09-15,23:08,34,Europe,Signal Loss,High,GPS
+2022-10-17,16:17,5,Oceania,Signal Loss,Low,GPS
+2015-07-11,15:12,35,Europe,Accuracy Drop,High,GPS
+2021-01-13,11:20,48,Oceania,Accuracy Drop,High,GPS
+2019-01-21,14:23,48,Europe,Timing Error,High,GPS
+2022-02-02,15:39,57,Europe,Accuracy Drop,High,GPS
+2018-07-15,06:51,1,North America,Accuracy Drop,Low,GPS
+2018-09-02,07:51,20,North America,Signal Loss,Medium,GPS
+2022-12-28,14:35,28,Europe,Accuracy Drop,Medium,GPS
+2016-11-26,16:16,43,Europe,Accuracy Drop,High,GPS
+2015-06-21,08:25,40,Oceania,Signal Loss,High,GPS
+2019-09-18,04:28,53,Asia,Timing Error,High,GPS
+2023-04-26,14:12,37,Asia,Signal Loss,High,GPS
+2024-02-14,15:49,12,North America,Signal Loss,Medium,GPS
+2024-05-22,05:56,41,Asia,Timing Error,High,GPS
+2018-08-06,12:36,4,North America,Timing Error,Low,GPS
+2018-05-21,06:42,41,Asia,Signal Loss,High,GPS
+2016-01-07,17:16,16,Oceania,Timing Error,Medium,GPS
+2018-10-04,00:15,37,Asia,Accuracy Drop,High,GPS
+2016-07-27,08:27,11,Asia,Timing Error,Medium,GPS
+2024-08-25,04:15,13,Asia,Timing Error,Medium,GPS
+2018-03-14,09:14,44,North America,Timing Error,High,GPS
+2022-01-23,07:21,6,North America,Timing Error,Low,GPS
+2022-08-02,06:16,15,Asia,Signal Loss,Medium,GPS
+2021-04-06,17:46,38,North America,Timing Error,High,GPS
+2015-05-22,15:24,1,Asia,Signal Loss,Low,GPS
+2020-08-23,04:14,53,Oceania,Accuracy Drop,High,GPS
+2016-10-29,03:55,27,Asia,Timing Error,Medium,GPS
+2015-04-07,16:45,49,North America,Accuracy Drop,High,GPS
+2016-10-11,14:45,46,North America,Signal Loss,High,GPS
+2016-12-01,22:02,18,North America,Signal Loss,Medium,GPS
+2020-02-01,01:24,59,Oceania,Accuracy Drop,High,GPS
+2017-09-27,06:05,47,Oceania,Signal Loss,High,GPS
+2017-08-05,20:29,53,Oceania,Timing Error,High,GPS
+2015-10-15,01:16,54,Oceania,Timing Error,High,GPS
+2018-10-11,20:36,43,Oceania,Signal Loss,High,GPS
+2020-08-25,22:29,27,Asia,Accuracy Drop,Medium,GPS
+2018-10-27,03:00,17,Oceania,Signal Loss,Medium,GPS
+2018-04-16,23:04,4,Europe,Accuracy Drop,Low,GPS
+2015-09-17,18:09,13,Europe,Timing Error,Medium,GPS
+2018-10-15,11:42,19,Europe,Timing Error,Medium,GPS
+2022-10-19,20:06,21,Oceania,Signal Loss,Medium,GPS
+2022-09-03,23:32,36,Oceania,Accuracy Drop,High,GPS
+2021-08-04,20:19,43,North America,Accuracy Drop,High,GPS
+2020-12-24,01:02,30,Asia,Signal Loss,Medium,GPS
+2015-09-27,13:33,6,Asia,Timing Error,Low,GPS
+2020-05-31,19:08,6,Oceania,Accuracy Drop,Low,GPS
+2023-04-02,00:24,31,Oceania,Timing Error,High,GPS
+2016-04-28,04:59,11,Asia,Accuracy Drop,Medium,GPS
+2016-10-30,14:45,56,Oceania,Signal Loss,High,GPS
+2017-11-24,11:55,33,Asia,Accuracy Drop,High,GPS
+2021-03-07,16:18,15,Asia,Signal Loss,Medium,GPS
+2016-09-03,07:32,52,North America,Signal Loss,High,GPS
+2022-02-01,00:51,26,Europe,Signal Loss,Medium,GPS
+2021-01-31,22:12,36,Asia,Timing Error,High,GPS
+2017-12-19,11:16,49,Oceania,Timing Error,High,GPS
+2024-11-22,01:01,25,Asia,Timing Error,Medium,GPS
+2015-04-23,20:10,27,Europe,Signal Loss,Medium,GPS
+2017-04-21,04:41,33,Oceania,Signal Loss,High,GPS
+2022-05-19,11:43,4,North America,Accuracy Drop,Low,GPS
+2017-11-09,02:30,46,North America,Signal Loss,High,GPS
+2021-01-16,16:29,54,North America,Timing Error,High,GPS
+2017-02-03,23:01,1,Europe,Signal Loss,Low,GPS
+2019-03-18,20:23,4,Oceania,Signal Loss,Low,GPS
+2022-09-20,20:22,45,Asia,Timing Error,High,GPS
+2020-11-19,12:05,25,Oceania,Timing Error,Medium,GPS
+2015-12-04,12:51,20,Europe,Accuracy Drop,Medium,GPS
+2017-08-21,18:52,15,North America,Accuracy Drop,Medium,GPS
+2020-11-26,02:23,34,Asia,Accuracy Drop,High,GPS
+2022-04-11,22:52,44,Oceania,Signal Loss,High,GPS
+2017-12-29,07:01,26,North America,Accuracy Drop,Medium,GPS
+2022-01-09,09:27,24,Oceania,Signal Loss,Medium,GPS
+2019-05-23,17:06,53,Europe,Accuracy Drop,High,GPS
+2024-09-02,22:25,6,Oceania,Signal Loss,Low,GPS
+2019-11-06,07:17,31,Oceania,Signal Loss,High,GPS
+2019-11-16,17:49,25,Asia,Accuracy Drop,Medium,GPS
+2022-02-03,19:56,12,North America,Timing Error,Medium,GPS
+2016-07-06,03:53,15,North America,Timing Error,Medium,GPS
+2015-03-13,22:35,58,North America,Timing Error,High,GPS
+2020-03-27,00:50,30,Europe,Timing Error,Medium,GPS
+2024-01-11,16:20,8,North America,Signal Loss,Low,GPS
+2021-09-03,06:10,35,Oceania,Accuracy Drop,High,GPS
+2024-12-14,14:38,50,Asia,Accuracy Drop,High,GPS
+2023-06-08,10:04,38,Asia,Accuracy Drop,High,GPS
+2021-09-18,22:12,7,North America,Timing Error,Low,GPS
+2024-06-05,09:01,58,Europe,Timing Error,High,GPS
+2017-06-16,10:15,5,Asia,Timing Error,Low,GPS
+2020-07-08,00:37,46,Oceania,Accuracy Drop,High,GPS
+2017-09-25,17:51,1,Asia,Timing Error,Low,GPS
+2015-02-06,03:58,17,Europe,Accuracy Drop,Medium,GPS
+2019-10-17,13:59,29,Asia,Signal Loss,Medium,GPS
+2021-10-02,05:08,25,Oceania,Accuracy Drop,Medium,GPS
+2020-09-07,17:44,29,Asia,Timing Error,Medium,GPS
+2018-07-31,13:40,38,Oceania,Accuracy Drop,High,GPS
+2017-06-08,16:35,33,Oceania,Accuracy Drop,High,GPS
+2023-04-18,06:59,57,Asia,Signal Loss,High,GPS
+2023-09-19,16:40,29,Oceania,Accuracy Drop,Medium,GPS
+2015-01-01,02:44,5,Asia,Timing Error,Low,GPS
+2018-04-08,02:07,41,Europe,Signal Loss,High,GPS
+2023-01-17,16:41,14,Europe,Timing Error,Medium,GPS
+2015-08-26,17:56,53,Asia,Signal Loss,High,GPS
+2023-09-24,20:18,43,North America,Signal Loss,High,GPS
+2015-02-26,13:09,6,Oceania,Timing Error,Low,GPS
+2023-08-27,10:56,26,Asia,Accuracy Drop,Medium,GPS
+2016-10-30,12:26,22,Oceania,Timing Error,Medium,GPS
+2021-11-14,08:44,5,Asia,Timing Error,Low,GPS
+2022-03-15,06:14,42,Europe,Signal Loss,High,GPS
+2023-04-25,04:11,16,Europe,Signal Loss,Medium,GPS
+2017-05-30,20:17,8,Oceania,Timing Error,Low,GPS
+2021-11-06,12:40,53,Asia,Accuracy Drop,High,GPS
+2016-01-08,11:11,52,North America,Accuracy Drop,High,GPS
+2017-10-25,19:24,14,Asia,Signal Loss,Medium,GPS
+2019-11-21,00:05,3,Oceania,Timing Error,Low,GPS
+2021-11-11,03:36,56,Europe,Signal Loss,High,GPS
+2017-06-15,02:59,57,Asia,Accuracy Drop,High,GPS
+2023-08-17,21:36,11,North America,Signal Loss,Medium,GPS
+2020-07-12,17:54,38,Oceania,Timing Error,High,GPS
+2021-03-30,05:43,50,Asia,Accuracy Drop,High,GPS
+2015-04-19,03:42,17,Oceania,Signal Loss,Medium,GPS
+2020-07-13,07:38,23,North America,Accuracy Drop,Medium,GPS
+2018-02-11,19:28,5,Europe,Accuracy Drop,Low,GPS
+2023-04-15,18:09,49,Asia,Accuracy Drop,High,GPS
+2020-03-14,11:14,4,Europe,Accuracy Drop,Low,GPS
+2015-09-06,05:54,39,Europe,Accuracy Drop,High,GPS
+2017-06-14,13:49,6,Oceania,Accuracy Drop,Low,GPS
+2024-06-05,00:03,29,Asia,Signal Loss,Medium,GPS
+2018-12-20,03:02,59,Oceania,Timing Error,High,GPS
+2015-09-21,15:49,55,North America,Accuracy Drop,High,GPS
+2023-07-16,06:16,53,North America,Accuracy Drop,High,GPS
+2021-10-14,11:55,52,Oceania,Signal Loss,High,GPS
+2023-05-18,02:12,15,North America,Signal Loss,Medium,GPS
+2022-08-18,01:46,50,Oceania,Timing Error,High,GPS
+2023-10-18,12:07,58,Europe,Accuracy Drop,High,GPS
+2021-02-20,23:20,22,Asia,Timing Error,Medium,GPS
+2020-09-26,10:24,27,Oceania,Accuracy Drop,Medium,GPS
+2018-03-13,18:02,7,Oceania,Timing Error,Low,GPS
+2023-04-11,20:14,36,Asia,Timing Error,High,GPS
+2023-07-05,02:52,20,North America,Timing Error,Medium,GPS
+2016-07-20,15:34,55,Europe,Accuracy Drop,High,GPS
+2017-07-03,09:18,51,North America,Timing Error,High,GPS
+2016-09-24,01:43,45,Europe,Accuracy Drop,High,GPS
+2019-07-27,02:06,30,Oceania,Accuracy Drop,Medium,GPS
+2023-06-19,12:10,32,North America,Accuracy Drop,High,GPS
+2019-01-01,03:12,19,Oceania,Signal Loss,Medium,GPS
+2016-12-05,10:43,50,North America,Accuracy Drop,High,GPS
+2020-12-21,08:22,39,North America,Timing Error,High,GPS
+2019-12-22,19:24,50,Europe,Timing Error,High,GPS
+2020-05-09,02:28,56,Europe,Accuracy Drop,High,GPS
+2018-07-19,01:20,53,Asia,Timing Error,High,GPS
+2018-06-18,03:54,29,Europe,Timing Error,Medium,GPS
+2019-04-03,13:58,1,North America,Timing Error,Low,GPS
+2024-07-31,06:00,44,North America,Signal Loss,High,GPS
+2016-09-05,18:37,4,Oceania,Accuracy Drop,Low,GPS
+2018-09-11,18:41,59,Europe,Signal Loss,High,GPS
+2017-08-02,12:42,29,Asia,Signal Loss,Medium,GPS
+2020-01-17,14:01,32,Asia,Timing Error,High,GPS
+2023-06-30,07:40,16,North America,Signal Loss,Medium,GPS
+2020-01-29,11:59,37,Oceania,Accuracy Drop,High,GPS
+2021-06-10,03:14,56,Europe,Accuracy Drop,High,GPS
+2022-09-12,11:56,27,Europe,Signal Loss,Medium,GPS
+2015-01-20,15:19,27,Europe,Accuracy Drop,Medium,GPS
+2015-08-26,08:18,14,North America,Timing Error,Medium,GPS
+2016-06-09,01:25,15,North America,Timing Error,Medium,GPS
+2020-01-24,17:37,51,Oceania,Signal Loss,High,GPS
+2015-01-29,22:30,10,Asia,Timing Error,Low,GPS
+2024-02-01,12:38,37,Europe,Signal Loss,High,GPS
+2020-08-31,00:38,37,Asia,Signal Loss,High,GPS
+2019-12-09,05:49,59,Oceania,Accuracy Drop,High,GPS
+2020-01-10,13:16,15,Europe,Timing Error,Medium,GPS
+2019-09-14,16:59,41,Oceania,Signal Loss,High,GPS
+2020-08-08,13:19,35,Asia,Signal Loss,High,GPS
+2016-12-14,06:29,7,Europe,Signal Loss,Low,GPS
+2022-02-22,14:37,51,Oceania,Signal Loss,High,GPS
+2016-02-11,06:46,53,Europe,Timing Error,High,GPS
+2022-05-25,00:45,20,Asia,Accuracy Drop,Medium,GPS
+2019-10-18,11:25,53,Oceania,Accuracy Drop,High,GPS
+2015-03-06,00:20,27,Oceania,Accuracy Drop,Medium,GPS
+2015-05-06,13:12,39,Europe,Signal Loss,High,GPS
+2024-08-12,14:33,15,Oceania,Signal Loss,Medium,GPS
+2019-05-27,01:45,48,Asia,Timing Error,High,GPS
+2021-03-15,05:53,10,Asia,Signal Loss,Low,GPS
+2015-08-05,19:16,36,Oceania,Signal Loss,High,GPS
+2020-04-10,22:25,54,North America,Timing Error,High,GPS
+2015-05-17,08:17,55,North America,Signal Loss,High,GPS
+2017-06-01,06:29,3,North America,Timing Error,Low,GPS
+2022-04-02,19:54,17,Asia,Signal Loss,Medium,GPS
+2015-02-21,21:30,46,Asia,Timing Error,High,GPS
+2024-03-02,13:20,26,Oceania,Signal Loss,Medium,GPS
+2016-07-27,09:05,14,North America,Timing Error,Medium,GPS
+2015-04-06,19:03,55,Asia,Signal Loss,High,GPS
+2015-01-22,00:02,32,Asia,Timing Error,High,GPS
+2022-02-08,11:51,17,Oceania,Timing Error,Medium,GPS
+2021-10-21,11:04,36,Europe,Signal Loss,High,GPS
+2019-07-11,04:49,52,North America,Timing Error,High,GPS
+2023-01-21,14:31,48,Oceania,Timing Error,High,GPS
+2016-03-04,15:43,14,North America,Accuracy Drop,Medium,GPS
+2018-09-11,21:12,8,Oceania,Accuracy Drop,Low,GPS
+2019-07-31,20:54,16,North America,Signal Loss,Medium,GPS
+2021-02-09,00:36,37,North America,Timing Error,High,GPS
+2020-02-05,04:46,21,North America,Timing Error,Medium,GPS
+2015-03-18,21:38,32,North America,Timing Error,High,GPS
+2019-07-17,17:01,56,Oceania,Signal Loss,High,GPS
+2017-10-18,00:39,37,North America,Signal Loss,High,GPS
+2019-08-07,09:39,51,North America,Signal Loss,High,GPS
+2023-09-14,08:48,9,Asia,Signal Loss,Low,GPS
+2018-06-21,07:43,7,Oceania,Accuracy Drop,Low,GPS
+2022-05-30,12:06,21,Oceania,Accuracy Drop,Medium,GPS
+2022-09-27,16:56,28,Oceania,Accuracy Drop,Medium,GPS
+2015-09-08,18:28,8,North America,Timing Error,Low,GPS
+2015-08-29,20:28,23,Asia,Signal Loss,Medium,GPS
+2019-12-14,23:22,47,Oceania,Signal Loss,High,GPS
+2021-10-23,16:01,40,Asia,Signal Loss,High,GPS
+2018-07-21,05:07,51,Asia,Timing Error,High,GPS
+2021-06-11,09:31,31,Europe,Timing Error,High,GPS
+2023-03-12,16:26,15,Europe,Signal Loss,Medium,GPS
+2017-12-05,02:54,32,Europe,Accuracy Drop,High,GPS
+2022-12-17,15:49,56,North America,Signal Loss,High,GPS
+2015-03-15,03:59,32,Oceania,Accuracy Drop,High,GPS
+2017-10-22,01:50,36,Oceania,Accuracy Drop,High,GPS
+2020-06-25,23:08,45,North America,Accuracy Drop,High,GPS
+2022-11-15,03:27,25,North America,Signal Loss,Medium,GPS
+2018-11-27,05:05,48,Asia,Timing Error,High,GPS
+2021-01-17,16:05,30,Asia,Timing Error,Medium,GPS
+2024-11-04,07:59,46,Europe,Timing Error,High,GPS
+2019-07-22,22:34,44,North America,Accuracy Drop,High,GPS
+2016-03-22,04:25,57,Asia,Accuracy Drop,High,GPS
+2024-05-01,05:33,20,North America,Accuracy Drop,Medium,GPS
+2019-04-27,18:11,25,Asia,Accuracy Drop,Medium,GPS
+2021-07-13,14:45,27,Europe,Timing Error,Medium,GPS
+2023-02-24,16:11,12,Europe,Accuracy Drop,Medium,GPS
+2020-11-17,10:19,46,Asia,Signal Loss,High,GPS
+2023-08-27,10:40,24,North America,Accuracy Drop,Medium,GPS
+2019-03-11,08:21,26,Europe,Timing Error,Medium,GPS
+2015-03-23,21:41,3,Asia,Accuracy Drop,Low,GPS
+2017-07-31,20:30,43,Europe,Accuracy Drop,High,GPS
+2024-08-18,02:40,50,Europe,Timing Error,High,GPS
+2017-05-19,13:09,6,Asia,Accuracy Drop,Low,GPS
+2022-09-01,07:51,58,Oceania,Signal Loss,High,GPS
+2018-03-29,05:06,7,North America,Timing Error,Low,GPS
+2016-07-02,21:44,2,Europe,Signal Loss,Low,GPS
+2021-06-21,06:02,44,North America,Accuracy Drop,High,GPS
+2023-03-05,01:26,33,Oceania,Signal Loss,High,GPS
+2020-08-03,10:19,34,Asia,Timing Error,High,GPS
+2019-05-05,14:55,56,Asia,Accuracy Drop,High,GPS
+2024-06-17,00:35,26,Asia,Accuracy Drop,Medium,GPS
+2018-01-19,06:50,5,Europe,Accuracy Drop,Low,GPS
+2015-03-09,18:54,34,Oceania,Accuracy Drop,High,GPS
+2024-12-06,09:21,58,Asia,Accuracy Drop,High,GPS
+2024-10-24,00:53,48,Oceania,Signal Loss,High,GPS
+2015-08-09,02:45,7,Oceania,Signal Loss,Low,GPS
+2017-01-10,01:04,28,Oceania,Signal Loss,Medium,GPS
+2022-11-12,06:20,40,Oceania,Signal Loss,High,GPS
+2018-09-08,21:45,29,Europe,Timing Error,Medium,GPS
+2020-12-19,17:40,59,North America,Timing Error,High,GPS
+2022-08-04,23:43,7,Asia,Timing Error,Low,GPS
+2017-12-19,10:05,50,Asia,Accuracy Drop,High,GPS
+2016-08-01,11:11,31,Europe,Signal Loss,High,GPS
+2019-07-25,19:10,1,North America,Accuracy Drop,Low,GPS
+2019-08-24,21:57,17,Oceania,Accuracy Drop,Medium,GPS
+2024-12-15,12:37,33,Europe,Accuracy Drop,High,GPS
+2024-07-01,04:36,22,North America,Accuracy Drop,Medium,GPS
+2015-09-21,19:41,31,Asia,Accuracy Drop,High,GPS
+2017-11-26,16:00,33,North America,Signal Loss,High,GPS
+2018-11-25,12:52,22,Europe,Accuracy Drop,Medium,GPS
+2016-12-15,10:19,46,Asia,Signal Loss,High,GPS
+2018-03-21,07:44,52,Europe,Timing Error,High,GPS
+2018-06-15,07:11,5,North America,Accuracy Drop,Low,GPS
+2018-03-09,09:09,40,North America,Signal Loss,High,GPS
+2023-10-07,00:08,35,Europe,Signal Loss,High,GPS
+2022-07-03,06:28,27,Oceania,Timing Error,Medium,GPS
+2018-09-18,18:08,16,Oceania,Timing Error,Medium,GPS
+2024-11-08,19:15,59,North America,Signal Loss,High,GPS
+2022-05-23,16:05,3,North America,Accuracy Drop,Low,GPS
+2023-02-26,02:09,55,Europe,Signal Loss,High,GPS
+2023-04-28,19:48,25,Oceania,Signal Loss,Medium,GPS
+2018-05-07,17:11,44,Europe,Timing Error,High,GPS
+2021-09-18,03:15,33,Oceania,Accuracy Drop,High,GPS
+2020-07-30,03:15,24,North America,Signal Loss,Medium,GPS
+2022-03-19,16:01,36,Asia,Timing Error,High,GPS
+2019-03-23,06:19,23,North America,Timing Error,Medium,GPS
+2024-11-07,05:48,16,North America,Signal Loss,Medium,GPS
+2015-02-14,18:44,38,Europe,Signal Loss,High,GPS
+2018-08-06,01:50,17,Oceania,Timing Error,Medium,GPS
+2015-10-04,19:12,1,Oceania,Timing Error,Low,GPS
+2022-08-29,15:30,22,North America,Signal Loss,Medium,GPS
+2017-12-27,17:21,12,Asia,Signal Loss,Medium,GPS
+2019-11-18,18:02,46,North America,Signal Loss,High,GPS
+2015-01-31,22:10,5,Asia,Timing Error,Low,GPS
+2023-01-25,19:22,52,North America,Accuracy Drop,High,GPS
+2018-09-18,15:37,50,Europe,Signal Loss,High,GPS
+2024-01-16,14:05,20,North America,Accuracy Drop,Medium,GPS
+2018-12-02,15:38,28,Europe,Signal Loss,Medium,GPS
+2019-09-13,23:43,19,Oceania,Timing Error,Medium,GPS
+2016-05-11,15:24,17,North America,Timing Error,Medium,GPS
+2020-07-01,08:13,30,Oceania,Timing Error,Medium,GPS
+2020-06-10,20:54,3,North America,Accuracy Drop,Low,GPS
+2018-01-29,16:21,20,Oceania,Signal Loss,Medium,GPS
+2023-08-05,04:43,18,North America,Accuracy Drop,Medium,GPS
+2017-09-23,09:50,32,Asia,Signal Loss,High,GPS
+2020-12-25,21:11,7,Europe,Accuracy Drop,Low,GPS
+2021-06-02,17:24,13,Oceania,Accuracy Drop,Medium,GPS
+2015-05-11,12:55,33,Asia,Timing Error,High,GPS
+2018-04-30,04:33,33,North America,Timing Error,High,GPS
+2019-06-06,05:52,8,Asia,Timing Error,Low,GPS
+2020-11-26,19:18,30,Oceania,Timing Error,Medium,GPS
+2024-06-18,11:46,45,Asia,Signal Loss,High,GPS
+2022-10-23,02:04,11,Europe,Timing Error,Medium,GPS
+2024-02-13,18:43,2,North America,Signal Loss,Low,GPS
+2020-12-06,11:48,42,North America,Accuracy Drop,High,GPS
+2020-07-19,12:36,8,Oceania,Timing Error,Low,GPS
+2016-01-27,07:46,32,North America,Signal Loss,High,GPS
+2019-02-12,05:07,9,Asia,Accuracy Drop,Low,GPS
+2023-06-07,23:51,52,Oceania,Signal Loss,High,GPS
+2015-08-31,12:57,25,North America,Signal Loss,Medium,GPS
+2019-10-03,05:32,53,Europe,Timing Error,High,GPS
+2023-05-26,13:59,7,North America,Timing Error,Low,GPS
+2015-02-26,08:00,56,Europe,Accuracy Drop,High,GPS
+2018-03-14,14:31,52,Asia,Timing Error,High,GPS
+2022-08-19,01:10,15,Oceania,Signal Loss,Medium,GPS
+2018-05-30,02:41,15,Oceania,Accuracy Drop,Medium,GPS
+2021-10-28,10:02,5,Asia,Accuracy Drop,Low,GPS
+2018-12-04,06:03,22,Europe,Signal Loss,Medium,GPS
+2018-10-19,04:36,54,Asia,Timing Error,High,GPS
+2017-04-08,19:33,22,Oceania,Timing Error,Medium,GPS
+2019-12-06,14:19,59,Asia,Accuracy Drop,High,GPS
+2024-10-16,12:58,58,Asia,Timing Error,High,GPS
+2022-07-11,16:56,9,North America,Signal Loss,Low,GPS
+2024-09-27,05:23,7,Oceania,Accuracy Drop,Low,GPS
+2021-04-10,23:05,9,Europe,Accuracy Drop,Low,GPS
+2015-05-14,02:05,48,Oceania,Signal Loss,High,GPS
+2022-10-28,20:14,42,Oceania,Timing Error,High,GPS
+2018-04-18,04:41,24,Oceania,Signal Loss,Medium,GPS
+2021-06-24,21:09,31,North America,Timing Error,High,GPS
+2018-04-20,13:12,56,Europe,Timing Error,High,GPS
+2019-02-03,08:04,44,Oceania,Timing Error,High,GPS
+2020-12-31,13:07,59,Oceania,Signal Loss,High,GPS
+2019-01-10,06:16,33,North America,Timing Error,High,GPS
+2015-08-04,23:33,11,North America,Signal Loss,Medium,GPS
+2023-08-27,04:28,8,Asia,Signal Loss,Low,GPS
+2016-08-13,00:08,12,Oceania,Accuracy Drop,Medium,GPS
+2016-06-01,12:46,37,Asia,Timing Error,High,GPS
+2016-10-16,12:41,55,Oceania,Signal Loss,High,GPS
+2016-12-31,11:35,39,North America,Signal Loss,High,GPS
+2015-01-07,05:51,37,Oceania,Accuracy Drop,High,GPS
+2018-08-29,16:08,57,Oceania,Timing Error,High,GPS
+2015-03-07,04:42,45,Oceania,Timing Error,High,GPS
+2022-03-15,21:02,10,Oceania,Timing Error,Low,GPS
+2022-12-28,07:50,3,Europe,Timing Error,Low,GPS
+2018-02-18,08:44,11,Oceania,Timing Error,Medium,GPS
+2015-10-12,09:31,54,Europe,Signal Loss,High,GPS
+2022-07-27,08:45,18,Oceania,Timing Error,Medium,GPS
+2019-12-17,22:33,46,Oceania,Accuracy Drop,High,GPS
+2017-07-05,04:04,1,Europe,Timing Error,Low,GPS
+2024-10-28,15:36,19,Oceania,Signal Loss,Medium,GPS
+2019-06-30,02:56,33,Oceania,Accuracy Drop,High,GPS
+2023-05-21,22:32,32,Oceania,Accuracy Drop,High,GPS
+2024-06-22,20:32,49,Asia,Signal Loss,High,GPS
+2019-04-29,22:10,42,Europe,Accuracy Drop,High,GPS
+2015-11-17,14:12,10,Oceania,Accuracy Drop,Low,GPS
+2016-05-03,00:58,36,Asia,Accuracy Drop,High,GPS
+2024-04-24,09:04,8,Asia,Signal Loss,Low,GPS
+2018-04-21,03:01,16,North America,Signal Loss,Medium,GPS
+2023-12-28,22:59,10,Oceania,Timing Error,Low,GPS
+2016-08-01,10:56,24,Asia,Signal Loss,Medium,GPS
+2018-05-20,18:59,45,Oceania,Accuracy Drop,High,GPS
+2015-04-23,14:44,42,North America,Signal Loss,High,GPS
+2022-08-23,22:16,17,Oceania,Accuracy Drop,Medium,GPS
+2019-02-14,14:32,42,Oceania,Timing Error,High,GPS
+2017-10-11,10:35,25,Europe,Accuracy Drop,Medium,GPS
+2022-10-30,05:44,10,North America,Timing Error,Low,GPS
+2017-10-20,01:50,1,Europe,Accuracy Drop,Low,GPS
+2018-07-14,13:41,46,Oceania,Timing Error,High,GPS
+2015-12-30,18:13,1,North America,Accuracy Drop,Low,GPS
+2016-06-19,19:54,18,Europe,Signal Loss,Medium,GPS
+2016-11-14,02:35,52,North America,Timing Error,High,GPS
+2015-10-03,08:09,44,Oceania,Accuracy Drop,High,GPS
+2023-01-19,13:28,30,Asia,Timing Error,Medium,GPS
+2016-09-16,07:43,30,Asia,Timing Error,Medium,GPS
+2023-11-13,20:37,49,Europe,Signal Loss,High,GPS
+2021-04-11,10:43,42,North America,Accuracy Drop,High,GPS
+2024-02-03,14:03,53,Oceania,Signal Loss,High,GPS
+2022-06-20,12:20,37,North America,Accuracy Drop,High,GPS
+2023-01-06,06:45,12,Oceania,Signal Loss,Medium,GPS
+2023-01-15,12:18,53,North America,Signal Loss,High,GPS
+2021-05-01,20:17,38,Asia,Accuracy Drop,High,GPS
+2015-07-05,02:55,38,North America,Accuracy Drop,High,GPS
+2020-05-20,00:20,7,Europe,Timing Error,Low,GPS
+2016-08-06,23:38,28,Oceania,Accuracy Drop,Medium,GPS
+2022-12-17,06:38,54,North America,Accuracy Drop,High,GPS
+2024-12-06,02:58,29,Europe,Accuracy Drop,Medium,GPS
+2015-10-10,18:27,36,Europe,Signal Loss,High,GPS
+2022-11-13,15:22,12,North America,Signal Loss,Medium,GPS
+2021-09-07,13:18,33,Europe,Timing Error,High,GPS
+2022-03-10,05:54,31,Asia,Timing Error,High,GPS
+2018-11-12,02:42,27,Oceania,Timing Error,Medium,GPS
+2015-10-24,00:26,25,Asia,Accuracy Drop,Medium,GPS
+2015-02-15,02:02,17,Oceania,Signal Loss,Medium,GPS
+2015-05-30,18:41,55,Asia,Accuracy Drop,High,GPS
+2023-12-02,03:34,17,Europe,Timing Error,Medium,GPS
+2024-01-14,16:47,24,North America,Accuracy Drop,Medium,GPS
+2022-09-12,02:40,9,North America,Accuracy Drop,Low,GPS
+2022-01-17,08:43,30,Oceania,Timing Error,Medium,GPS
+2019-06-16,06:21,29,Europe,Timing Error,Medium,GPS
+2023-11-11,14:17,31,North America,Signal Loss,High,GPS
+2015-10-07,09:51,58,Oceania,Signal Loss,High,GPS
+2024-03-13,03:54,34,Oceania,Accuracy Drop,High,GPS
+2019-10-16,03:23,32,Europe,Timing Error,High,GPS
+2022-10-31,06:22,16,North America,Accuracy Drop,Medium,GPS
+2023-03-03,13:12,36,North America,Timing Error,High,GPS
+2019-10-31,06:17,18,North America,Accuracy Drop,Medium,GPS
+2017-02-16,05:39,42,North America,Accuracy Drop,High,GPS
+2020-07-04,11:25,32,Oceania,Accuracy Drop,High,GPS
+2022-05-28,17:19,43,Oceania,Timing Error,High,GPS
+2022-05-13,16:18,42,Oceania,Accuracy Drop,High,GPS
+2018-05-16,21:40,2,Oceania,Timing Error,Low,GPS
+2024-12-14,16:57,4,Oceania,Timing Error,Low,GPS
+2017-03-08,10:49,23,North America,Timing Error,Medium,GPS
+2021-02-02,23:41,35,Oceania,Accuracy Drop,High,GPS
+2024-12-25,06:34,15,Asia,Signal Loss,Medium,GPS
+2018-12-28,19:50,29,Oceania,Timing Error,Medium,GPS
+2018-01-25,21:17,23,Oceania,Accuracy Drop,Medium,GPS
+2019-03-24,13:16,6,North America,Signal Loss,Low,GPS
+2015-10-06,06:47,33,North America,Timing Error,High,GPS
+2024-04-25,16:11,18,Europe,Accuracy Drop,Medium,GPS
+2021-11-21,08:54,19,North America,Timing Error,Medium,GPS
+2020-09-10,19:52,26,Oceania,Accuracy Drop,Medium,GPS
+2022-06-06,04:44,33,North America,Timing Error,High,GPS
+2024-07-08,15:36,29,Oceania,Accuracy Drop,Medium,GPS
+2020-12-15,15:36,5,North America,Signal Loss,Low,GPS
+2019-02-08,09:33,14,Europe,Signal Loss,Medium,GPS
+2018-05-17,07:02,8,North America,Signal Loss,Low,GPS
+2016-02-15,10:00,10,Oceania,Signal Loss,Low,GPS
+2017-11-08,18:58,41,Europe,Timing Error,High,GPS
+2019-07-20,23:57,13,Europe,Signal Loss,Medium,GPS
+2022-06-12,22:15,28,Asia,Signal Loss,Medium,GPS
+2022-05-27,03:27,18,Asia,Timing Error,Medium,GPS
+2015-02-19,00:39,29,Europe,Accuracy Drop,Medium,GPS
+2017-01-09,14:06,4,Oceania,Timing Error,Low,GPS
+2017-03-20,06:46,5,North America,Accuracy Drop,Low,GPS
+2019-11-16,05:48,43,Asia,Signal Loss,High,GPS
+2022-09-30,00:02,32,North America,Timing Error,High,GPS
+2018-06-01,00:40,22,North America,Signal Loss,Medium,GPS
+2024-08-11,22:07,19,Oceania,Timing Error,Medium,GPS
+2017-12-07,13:55,53,Europe,Accuracy Drop,High,GPS
+2015-03-24,15:23,39,Oceania,Accuracy Drop,High,GPS
+2015-05-31,21:19,31,Oceania,Accuracy Drop,High,GPS
+2015-07-02,17:48,20,North America,Signal Loss,Medium,GPS
+2016-08-01,20:44,26,Oceania,Accuracy Drop,Medium,GPS
+2021-01-11,19:31,37,Asia,Signal Loss,High,GPS
+2018-05-18,03:32,31,Europe,Signal Loss,High,GPS
+2019-11-28,16:22,39,Asia,Timing Error,High,GPS
+2020-11-23,16:56,19,Europe,Timing Error,Medium,GPS
+2019-05-29,01:28,22,North America,Accuracy Drop,Medium,GPS
+2023-06-14,20:09,2,Europe,Timing Error,Low,GPS
+2015-01-06,15:52,7,Asia,Timing Error,Low,GPS
+2020-04-05,01:17,51,Oceania,Signal Loss,High,GPS
+2023-06-12,04:24,19,Oceania,Signal Loss,Medium,GPS
+2020-10-04,19:10,49,Oceania,Accuracy Drop,High,GPS
+2022-07-28,00:36,7,Asia,Accuracy Drop,Low,GPS
+2021-09-05,12:12,17,North America,Accuracy Drop,Medium,GPS
+2016-03-21,00:34,13,North America,Signal Loss,Medium,GPS
+2024-02-26,12:28,41,North America,Signal Loss,High,GPS
+2020-08-23,13:31,38,Oceania,Accuracy Drop,High,GPS
+2020-12-27,06:42,56,Oceania,Timing Error,High,GPS
+2023-01-18,12:08,3,Asia,Accuracy Drop,Low,GPS
+2019-05-23,16:58,49,Oceania,Signal Loss,High,GPS
+2018-07-30,23:26,27,Asia,Signal Loss,Medium,GPS
+2021-11-18,12:17,44,Europe,Accuracy Drop,High,GPS
+2024-09-19,05:49,54,Asia,Accuracy Drop,High,GPS
+2024-09-06,00:15,47,Oceania,Timing Error,High,GPS
+2024-09-26,00:41,56,Oceania,Accuracy Drop,High,GPS
+2018-11-03,07:17,24,North America,Timing Error,Medium,GPS
+2017-05-04,20:18,49,Europe,Accuracy Drop,High,GPS
+2016-11-13,20:44,46,North America,Signal Loss,High,GPS
+2019-09-20,04:15,34,Asia,Signal Loss,High,GPS
+2022-10-15,11:55,23,Asia,Signal Loss,Medium,GPS
+2020-09-04,02:50,51,Oceania,Signal Loss,High,GPS
+2016-08-24,01:57,38,North America,Accuracy Drop,High,GPS
+2019-05-05,22:45,33,Asia,Signal Loss,High,GPS
+2020-10-09,09:30,34,Europe,Accuracy Drop,High,GPS
+2019-04-16,09:31,20,North America,Timing Error,Medium,GPS
+2022-03-17,15:43,17,North America,Signal Loss,Medium,GPS
+2015-08-30,17:42,53,Asia,Timing Error,High,GPS
+2017-08-13,20:19,34,Europe,Timing Error,High,GPS
+2021-08-26,23:36,58,Europe,Accuracy Drop,High,GPS
+2017-12-28,05:27,7,Oceania,Timing Error,Low,GPS
+2019-06-22,06:22,54,Europe,Accuracy Drop,High,GPS
+2022-12-24,09:55,5,Europe,Accuracy Drop,Low,GPS
+2023-03-22,22:11,24,Asia,Timing Error,Medium,GPS
+2015-06-18,12:16,20,Europe,Signal Loss,Medium,GPS
+2017-05-21,05:12,8,Oceania,Signal Loss,Low,GPS
+2017-09-02,19:25,59,Europe,Timing Error,High,GPS
+2019-06-15,21:28,11,Europe,Signal Loss,Medium,GPS
+2019-09-03,22:31,17,Asia,Timing Error,Medium,GPS
+2020-10-10,00:48,48,Oceania,Timing Error,High,GPS
+2015-05-13,23:41,23,North America,Timing Error,Medium,GPS
+2022-05-08,23:51,6,Asia,Timing Error,Low,GPS
+2016-08-30,09:49,29,Europe,Signal Loss,Medium,GPS
+2021-05-21,09:02,17,Asia,Signal Loss,Medium,GPS
+2019-08-11,20:23,14,Asia,Timing Error,Medium,GPS
+2024-11-29,08:33,33,Asia,Timing Error,High,GPS
+2016-12-17,11:04,47,Europe,Signal Loss,High,GPS
+2019-08-25,04:44,3,North America,Timing Error,Low,GPS
+2023-08-26,02:49,22,Oceania,Signal Loss,Medium,GPS
+2017-06-13,17:02,43,Oceania,Accuracy Drop,High,GPS
+2022-04-29,14:32,16,Oceania,Timing Error,Medium,GPS
+2016-10-01,16:09,4,North America,Signal Loss,Low,GPS
+2019-09-16,09:17,1,North America,Signal Loss,Low,GPS
+2021-10-24,17:39,44,North America,Timing Error,High,GPS
+2024-11-23,15:11,4,Oceania,Signal Loss,Low,GPS
+2019-02-05,23:58,15,North America,Signal Loss,Medium,GPS
+2024-06-09,21:45,27,North America,Signal Loss,Medium,GPS
+2018-08-07,13:47,48,Asia,Signal Loss,High,GPS
+2021-05-17,02:59,42,Europe,Accuracy Drop,High,GPS
+2017-01-30,06:48,38,North America,Timing Error,High,GPS
+2020-10-01,13:52,23,Asia,Signal Loss,Medium,GPS
+2020-09-20,21:18,10,Asia,Timing Error,Low,GPS
+2016-03-23,11:23,57,Oceania,Signal Loss,High,GPS
+2015-02-15,05:09,30,North America,Timing Error,Medium,GPS
+2016-02-12,10:05,4,Oceania,Accuracy Drop,Low,GPS
+2023-01-08,12:40,49,Oceania,Accuracy Drop,High,GPS
+2023-06-29,02:39,38,Europe,Timing Error,High,GPS
+2016-12-03,10:12,32,Asia,Accuracy Drop,High,GPS
+2024-08-08,03:58,27,Asia,Accuracy Drop,Medium,GPS
+2016-06-06,23:50,25,Europe,Signal Loss,Medium,GPS
+2017-09-23,18:31,35,Asia,Accuracy Drop,High,GPS
+2019-02-19,22:06,11,Europe,Signal Loss,Medium,GPS
+2017-02-21,01:01,49,North America,Signal Loss,High,GPS
+2021-07-07,18:00,29,Oceania,Signal Loss,Medium,GPS
+2015-01-04,22:09,36,Europe,Signal Loss,High,GPS
+2021-10-18,22:59,25,North America,Signal Loss,Medium,GPS
+2017-02-26,13:49,41,Europe,Accuracy Drop,High,GPS
+2018-08-30,06:33,52,Europe,Timing Error,High,GPS
+2018-06-05,23:32,25,North America,Accuracy Drop,Medium,GPS
+2015-01-19,18:18,51,Asia,Timing Error,High,GPS
+2023-06-11,11:52,29,Asia,Timing Error,Medium,GPS
+2016-01-09,03:59,30,Oceania,Signal Loss,Medium,GPS
+2024-04-12,18:56,7,Europe,Timing Error,Low,GPS
+2020-07-16,16:42,39,Oceania,Timing Error,High,GPS
+2024-05-24,17:34,55,Europe,Timing Error,High,GPS
+2022-03-03,09:51,40,Oceania,Timing Error,High,GPS
+2016-06-04,01:41,34,Oceania,Timing Error,High,GPS
+2022-03-07,10:46,8,North America,Accuracy Drop,Low,GPS
+2018-01-25,20:52,52,Europe,Timing Error,High,GPS
+2024-01-16,08:44,36,Europe,Signal Loss,High,GPS
+2016-07-13,18:26,8,Asia,Accuracy Drop,Low,GPS
+2015-04-02,22:06,2,Europe,Timing Error,Low,GPS
+2021-05-16,15:00,38,North America,Timing Error,High,GPS
+2019-11-16,03:59,38,Europe,Timing Error,High,GPS
+2016-02-08,08:11,31,Europe,Signal Loss,High,GPS
+2021-10-21,02:57,4,North America,Accuracy Drop,Low,GPS
+2020-02-21,18:31,43,North America,Accuracy Drop,High,GPS
+2023-05-01,06:33,8,Oceania,Signal Loss,Low,GPS
+2017-02-09,13:02,25,Asia,Accuracy Drop,Medium,GPS
+2023-07-07,20:06,7,Asia,Timing Error,Low,GPS
+2015-08-26,07:01,8,Asia,Signal Loss,Low,GPS
+2023-11-06,03:06,49,Europe,Timing Error,High,GPS
+2015-08-20,11:03,33,Asia,Accuracy Drop,High,GPS
+2019-05-12,05:20,40,Oceania,Accuracy Drop,High,GPS
+2020-08-21,10:51,11,North America,Accuracy Drop,Medium,GPS
+2016-06-03,19:59,17,Europe,Timing Error,Medium,GPS
+2019-01-31,16:54,54,North America,Timing Error,High,GPS
+2021-11-16,10:59,6,North America,Accuracy Drop,Low,GPS
+2020-10-29,00:30,28,Asia,Signal Loss,Medium,GPS
+2018-06-26,21:18,27,North America,Signal Loss,Medium,GPS
+2020-08-12,01:38,32,Oceania,Timing Error,High,GPS
+2015-08-22,21:53,34,Oceania,Signal Loss,High,GPS
+2018-10-20,20:35,27,Asia,Signal Loss,Medium,GPS
+2017-03-17,09:15,35,North America,Timing Error,High,GPS
+2022-08-21,12:52,55,Asia,Timing Error,High,GPS
+2022-05-11,02:08,42,Europe,Signal Loss,High,GPS
+2022-08-07,11:46,20,North America,Signal Loss,Medium,GPS
+2021-04-26,06:42,57,Europe,Timing Error,High,GPS
+2022-12-24,15:11,40,Europe,Timing Error,High,GPS
+2015-04-21,06:04,53,Asia,Accuracy Drop,High,GPS
+2021-01-11,10:51,31,North America,Signal Loss,High,GPS
+2017-04-14,13:34,57,Europe,Accuracy Drop,High,GPS
+2024-07-26,01:34,26,Europe,Signal Loss,Medium,GPS
+2017-05-13,18:30,44,Asia,Signal Loss,High,GPS
+2020-02-10,07:36,50,Asia,Signal Loss,High,GPS
+2016-10-17,20:21,33,North America,Signal Loss,High,GPS
+2023-05-29,05:51,37,North America,Accuracy Drop,High,GPS
+2024-04-15,03:44,39,North America,Timing Error,High,GPS
+2016-04-28,20:47,33,North America,Accuracy Drop,High,GPS
+2022-07-11,01:55,3,Asia,Signal Loss,Low,GPS
+2018-12-10,08:30,4,Europe,Timing Error,Low,GPS
+2015-02-10,21:19,6,North America,Signal Loss,Low,GPS
+2024-08-15,18:48,23,Asia,Signal Loss,Medium,GPS
+2022-05-23,04:09,24,Oceania,Timing Error,Medium,GPS
+2016-06-04,15:16,20,Asia,Signal Loss,Medium,GPS
+2020-01-16,02:35,55,Oceania,Accuracy Drop,High,GPS
+2023-03-07,16:07,41,Europe,Signal Loss,High,GPS
+2018-04-04,11:19,36,North America,Timing Error,High,GPS
+2016-05-23,23:02,9,Oceania,Timing Error,Low,GPS
+2023-08-12,21:03,9,Europe,Accuracy Drop,Low,GPS
+2019-12-11,20:14,11,Europe,Accuracy Drop,Medium,GPS
+2016-09-20,04:28,21,Oceania,Accuracy Drop,Medium,GPS
+2021-12-05,18:01,42,Europe,Timing Error,High,GPS
+2022-06-07,05:24,55,Europe,Signal Loss,High,GPS
+2018-01-24,13:45,6,Oceania,Signal Loss,Low,GPS
+2019-11-14,13:37,53,North America,Timing Error,High,GPS
+2024-01-17,07:40,26,North America,Signal Loss,Medium,GPS
+2019-03-30,06:07,28,North America,Accuracy Drop,Medium,GPS
+2019-03-06,00:51,26,Europe,Accuracy Drop,Medium,GPS
+2019-04-24,16:15,48,Europe,Signal Loss,High,GPS
+2018-02-06,08:16,36,Oceania,Accuracy Drop,High,GPS
+2023-03-09,05:23,40,Asia,Signal Loss,High,GPS
+2015-06-25,00:03,17,Oceania,Timing Error,Medium,GPS
+2021-11-07,01:51,55,North America,Timing Error,High,GPS
+2020-03-19,20:10,55,North America,Accuracy Drop,High,GPS
+2022-09-23,04:03,12,Oceania,Timing Error,Medium,GPS
+2019-05-17,02:09,13,Europe,Accuracy Drop,Medium,GPS
+2021-08-24,16:43,39,Oceania,Signal Loss,High,GPS
+2017-06-29,05:29,19,Europe,Signal Loss,Medium,GPS
+2022-08-28,18:10,26,Oceania,Timing Error,Medium,GPS
+2020-02-12,19:44,31,North America,Timing Error,High,GPS
+2020-01-14,16:13,48,North America,Timing Error,High,GPS
+2017-11-18,23:03,15,North America,Signal Loss,Medium,GPS
+2023-03-23,15:38,29,Europe,Timing Error,Medium,GPS
+2015-11-17,05:53,16,Asia,Signal Loss,Medium,GPS
+2015-06-22,17:34,51,Oceania,Timing Error,High,GPS
+2016-12-31,16:04,33,Oceania,Accuracy Drop,High,GPS
+2023-01-13,11:08,3,North America,Timing Error,Low,GPS
+2021-11-23,02:04,22,Europe,Timing Error,Medium,GPS
+2020-02-07,05:24,24,Oceania,Accuracy Drop,Medium,GPS
+2021-02-24,05:01,12,Europe,Signal Loss,Medium,GPS
+2022-10-27,18:19,19,Oceania,Accuracy Drop,Medium,GPS
+2016-11-16,06:42,59,Europe,Timing Error,High,GPS
+2021-09-21,14:58,7,North America,Timing Error,Low,GPS
+2024-02-26,05:42,50,North America,Accuracy Drop,High,GPS
+2018-03-28,12:53,45,North America,Timing Error,High,GPS
+2015-10-15,17:03,25,North America,Timing Error,Medium,GPS
+2018-06-03,11:43,48,Asia,Signal Loss,High,GPS
+2018-04-28,17:31,15,Europe,Timing Error,Medium,GPS
+2017-08-02,15:32,13,North America,Accuracy Drop,Medium,GPS
+2022-12-31,05:39,45,North America,Timing Error,High,GPS
+2021-10-25,18:56,58,North America,Signal Loss,High,GPS
+2019-09-10,15:41,25,Europe,Accuracy Drop,Medium,GPS
+2018-04-27,19:07,27,North America,Signal Loss,Medium,GPS
+2015-01-30,23:07,50,Europe,Accuracy Drop,High,GPS
+2022-03-29,06:56,11,Oceania,Signal Loss,Medium,GPS
+2016-08-10,13:28,20,Asia,Timing Error,Medium,GPS
+2018-04-17,20:53,36,Oceania,Signal Loss,High,GPS
+2021-06-19,13:57,21,Oceania,Accuracy Drop,Medium,GPS
+2022-12-21,15:08,27,Asia,Timing Error,Medium,GPS
+2016-08-13,14:05,33,Europe,Timing Error,High,GPS
+2017-02-18,07:15,21,Asia,Timing Error,Medium,GPS
+2017-08-11,13:36,3,North America,Signal Loss,Low,GPS
+2024-09-14,17:56,36,Oceania,Signal Loss,High,GPS
+2016-06-19,08:24,47,Asia,Signal Loss,High,GPS
+2024-07-30,06:31,42,Oceania,Accuracy Drop,High,GPS
+2021-07-11,01:51,42,North America,Signal Loss,High,GPS
+2017-09-08,02:37,3,North America,Signal Loss,Low,GPS
+2015-06-03,19:47,43,Oceania,Accuracy Drop,High,GPS
+2015-05-12,09:36,9,Europe,Timing Error,Low,GPS
+2018-04-08,10:44,36,Asia,Accuracy Drop,High,GPS
+2017-05-12,08:17,34,Oceania,Timing Error,High,GPS
+2016-09-05,19:08,7,Europe,Signal Loss,Low,GPS
+2019-11-30,05:47,4,Asia,Accuracy Drop,Low,GPS
+2024-11-13,19:46,13,Europe,Signal Loss,Medium,GPS
+2017-02-02,08:04,5,Oceania,Accuracy Drop,Low,GPS
+2020-10-12,17:32,59,Asia,Signal Loss,High,GPS
+2019-06-22,20:40,33,Oceania,Signal Loss,High,GPS
+2016-08-12,12:03,46,North America,Timing Error,High,GPS
+2016-07-08,21:04,44,Europe,Signal Loss,High,GPS
+2021-12-27,07:50,4,Oceania,Signal Loss,Low,GPS
+2024-10-13,07:54,31,Europe,Timing Error,High,GPS
+2019-08-09,15:42,39,Europe,Accuracy Drop,High,GPS
+2018-01-03,14:34,46,Europe,Accuracy Drop,High,GPS
+2024-03-29,04:19,54,Europe,Signal Loss,High,GPS
+2022-10-22,08:20,26,North America,Timing Error,Medium,GPS
+2017-02-03,13:20,8,Asia,Timing Error,Low,GPS
+2022-01-03,18:33,1,North America,Signal Loss,Low,GPS
+2015-09-27,19:48,14,Asia,Signal Loss,Medium,GPS
+2017-10-28,19:27,33,Europe,Timing Error,High,GPS
+2023-02-17,06:23,52,Oceania,Signal Loss,High,GPS
+2016-03-18,05:07,54,Asia,Timing Error,High,GPS
+2019-02-09,15:19,13,Asia,Timing Error,Medium,GPS
+2017-12-23,13:37,14,North America,Accuracy Drop,Medium,GPS
+2022-05-23,08:57,8,Oceania,Accuracy Drop,Low,GPS
+2018-10-27,03:37,32,Asia,Accuracy Drop,High,GPS
+2022-08-28,08:26,37,Oceania,Accuracy Drop,High,GPS
+2015-12-30,09:22,7,Asia,Timing Error,Low,GPS
+2023-08-22,21:48,33,Oceania,Timing Error,High,GPS
+2022-10-05,13:12,35,North America,Accuracy Drop,High,GPS
+2016-10-05,21:30,2,Europe,Signal Loss,Low,GPS
+2019-04-02,20:41,28,North America,Timing Error,Medium,GPS
+2018-04-05,00:36,23,Oceania,Timing Error,Medium,GPS
+2016-04-05,21:23,42,Oceania,Signal Loss,High,GPS
+2020-12-27,23:13,51,Asia,Accuracy Drop,High,GPS
+2023-10-05,00:40,49,Asia,Signal Loss,High,GPS
+2022-11-01,21:10,30,Asia,Timing Error,Medium,GPS
+2017-06-04,10:34,56,Oceania,Timing Error,High,GPS
+2023-07-06,16:52,41,North America,Timing Error,High,GPS
+2022-07-19,21:12,14,Oceania,Timing Error,Medium,GPS
+2021-09-28,17:28,40,North America,Signal Loss,High,GPS
+2022-07-20,22:04,21,Oceania,Signal Loss,Medium,GPS
+2020-06-08,12:59,6,Europe,Accuracy Drop,Low,GPS
+2023-02-07,10:24,27,North America,Timing Error,Medium,GPS
+2015-08-01,06:33,48,Asia,Timing Error,High,GPS
+2024-08-05,07:04,39,Asia,Timing Error,High,GPS
+2023-03-09,06:50,51,Asia,Timing Error,High,GPS
+2022-12-24,06:46,39,Oceania,Accuracy Drop,High,GPS
+2020-05-06,16:23,29,North America,Timing Error,Medium,GPS
+2022-01-22,12:28,42,Asia,Timing Error,High,GPS
+2021-06-24,20:04,28,Asia,Timing Error,Medium,GPS
+2018-01-31,19:57,9,North America,Timing Error,Low,GPS
+2018-08-23,18:08,52,Oceania,Timing Error,High,GPS
+2022-03-28,18:53,48,Europe,Accuracy Drop,High,GPS
+2020-04-21,15:02,12,Oceania,Signal Loss,Medium,GPS
+2016-08-12,02:15,1,Europe,Signal Loss,Low,GPS
+2021-08-11,05:53,41,North America,Accuracy Drop,High,GPS
+2018-07-15,08:43,46,Asia,Accuracy Drop,High,GPS
+2015-06-14,00:14,3,North America,Accuracy Drop,Low,GPS
+2018-11-14,16:44,42,Europe,Timing Error,High,GPS
+2019-09-03,06:10,31,North America,Accuracy Drop,High,GPS
+2015-04-30,17:51,36,Oceania,Timing Error,High,GPS
+2020-12-01,06:47,20,North America,Accuracy Drop,Medium,GPS
+2019-03-10,01:32,48,Asia,Timing Error,High,GPS
+2015-03-16,14:05,53,Asia,Signal Loss,High,GPS
+2021-09-23,04:41,57,Europe,Accuracy Drop,High,GPS
+2017-06-08,10:07,12,Asia,Signal Loss,Medium,GPS
+2020-05-06,09:09,15,Asia,Signal Loss,Medium,GPS
+2017-12-08,23:32,5,Europe,Timing Error,Low,GPS
+2018-06-06,03:39,49,Europe,Signal Loss,High,GPS
+2024-02-14,10:05,32,Europe,Timing Error,High,GPS
+2017-12-08,04:38,56,Europe,Accuracy Drop,High,GPS
+2015-07-10,13:11,28,Europe,Timing Error,Medium,GPS
+2016-03-02,23:51,40,North America,Accuracy Drop,High,GPS
+2018-04-26,17:05,53,Europe,Timing Error,High,GPS
+2018-04-04,19:08,58,Asia,Accuracy Drop,High,GPS
+2021-11-18,02:57,26,North America,Signal Loss,Medium,GPS
+2020-10-08,09:38,6,Asia,Accuracy Drop,Low,GPS
+2024-04-01,17:13,16,Asia,Timing Error,Medium,GPS
+2019-12-07,21:55,20,North America,Accuracy Drop,Medium,GPS
+2016-01-04,07:43,36,Europe,Signal Loss,High,GPS
+2022-03-17,15:01,4,Oceania,Signal Loss,Low,GPS
+2015-08-27,15:58,34,Oceania,Signal Loss,High,GPS
+2021-02-10,05:09,35,Europe,Accuracy Drop,High,GPS
+2020-08-05,12:55,34,Asia,Timing Error,High,GPS
+2023-08-02,01:31,27,North America,Accuracy Drop,Medium,GPS
+2022-09-20,07:33,22,Asia,Accuracy Drop,Medium,GPS
+2023-09-26,19:49,27,Asia,Signal Loss,Medium,GPS
+2022-04-30,20:49,59,North America,Signal Loss,High,GPS
+2024-08-06,05:02,22,North America,Accuracy Drop,Medium,GPS
+2015-02-16,01:25,4,North America,Accuracy Drop,Low,GPS
+2022-01-30,18:56,14,Oceania,Signal Loss,Medium,GPS
+2021-06-28,16:59,56,Europe,Timing Error,High,GPS
+2020-05-08,07:26,52,Oceania,Accuracy Drop,High,GPS
+2017-03-05,20:40,34,Europe,Accuracy Drop,High,GPS
+2019-12-05,10:03,39,North America,Accuracy Drop,High,GPS
+2024-03-14,05:31,42,Oceania,Signal Loss,High,GPS
+2017-04-27,18:40,26,Oceania,Signal Loss,Medium,GPS
+2018-06-19,04:31,24,North America,Timing Error,Medium,GPS
+2018-10-05,01:56,20,Europe,Timing Error,Medium,GPS
+2017-09-16,21:50,58,Asia,Signal Loss,High,GPS
+2016-10-15,16:21,2,Oceania,Accuracy Drop,Low,GPS
+2018-03-16,13:57,12,Oceania,Accuracy Drop,Medium,GPS
+2018-02-19,09:21,47,Oceania,Accuracy Drop,High,GPS
+2016-12-20,14:05,21,Europe,Accuracy Drop,Medium,GPS
+2024-11-03,11:37,40,Asia,Accuracy Drop,High,GPS
+2015-03-17,09:52,45,Oceania,Accuracy Drop,High,GPS
+2016-07-02,08:44,19,Oceania,Signal Loss,Medium,GPS
+2021-12-13,21:07,45,North America,Timing Error,High,GPS
+2022-04-17,13:59,49,Oceania,Timing Error,High,GPS
+2019-05-02,02:48,35,North America,Signal Loss,High,GPS
+2017-04-05,18:33,9,Oceania,Accuracy Drop,Low,GPS
+2019-07-06,17:55,34,Asia,Signal Loss,High,GPS
+2022-01-16,06:44,6,Asia,Timing Error,Low,GPS
+2023-10-07,11:00,29,Asia,Signal Loss,Medium,GPS
+2024-03-21,00:15,32,Asia,Timing Error,High,GPS
+2021-09-26,13:34,8,Europe,Signal Loss,Low,GPS
+2018-07-08,03:08,52,Asia,Accuracy Drop,High,GPS
+2023-12-05,15:28,12,Asia,Accuracy Drop,Medium,GPS
+2017-03-25,06:14,50,Asia,Accuracy Drop,High,GPS
+2016-03-04,12:00,3,Europe,Accuracy Drop,Low,GPS
+2018-06-03,20:02,1,Europe,Timing Error,Low,GPS
+2022-10-21,10:48,45,Oceania,Accuracy Drop,High,GPS
+2023-04-23,09:39,32,Europe,Timing Error,High,GPS
+2016-02-02,19:19,13,Europe,Accuracy Drop,Medium,GPS
+2021-07-31,07:43,55,Europe,Signal Loss,High,GPS
+2015-11-19,05:39,45,Asia,Signal Loss,High,GPS
+2023-01-01,20:21,8,Oceania,Signal Loss,Low,GPS
+2022-02-11,10:51,29,Oceania,Accuracy Drop,Medium,GPS
+2018-07-12,23:29,12,Asia,Signal Loss,Medium,GPS
+2020-04-21,22:34,11,Europe,Timing Error,Medium,GPS
+2021-04-21,20:25,6,Europe,Accuracy Drop,Low,GPS
+2019-04-14,03:22,36,Europe,Timing Error,High,GPS
+2018-05-26,08:31,42,North America,Timing Error,High,GPS
+2018-08-11,12:18,57,Europe,Accuracy Drop,High,GPS
+2020-03-21,14:58,47,Asia,Signal Loss,High,GPS
+2016-01-27,16:10,4,Oceania,Signal Loss,Low,GPS
+2019-02-21,14:33,32,Europe,Accuracy Drop,High,GPS
+2017-05-29,07:35,14,Oceania,Timing Error,Medium,GPS
+2020-05-27,16:48,20,Oceania,Accuracy Drop,Medium,GPS
+2024-05-11,09:52,20,Asia,Signal Loss,Medium,GPS
+2021-05-19,04:37,26,Oceania,Accuracy Drop,Medium,GPS
+2024-05-30,10:01,15,Asia,Accuracy Drop,Medium,GPS
+2020-04-28,17:20,26,Asia,Signal Loss,Medium,GPS
+2016-07-11,17:29,21,Oceania,Timing Error,Medium,GPS
+2016-03-10,14:12,26,Asia,Signal Loss,Medium,GPS
+2016-08-31,12:30,44,North America,Timing Error,High,GPS
+2022-07-17,09:48,21,North America,Signal Loss,Medium,GPS
+2015-04-27,04:52,47,North America,Signal Loss,High,GPS
+2018-09-16,10:29,5,Asia,Accuracy Drop,Low,GPS
+2022-01-21,16:04,14,North America,Timing Error,Medium,GPS
+2024-03-31,06:02,19,North America,Signal Loss,Medium,GPS
+2018-11-20,02:31,17,Europe,Accuracy Drop,Medium,GPS
+2017-09-18,09:55,55,Oceania,Accuracy Drop,High,GPS
+2015-09-13,12:49,48,Asia,Accuracy Drop,High,GPS
+2021-08-26,05:22,4,Asia,Signal Loss,Low,GPS
+2024-12-06,06:50,52,North America,Timing Error,High,GPS
+2022-12-17,15:20,36,Europe,Timing Error,High,GPS
+2024-06-20,23:57,8,Oceania,Timing Error,Low,GPS
+2021-01-30,19:29,45,Oceania,Timing Error,High,GPS
+2018-11-05,01:40,8,Oceania,Timing Error,Low,GPS
+2016-03-17,19:31,46,North America,Timing Error,High,GPS
+2019-12-30,11:03,52,North America,Accuracy Drop,High,GPS
+2020-01-29,01:59,24,Asia,Timing Error,Medium,GPS
+2015-05-09,08:00,58,Europe,Accuracy Drop,High,GPS
+2022-10-14,13:09,6,Europe,Signal Loss,Low,GPS
+2020-11-13,09:27,48,Asia,Timing Error,High,GPS
+2015-06-14,21:45,52,Oceania,Accuracy Drop,High,GPS
+2018-05-24,07:34,13,Oceania,Timing Error,Medium,GPS
+2020-11-17,17:59,43,Oceania,Signal Loss,High,GPS
+2020-10-16,14:15,37,Oceania,Accuracy Drop,High,GPS
+2021-06-12,18:52,19,Oceania,Accuracy Drop,Medium,GPS
+2018-12-19,13:27,10,North America,Accuracy Drop,Low,GPS
+2018-10-25,18:27,44,Asia,Signal Loss,High,GPS
+2020-11-12,16:01,53,North America,Accuracy Drop,High,GPS
+2015-11-14,21:40,3,Oceania,Timing Error,Low,GPS
+2019-04-03,16:12,2,Oceania,Signal Loss,Low,GPS
+2023-05-04,11:08,13,Oceania,Accuracy Drop,Medium,GPS
+2020-03-19,14:59,30,Oceania,Signal Loss,Medium,GPS
+2022-09-29,06:11,14,North America,Accuracy Drop,Medium,GPS
+2023-07-31,21:18,9,Europe,Accuracy Drop,Low,GPS
+2020-07-16,19:18,45,Oceania,Accuracy Drop,High,GPS
+2017-12-23,19:38,41,North America,Accuracy Drop,High,GPS
+2017-01-06,06:49,56,North America,Signal Loss,High,GPS
+2019-09-05,16:49,12,North America,Accuracy Drop,Medium,GPS
+2022-01-27,12:40,23,Europe,Timing Error,Medium,GPS
+2021-11-26,06:21,15,Oceania,Signal Loss,Medium,GPS
+2021-01-10,07:48,31,Asia,Signal Loss,High,GPS
+2017-01-23,06:58,3,Asia,Timing Error,Low,GPS
+2018-10-17,17:59,51,Oceania,Accuracy Drop,High,GPS
+2018-11-02,09:02,33,Europe,Signal Loss,High,GPS
+2021-08-29,23:08,20,Oceania,Accuracy Drop,Medium,GPS
+2024-12-18,23:59,31,Europe,Timing Error,High,GPS
+2021-04-17,20:35,8,Oceania,Accuracy Drop,Low,GPS
+2022-05-05,06:03,33,Europe,Signal Loss,High,GPS
+2024-06-06,21:57,49,North America,Timing Error,High,GPS
+2022-01-24,23:16,13,Asia,Accuracy Drop,Medium,GPS
+2022-07-30,14:05,19,Europe,Accuracy Drop,Medium,GPS
+2020-02-06,14:55,55,Asia,Timing Error,High,GPS
+2022-03-07,09:43,59,North America,Timing Error,High,GPS
+2017-03-24,06:35,2,North America,Accuracy Drop,Low,GPS
+2022-08-20,21:57,31,North America,Accuracy Drop,High,GPS
+2016-06-08,03:42,59,Oceania,Signal Loss,High,GPS
+2023-04-23,11:15,18,Oceania,Timing Error,Medium,GPS
+2019-05-01,22:59,18,Oceania,Signal Loss,Medium,GPS
+2018-08-16,20:24,43,Europe,Accuracy Drop,High,GPS
+2021-09-04,17:28,26,Oceania,Accuracy Drop,Medium,GPS
+2020-06-13,06:19,17,Asia,Accuracy Drop,Medium,GPS
+2019-06-11,14:29,58,North America,Accuracy Drop,High,GPS
+2015-09-28,11:33,56,Europe,Signal Loss,High,GPS
+2018-12-19,04:22,47,Oceania,Signal Loss,High,GPS
+2017-05-11,16:30,25,Oceania,Signal Loss,Medium,GPS
+2020-07-05,10:51,51,Europe,Timing Error,High,GPS
+2020-12-27,08:28,16,Oceania,Accuracy Drop,Medium,GPS
+2020-07-10,18:42,1,Europe,Timing Error,Low,GPS
+2015-10-08,09:03,55,Europe,Signal Loss,High,GPS
+2017-04-13,21:38,5,Asia,Timing Error,Low,GPS
+2020-12-04,04:24,4,North America,Timing Error,Low,GPS
+2018-05-11,02:19,6,Europe,Timing Error,Low,GPS
+2019-01-10,18:39,48,North America,Accuracy Drop,High,GPS
+2020-11-30,00:29,35,Oceania,Accuracy Drop,High,GPS
+2021-10-26,01:18,43,Asia,Signal Loss,High,GPS
+2020-01-24,10:34,2,Europe,Timing Error,Low,GPS
+2024-07-18,01:01,41,North America,Signal Loss,High,GPS
+2021-07-28,20:50,20,Asia,Timing Error,Medium,GPS
+2020-05-26,11:21,54,Asia,Accuracy Drop,High,GPS
+2018-02-25,17:40,18,Asia,Signal Loss,Medium,GPS
+2021-07-20,17:19,38,Asia,Timing Error,High,GPS
+2017-06-15,04:29,54,Oceania,Accuracy Drop,High,GPS
+2022-06-05,01:35,43,North America,Accuracy Drop,High,GPS
+2017-08-24,09:55,53,Oceania,Signal Loss,High,GPS
+2023-08-13,06:29,30,Asia,Accuracy Drop,Medium,GPS
+2021-10-13,19:09,53,Oceania,Signal Loss,High,GPS
+2022-10-28,04:16,28,Asia,Timing Error,Medium,GPS
+2020-10-21,11:34,13,North America,Accuracy Drop,Medium,GPS
+2021-07-17,12:15,44,North America,Accuracy Drop,High,GPS
+2016-12-21,23:49,44,Asia,Timing Error,High,GPS
+2022-12-28,12:05,34,Oceania,Timing Error,High,GPS
+2018-12-12,10:56,2,North America,Accuracy Drop,Low,GPS
+2017-12-12,09:37,29,Oceania,Accuracy Drop,Medium,GPS
+2022-09-02,06:16,28,Europe,Signal Loss,Medium,GPS
+2021-01-20,02:14,5,Asia,Timing Error,Low,GPS
+2016-02-05,13:48,26,Europe,Signal Loss,Medium,GPS
+2021-06-11,14:09,29,Europe,Accuracy Drop,Medium,GPS
+2016-11-19,17:01,55,Asia,Signal Loss,High,GPS
+2015-07-28,06:59,38,Oceania,Timing Error,High,GPS
+2024-01-15,17:11,45,North America,Timing Error,High,GPS
+2017-08-06,19:52,56,Europe,Signal Loss,High,GPS
+2015-03-22,11:18,35,North America,Signal Loss,High,GPS
+2024-09-13,23:18,10,Europe,Accuracy Drop,Low,GPS
+2023-01-31,20:51,52,North America,Accuracy Drop,High,GPS
+2017-05-15,18:05,27,Europe,Timing Error,Medium,GPS
+2016-02-09,00:28,2,Asia,Timing Error,Low,GPS
+2015-10-02,15:00,54,Oceania,Timing Error,High,GPS
+2021-12-31,04:58,29,Europe,Accuracy Drop,Medium,GPS
+2017-04-15,06:28,31,Europe,Timing Error,High,GPS
+2017-05-25,20:07,39,Europe,Signal Loss,High,GPS
+2017-10-17,15:14,12,Asia,Accuracy Drop,Medium,GPS
+2019-11-04,01:54,54,Oceania,Accuracy Drop,High,GPS
+2022-02-04,10:40,53,Europe,Accuracy Drop,High,GPS
+2019-05-19,19:09,36,North America,Timing Error,High,GPS
+2022-05-05,18:31,5,Oceania,Accuracy Drop,Low,GPS
+2017-03-02,04:04,1,North America,Signal Loss,Low,GPS
+2019-09-13,05:25,3,Europe,Accuracy Drop,Low,GPS
+2020-06-10,08:05,23,Oceania,Signal Loss,Medium,GPS
+2015-10-16,10:35,1,Europe,Signal Loss,Low,GPS
+2021-01-22,07:08,36,Europe,Timing Error,High,GPS
+2018-08-05,23:13,3,Europe,Signal Loss,Low,GPS
+2023-09-07,19:37,23,Europe,Accuracy Drop,Medium,GPS
+2023-08-30,19:56,38,Europe,Signal Loss,High,GPS
+2020-04-28,07:30,57,Europe,Accuracy Drop,High,GPS
+2016-06-15,04:42,34,North America,Signal Loss,High,GPS
+2016-02-18,21:44,15,Asia,Timing Error,Medium,GPS
+2020-03-10,17:40,57,Europe,Signal Loss,High,GPS
+2017-02-18,07:38,37,North America,Accuracy Drop,High,GPS
+2022-05-04,10:07,51,North America,Timing Error,High,GPS
+2015-09-13,16:23,22,North America,Timing Error,Medium,GPS
+2021-02-19,04:14,53,North America,Signal Loss,High,GPS
+2024-10-05,06:00,40,Asia,Accuracy Drop,High,GPS
+2024-03-14,20:13,11,Europe,Accuracy Drop,Medium,GPS
+2015-07-31,12:51,3,Europe,Accuracy Drop,Low,GPS
+2015-12-15,07:30,5,North America,Signal Loss,Low,GPS
+2019-02-12,11:20,33,Asia,Timing Error,High,GPS
+2023-12-22,19:21,33,Oceania,Accuracy Drop,High,GPS
+2020-09-23,20:50,39,North America,Timing Error,High,GPS
+2024-06-14,16:01,30,Oceania,Accuracy Drop,Medium,GPS
+2023-09-15,21:13,35,Asia,Signal Loss,High,GPS
+2023-01-11,11:13,58,North America,Timing Error,High,GPS
+2015-09-20,22:39,5,Oceania,Timing Error,Low,GPS
+2021-01-20,22:26,31,Asia,Signal Loss,High,GPS
+2020-07-12,00:12,43,Oceania,Signal Loss,High,GPS
+2016-09-24,07:32,8,Oceania,Accuracy Drop,Low,GPS
+2023-09-24,23:21,55,Asia,Accuracy Drop,High,GPS
+2021-12-30,16:10,23,North America,Accuracy Drop,Medium,GPS
+2022-01-30,09:21,51,Europe,Signal Loss,High,GPS
+2016-03-03,18:36,3,Asia,Timing Error,Low,GPS
+2024-02-28,05:58,10,Europe,Accuracy Drop,Low,GPS
+2024-08-24,18:53,32,Oceania,Signal Loss,High,GPS
+2019-08-14,06:52,44,Asia,Signal Loss,High,GPS
+2018-11-15,03:04,14,North America,Accuracy Drop,Medium,GPS
+2024-05-31,08:12,55,Oceania,Accuracy Drop,High,GPS
+2023-08-03,00:16,13,Europe,Timing Error,Medium,GPS
+2018-08-26,11:05,51,North America,Accuracy Drop,High,GPS
+2021-09-27,07:50,55,North America,Timing Error,High,GPS
+2017-12-31,00:55,4,North America,Accuracy Drop,Low,GPS
+2024-08-24,02:30,42,Europe,Timing Error,High,GPS
+2016-03-03,21:31,15,Asia,Signal Loss,Medium,GPS
+2017-12-04,10:57,47,Oceania,Timing Error,High,GPS
+2017-10-05,17:15,3,Oceania,Signal Loss,Low,GPS
+2024-08-09,05:45,57,North America,Accuracy Drop,High,GPS
+2022-05-15,19:00,36,Asia,Timing Error,High,GPS
+2019-08-30,06:19,40,Europe,Timing Error,High,GPS
+2022-02-26,15:14,1,Oceania,Timing Error,Low,GPS
+2021-09-18,14:39,58,Asia,Accuracy Drop,High,GPS
+2017-10-02,12:49,33,North America,Signal Loss,High,GPS
+2023-02-27,04:31,32,Europe,Signal Loss,High,GPS
+2017-02-27,07:30,42,Europe,Timing Error,High,GPS
+2023-04-27,01:10,40,Oceania,Signal Loss,High,GPS
+2022-09-05,21:52,28,North America,Signal Loss,Medium,GPS
+2020-08-30,18:08,51,Asia,Timing Error,High,GPS
+2016-10-24,04:10,16,Asia,Signal Loss,Medium,GPS
+2020-02-17,00:10,26,Asia,Accuracy Drop,Medium,GPS
+2015-08-28,12:12,16,Oceania,Signal Loss,Medium,GPS
+2019-11-29,09:28,39,Europe,Timing Error,High,GPS
+2020-06-06,17:15,51,Europe,Signal Loss,High,GPS
+2020-02-08,04:03,27,Europe,Accuracy Drop,Medium,GPS
+2016-11-14,15:41,38,Oceania,Signal Loss,High,GPS
+2019-04-05,01:33,18,Oceania,Accuracy Drop,Medium,GPS
+2024-11-23,20:26,52,North America,Signal Loss,High,GPS
+2021-07-06,16:44,11,Europe,Timing Error,Medium,GPS
+2024-08-07,14:27,12,Europe,Signal Loss,Medium,GPS
+2018-10-04,11:57,33,North America,Timing Error,High,GPS
+2023-12-05,02:13,20,Oceania,Signal Loss,Medium,GPS
+2019-08-20,04:18,56,Oceania,Accuracy Drop,High,GPS
+2018-09-12,09:04,4,North America,Accuracy Drop,Low,GPS
+2020-03-18,05:56,24,Europe,Accuracy Drop,Medium,GPS
+2019-10-15,22:27,26,North America,Accuracy Drop,Medium,GPS
+2018-08-06,02:08,17,Europe,Signal Loss,Medium,GPS
+2023-10-15,14:09,28,North America,Accuracy Drop,Medium,GPS
+2021-07-31,20:22,26,Europe,Timing Error,Medium,GPS
+2021-08-23,03:39,25,Europe,Timing Error,Medium,GPS
+2017-11-22,21:32,49,Asia,Accuracy Drop,High,GPS
+2016-09-12,19:12,24,Oceania,Accuracy Drop,Medium,GPS
+2020-09-21,11:40,54,Europe,Accuracy Drop,High,GPS
+2018-08-23,22:39,32,Europe,Timing Error,High,GPS
+2023-11-11,19:22,57,North America,Signal Loss,High,GPS
+2021-03-20,04:36,5,Oceania,Signal Loss,Low,GPS
+2019-05-31,08:42,26,Asia,Accuracy Drop,Medium,GPS
+2021-05-07,12:06,31,Oceania,Signal Loss,High,GPS
+2016-02-15,18:00,44,North America,Accuracy Drop,High,GPS
+2021-12-01,08:44,40,Oceania,Timing Error,High,GPS
+2021-06-22,17:40,19,Asia,Timing Error,Medium,GPS
+2019-12-13,21:06,18,Oceania,Accuracy Drop,Medium,GPS
+2015-12-11,20:00,55,Oceania,Accuracy Drop,High,GPS
+2020-08-17,06:13,36,Oceania,Timing Error,High,GPS
+2015-06-07,14:29,38,Oceania,Signal Loss,High,GPS
+2017-01-13,05:44,45,Asia,Accuracy Drop,High,GPS
+2017-01-26,12:36,18,Asia,Signal Loss,Medium,GPS
+2017-02-25,06:18,24,North America,Timing Error,Medium,GPS
+2021-01-04,14:57,27,Europe,Timing Error,Medium,GPS
+2016-12-17,19:04,6,Asia,Timing Error,Low,GPS
+2021-04-08,20:47,14,Asia,Accuracy Drop,Medium,GPS
+2022-04-03,15:38,31,Oceania,Timing Error,High,GPS
+2021-04-23,14:29,13,Oceania,Accuracy Drop,Medium,GPS
+2018-01-09,12:37,57,Oceania,Timing Error,High,GPS
+2021-12-21,02:08,10,Oceania,Signal Loss,Low,GPS
+2016-11-16,22:48,25,Oceania,Timing Error,Medium,GPS
+2021-10-28,14:55,50,Asia,Signal Loss,High,GPS
+2016-04-11,18:59,38,Oceania,Signal Loss,High,GPS
+2015-09-26,13:48,50,North America,Accuracy Drop,High,GPS
+2019-07-22,19:15,24,North America,Signal Loss,Medium,GPS
+2021-11-26,08:39,5,Oceania,Signal Loss,Low,GPS
+2015-03-05,10:58,48,Oceania,Accuracy Drop,High,GPS
+2016-03-08,01:02,8,Europe,Timing Error,Low,GPS
+2015-05-07,08:02,41,Asia,Timing Error,High,GPS
+2019-08-10,16:36,35,North America,Signal Loss,High,GPS
+2020-12-16,13:26,47,North America,Timing Error,High,GPS
+2021-12-30,03:58,41,Europe,Signal Loss,High,GPS
+2019-09-25,23:27,59,Oceania,Signal Loss,High,GPS
+2016-04-29,12:38,41,Asia,Signal Loss,High,GPS
+2024-08-15,05:53,2,Oceania,Signal Loss,Low,GPS
+2020-01-27,01:35,46,Europe,Timing Error,High,GPS
+2022-03-21,06:49,57,North America,Accuracy Drop,High,GPS
+2019-04-30,09:12,48,Oceania,Signal Loss,High,GPS
+2019-01-29,20:45,13,Europe,Timing Error,Medium,GPS
+2021-02-24,19:57,37,Europe,Accuracy Drop,High,GPS
+2024-05-17,05:21,56,Oceania,Timing Error,High,GPS
+2019-02-13,04:24,49,North America,Signal Loss,High,GPS
+2015-12-10,10:03,53,Europe,Accuracy Drop,High,GPS
+2017-02-19,06:03,30,Asia,Accuracy Drop,Medium,GPS
+2024-07-16,16:27,22,Oceania,Timing Error,Medium,GPS
+2019-12-21,08:19,18,North America,Accuracy Drop,Medium,GPS
+2021-01-08,14:53,17,Europe,Timing Error,Medium,GPS
+2020-08-13,05:30,13,Europe,Accuracy Drop,Medium,GPS
+2017-01-24,23:27,14,Oceania,Accuracy Drop,Medium,GPS
+2015-12-24,02:55,11,Europe,Accuracy Drop,Medium,GPS
+2016-05-26,22:10,28,Asia,Timing Error,Medium,GPS
+2015-09-07,18:41,13,Asia,Accuracy Drop,Medium,GPS
+2016-01-20,15:25,22,Asia,Timing Error,Medium,GPS
+2024-07-19,11:36,27,Europe,Signal Loss,Medium,GPS
+2016-05-23,21:15,47,North America,Timing Error,High,GPS
+2024-03-06,00:54,50,Asia,Signal Loss,High,GPS
+2021-07-27,00:55,3,Oceania,Accuracy Drop,Low,GPS
+2018-08-20,16:45,40,Europe,Timing Error,High,GPS
+2023-02-01,08:07,1,Asia,Accuracy Drop,Low,GPS
+2021-04-21,09:54,11,North America,Accuracy Drop,Medium,GPS
+2024-06-29,04:00,28,Europe,Signal Loss,Medium,GPS
+2015-10-24,03:07,51,Europe,Timing Error,High,GPS
+2016-04-08,03:06,56,Asia,Timing Error,High,GPS
+2021-08-07,03:58,28,Oceania,Timing Error,Medium,GPS
+2022-04-01,12:13,24,Europe,Signal Loss,Medium,GPS
+2016-01-23,11:51,54,North America,Signal Loss,High,GPS
+2023-02-08,07:49,40,Europe,Signal Loss,High,GPS
+2019-03-18,07:25,42,Europe,Signal Loss,High,GPS
+2017-04-13,06:14,39,Europe,Accuracy Drop,High,GPS
+2015-06-09,11:21,26,Oceania,Accuracy Drop,Medium,GPS
+2017-04-03,17:26,53,Oceania,Timing Error,High,GPS
+2017-12-24,02:37,17,Oceania,Accuracy Drop,Medium,GPS
+2015-01-27,02:26,2,Europe,Timing Error,Low,GPS
+2016-11-24,04:12,40,Europe,Timing Error,High,GPS
+2021-09-12,16:54,17,North America,Accuracy Drop,Medium,GPS
+2021-11-06,12:21,55,Oceania,Timing Error,High,GPS
+2024-06-04,07:50,39,Asia,Signal Loss,High,GPS
+2015-03-10,00:22,56,Asia,Signal Loss,High,GPS
+2016-05-25,05:49,40,Oceania,Signal Loss,High,GPS
+2015-06-17,00:46,30,North America,Accuracy Drop,Medium,GPS
+2019-02-08,14:12,38,North America,Timing Error,High,GPS
+2018-03-30,07:51,27,Europe,Accuracy Drop,Medium,GPS
+2024-09-17,03:32,22,North America,Timing Error,Medium,GPS
+2022-01-14,13:08,13,Asia,Signal Loss,Medium,GPS
+2019-05-07,03:57,19,North America,Signal Loss,Medium,GPS
+2024-01-17,12:36,50,Oceania,Timing Error,High,GPS
+2023-03-29,10:26,34,Oceania,Signal Loss,High,GPS
+2023-06-09,09:40,26,Oceania,Timing Error,Medium,GPS
+2017-07-14,22:52,41,Europe,Accuracy Drop,High,GPS
+2015-11-12,01:47,1,North America,Signal Loss,Low,GPS
+2015-06-07,08:54,57,Europe,Signal Loss,High,GPS
+2018-04-01,20:15,22,Asia,Signal Loss,Medium,GPS
+2018-04-21,08:26,19,Asia,Signal Loss,Medium,GPS
+2024-04-11,22:01,9,North America,Signal Loss,Low,GPS
+2015-04-14,16:15,50,Europe,Signal Loss,High,GPS
+2021-01-31,22:42,1,Oceania,Accuracy Drop,Low,GPS
+2017-02-15,23:22,41,North America,Signal Loss,High,GPS
+2015-09-05,18:56,58,Oceania,Timing Error,High,GPS
+2022-11-21,05:22,21,Oceania,Timing Error,Medium,GPS
+2016-05-01,04:21,52,Asia,Timing Error,High,GPS
+2024-09-02,07:26,41,Europe,Signal Loss,High,GPS
+2015-01-20,20:51,29,Europe,Accuracy Drop,Medium,GPS
+2021-10-22,04:53,40,Asia,Timing Error,High,GPS
+2018-09-27,07:12,17,Europe,Signal Loss,Medium,GPS
+2023-01-10,02:11,54,Europe,Timing Error,High,GPS
+2021-02-22,09:36,51,Oceania,Accuracy Drop,High,GPS
+2021-10-25,10:04,3,Asia,Timing Error,Low,GPS
+2023-07-01,11:59,15,Europe,Timing Error,Medium,GPS
+2020-08-09,03:44,30,North America,Signal Loss,Medium,GPS
+2020-03-20,17:38,49,Oceania,Accuracy Drop,High,GPS
+2022-10-19,14:17,52,North America,Accuracy Drop,High,GPS
+2016-11-09,18:35,11,Oceania,Signal Loss,Medium,GPS
+2021-04-18,04:39,35,Oceania,Accuracy Drop,High,GPS

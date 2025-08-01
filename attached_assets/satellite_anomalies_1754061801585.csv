@@ -1,0 +1,1720 @@
+Date,Time,Anomaly,Related_Event,Impact_Level,Infrastructure
+2024-10-30,23:25,Orientation Error,Kp Spike,Low,Satellite
+2019-02-26,05:54,Communication Loss,CME,High,Satellite
+2020-08-25,16:45,Communication Loss,Kp Spike,High,Satellite
+2015-12-04,03:25,Power Drop,Kp Spike,Medium,Satellite
+2018-05-23,14:38,Power Drop,CME,Medium,Satellite
+2018-09-26,02:54,Power Drop,CME,Medium,Satellite
+2018-03-05,12:19,Orientation Error,Flare,Low,Satellite
+2020-10-18,09:53,Orientation Error,Kp Spike,Low,Satellite
+2021-09-03,14:22,Communication Loss,Flare,High,Satellite
+2021-11-02,22:08,Orientation Error,Kp Spike,Low,Satellite
+2024-04-07,21:27,Power Drop,CME,Medium,Satellite
+2019-03-25,08:46,Communication Loss,Kp Spike,High,Satellite
+2021-09-20,06:24,Orientation Error,Kp Spike,Low,Satellite
+2022-03-22,05:24,Communication Loss,CME,High,Satellite
+2015-06-18,20:53,Communication Loss,Flare,High,Satellite
+2015-09-29,10:31,Orientation Error,Flare,Low,Satellite
+2017-06-07,10:10,Power Drop,Kp Spike,Medium,Satellite
+2022-12-11,19:16,Orientation Error,Flare,Low,Satellite
+2021-02-15,07:20,Orientation Error,CME,Low,Satellite
+2016-06-28,00:49,Orientation Error,CME,Low,Satellite
+2017-08-31,15:25,Communication Loss,Kp Spike,High,Satellite
+2017-01-11,19:00,Communication Loss,Flare,High,Satellite
+2015-04-28,00:56,Orientation Error,Kp Spike,Low,Satellite
+2024-06-15,13:24,Communication Loss,CME,High,Satellite
+2015-06-02,21:15,Power Drop,CME,Medium,Satellite
+2019-04-09,01:39,Communication Loss,Flare,High,Satellite
+2021-03-05,05:26,Power Drop,Flare,Medium,Satellite
+2020-05-06,10:13,Communication Loss,Kp Spike,High,Satellite
+2024-01-11,01:38,Orientation Error,Kp Spike,Low,Satellite
+2015-11-25,13:30,Power Drop,Kp Spike,Medium,Satellite
+2016-09-12,14:38,Power Drop,Kp Spike,Medium,Satellite
+2018-12-21,12:02,Power Drop,Kp Spike,Medium,Satellite
+2022-02-28,20:52,Orientation Error,Kp Spike,Low,Satellite
+2019-08-31,18:27,Power Drop,Flare,Medium,Satellite
+2020-04-03,01:10,Communication Loss,CME,High,Satellite
+2015-05-02,22:17,Power Drop,Flare,Medium,Satellite
+2020-02-19,05:34,Orientation Error,Flare,Low,Satellite
+2018-05-14,17:18,Communication Loss,Kp Spike,High,Satellite
+2022-04-03,09:29,Communication Loss,Flare,High,Satellite
+2019-03-06,01:33,Communication Loss,Flare,High,Satellite
+2024-07-17,20:24,Power Drop,Flare,Medium,Satellite
+2022-08-13,05:47,Orientation Error,Kp Spike,Low,Satellite
+2021-06-13,04:09,Orientation Error,Kp Spike,Low,Satellite
+2019-07-20,09:32,Orientation Error,CME,Low,Satellite
+2021-04-05,05:22,Communication Loss,CME,High,Satellite
+2021-05-07,18:28,Communication Loss,CME,High,Satellite
+2015-05-26,18:33,Orientation Error,Flare,Low,Satellite
+2021-08-30,10:23,Orientation Error,CME,Low,Satellite
+2019-11-03,01:58,Orientation Error,Kp Spike,Low,Satellite
+2018-04-02,13:06,Power Drop,Kp Spike,Medium,Satellite
+2022-05-06,00:23,Communication Loss,CME,High,Satellite
+2023-06-26,13:09,Orientation Error,CME,Low,Satellite
+2024-12-17,05:33,Orientation Error,Kp Spike,Low,Satellite
+2024-03-15,17:52,Orientation Error,CME,Low,Satellite
+2024-05-16,05:14,Power Drop,Kp Spike,Medium,Satellite
+2016-09-10,17:34,Power Drop,CME,Medium,Satellite
+2024-03-02,23:55,Communication Loss,CME,High,Satellite
+2015-04-17,17:38,Orientation Error,CME,Low,Satellite
+2024-05-26,15:21,Communication Loss,Kp Spike,High,Satellite
+2016-12-28,12:39,Communication Loss,Flare,High,Satellite
+2022-09-10,09:31,Orientation Error,Flare,Low,Satellite
+2018-02-18,06:37,Orientation Error,Kp Spike,Low,Satellite
+2017-10-06,13:20,Orientation Error,Kp Spike,Low,Satellite
+2019-07-26,08:33,Communication Loss,CME,High,Satellite
+2018-03-25,06:53,Communication Loss,Flare,High,Satellite
+2024-12-25,11:43,Power Drop,Kp Spike,Medium,Satellite
+2016-06-16,04:14,Communication Loss,CME,High,Satellite
+2023-12-23,12:59,Power Drop,Kp Spike,Medium,Satellite
+2018-11-08,11:32,Orientation Error,Kp Spike,Low,Satellite
+2019-01-15,00:25,Orientation Error,CME,Low,Satellite
+2016-03-22,19:28,Power Drop,Flare,Medium,Satellite
+2015-10-25,17:32,Communication Loss,Flare,High,Satellite
+2017-08-03,08:55,Power Drop,Flare,Medium,Satellite
+2019-08-24,00:46,Communication Loss,Flare,High,Satellite
+2015-03-02,07:44,Power Drop,Flare,Medium,Satellite
+2022-11-15,01:13,Communication Loss,Kp Spike,High,Satellite
+2022-06-19,10:52,Communication Loss,CME,High,Satellite
+2024-09-06,23:15,Communication Loss,Kp Spike,High,Satellite
+2016-08-01,11:41,Communication Loss,CME,High,Satellite
+2022-07-04,18:16,Orientation Error,CME,Low,Satellite
+2023-06-29,22:34,Orientation Error,CME,Low,Satellite
+2021-02-14,11:32,Communication Loss,Kp Spike,High,Satellite
+2015-03-06,21:26,Power Drop,Kp Spike,Medium,Satellite
+2015-02-13,00:31,Orientation Error,CME,Low,Satellite
+2015-01-12,17:38,Communication Loss,Kp Spike,High,Satellite
+2023-12-25,21:00,Power Drop,Kp Spike,Medium,Satellite
+2016-09-15,07:15,Orientation Error,CME,Low,Satellite
+2020-09-02,11:14,Communication Loss,Kp Spike,High,Satellite
+2015-03-16,07:56,Communication Loss,Kp Spike,High,Satellite
+2018-03-19,17:18,Orientation Error,Flare,Low,Satellite
+2020-06-25,10:15,Power Drop,Kp Spike,Medium,Satellite
+2020-12-20,14:09,Communication Loss,Flare,High,Satellite
+2020-04-16,18:40,Communication Loss,Flare,High,Satellite
+2020-09-27,23:54,Communication Loss,Flare,High,Satellite
+2023-05-02,14:34,Communication Loss,Kp Spike,High,Satellite
+2019-04-08,20:17,Orientation Error,Flare,Low,Satellite
+2017-09-28,21:22,Orientation Error,Flare,Low,Satellite
+2017-03-30,05:19,Power Drop,CME,Medium,Satellite
+2024-05-18,23:31,Communication Loss,Flare,High,Satellite
+2020-10-11,06:17,Orientation Error,Kp Spike,Low,Satellite
+2021-10-13,11:55,Communication Loss,Kp Spike,High,Satellite
+2017-09-30,23:54,Orientation Error,Flare,Low,Satellite
+2024-05-19,11:17,Communication Loss,CME,High,Satellite
+2015-11-18,05:00,Orientation Error,Flare,Low,Satellite
+2023-04-09,03:57,Power Drop,Flare,Medium,Satellite
+2022-08-04,06:57,Orientation Error,Flare,Low,Satellite
+2017-07-22,02:31,Orientation Error,Kp Spike,Low,Satellite
+2017-10-16,13:29,Communication Loss,Flare,High,Satellite
+2015-10-10,13:02,Power Drop,Kp Spike,Medium,Satellite
+2016-09-22,05:50,Communication Loss,Kp Spike,High,Satellite
+2015-05-13,01:06,Power Drop,CME,Medium,Satellite
+2016-01-10,12:56,Orientation Error,Flare,Low,Satellite
+2017-07-04,09:43,Communication Loss,Flare,High,Satellite
+2022-07-29,08:10,Power Drop,Flare,Medium,Satellite
+2020-01-26,08:02,Orientation Error,Kp Spike,Low,Satellite
+2019-06-24,22:48,Orientation Error,CME,Low,Satellite
+2018-05-18,06:15,Communication Loss,CME,High,Satellite
+2021-08-15,02:29,Power Drop,Kp Spike,Medium,Satellite
+2021-07-11,10:46,Communication Loss,Kp Spike,High,Satellite
+2016-12-01,19:54,Power Drop,CME,Medium,Satellite
+2019-05-24,15:37,Orientation Error,Kp Spike,Low,Satellite
+2016-09-25,16:44,Power Drop,Flare,Medium,Satellite
+2019-03-25,07:14,Orientation Error,Flare,Low,Satellite
+2019-04-27,11:40,Power Drop,Kp Spike,Medium,Satellite
+2017-03-06,05:37,Power Drop,Flare,Medium,Satellite
+2020-04-12,08:08,Orientation Error,Kp Spike,Low,Satellite
+2024-11-08,16:54,Communication Loss,Kp Spike,High,Satellite
+2022-03-20,07:28,Power Drop,CME,Medium,Satellite
+2022-02-12,01:51,Power Drop,CME,Medium,Satellite
+2018-05-21,13:56,Power Drop,CME,Medium,Satellite
+2020-01-17,22:43,Power Drop,CME,Medium,Satellite
+2019-01-03,06:55,Orientation Error,Kp Spike,Low,Satellite
+2018-06-06,11:36,Orientation Error,Kp Spike,Low,Satellite
+2019-06-25,23:39,Power Drop,Flare,Medium,Satellite
+2020-03-27,12:54,Power Drop,Kp Spike,Medium,Satellite
+2016-08-16,06:02,Orientation Error,CME,Low,Satellite
+2015-12-24,18:35,Communication Loss,CME,High,Satellite
+2016-10-12,02:12,Orientation Error,Kp Spike,Low,Satellite
+2017-03-03,08:32,Orientation Error,Kp Spike,Low,Satellite
+2017-07-16,21:33,Communication Loss,CME,High,Satellite
+2021-03-07,04:15,Communication Loss,CME,High,Satellite
+2019-09-14,08:57,Power Drop,Kp Spike,Medium,Satellite
+2020-09-08,00:14,Power Drop,Kp Spike,Medium,Satellite
+2018-10-19,22:00,Power Drop,Flare,Medium,Satellite
+2024-10-05,18:40,Communication Loss,Flare,High,Satellite
+2024-04-05,17:01,Orientation Error,CME,Low,Satellite
+2018-12-05,20:04,Power Drop,CME,Medium,Satellite
+2016-06-14,23:23,Communication Loss,CME,High,Satellite
+2023-12-21,22:32,Communication Loss,CME,High,Satellite
+2015-03-17,06:28,Orientation Error,Flare,Low,Satellite
+2021-11-09,22:01,Power Drop,Flare,Medium,Satellite
+2023-11-27,19:04,Communication Loss,Kp Spike,High,Satellite
+2018-06-15,13:33,Orientation Error,Kp Spike,Low,Satellite
+2024-03-16,05:37,Power Drop,Flare,Medium,Satellite
+2015-07-13,14:22,Communication Loss,Flare,High,Satellite
+2017-05-02,06:50,Orientation Error,Flare,Low,Satellite
+2018-06-28,04:06,Power Drop,Kp Spike,Medium,Satellite
+2019-09-06,14:33,Orientation Error,Kp Spike,Low,Satellite
+2018-05-16,08:38,Orientation Error,CME,Low,Satellite
+2016-03-24,09:42,Communication Loss,Kp Spike,High,Satellite
+2017-07-04,20:41,Orientation Error,CME,Low,Satellite
+2018-10-22,11:21,Orientation Error,CME,Low,Satellite
+2021-04-16,14:28,Orientation Error,Flare,Low,Satellite
+2023-11-07,07:59,Power Drop,Flare,Medium,Satellite
+2023-08-23,01:30,Orientation Error,Kp Spike,Low,Satellite
+2017-01-27,23:12,Communication Loss,Kp Spike,High,Satellite
+2019-05-15,01:45,Communication Loss,CME,High,Satellite
+2021-05-04,18:09,Power Drop,CME,Medium,Satellite
+2019-06-22,23:33,Communication Loss,Flare,High,Satellite
+2023-01-14,06:53,Power Drop,Flare,Medium,Satellite
+2019-06-28,13:20,Communication Loss,CME,High,Satellite
+2018-05-18,07:46,Orientation Error,CME,Low,Satellite
+2020-01-16,23:58,Communication Loss,CME,High,Satellite
+2015-04-22,00:48,Communication Loss,Flare,High,Satellite
+2016-05-19,17:55,Communication Loss,Kp Spike,High,Satellite
+2020-08-14,15:28,Communication Loss,Kp Spike,High,Satellite
+2024-11-24,17:53,Orientation Error,CME,Low,Satellite
+2015-10-10,00:21,Communication Loss,Kp Spike,High,Satellite
+2024-10-16,19:36,Power Drop,Flare,Medium,Satellite
+2024-11-28,23:38,Orientation Error,Kp Spike,Low,Satellite
+2017-11-28,11:46,Communication Loss,CME,High,Satellite
+2017-07-24,00:45,Power Drop,CME,Medium,Satellite
+2017-01-22,23:17,Orientation Error,Flare,Low,Satellite
+2024-07-17,11:42,Communication Loss,Flare,High,Satellite
+2024-06-11,23:13,Power Drop,CME,Medium,Satellite
+2016-12-23,05:49,Orientation Error,CME,Low,Satellite
+2023-12-06,12:54,Power Drop,Kp Spike,Medium,Satellite
+2015-03-07,01:29,Power Drop,CME,Medium,Satellite
+2022-06-08,11:44,Power Drop,Kp Spike,Medium,Satellite
+2021-06-29,11:02,Communication Loss,Kp Spike,High,Satellite
+2017-06-15,09:47,Orientation Error,CME,Low,Satellite
+2015-07-21,03:20,Power Drop,Flare,Medium,Satellite
+2020-09-21,17:05,Orientation Error,Kp Spike,Low,Satellite
+2022-04-10,14:27,Orientation Error,Flare,Low,Satellite
+2021-07-28,07:24,Power Drop,Kp Spike,Medium,Satellite
+2022-02-11,22:48,Power Drop,Kp Spike,Medium,Satellite
+2024-01-20,19:09,Power Drop,Kp Spike,Medium,Satellite
+2015-05-08,12:54,Communication Loss,Kp Spike,High,Satellite
+2023-09-15,15:40,Communication Loss,Kp Spike,High,Satellite
+2019-12-04,19:09,Orientation Error,Kp Spike,Low,Satellite
+2016-12-19,19:51,Power Drop,Kp Spike,Medium,Satellite
+2021-08-15,07:17,Orientation Error,Kp Spike,Low,Satellite
+2022-06-08,14:27,Power Drop,Kp Spike,Medium,Satellite
+2015-04-14,14:06,Orientation Error,CME,Low,Satellite
+2017-01-21,19:19,Communication Loss,CME,High,Satellite
+2020-12-26,14:00,Power Drop,CME,Medium,Satellite
+2015-12-29,17:49,Communication Loss,CME,High,Satellite
+2021-11-28,04:38,Communication Loss,Kp Spike,High,Satellite
+2021-12-28,10:45,Communication Loss,Flare,High,Satellite
+2020-12-13,08:36,Communication Loss,Flare,High,Satellite
+2024-04-14,22:45,Orientation Error,Kp Spike,Low,Satellite
+2024-01-17,10:43,Communication Loss,Kp Spike,High,Satellite
+2020-03-03,01:28,Power Drop,CME,Medium,Satellite
+2019-05-27,19:41,Communication Loss,Flare,High,Satellite
+2022-01-13,18:16,Orientation Error,Kp Spike,Low,Satellite
+2017-10-05,02:04,Orientation Error,Kp Spike,Low,Satellite
+2023-12-14,04:21,Power Drop,Kp Spike,Medium,Satellite
+2020-09-13,07:20,Communication Loss,Kp Spike,High,Satellite
+2024-01-23,23:30,Orientation Error,CME,Low,Satellite
+2017-01-16,08:46,Orientation Error,CME,Low,Satellite
+2024-03-05,20:33,Power Drop,Flare,Medium,Satellite
+2024-05-31,21:59,Orientation Error,CME,Low,Satellite
+2024-12-17,23:36,Orientation Error,Kp Spike,Low,Satellite
+2022-05-23,15:32,Orientation Error,CME,Low,Satellite
+2015-04-23,17:15,Orientation Error,CME,Low,Satellite
+2015-04-26,23:03,Power Drop,CME,Medium,Satellite
+2017-12-22,19:04,Power Drop,CME,Medium,Satellite
+2021-02-17,18:50,Power Drop,CME,Medium,Satellite
+2019-08-09,00:14,Communication Loss,Kp Spike,High,Satellite
+2022-02-22,14:38,Orientation Error,CME,Low,Satellite
+2015-04-19,06:45,Communication Loss,Kp Spike,High,Satellite
+2018-08-04,02:55,Power Drop,Kp Spike,Medium,Satellite
+2024-06-10,22:32,Orientation Error,Kp Spike,Low,Satellite
+2017-04-11,03:10,Communication Loss,CME,High,Satellite
+2016-05-12,23:48,Communication Loss,Kp Spike,High,Satellite
+2021-01-08,18:52,Communication Loss,CME,High,Satellite
+2020-12-19,00:20,Power Drop,Flare,Medium,Satellite
+2021-07-08,21:06,Power Drop,Flare,Medium,Satellite
+2017-09-13,02:32,Orientation Error,Kp Spike,Low,Satellite
+2023-07-06,16:50,Power Drop,Kp Spike,Medium,Satellite
+2023-03-30,15:52,Power Drop,Kp Spike,Medium,Satellite
+2020-07-25,20:16,Orientation Error,Kp Spike,Low,Satellite
+2022-05-20,10:49,Power Drop,Flare,Medium,Satellite
+2016-11-08,02:18,Communication Loss,CME,High,Satellite
+2015-10-23,23:47,Power Drop,Kp Spike,Medium,Satellite
+2022-04-24,21:49,Power Drop,CME,Medium,Satellite
+2021-07-01,03:07,Power Drop,Flare,Medium,Satellite
+2023-09-27,21:22,Orientation Error,Flare,Low,Satellite
+2021-11-14,23:35,Communication Loss,Flare,High,Satellite
+2016-02-05,11:51,Communication Loss,CME,High,Satellite
+2024-12-16,14:25,Orientation Error,CME,Low,Satellite
+2024-12-25,15:47,Orientation Error,Flare,Low,Satellite
+2019-04-17,21:49,Communication Loss,Flare,High,Satellite
+2018-02-17,21:44,Power Drop,Kp Spike,Medium,Satellite
+2020-04-09,12:53,Orientation Error,Flare,Low,Satellite
+2018-01-15,11:48,Communication Loss,CME,High,Satellite
+2023-05-11,01:52,Orientation Error,Kp Spike,Low,Satellite
+2015-01-11,11:13,Orientation Error,CME,Low,Satellite
+2022-10-06,06:48,Power Drop,CME,Medium,Satellite
+2017-01-12,19:15,Power Drop,CME,Medium,Satellite
+2022-07-19,12:39,Orientation Error,CME,Low,Satellite
+2019-06-22,13:50,Power Drop,Flare,Medium,Satellite
+2022-04-30,10:09,Communication Loss,Flare,High,Satellite
+2020-12-20,13:04,Communication Loss,Flare,High,Satellite
+2015-12-29,14:03,Communication Loss,CME,High,Satellite
+2017-09-21,21:12,Power Drop,CME,Medium,Satellite
+2021-10-12,20:15,Power Drop,Flare,Medium,Satellite
+2019-03-19,13:32,Power Drop,Flare,Medium,Satellite
+2017-09-24,06:46,Orientation Error,Flare,Low,Satellite
+2015-08-19,20:54,Communication Loss,Flare,High,Satellite
+2024-01-27,05:31,Power Drop,Kp Spike,Medium,Satellite
+2024-11-25,22:23,Communication Loss,Flare,High,Satellite
+2020-07-08,05:56,Orientation Error,Kp Spike,Low,Satellite
+2015-09-27,20:04,Communication Loss,Kp Spike,High,Satellite
+2019-10-29,17:20,Communication Loss,Flare,High,Satellite
+2021-10-22,19:25,Communication Loss,Kp Spike,High,Satellite
+2024-06-24,20:17,Power Drop,Kp Spike,Medium,Satellite
+2018-02-28,18:11,Communication Loss,Flare,High,Satellite
+2018-11-16,22:27,Orientation Error,Kp Spike,Low,Satellite
+2023-08-26,01:55,Communication Loss,Flare,High,Satellite
+2019-03-03,04:52,Communication Loss,Flare,High,Satellite
+2021-04-22,04:33,Orientation Error,CME,Low,Satellite
+2023-10-06,06:18,Power Drop,CME,Medium,Satellite
+2021-09-01,18:57,Power Drop,Flare,Medium,Satellite
+2017-10-25,05:05,Communication Loss,CME,High,Satellite
+2021-11-15,08:53,Orientation Error,Flare,Low,Satellite
+2024-09-09,01:50,Orientation Error,CME,Low,Satellite
+2021-03-30,13:55,Communication Loss,Kp Spike,High,Satellite
+2016-06-13,08:56,Orientation Error,Flare,Low,Satellite
+2022-02-03,13:43,Power Drop,Flare,Medium,Satellite
+2019-02-18,22:59,Orientation Error,CME,Low,Satellite
+2024-10-23,10:40,Power Drop,Kp Spike,Medium,Satellite
+2023-01-01,13:00,Orientation Error,Kp Spike,Low,Satellite
+2018-11-21,10:27,Communication Loss,CME,High,Satellite
+2015-11-21,21:46,Orientation Error,Kp Spike,Low,Satellite
+2018-09-14,22:46,Communication Loss,Kp Spike,High,Satellite
+2022-05-30,13:53,Orientation Error,CME,Low,Satellite
+2017-04-14,16:11,Orientation Error,Flare,Low,Satellite
+2023-05-29,11:43,Power Drop,CME,Medium,Satellite
+2024-12-20,18:33,Orientation Error,CME,Low,Satellite
+2024-09-08,10:20,Communication Loss,Flare,High,Satellite
+2016-01-29,20:41,Power Drop,Flare,Medium,Satellite
+2020-03-08,16:25,Orientation Error,CME,Low,Satellite
+2020-09-07,20:32,Power Drop,Flare,Medium,Satellite
+2015-01-27,00:44,Power Drop,Kp Spike,Medium,Satellite
+2016-01-23,19:44,Communication Loss,CME,High,Satellite
+2015-01-16,23:09,Orientation Error,CME,Low,Satellite
+2017-07-28,23:38,Communication Loss,CME,High,Satellite
+2017-09-12,22:08,Orientation Error,Kp Spike,Low,Satellite
+2018-01-18,12:08,Orientation Error,CME,Low,Satellite
+2024-03-23,16:41,Power Drop,CME,Medium,Satellite
+2016-11-28,01:40,Orientation Error,CME,Low,Satellite
+2020-02-07,23:22,Communication Loss,CME,High,Satellite
+2017-11-13,19:35,Power Drop,Flare,Medium,Satellite
+2019-10-20,06:04,Orientation Error,CME,Low,Satellite
+2018-07-02,07:24,Communication Loss,Kp Spike,High,Satellite
+2016-02-08,21:45,Communication Loss,CME,High,Satellite
+2018-05-19,11:53,Power Drop,Flare,Medium,Satellite
+2019-01-25,14:03,Orientation Error,CME,Low,Satellite
+2023-12-15,22:53,Power Drop,Flare,Medium,Satellite
+2016-04-21,22:03,Orientation Error,Flare,Low,Satellite
+2023-10-16,22:43,Communication Loss,CME,High,Satellite
+2016-02-25,17:07,Communication Loss,CME,High,Satellite
+2020-03-27,09:12,Communication Loss,Kp Spike,High,Satellite
+2021-02-11,04:01,Orientation Error,Flare,Low,Satellite
+2017-04-29,05:32,Power Drop,CME,Medium,Satellite
+2018-05-17,08:24,Communication Loss,Kp Spike,High,Satellite
+2021-08-26,04:15,Power Drop,CME,Medium,Satellite
+2020-10-27,10:22,Communication Loss,Flare,High,Satellite
+2018-01-21,02:19,Orientation Error,Kp Spike,Low,Satellite
+2017-05-02,19:15,Orientation Error,Kp Spike,Low,Satellite
+2019-03-19,00:53,Orientation Error,Kp Spike,Low,Satellite
+2018-04-02,20:45,Orientation Error,Flare,Low,Satellite
+2022-11-26,05:00,Power Drop,Kp Spike,Medium,Satellite
+2019-01-23,01:57,Power Drop,CME,Medium,Satellite
+2022-02-07,18:17,Orientation Error,Kp Spike,Low,Satellite
+2024-03-27,18:43,Power Drop,Kp Spike,Medium,Satellite
+2017-10-26,08:07,Orientation Error,CME,Low,Satellite
+2024-07-21,17:10,Power Drop,Flare,Medium,Satellite
+2017-05-11,18:22,Power Drop,Kp Spike,Medium,Satellite
+2021-06-15,15:06,Orientation Error,Kp Spike,Low,Satellite
+2017-06-29,09:52,Communication Loss,Flare,High,Satellite
+2021-11-16,06:06,Power Drop,Flare,Medium,Satellite
+2020-03-27,10:33,Orientation Error,Kp Spike,Low,Satellite
+2017-12-08,00:31,Power Drop,Flare,Medium,Satellite
+2020-07-11,20:41,Orientation Error,CME,Low,Satellite
+2018-06-11,04:20,Communication Loss,CME,High,Satellite
+2020-08-09,19:47,Orientation Error,CME,Low,Satellite
+2019-06-23,20:43,Orientation Error,Kp Spike,Low,Satellite
+2017-12-24,09:00,Communication Loss,Flare,High,Satellite
+2020-09-22,13:21,Power Drop,CME,Medium,Satellite
+2016-09-20,07:01,Power Drop,Kp Spike,Medium,Satellite
+2017-03-12,20:28,Communication Loss,Flare,High,Satellite
+2020-01-24,01:57,Orientation Error,CME,Low,Satellite
+2018-05-26,15:22,Orientation Error,Kp Spike,Low,Satellite
+2017-08-01,20:24,Orientation Error,Kp Spike,Low,Satellite
+2023-12-17,15:57,Communication Loss,Kp Spike,High,Satellite
+2016-12-29,16:55,Communication Loss,CME,High,Satellite
+2019-08-19,19:09,Communication Loss,CME,High,Satellite
+2019-10-15,17:47,Power Drop,CME,Medium,Satellite
+2016-01-09,14:53,Orientation Error,Flare,Low,Satellite
+2021-05-23,16:29,Power Drop,Kp Spike,Medium,Satellite
+2017-04-20,17:09,Power Drop,CME,Medium,Satellite
+2022-06-10,20:50,Orientation Error,Kp Spike,Low,Satellite
+2016-10-14,03:54,Orientation Error,Kp Spike,Low,Satellite
+2015-09-28,06:19,Orientation Error,Kp Spike,Low,Satellite
+2022-04-10,00:14,Communication Loss,Kp Spike,High,Satellite
+2021-09-24,00:35,Communication Loss,Flare,High,Satellite
+2018-11-14,17:29,Orientation Error,Kp Spike,Low,Satellite
+2015-07-10,12:07,Communication Loss,CME,High,Satellite
+2018-12-05,20:41,Power Drop,CME,Medium,Satellite
+2019-01-25,06:08,Power Drop,CME,Medium,Satellite
+2022-01-11,12:44,Orientation Error,Flare,Low,Satellite
+2017-11-21,13:18,Orientation Error,Flare,Low,Satellite
+2021-01-01,14:42,Communication Loss,Kp Spike,High,Satellite
+2015-12-30,04:38,Orientation Error,Kp Spike,Low,Satellite
+2019-08-26,02:04,Orientation Error,Kp Spike,Low,Satellite
+2016-12-14,10:51,Power Drop,Flare,Medium,Satellite
+2016-11-30,03:15,Power Drop,Kp Spike,Medium,Satellite
+2016-12-24,09:41,Power Drop,CME,Medium,Satellite
+2021-03-25,08:49,Communication Loss,Flare,High,Satellite
+2017-01-07,14:41,Communication Loss,Flare,High,Satellite
+2024-05-14,09:20,Orientation Error,Flare,Low,Satellite
+2019-03-26,06:06,Power Drop,Flare,Medium,Satellite
+2015-09-07,11:10,Communication Loss,Kp Spike,High,Satellite
+2016-06-11,20:33,Orientation Error,Flare,Low,Satellite
+2020-02-22,00:49,Orientation Error,Flare,Low,Satellite
+2016-01-05,23:46,Power Drop,CME,Medium,Satellite
+2018-06-30,01:53,Orientation Error,Flare,Low,Satellite
+2022-08-04,16:31,Orientation Error,CME,Low,Satellite
+2021-01-25,04:42,Communication Loss,CME,High,Satellite
+2018-12-03,14:58,Communication Loss,CME,High,Satellite
+2020-08-19,21:27,Orientation Error,CME,Low,Satellite
+2023-10-08,12:46,Power Drop,Kp Spike,Medium,Satellite
+2023-02-27,02:37,Power Drop,CME,Medium,Satellite
+2015-11-20,08:09,Communication Loss,Flare,High,Satellite
+2022-10-11,05:48,Power Drop,Flare,Medium,Satellite
+2015-09-30,12:36,Power Drop,CME,Medium,Satellite
+2020-04-20,20:39,Power Drop,Kp Spike,Medium,Satellite
+2018-12-31,06:15,Orientation Error,CME,Low,Satellite
+2022-09-30,07:12,Orientation Error,Kp Spike,Low,Satellite
+2024-11-13,01:11,Power Drop,Kp Spike,Medium,Satellite
+2019-11-04,23:01,Communication Loss,Flare,High,Satellite
+2023-02-28,02:46,Orientation Error,Flare,Low,Satellite
+2022-10-12,04:37,Power Drop,Kp Spike,Medium,Satellite
+2017-02-26,13:44,Power Drop,CME,Medium,Satellite
+2017-03-08,03:35,Orientation Error,Flare,Low,Satellite
+2018-06-28,04:10,Power Drop,Kp Spike,Medium,Satellite
+2015-04-20,12:34,Power Drop,CME,Medium,Satellite
+2017-11-10,13:28,Power Drop,CME,Medium,Satellite
+2020-10-16,21:34,Communication Loss,CME,High,Satellite
+2017-02-03,06:09,Communication Loss,Flare,High,Satellite
+2015-04-14,18:39,Power Drop,CME,Medium,Satellite
+2022-03-18,06:36,Communication Loss,Flare,High,Satellite
+2018-10-26,18:01,Power Drop,Flare,Medium,Satellite
+2015-10-30,14:01,Power Drop,CME,Medium,Satellite
+2020-06-02,15:30,Power Drop,CME,Medium,Satellite
+2021-07-24,17:05,Power Drop,Flare,Medium,Satellite
+2023-12-08,22:41,Communication Loss,Kp Spike,High,Satellite
+2024-06-10,18:00,Orientation Error,Kp Spike,Low,Satellite
+2019-01-19,01:13,Power Drop,CME,Medium,Satellite
+2024-06-04,09:16,Orientation Error,Kp Spike,Low,Satellite
+2023-02-13,09:29,Communication Loss,CME,High,Satellite
+2015-04-18,22:39,Power Drop,Kp Spike,Medium,Satellite
+2023-08-14,22:06,Communication Loss,CME,High,Satellite
+2021-11-18,17:35,Power Drop,Flare,Medium,Satellite
+2015-05-05,15:45,Power Drop,Flare,Medium,Satellite
+2024-03-22,10:54,Communication Loss,Flare,High,Satellite
+2018-02-25,20:34,Power Drop,Kp Spike,Medium,Satellite
+2016-06-28,16:07,Orientation Error,CME,Low,Satellite
+2020-11-10,16:22,Power Drop,Flare,Medium,Satellite
+2022-01-09,04:27,Power Drop,Flare,Medium,Satellite
+2020-03-05,03:23,Power Drop,Kp Spike,Medium,Satellite
+2023-06-26,06:57,Communication Loss,CME,High,Satellite
+2023-06-09,04:18,Communication Loss,Flare,High,Satellite
+2015-02-18,04:37,Communication Loss,Flare,High,Satellite
+2019-01-17,16:12,Power Drop,CME,Medium,Satellite
+2021-06-15,19:48,Power Drop,Kp Spike,Medium,Satellite
+2017-04-27,15:24,Orientation Error,CME,Low,Satellite
+2019-11-19,20:24,Communication Loss,Kp Spike,High,Satellite
+2020-11-19,08:22,Orientation Error,CME,Low,Satellite
+2018-12-09,17:53,Orientation Error,Kp Spike,Low,Satellite
+2021-02-15,10:43,Communication Loss,CME,High,Satellite
+2015-09-26,14:44,Communication Loss,CME,High,Satellite
+2019-01-30,23:06,Communication Loss,Kp Spike,High,Satellite
+2020-02-11,08:45,Power Drop,Kp Spike,Medium,Satellite
+2015-11-03,17:59,Power Drop,Flare,Medium,Satellite
+2022-02-18,03:45,Communication Loss,CME,High,Satellite
+2023-04-14,14:37,Power Drop,CME,Medium,Satellite
+2021-09-15,22:52,Communication Loss,Kp Spike,High,Satellite
+2021-10-23,01:04,Communication Loss,CME,High,Satellite
+2021-12-29,12:04,Power Drop,Kp Spike,Medium,Satellite
+2019-12-05,00:16,Communication Loss,Kp Spike,High,Satellite
+2017-03-05,00:56,Communication Loss,Kp Spike,High,Satellite
+2018-05-30,01:11,Communication Loss,CME,High,Satellite
+2024-11-23,06:05,Power Drop,Flare,Medium,Satellite
+2024-10-01,14:55,Orientation Error,Kp Spike,Low,Satellite
+2017-01-03,10:27,Power Drop,CME,Medium,Satellite
+2016-10-03,15:56,Orientation Error,CME,Low,Satellite
+2017-12-17,07:14,Power Drop,CME,Medium,Satellite
+2024-06-14,07:08,Orientation Error,CME,Low,Satellite
+2023-09-29,10:33,Orientation Error,Flare,Low,Satellite
+2020-01-19,08:56,Orientation Error,Flare,Low,Satellite
+2022-03-23,18:09,Orientation Error,CME,Low,Satellite
+2023-11-30,20:53,Communication Loss,Flare,High,Satellite
+2018-07-15,17:08,Communication Loss,CME,High,Satellite
+2022-04-25,13:19,Communication Loss,CME,High,Satellite
+2017-08-14,21:37,Communication Loss,CME,High,Satellite
+2016-12-09,23:42,Communication Loss,Flare,High,Satellite
+2022-04-14,21:24,Power Drop,CME,Medium,Satellite
+2022-09-29,02:42,Orientation Error,Kp Spike,Low,Satellite
+2019-12-06,21:53,Power Drop,Flare,Medium,Satellite
+2015-10-19,21:35,Power Drop,Kp Spike,Medium,Satellite
+2022-10-23,13:23,Communication Loss,CME,High,Satellite
+2016-03-25,21:02,Power Drop,Flare,Medium,Satellite
+2018-10-01,21:37,Power Drop,Kp Spike,Medium,Satellite
+2019-06-11,13:19,Orientation Error,Kp Spike,Low,Satellite
+2022-03-26,19:19,Orientation Error,CME,Low,Satellite
+2022-05-01,13:02,Communication Loss,Kp Spike,High,Satellite
+2024-12-29,21:12,Orientation Error,Flare,Low,Satellite
+2023-09-02,13:22,Power Drop,Kp Spike,Medium,Satellite
+2024-04-27,20:14,Communication Loss,Flare,High,Satellite
+2024-04-17,19:53,Power Drop,Flare,Medium,Satellite
+2016-02-15,13:48,Communication Loss,CME,High,Satellite
+2017-08-31,01:10,Communication Loss,Flare,High,Satellite
+2024-06-25,10:30,Power Drop,CME,Medium,Satellite
+2021-01-25,18:43,Communication Loss,Flare,High,Satellite
+2016-03-05,10:43,Communication Loss,Kp Spike,High,Satellite
+2020-06-28,18:50,Communication Loss,CME,High,Satellite
+2022-09-29,23:36,Communication Loss,Flare,High,Satellite
+2016-07-01,12:19,Communication Loss,Flare,High,Satellite
+2023-10-05,01:45,Communication Loss,CME,High,Satellite
+2021-03-24,12:44,Power Drop,CME,Medium,Satellite
+2016-02-03,22:15,Orientation Error,Kp Spike,Low,Satellite
+2015-09-19,04:23,Orientation Error,Flare,Low,Satellite
+2016-10-17,15:05,Communication Loss,CME,High,Satellite
+2024-08-21,08:22,Communication Loss,Flare,High,Satellite
+2018-06-08,04:00,Power Drop,Kp Spike,Medium,Satellite
+2018-03-16,20:45,Orientation Error,CME,Low,Satellite
+2020-11-15,21:02,Orientation Error,Flare,Low,Satellite
+2022-11-14,01:08,Communication Loss,Flare,High,Satellite
+2018-02-22,21:41,Power Drop,Flare,Medium,Satellite
+2016-09-12,12:29,Orientation Error,Flare,Low,Satellite
+2020-09-22,14:03,Orientation Error,Flare,Low,Satellite
+2021-07-14,14:44,Power Drop,Flare,Medium,Satellite
+2021-06-12,08:53,Communication Loss,Kp Spike,High,Satellite
+2023-10-13,04:14,Communication Loss,Kp Spike,High,Satellite
+2020-06-20,08:29,Orientation Error,Kp Spike,Low,Satellite
+2023-04-15,10:52,Communication Loss,Kp Spike,High,Satellite
+2015-11-16,21:50,Orientation Error,Kp Spike,Low,Satellite
+2023-11-06,11:07,Orientation Error,Kp Spike,Low,Satellite
+2023-09-16,09:38,Power Drop,Kp Spike,Medium,Satellite
+2015-12-21,11:30,Orientation Error,CME,Low,Satellite
+2023-01-18,22:57,Orientation Error,CME,Low,Satellite
+2019-02-14,20:00,Communication Loss,Kp Spike,High,Satellite
+2015-06-17,20:45,Orientation Error,Flare,Low,Satellite
+2016-10-21,20:02,Communication Loss,CME,High,Satellite
+2020-01-25,13:59,Power Drop,Kp Spike,Medium,Satellite
+2020-05-30,03:13,Orientation Error,Kp Spike,Low,Satellite
+2019-08-21,04:31,Communication Loss,Kp Spike,High,Satellite
+2023-10-05,16:47,Communication Loss,CME,High,Satellite
+2018-10-12,04:35,Power Drop,CME,Medium,Satellite
+2021-05-10,03:28,Orientation Error,CME,Low,Satellite
+2019-03-27,09:15,Power Drop,Flare,Medium,Satellite
+2023-04-30,15:04,Orientation Error,CME,Low,Satellite
+2021-08-20,23:32,Communication Loss,Kp Spike,High,Satellite
+2020-05-22,12:58,Communication Loss,Flare,High,Satellite
+2017-02-03,01:17,Orientation Error,Kp Spike,Low,Satellite
+2016-03-06,09:25,Power Drop,Flare,Medium,Satellite
+2020-11-06,18:09,Power Drop,Kp Spike,Medium,Satellite
+2021-06-26,08:51,Orientation Error,Kp Spike,Low,Satellite
+2020-07-08,22:58,Orientation Error,Flare,Low,Satellite
+2015-11-27,16:12,Power Drop,CME,Medium,Satellite
+2017-04-24,13:38,Orientation Error,CME,Low,Satellite
+2021-10-10,15:39,Communication Loss,Flare,High,Satellite
+2019-03-21,16:47,Orientation Error,Flare,Low,Satellite
+2023-01-06,00:51,Power Drop,Flare,Medium,Satellite
+2022-04-07,01:08,Communication Loss,Flare,High,Satellite
+2020-04-10,23:39,Orientation Error,CME,Low,Satellite
+2022-03-26,03:09,Communication Loss,Kp Spike,High,Satellite
+2017-06-14,11:45,Communication Loss,CME,High,Satellite
+2022-07-04,11:53,Communication Loss,Kp Spike,High,Satellite
+2021-12-31,12:54,Orientation Error,Flare,Low,Satellite
+2021-06-15,03:17,Power Drop,Kp Spike,Medium,Satellite
+2024-02-07,22:41,Power Drop,Flare,Medium,Satellite
+2017-02-09,05:31,Orientation Error,CME,Low,Satellite
+2023-02-05,05:38,Communication Loss,Kp Spike,High,Satellite
+2019-06-08,04:17,Communication Loss,CME,High,Satellite
+2017-09-05,03:50,Power Drop,Kp Spike,Medium,Satellite
+2023-02-01,02:56,Power Drop,CME,Medium,Satellite
+2018-10-22,12:25,Orientation Error,Kp Spike,Low,Satellite
+2020-12-07,02:23,Communication Loss,CME,High,Satellite
+2017-12-04,06:12,Orientation Error,Kp Spike,Low,Satellite
+2016-08-15,00:58,Orientation Error,Flare,Low,Satellite
+2023-04-10,04:30,Power Drop,CME,Medium,Satellite
+2019-06-18,18:37,Orientation Error,Flare,Low,Satellite
+2018-02-25,11:16,Orientation Error,Kp Spike,Low,Satellite
+2017-02-11,21:15,Power Drop,CME,Medium,Satellite
+2017-07-13,09:14,Orientation Error,Flare,Low,Satellite
+2021-12-16,11:06,Communication Loss,Flare,High,Satellite
+2016-05-02,21:34,Communication Loss,Flare,High,Satellite
+2016-05-13,18:22,Communication Loss,Flare,High,Satellite
+2023-03-07,06:13,Communication Loss,Flare,High,Satellite
+2022-11-04,19:09,Communication Loss,Kp Spike,High,Satellite
+2021-12-29,05:37,Communication Loss,Kp Spike,High,Satellite
+2016-12-28,11:07,Communication Loss,CME,High,Satellite
+2015-03-30,07:55,Communication Loss,Kp Spike,High,Satellite
+2018-02-05,08:42,Power Drop,CME,Medium,Satellite
+2018-12-11,12:50,Communication Loss,Flare,High,Satellite
+2017-07-19,10:24,Power Drop,Kp Spike,Medium,Satellite
+2018-06-03,17:46,Power Drop,Kp Spike,Medium,Satellite
+2016-07-06,07:26,Communication Loss,Kp Spike,High,Satellite
+2016-03-03,18:37,Power Drop,Flare,Medium,Satellite
+2023-06-18,23:52,Orientation Error,CME,Low,Satellite
+2020-06-17,03:23,Orientation Error,Kp Spike,Low,Satellite
+2024-02-22,18:09,Power Drop,Kp Spike,Medium,Satellite
+2016-10-14,12:45,Communication Loss,CME,High,Satellite
+2017-01-14,22:22,Power Drop,Kp Spike,Medium,Satellite
+2022-11-03,18:05,Power Drop,CME,Medium,Satellite
+2019-09-29,15:54,Orientation Error,Flare,Low,Satellite
+2017-05-14,08:47,Communication Loss,Kp Spike,High,Satellite
+2023-09-09,14:06,Orientation Error,Kp Spike,Low,Satellite
+2018-06-26,03:02,Power Drop,Flare,Medium,Satellite
+2016-04-30,22:10,Communication Loss,Flare,High,Satellite
+2023-11-13,23:28,Power Drop,Flare,Medium,Satellite
+2023-05-28,22:01,Communication Loss,Kp Spike,High,Satellite
+2018-12-10,00:03,Orientation Error,Flare,Low,Satellite
+2020-10-14,02:47,Orientation Error,Flare,Low,Satellite
+2021-10-28,21:30,Orientation Error,Kp Spike,Low,Satellite
+2019-09-07,20:45,Communication Loss,Kp Spike,High,Satellite
+2016-03-13,20:48,Orientation Error,CME,Low,Satellite
+2016-01-31,21:17,Power Drop,Kp Spike,Medium,Satellite
+2020-08-21,23:24,Power Drop,Kp Spike,Medium,Satellite
+2015-06-23,15:52,Power Drop,CME,Medium,Satellite
+2017-01-30,04:08,Orientation Error,Kp Spike,Low,Satellite
+2022-02-25,09:17,Power Drop,Flare,Medium,Satellite
+2015-01-25,19:49,Orientation Error,Kp Spike,Low,Satellite
+2017-11-26,09:57,Orientation Error,Kp Spike,Low,Satellite
+2018-06-12,01:29,Power Drop,CME,Medium,Satellite
+2016-01-28,09:48,Orientation Error,Flare,Low,Satellite
+2024-07-24,19:38,Communication Loss,CME,High,Satellite
+2018-01-10,08:07,Communication Loss,Kp Spike,High,Satellite
+2024-04-13,14:42,Orientation Error,Kp Spike,Low,Satellite
+2019-11-12,00:24,Orientation Error,Kp Spike,Low,Satellite
+2020-09-21,17:05,Communication Loss,CME,High,Satellite
+2015-11-19,00:36,Power Drop,CME,Medium,Satellite
+2022-12-13,22:53,Power Drop,CME,Medium,Satellite
+2022-06-04,07:00,Orientation Error,Kp Spike,Low,Satellite
+2017-06-26,12:50,Orientation Error,CME,Low,Satellite
+2020-12-23,21:14,Communication Loss,CME,High,Satellite
+2019-12-24,16:43,Orientation Error,Kp Spike,Low,Satellite
+2016-06-21,18:49,Orientation Error,Kp Spike,Low,Satellite
+2020-09-29,12:38,Communication Loss,Kp Spike,High,Satellite
+2024-01-29,22:22,Communication Loss,Kp Spike,High,Satellite
+2021-02-23,20:18,Power Drop,CME,Medium,Satellite
+2023-07-08,02:06,Communication Loss,Kp Spike,High,Satellite
+2023-07-02,02:36,Orientation Error,Flare,Low,Satellite
+2018-01-14,10:24,Power Drop,Flare,Medium,Satellite
+2015-03-04,04:50,Orientation Error,Flare,Low,Satellite
+2015-01-12,07:29,Power Drop,Kp Spike,Medium,Satellite
+2022-08-16,07:40,Communication Loss,CME,High,Satellite
+2022-02-12,21:22,Power Drop,CME,Medium,Satellite
+2024-05-03,23:32,Power Drop,Kp Spike,Medium,Satellite
+2017-03-17,23:15,Communication Loss,CME,High,Satellite
+2019-12-31,15:19,Power Drop,Kp Spike,Medium,Satellite
+2017-04-18,04:35,Orientation Error,CME,Low,Satellite
+2021-10-14,15:31,Power Drop,Flare,Medium,Satellite
+2019-10-20,18:08,Communication Loss,Flare,High,Satellite
+2020-01-27,16:43,Orientation Error,CME,Low,Satellite
+2024-09-12,23:18,Orientation Error,CME,Low,Satellite
+2023-01-21,13:20,Communication Loss,CME,High,Satellite
+2018-05-27,06:06,Orientation Error,Flare,Low,Satellite
+2022-03-06,01:48,Orientation Error,Flare,Low,Satellite
+2017-09-11,10:34,Power Drop,Kp Spike,Medium,Satellite
+2019-02-20,23:43,Power Drop,Flare,Medium,Satellite
+2023-11-06,23:18,Orientation Error,Kp Spike,Low,Satellite
+2023-12-30,03:16,Power Drop,CME,Medium,Satellite
+2022-09-19,04:41,Communication Loss,Kp Spike,High,Satellite
+2023-05-07,04:05,Power Drop,CME,Medium,Satellite
+2024-08-01,11:26,Communication Loss,Flare,High,Satellite
+2015-05-28,19:52,Power Drop,Kp Spike,Medium,Satellite
+2021-02-16,08:15,Orientation Error,Flare,Low,Satellite
+2020-09-10,15:30,Power Drop,CME,Medium,Satellite
+2021-12-10,16:54,Communication Loss,CME,High,Satellite
+2018-06-22,10:51,Orientation Error,CME,Low,Satellite
+2015-07-23,00:30,Orientation Error,Kp Spike,Low,Satellite
+2018-05-03,14:05,Orientation Error,CME,Low,Satellite
+2023-03-23,01:11,Communication Loss,CME,High,Satellite
+2018-07-22,01:32,Power Drop,Kp Spike,Medium,Satellite
+2022-01-29,06:10,Orientation Error,Kp Spike,Low,Satellite
+2015-03-23,11:52,Orientation Error,CME,Low,Satellite
+2024-07-29,15:17,Power Drop,Flare,Medium,Satellite
+2016-01-10,10:01,Power Drop,Flare,Medium,Satellite
+2015-01-30,05:08,Communication Loss,CME,High,Satellite
+2022-03-14,15:02,Communication Loss,CME,High,Satellite
+2021-04-08,20:44,Communication Loss,CME,High,Satellite
+2018-03-24,20:44,Orientation Error,CME,Low,Satellite
+2017-04-25,18:36,Orientation Error,CME,Low,Satellite
+2018-10-06,06:37,Orientation Error,Kp Spike,Low,Satellite
+2023-08-06,10:25,Orientation Error,Kp Spike,Low,Satellite
+2016-07-11,22:44,Orientation Error,CME,Low,Satellite
+2020-12-04,11:36,Communication Loss,CME,High,Satellite
+2017-01-18,13:39,Communication Loss,Kp Spike,High,Satellite
+2017-08-13,23:03,Power Drop,Kp Spike,Medium,Satellite
+2022-06-09,03:17,Communication Loss,CME,High,Satellite
+2024-01-19,09:49,Power Drop,Flare,Medium,Satellite
+2022-07-16,22:14,Power Drop,Kp Spike,Medium,Satellite
+2016-03-03,17:45,Communication Loss,CME,High,Satellite
+2019-11-01,23:37,Communication Loss,Kp Spike,High,Satellite
+2019-03-17,21:22,Communication Loss,Kp Spike,High,Satellite
+2022-06-20,04:29,Orientation Error,Flare,Low,Satellite
+2015-05-28,03:18,Power Drop,Flare,Medium,Satellite
+2023-05-21,05:06,Power Drop,Kp Spike,Medium,Satellite
+2016-06-24,17:15,Communication Loss,CME,High,Satellite
+2017-08-10,04:12,Power Drop,Kp Spike,Medium,Satellite
+2016-11-19,16:07,Orientation Error,CME,Low,Satellite
+2016-06-15,15:53,Communication Loss,Kp Spike,High,Satellite
+2021-08-27,15:17,Communication Loss,Flare,High,Satellite
+2020-10-23,09:05,Communication Loss,Flare,High,Satellite
+2021-01-25,16:54,Communication Loss,CME,High,Satellite
+2021-08-19,08:43,Power Drop,Kp Spike,Medium,Satellite
+2022-04-25,12:58,Orientation Error,Kp Spike,Low,Satellite
+2015-03-25,01:44,Power Drop,Kp Spike,Medium,Satellite
+2022-08-02,23:20,Power Drop,Kp Spike,Medium,Satellite
+2020-05-30,05:44,Orientation Error,CME,Low,Satellite
+2018-04-16,13:10,Power Drop,CME,Medium,Satellite
+2021-11-09,11:32,Orientation Error,Kp Spike,Low,Satellite
+2019-02-03,14:29,Power Drop,CME,Medium,Satellite
+2020-06-23,15:03,Power Drop,Kp Spike,Medium,Satellite
+2018-11-17,15:06,Communication Loss,Kp Spike,High,Satellite
+2015-12-11,01:14,Power Drop,Kp Spike,Medium,Satellite
+2019-12-16,21:00,Communication Loss,Kp Spike,High,Satellite
+2022-01-06,14:17,Communication Loss,Kp Spike,High,Satellite
+2022-09-06,02:07,Power Drop,Flare,Medium,Satellite
+2018-01-05,08:53,Orientation Error,Flare,Low,Satellite
+2024-10-05,17:40,Orientation Error,Flare,Low,Satellite
+2015-02-18,06:05,Orientation Error,Kp Spike,Low,Satellite
+2024-02-23,22:14,Orientation Error,Flare,Low,Satellite
+2015-06-29,11:15,Orientation Error,Kp Spike,Low,Satellite
+2015-11-17,19:48,Orientation Error,Kp Spike,Low,Satellite
+2015-02-01,10:03,Communication Loss,Kp Spike,High,Satellite
+2017-06-29,16:44,Communication Loss,CME,High,Satellite
+2016-01-19,16:37,Communication Loss,Kp Spike,High,Satellite
+2020-12-02,11:47,Power Drop,Flare,Medium,Satellite
+2021-10-25,19:40,Orientation Error,Kp Spike,Low,Satellite
+2015-02-13,06:04,Orientation Error,Flare,Low,Satellite
+2015-11-19,13:33,Orientation Error,Kp Spike,Low,Satellite
+2024-08-17,00:27,Power Drop,Kp Spike,Medium,Satellite
+2016-01-16,07:48,Communication Loss,Flare,High,Satellite
+2024-09-06,09:09,Orientation Error,Flare,Low,Satellite
+2016-09-14,15:28,Communication Loss,Flare,High,Satellite
+2022-09-13,16:08,Communication Loss,Flare,High,Satellite
+2021-11-14,01:04,Orientation Error,CME,Low,Satellite
+2019-09-06,21:42,Orientation Error,CME,Low,Satellite
+2017-08-08,23:19,Communication Loss,CME,High,Satellite
+2015-01-22,10:18,Orientation Error,CME,Low,Satellite
+2018-06-23,02:21,Communication Loss,Kp Spike,High,Satellite
+2024-06-06,14:45,Orientation Error,Kp Spike,Low,Satellite
+2024-01-17,13:51,Orientation Error,Flare,Low,Satellite
+2015-05-04,17:17,Communication Loss,Kp Spike,High,Satellite
+2022-06-02,15:16,Communication Loss,Flare,High,Satellite
+2023-11-01,02:12,Power Drop,Kp Spike,Medium,Satellite
+2021-05-24,01:38,Communication Loss,Kp Spike,High,Satellite
+2020-12-14,05:26,Orientation Error,CME,Low,Satellite
+2023-06-27,15:49,Orientation Error,Kp Spike,Low,Satellite
+2020-12-31,08:00,Communication Loss,CME,High,Satellite
+2023-11-07,16:48,Power Drop,CME,Medium,Satellite
+2022-05-30,20:55,Power Drop,Flare,Medium,Satellite
+2022-01-11,04:18,Communication Loss,Kp Spike,High,Satellite
+2018-09-08,21:26,Power Drop,CME,Medium,Satellite
+2022-05-30,16:41,Communication Loss,Flare,High,Satellite
+2021-11-17,20:15,Communication Loss,Flare,High,Satellite
+2022-02-20,19:41,Communication Loss,Kp Spike,High,Satellite
+2022-04-01,07:26,Power Drop,CME,Medium,Satellite
+2021-01-21,20:33,Orientation Error,Kp Spike,Low,Satellite
+2016-04-22,03:49,Power Drop,Flare,Medium,Satellite
+2017-07-14,22:58,Power Drop,CME,Medium,Satellite
+2021-12-20,07:30,Orientation Error,Flare,Low,Satellite
+2018-08-15,13:19,Power Drop,CME,Medium,Satellite
+2017-02-16,23:46,Communication Loss,Kp Spike,High,Satellite
+2018-06-27,20:53,Communication Loss,Kp Spike,High,Satellite
+2015-05-09,14:12,Power Drop,CME,Medium,Satellite
+2024-07-12,11:35,Communication Loss,CME,High,Satellite
+2020-12-15,18:50,Orientation Error,Kp Spike,Low,Satellite
+2015-01-23,15:25,Power Drop,CME,Medium,Satellite
+2024-05-02,10:51,Communication Loss,CME,High,Satellite
+2016-04-24,22:50,Communication Loss,CME,High,Satellite
+2017-02-22,03:09,Communication Loss,Flare,High,Satellite
+2018-06-08,14:04,Orientation Error,CME,Low,Satellite
+2017-12-15,16:58,Power Drop,Flare,Medium,Satellite
+2023-05-06,18:53,Orientation Error,Kp Spike,Low,Satellite
+2024-01-13,01:50,Orientation Error,CME,Low,Satellite
+2022-05-06,07:59,Power Drop,Kp Spike,Medium,Satellite
+2018-05-10,17:37,Power Drop,Flare,Medium,Satellite
+2021-08-27,12:18,Orientation Error,CME,Low,Satellite
+2016-11-13,21:22,Communication Loss,CME,High,Satellite
+2024-08-30,17:45,Orientation Error,CME,Low,Satellite
+2023-04-08,12:20,Orientation Error,Kp Spike,Low,Satellite
+2023-05-10,15:33,Communication Loss,CME,High,Satellite
+2018-05-20,03:42,Communication Loss,Kp Spike,High,Satellite
+2017-04-23,09:59,Power Drop,Flare,Medium,Satellite
+2019-07-07,04:54,Communication Loss,Flare,High,Satellite
+2016-03-02,18:57,Orientation Error,Kp Spike,Low,Satellite
+2017-04-16,22:36,Communication Loss,Kp Spike,High,Satellite
+2020-07-21,07:45,Orientation Error,Flare,Low,Satellite
+2021-01-26,21:58,Communication Loss,Flare,High,Satellite
+2016-02-21,07:23,Communication Loss,CME,High,Satellite
+2017-08-27,07:24,Orientation Error,CME,Low,Satellite
+2017-09-18,09:58,Power Drop,CME,Medium,Satellite
+2017-09-26,07:16,Orientation Error,Flare,Low,Satellite
+2023-07-21,03:43,Orientation Error,CME,Low,Satellite
+2021-04-11,15:28,Power Drop,CME,Medium,Satellite
+2015-02-07,19:12,Power Drop,CME,Medium,Satellite
+2019-04-02,16:05,Power Drop,Kp Spike,Medium,Satellite
+2017-12-30,18:42,Orientation Error,Flare,Low,Satellite
+2018-07-20,13:38,Power Drop,Flare,Medium,Satellite
+2017-04-27,22:20,Orientation Error,Kp Spike,Low,Satellite
+2019-10-18,19:16,Communication Loss,CME,High,Satellite
+2020-05-14,20:37,Orientation Error,Kp Spike,Low,Satellite
+2020-07-12,07:42,Communication Loss,Kp Spike,High,Satellite
+2018-07-03,17:02,Power Drop,CME,Medium,Satellite
+2017-10-17,23:50,Orientation Error,CME,Low,Satellite
+2015-02-22,21:26,Orientation Error,Flare,Low,Satellite
+2016-12-25,11:50,Communication Loss,CME,High,Satellite
+2017-11-06,04:09,Communication Loss,Flare,High,Satellite
+2022-06-28,13:27,Communication Loss,CME,High,Satellite
+2020-02-15,18:36,Power Drop,CME,Medium,Satellite
+2023-08-02,20:01,Communication Loss,Flare,High,Satellite
+2019-02-06,07:48,Orientation Error,Flare,Low,Satellite
+2016-06-15,23:27,Communication Loss,Kp Spike,High,Satellite
+2023-06-28,07:28,Orientation Error,Flare,Low,Satellite
+2021-01-14,00:33,Power Drop,CME,Medium,Satellite
+2020-01-03,14:45,Orientation Error,Flare,Low,Satellite
+2018-10-28,07:14,Power Drop,CME,Medium,Satellite
+2020-04-01,20:28,Orientation Error,CME,Low,Satellite
+2023-11-15,17:18,Orientation Error,Kp Spike,Low,Satellite
+2018-06-23,23:49,Power Drop,Kp Spike,Medium,Satellite
+2021-02-21,13:37,Orientation Error,Kp Spike,Low,Satellite
+2016-08-15,15:01,Power Drop,Flare,Medium,Satellite
+2021-10-07,20:05,Communication Loss,Flare,High,Satellite
+2023-01-21,14:50,Orientation Error,CME,Low,Satellite
+2018-03-13,21:33,Power Drop,CME,Medium,Satellite
+2016-12-31,23:14,Power Drop,Flare,Medium,Satellite
+2017-09-13,23:23,Communication Loss,Kp Spike,High,Satellite
+2019-10-01,08:39,Power Drop,Flare,Medium,Satellite
+2022-07-16,11:22,Power Drop,CME,Medium,Satellite
+2024-02-10,06:13,Communication Loss,CME,High,Satellite
+2020-01-04,16:43,Communication Loss,Kp Spike,High,Satellite
+2023-11-27,23:36,Communication Loss,Kp Spike,High,Satellite
+2018-01-23,00:25,Power Drop,Flare,Medium,Satellite
+2020-10-02,09:22,Communication Loss,Flare,High,Satellite
+2019-07-17,18:50,Communication Loss,CME,High,Satellite
+2022-10-11,19:33,Communication Loss,Flare,High,Satellite
+2021-02-11,14:38,Communication Loss,Flare,High,Satellite
+2017-04-23,11:53,Communication Loss,Kp Spike,High,Satellite
+2022-03-26,20:34,Orientation Error,Kp Spike,Low,Satellite
+2017-01-27,18:56,Power Drop,Flare,Medium,Satellite
+2020-12-29,16:19,Power Drop,CME,Medium,Satellite
+2015-08-12,01:21,Power Drop,Flare,Medium,Satellite
+2019-07-16,15:33,Orientation Error,CME,Low,Satellite
+2020-08-21,21:45,Power Drop,Kp Spike,Medium,Satellite
+2015-08-07,18:13,Communication Loss,Flare,High,Satellite
+2021-09-18,16:08,Orientation Error,Kp Spike,Low,Satellite
+2024-08-12,09:27,Communication Loss,Flare,High,Satellite
+2018-03-31,07:06,Power Drop,Flare,Medium,Satellite
+2020-12-04,11:07,Power Drop,CME,Medium,Satellite
+2024-02-09,20:20,Communication Loss,Flare,High,Satellite
+2023-09-03,15:35,Communication Loss,Flare,High,Satellite
+2017-06-13,18:34,Communication Loss,CME,High,Satellite
+2021-01-08,16:01,Orientation Error,Kp Spike,Low,Satellite
+2023-10-06,05:28,Communication Loss,CME,High,Satellite
+2024-07-13,11:09,Orientation Error,Flare,Low,Satellite
+2024-08-05,15:25,Communication Loss,Flare,High,Satellite
+2015-07-06,00:27,Communication Loss,Kp Spike,High,Satellite
+2023-01-07,14:57,Orientation Error,CME,Low,Satellite
+2020-03-17,18:47,Communication Loss,Flare,High,Satellite
+2024-12-04,00:15,Orientation Error,CME,Low,Satellite
+2019-07-17,17:03,Orientation Error,Kp Spike,Low,Satellite
+2022-09-30,20:23,Power Drop,Kp Spike,Medium,Satellite
+2022-09-17,15:05,Power Drop,Flare,Medium,Satellite
+2015-07-08,02:07,Communication Loss,Flare,High,Satellite
+2023-08-15,04:55,Power Drop,Flare,Medium,Satellite
+2017-05-31,00:47,Orientation Error,CME,Low,Satellite
+2022-07-14,14:50,Orientation Error,CME,Low,Satellite
+2016-05-22,17:27,Power Drop,Kp Spike,Medium,Satellite
+2024-04-09,21:44,Communication Loss,Kp Spike,High,Satellite
+2023-12-13,17:49,Orientation Error,Kp Spike,Low,Satellite
+2020-06-04,05:58,Communication Loss,Kp Spike,High,Satellite
+2017-08-11,13:48,Power Drop,Flare,Medium,Satellite
+2022-11-22,03:21,Communication Loss,CME,High,Satellite
+2020-02-20,22:08,Communication Loss,Kp Spike,High,Satellite
+2018-01-02,15:45,Power Drop,CME,Medium,Satellite
+2020-09-28,09:19,Communication Loss,CME,High,Satellite
+2022-12-11,08:54,Communication Loss,Kp Spike,High,Satellite
+2018-06-16,02:16,Communication Loss,Flare,High,Satellite
+2017-07-12,16:44,Power Drop,CME,Medium,Satellite
+2016-11-24,14:42,Communication Loss,CME,High,Satellite
+2019-01-15,21:33,Communication Loss,Kp Spike,High,Satellite
+2015-06-01,06:27,Orientation Error,CME,Low,Satellite
+2024-09-23,04:26,Communication Loss,Kp Spike,High,Satellite
+2024-12-25,12:19,Orientation Error,Flare,Low,Satellite
+2023-02-27,04:21,Communication Loss,CME,High,Satellite
+2016-12-30,06:42,Communication Loss,CME,High,Satellite
+2019-12-15,02:22,Communication Loss,CME,High,Satellite
+2022-02-05,18:20,Communication Loss,CME,High,Satellite
+2018-05-30,08:35,Communication Loss,Kp Spike,High,Satellite
+2021-02-06,10:16,Communication Loss,Flare,High,Satellite
+2019-11-27,17:34,Power Drop,CME,Medium,Satellite
+2016-08-10,12:28,Power Drop,Kp Spike,Medium,Satellite
+2016-08-27,13:16,Power Drop,Kp Spike,Medium,Satellite
+2016-08-20,21:25,Power Drop,Kp Spike,Medium,Satellite
+2019-08-04,11:26,Communication Loss,Flare,High,Satellite
+2019-01-29,07:57,Orientation Error,Flare,Low,Satellite
+2019-09-01,06:07,Communication Loss,Flare,High,Satellite
+2015-04-14,20:12,Orientation Error,CME,Low,Satellite
+2015-10-16,19:13,Communication Loss,Flare,High,Satellite
+2023-10-17,01:54,Communication Loss,Flare,High,Satellite
+2016-01-27,00:46,Orientation Error,Flare,Low,Satellite
+2017-11-07,00:47,Power Drop,Kp Spike,Medium,Satellite
+2018-12-19,09:20,Orientation Error,CME,Low,Satellite
+2018-09-29,06:02,Communication Loss,CME,High,Satellite
+2016-10-26,06:52,Orientation Error,Flare,Low,Satellite
+2015-01-21,00:18,Power Drop,Flare,Medium,Satellite
+2021-06-11,11:37,Power Drop,Kp Spike,Medium,Satellite
+2017-09-16,12:37,Power Drop,CME,Medium,Satellite
+2023-09-06,00:18,Communication Loss,CME,High,Satellite
+2024-11-06,20:09,Orientation Error,Flare,Low,Satellite
+2019-06-17,19:51,Orientation Error,Flare,Low,Satellite
+2020-08-24,16:19,Power Drop,CME,Medium,Satellite
+2017-04-29,13:50,Communication Loss,Kp Spike,High,Satellite
+2015-03-29,06:38,Orientation Error,Flare,Low,Satellite
+2024-06-04,05:34,Power Drop,Flare,Medium,Satellite
+2017-04-11,13:09,Power Drop,Flare,Medium,Satellite
+2019-01-03,06:47,Orientation Error,CME,Low,Satellite
+2024-08-27,09:54,Communication Loss,Flare,High,Satellite
+2016-08-18,12:02,Communication Loss,Flare,High,Satellite
+2019-04-18,17:49,Communication Loss,Flare,High,Satellite
+2022-12-01,08:26,Communication Loss,Kp Spike,High,Satellite
+2022-01-24,20:22,Orientation Error,Flare,Low,Satellite
+2017-07-29,13:24,Orientation Error,CME,Low,Satellite
+2021-09-22,09:05,Orientation Error,Flare,Low,Satellite
+2021-09-03,21:54,Power Drop,CME,Medium,Satellite
+2020-08-12,19:32,Power Drop,Flare,Medium,Satellite
+2022-03-12,05:34,Communication Loss,Kp Spike,High,Satellite
+2018-01-29,04:34,Communication Loss,Kp Spike,High,Satellite
+2018-05-02,20:19,Communication Loss,CME,High,Satellite
+2018-02-14,07:23,Orientation Error,CME,Low,Satellite
+2021-11-26,03:21,Power Drop,Kp Spike,Medium,Satellite
+2015-09-21,13:49,Communication Loss,Flare,High,Satellite
+2022-11-27,19:35,Orientation Error,Flare,Low,Satellite
+2016-04-24,13:04,Communication Loss,Kp Spike,High,Satellite
+2022-06-18,14:52,Communication Loss,CME,High,Satellite
+2015-01-17,14:39,Communication Loss,CME,High,Satellite
+2018-01-12,01:43,Communication Loss,CME,High,Satellite
+2024-07-10,21:05,Power Drop,CME,Medium,Satellite
+2020-09-27,04:15,Communication Loss,Kp Spike,High,Satellite
+2016-12-26,06:00,Communication Loss,CME,High,Satellite
+2015-01-05,12:07,Power Drop,Flare,Medium,Satellite
+2015-07-18,09:40,Communication Loss,Kp Spike,High,Satellite
+2017-07-02,17:00,Communication Loss,Flare,High,Satellite
+2016-08-15,00:27,Power Drop,Flare,Medium,Satellite
+2023-05-05,13:35,Power Drop,CME,Medium,Satellite
+2015-09-19,15:48,Communication Loss,Flare,High,Satellite
+2018-07-11,05:53,Orientation Error,CME,Low,Satellite
+2024-01-14,12:44,Orientation Error,Kp Spike,Low,Satellite
+2018-10-27,18:10,Communication Loss,Flare,High,Satellite
+2020-07-18,00:36,Communication Loss,Kp Spike,High,Satellite
+2022-08-01,16:58,Communication Loss,Kp Spike,High,Satellite
+2023-11-09,20:02,Orientation Error,CME,Low,Satellite
+2021-04-19,13:09,Power Drop,Kp Spike,Medium,Satellite
+2020-09-20,05:45,Communication Loss,CME,High,Satellite
+2018-06-29,04:36,Power Drop,Flare,Medium,Satellite
+2023-05-02,06:24,Orientation Error,Kp Spike,Low,Satellite
+2019-02-26,00:09,Orientation Error,Kp Spike,Low,Satellite
+2019-07-29,14:13,Orientation Error,Flare,Low,Satellite
+2016-03-02,05:22,Communication Loss,Kp Spike,High,Satellite
+2016-05-19,11:14,Power Drop,Flare,Medium,Satellite
+2024-04-17,05:37,Power Drop,Kp Spike,Medium,Satellite
+2015-07-14,03:31,Power Drop,CME,Medium,Satellite
+2022-08-21,00:42,Orientation Error,CME,Low,Satellite
+2015-02-07,04:53,Communication Loss,CME,High,Satellite
+2015-03-14,17:55,Orientation Error,CME,Low,Satellite
+2020-09-12,01:34,Orientation Error,Kp Spike,Low,Satellite
+2024-04-14,15:53,Power Drop,Kp Spike,Medium,Satellite
+2015-01-28,21:38,Orientation Error,Flare,Low,Satellite
+2017-07-18,10:04,Communication Loss,CME,High,Satellite
+2019-09-19,10:27,Communication Loss,CME,High,Satellite
+2017-07-27,14:12,Power Drop,CME,Medium,Satellite
+2022-07-20,00:24,Communication Loss,Kp Spike,High,Satellite
+2015-08-22,12:12,Orientation Error,Kp Spike,Low,Satellite
+2024-12-28,15:00,Communication Loss,CME,High,Satellite
+2018-12-09,03:16,Power Drop,CME,Medium,Satellite
+2017-08-06,05:53,Power Drop,Kp Spike,Medium,Satellite
+2021-05-15,05:48,Orientation Error,CME,Low,Satellite
+2020-01-02,12:47,Communication Loss,Kp Spike,High,Satellite
+2022-10-05,16:27,Power Drop,Kp Spike,Medium,Satellite
+2024-05-09,06:40,Orientation Error,CME,Low,Satellite
+2024-09-19,22:22,Communication Loss,Kp Spike,High,Satellite
+2017-07-28,07:00,Orientation Error,CME,Low,Satellite
+2015-03-23,01:30,Communication Loss,CME,High,Satellite
+2021-11-23,19:23,Communication Loss,Kp Spike,High,Satellite
+2020-02-21,18:35,Communication Loss,Flare,High,Satellite
+2021-11-26,09:42,Orientation Error,Flare,Low,Satellite
+2019-11-08,09:31,Power Drop,Flare,Medium,Satellite
+2022-01-25,08:10,Communication Loss,CME,High,Satellite
+2022-05-20,09:00,Orientation Error,Kp Spike,Low,Satellite
+2017-06-22,15:58,Orientation Error,CME,Low,Satellite
+2015-06-03,05:58,Communication Loss,CME,High,Satellite
+2022-01-12,05:54,Communication Loss,CME,High,Satellite
+2020-03-05,23:38,Power Drop,Flare,Medium,Satellite
+2017-09-03,08:59,Communication Loss,Kp Spike,High,Satellite
+2016-08-28,23:54,Communication Loss,CME,High,Satellite
+2021-04-12,05:40,Communication Loss,CME,High,Satellite
+2020-11-23,23:19,Orientation Error,Flare,Low,Satellite
+2015-02-25,15:00,Orientation Error,CME,Low,Satellite
+2016-12-06,13:22,Power Drop,Flare,Medium,Satellite
+2021-12-23,08:48,Orientation Error,Flare,Low,Satellite
+2019-07-19,11:50,Orientation Error,Kp Spike,Low,Satellite
+2019-12-22,07:31,Communication Loss,Flare,High,Satellite
+2021-02-21,16:59,Communication Loss,Kp Spike,High,Satellite
+2020-12-25,05:38,Power Drop,Kp Spike,Medium,Satellite
+2018-08-12,04:58,Orientation Error,Flare,Low,Satellite
+2019-01-20,23:57,Orientation Error,CME,Low,Satellite
+2020-03-09,13:50,Communication Loss,CME,High,Satellite
+2023-06-27,03:25,Orientation Error,Kp Spike,Low,Satellite
+2021-08-14,16:16,Orientation Error,CME,Low,Satellite
+2020-02-21,02:47,Orientation Error,CME,Low,Satellite
+2024-11-02,00:03,Orientation Error,Flare,Low,Satellite
+2023-04-01,06:51,Communication Loss,CME,High,Satellite
+2017-06-13,21:36,Power Drop,Flare,Medium,Satellite
+2022-06-20,03:16,Communication Loss,Kp Spike,High,Satellite
+2022-09-17,07:23,Orientation Error,Kp Spike,Low,Satellite
+2020-03-22,11:42,Communication Loss,CME,High,Satellite
+2023-01-20,19:22,Communication Loss,Flare,High,Satellite
+2024-12-14,19:13,Communication Loss,CME,High,Satellite
+2022-03-18,12:48,Orientation Error,Flare,Low,Satellite
+2015-01-20,00:43,Orientation Error,CME,Low,Satellite
+2015-12-20,02:16,Communication Loss,Flare,High,Satellite
+2023-11-29,14:48,Orientation Error,Kp Spike,Low,Satellite
+2015-01-14,20:02,Power Drop,CME,Medium,Satellite
+2022-04-19,10:07,Power Drop,Flare,Medium,Satellite
+2015-04-07,14:50,Communication Loss,Flare,High,Satellite
+2021-10-09,09:40,Communication Loss,Kp Spike,High,Satellite
+2022-09-16,22:34,Power Drop,Flare,Medium,Satellite
+2016-05-02,05:51,Communication Loss,Flare,High,Satellite
+2021-06-26,07:31,Communication Loss,CME,High,Satellite
+2016-07-07,15:26,Orientation Error,Kp Spike,Low,Satellite
+2016-07-04,11:48,Communication Loss,Flare,High,Satellite
+2018-07-07,18:30,Power Drop,CME,Medium,Satellite
+2018-08-12,00:45,Power Drop,Kp Spike,Medium,Satellite
+2022-08-01,23:09,Power Drop,Kp Spike,Medium,Satellite
+2021-06-13,04:33,Power Drop,CME,Medium,Satellite
+2020-02-09,06:07,Orientation Error,Kp Spike,Low,Satellite
+2016-12-04,11:52,Power Drop,Flare,Medium,Satellite
+2018-05-26,19:49,Power Drop,CME,Medium,Satellite
+2015-06-06,01:24,Communication Loss,CME,High,Satellite
+2016-08-22,02:42,Power Drop,Kp Spike,Medium,Satellite
+2018-06-08,02:26,Power Drop,CME,Medium,Satellite
+2024-02-15,14:14,Orientation Error,CME,Low,Satellite
+2023-03-29,06:35,Power Drop,Flare,Medium,Satellite
+2024-11-30,15:51,Communication Loss,Flare,High,Satellite
+2024-05-23,15:14,Orientation Error,Flare,Low,Satellite
+2017-09-23,15:23,Power Drop,CME,Medium,Satellite
+2017-09-10,05:44,Orientation Error,Kp Spike,Low,Satellite
+2017-04-11,01:51,Orientation Error,Flare,Low,Satellite
+2020-05-27,16:53,Communication Loss,Kp Spike,High,Satellite
+2016-02-29,00:05,Communication Loss,Kp Spike,High,Satellite
+2023-05-18,02:58,Orientation Error,Flare,Low,Satellite
+2020-02-23,14:25,Power Drop,Flare,Medium,Satellite
+2016-06-14,20:33,Orientation Error,CME,Low,Satellite
+2022-05-13,19:52,Communication Loss,Kp Spike,High,Satellite
+2019-09-13,18:32,Orientation Error,Kp Spike,Low,Satellite
+2015-06-25,05:36,Communication Loss,Flare,High,Satellite
+2024-10-27,23:15,Communication Loss,Flare,High,Satellite
+2021-04-19,08:34,Power Drop,Flare,Medium,Satellite
+2015-05-31,05:05,Communication Loss,Kp Spike,High,Satellite
+2020-01-09,02:24,Communication Loss,Flare,High,Satellite
+2015-09-04,12:00,Power Drop,Kp Spike,Medium,Satellite
+2020-03-19,17:23,Power Drop,Kp Spike,Medium,Satellite
+2018-06-18,17:20,Power Drop,Kp Spike,Medium,Satellite
+2021-10-08,10:36,Power Drop,Flare,Medium,Satellite
+2021-01-30,23:45,Power Drop,CME,Medium,Satellite
+2021-05-10,10:31,Power Drop,Flare,Medium,Satellite
+2018-12-30,17:29,Orientation Error,Kp Spike,Low,Satellite
+2018-09-30,03:50,Orientation Error,CME,Low,Satellite
+2020-12-27,08:38,Power Drop,Kp Spike,Medium,Satellite
+2021-11-09,19:49,Communication Loss,Kp Spike,High,Satellite
+2023-09-11,05:12,Communication Loss,CME,High,Satellite
+2018-07-22,19:02,Orientation Error,Kp Spike,Low,Satellite
+2017-02-13,14:16,Communication Loss,Kp Spike,High,Satellite
+2016-03-16,03:17,Communication Loss,Flare,High,Satellite
+2019-04-02,10:10,Communication Loss,Kp Spike,High,Satellite
+2019-11-14,19:00,Orientation Error,Kp Spike,Low,Satellite
+2022-03-03,14:19,Orientation Error,Flare,Low,Satellite
+2023-10-20,08:58,Power Drop,Kp Spike,Medium,Satellite
+2015-03-14,00:36,Power Drop,Flare,Medium,Satellite
+2016-01-20,13:52,Orientation Error,Kp Spike,Low,Satellite
+2022-09-13,05:11,Orientation Error,CME,Low,Satellite
+2016-08-03,06:28,Communication Loss,Kp Spike,High,Satellite
+2023-03-07,23:19,Orientation Error,Flare,Low,Satellite
+2024-04-20,10:04,Communication Loss,CME,High,Satellite
+2020-04-22,13:10,Communication Loss,CME,High,Satellite
+2018-03-21,00:51,Orientation Error,Kp Spike,Low,Satellite
+2020-09-30,18:28,Power Drop,Flare,Medium,Satellite
+2017-03-03,15:09,Power Drop,Kp Spike,Medium,Satellite
+2017-02-08,05:22,Communication Loss,CME,High,Satellite
+2020-09-12,07:03,Orientation Error,Kp Spike,Low,Satellite
+2021-03-12,15:22,Communication Loss,Kp Spike,High,Satellite
+2021-01-25,12:59,Communication Loss,Flare,High,Satellite
+2016-06-19,09:17,Communication Loss,Flare,High,Satellite
+2016-01-04,21:47,Orientation Error,Flare,Low,Satellite
+2015-04-01,20:20,Communication Loss,Flare,High,Satellite
+2015-03-25,07:40,Orientation Error,Kp Spike,Low,Satellite
+2015-12-17,16:01,Orientation Error,Flare,Low,Satellite
+2020-08-23,11:41,Orientation Error,CME,Low,Satellite
+2018-12-04,11:56,Power Drop,Flare,Medium,Satellite
+2021-09-15,02:33,Orientation Error,Flare,Low,Satellite
+2021-10-08,05:01,Power Drop,Kp Spike,Medium,Satellite
+2021-06-05,04:12,Communication Loss,Flare,High,Satellite
+2018-03-15,20:34,Orientation Error,Kp Spike,Low,Satellite
+2016-03-30,15:15,Orientation Error,Kp Spike,Low,Satellite
+2016-04-29,04:05,Power Drop,Kp Spike,Medium,Satellite
+2024-02-12,20:18,Orientation Error,CME,Low,Satellite
+2015-11-01,23:51,Communication Loss,Kp Spike,High,Satellite
+2015-05-17,01:12,Orientation Error,Kp Spike,Low,Satellite
+2018-01-18,14:12,Power Drop,Flare,Medium,Satellite
+2024-06-23,21:46,Communication Loss,CME,High,Satellite
+2018-10-03,15:09,Orientation Error,Flare,Low,Satellite
+2016-09-11,15:36,Orientation Error,Flare,Low,Satellite
+2022-10-01,17:21,Power Drop,Kp Spike,Medium,Satellite
+2024-09-25,04:48,Power Drop,Flare,Medium,Satellite
+2016-12-16,14:09,Power Drop,CME,Medium,Satellite
+2017-03-09,09:35,Orientation Error,Flare,Low,Satellite
+2018-09-30,20:37,Orientation Error,CME,Low,Satellite
+2017-08-12,18:10,Communication Loss,CME,High,Satellite
+2017-10-04,08:47,Power Drop,Kp Spike,Medium,Satellite
+2017-05-03,08:07,Communication Loss,Kp Spike,High,Satellite
+2017-12-04,00:00,Orientation Error,Flare,Low,Satellite
+2023-08-15,02:52,Power Drop,CME,Medium,Satellite
+2024-09-28,03:07,Orientation Error,Flare,Low,Satellite
+2018-10-24,04:06,Power Drop,CME,Medium,Satellite
+2018-08-24,18:58,Orientation Error,Kp Spike,Low,Satellite
+2024-04-13,21:32,Orientation Error,CME,Low,Satellite
+2023-08-15,15:58,Communication Loss,CME,High,Satellite
+2018-09-12,03:45,Orientation Error,CME,Low,Satellite
+2022-07-01,08:47,Power Drop,Flare,Medium,Satellite
+2024-09-19,02:01,Communication Loss,CME,High,Satellite
+2020-10-28,17:07,Orientation Error,Kp Spike,Low,Satellite
+2016-03-02,14:51,Power Drop,Flare,Medium,Satellite
+2016-02-03,00:25,Communication Loss,Kp Spike,High,Satellite
+2020-01-28,13:08,Orientation Error,Kp Spike,Low,Satellite
+2017-11-07,16:35,Orientation Error,CME,Low,Satellite
+2015-04-25,20:54,Orientation Error,Flare,Low,Satellite
+2020-07-21,00:28,Communication Loss,CME,High,Satellite
+2021-12-05,16:11,Power Drop,CME,Medium,Satellite
+2023-06-03,23:23,Orientation Error,Kp Spike,Low,Satellite
+2018-10-09,10:09,Orientation Error,Flare,Low,Satellite
+2018-06-28,19:31,Communication Loss,Kp Spike,High,Satellite
+2021-09-15,20:23,Power Drop,CME,Medium,Satellite
+2016-02-05,05:19,Power Drop,CME,Medium,Satellite
+2021-01-19,19:42,Power Drop,CME,Medium,Satellite
+2015-07-19,23:52,Power Drop,CME,Medium,Satellite
+2022-11-06,14:09,Communication Loss,Flare,High,Satellite
+2022-08-13,00:30,Power Drop,Kp Spike,Medium,Satellite
+2021-08-14,00:01,Communication Loss,Flare,High,Satellite
+2021-05-13,06:41,Orientation Error,Kp Spike,Low,Satellite
+2015-08-08,00:28,Power Drop,Kp Spike,Medium,Satellite
+2021-05-26,08:10,Orientation Error,Flare,Low,Satellite
+2021-11-18,17:44,Orientation Error,Kp Spike,Low,Satellite
+2019-06-06,14:38,Power Drop,Flare,Medium,Satellite
+2021-02-02,02:41,Orientation Error,Kp Spike,Low,Satellite
+2021-03-17,08:42,Communication Loss,Kp Spike,High,Satellite
+2021-11-26,04:51,Orientation Error,CME,Low,Satellite
+2017-07-06,02:50,Power Drop,CME,Medium,Satellite
+2016-10-29,04:13,Power Drop,Kp Spike,Medium,Satellite
+2019-07-22,15:27,Power Drop,Kp Spike,Medium,Satellite
+2019-10-25,17:09,Communication Loss,Flare,High,Satellite
+2015-12-24,09:33,Power Drop,Kp Spike,Medium,Satellite
+2024-11-10,11:36,Orientation Error,Flare,Low,Satellite
+2018-08-25,04:50,Power Drop,Flare,Medium,Satellite
+2020-01-25,00:43,Communication Loss,Kp Spike,High,Satellite
+2017-02-19,11:14,Power Drop,Flare,Medium,Satellite
+2016-03-13,18:56,Orientation Error,Flare,Low,Satellite
+2020-01-13,23:25,Communication Loss,CME,High,Satellite
+2018-11-18,05:54,Power Drop,Kp Spike,Medium,Satellite
+2024-10-21,05:03,Power Drop,Flare,Medium,Satellite
+2018-04-05,18:16,Power Drop,Flare,Medium,Satellite
+2022-11-04,09:09,Orientation Error,CME,Low,Satellite
+2023-04-18,21:46,Power Drop,Flare,Medium,Satellite
+2019-04-23,14:51,Power Drop,CME,Medium,Satellite
+2020-06-25,18:54,Orientation Error,Kp Spike,Low,Satellite
+2021-03-05,03:30,Communication Loss,CME,High,Satellite
+2019-01-26,23:12,Communication Loss,Flare,High,Satellite
+2015-10-23,06:15,Communication Loss,Kp Spike,High,Satellite
+2024-01-15,23:07,Communication Loss,Flare,High,Satellite
+2020-09-09,09:13,Power Drop,Flare,Medium,Satellite
+2019-09-17,21:52,Orientation Error,CME,Low,Satellite
+2017-05-15,17:57,Orientation Error,Kp Spike,Low,Satellite
+2019-07-24,05:53,Orientation Error,Flare,Low,Satellite
+2023-01-28,21:02,Power Drop,Kp Spike,Medium,Satellite
+2016-01-06,08:00,Power Drop,Kp Spike,Medium,Satellite
+2018-02-05,12:24,Power Drop,Flare,Medium,Satellite
+2023-12-18,04:41,Communication Loss,Flare,High,Satellite
+2018-09-15,23:16,Power Drop,Kp Spike,Medium,Satellite
+2017-02-15,04:52,Power Drop,CME,Medium,Satellite
+2019-04-24,18:18,Communication Loss,Kp Spike,High,Satellite
+2019-11-01,15:08,Communication Loss,CME,High,Satellite
+2021-06-25,13:57,Orientation Error,Kp Spike,Low,Satellite
+2019-10-09,12:24,Power Drop,Kp Spike,Medium,Satellite
+2023-06-08,16:12,Power Drop,Kp Spike,Medium,Satellite
+2015-10-08,02:02,Orientation Error,Kp Spike,Low,Satellite
+2015-12-10,23:42,Power Drop,Kp Spike,Medium,Satellite
+2021-04-21,21:45,Communication Loss,Kp Spike,High,Satellite
+2015-10-03,14:37,Orientation Error,CME,Low,Satellite
+2016-06-04,03:48,Orientation Error,CME,Low,Satellite
+2018-01-31,12:06,Power Drop,CME,Medium,Satellite
+2016-03-23,06:20,Communication Loss,CME,High,Satellite
+2019-06-09,00:46,Power Drop,CME,Medium,Satellite
+2020-08-06,15:48,Communication Loss,Kp Spike,High,Satellite
+2020-12-11,00:24,Power Drop,CME,Medium,Satellite
+2021-01-18,18:14,Orientation Error,CME,Low,Satellite
+2021-03-06,18:29,Communication Loss,Kp Spike,High,Satellite
+2021-05-23,11:27,Communication Loss,Flare,High,Satellite
+2016-09-21,17:18,Communication Loss,CME,High,Satellite
+2016-07-06,16:21,Orientation Error,Kp Spike,Low,Satellite
+2015-09-20,06:30,Communication Loss,CME,High,Satellite
+2021-01-29,15:33,Orientation Error,CME,Low,Satellite
+2016-10-25,11:23,Communication Loss,Kp Spike,High,Satellite
+2022-02-17,06:35,Power Drop,Flare,Medium,Satellite
+2022-06-21,16:40,Orientation Error,Flare,Low,Satellite
+2019-08-28,06:56,Orientation Error,CME,Low,Satellite
+2016-09-01,00:54,Orientation Error,Kp Spike,Low,Satellite
+2021-06-14,18:55,Orientation Error,Kp Spike,Low,Satellite
+2016-09-05,13:09,Orientation Error,Kp Spike,Low,Satellite
+2023-09-28,10:13,Communication Loss,Flare,High,Satellite
+2024-05-05,04:57,Communication Loss,CME,High,Satellite
+2020-06-15,01:57,Communication Loss,Kp Spike,High,Satellite
+2024-01-13,14:19,Orientation Error,Flare,Low,Satellite
+2015-11-29,10:50,Communication Loss,Kp Spike,High,Satellite
+2019-01-11,15:14,Orientation Error,Kp Spike,Low,Satellite
+2016-09-14,04:02,Power Drop,Kp Spike,Medium,Satellite
+2020-10-27,19:51,Power Drop,Kp Spike,Medium,Satellite
+2022-03-25,13:19,Orientation Error,Kp Spike,Low,Satellite
+2018-06-05,10:10,Orientation Error,Kp Spike,Low,Satellite
+2019-11-29,14:52,Orientation Error,Flare,Low,Satellite
+2021-12-27,20:46,Communication Loss,Kp Spike,High,Satellite
+2024-02-05,02:50,Communication Loss,Kp Spike,High,Satellite
+2018-04-06,02:34,Orientation Error,Flare,Low,Satellite
+2019-11-18,20:36,Communication Loss,Flare,High,Satellite
+2021-04-10,14:58,Orientation Error,Kp Spike,Low,Satellite
+2019-05-31,13:19,Communication Loss,Flare,High,Satellite
+2020-12-19,08:32,Communication Loss,Flare,High,Satellite
+2022-08-06,02:42,Communication Loss,CME,High,Satellite
+2015-09-26,03:14,Communication Loss,CME,High,Satellite
+2024-04-01,13:41,Communication Loss,Flare,High,Satellite
+2022-07-13,02:08,Communication Loss,Flare,High,Satellite
+2019-05-18,07:15,Orientation Error,Flare,Low,Satellite
+2015-12-08,10:54,Communication Loss,Kp Spike,High,Satellite
+2024-08-12,19:09,Orientation Error,CME,Low,Satellite
+2017-03-05,16:42,Power Drop,Flare,Medium,Satellite
+2022-03-28,17:57,Power Drop,Kp Spike,Medium,Satellite
+2017-10-31,23:59,Orientation Error,Kp Spike,Low,Satellite
+2022-09-21,17:39,Communication Loss,CME,High,Satellite
+2020-07-07,22:10,Communication Loss,Flare,High,Satellite
+2020-07-07,07:57,Power Drop,CME,Medium,Satellite
+2018-05-08,12:19,Orientation Error,CME,Low,Satellite
+2020-01-21,02:56,Power Drop,Kp Spike,Medium,Satellite
+2022-10-31,18:56,Communication Loss,Kp Spike,High,Satellite
+2019-05-14,07:57,Power Drop,Kp Spike,Medium,Satellite
+2020-04-18,04:09,Orientation Error,CME,Low,Satellite
+2017-04-11,17:08,Orientation Error,CME,Low,Satellite
+2023-06-24,05:55,Orientation Error,Flare,Low,Satellite
+2024-06-09,02:28,Power Drop,Flare,Medium,Satellite
+2022-03-16,02:02,Orientation Error,CME,Low,Satellite
+2015-03-10,02:09,Orientation Error,CME,Low,Satellite
+2024-02-28,04:07,Orientation Error,Flare,Low,Satellite
+2020-09-09,12:20,Power Drop,Kp Spike,Medium,Satellite
+2016-09-14,18:09,Power Drop,Kp Spike,Medium,Satellite
+2015-10-13,14:33,Communication Loss,Flare,High,Satellite
+2016-06-08,08:00,Orientation Error,Kp Spike,Low,Satellite
+2022-05-27,04:39,Orientation Error,CME,Low,Satellite
+2023-10-15,02:59,Communication Loss,Kp Spike,High,Satellite
+2022-04-07,05:31,Communication Loss,CME,High,Satellite
+2020-05-01,14:02,Orientation Error,Kp Spike,Low,Satellite
+2022-11-14,19:15,Communication Loss,CME,High,Satellite
+2023-08-12,03:30,Power Drop,Kp Spike,Medium,Satellite
+2023-05-21,22:29,Power Drop,Flare,Medium,Satellite
+2024-08-15,11:23,Communication Loss,CME,High,Satellite
+2015-07-06,00:57,Communication Loss,Kp Spike,High,Satellite
+2020-07-31,16:41,Power Drop,Kp Spike,Medium,Satellite
+2022-11-12,07:10,Communication Loss,Flare,High,Satellite
+2015-10-17,07:07,Orientation Error,Flare,Low,Satellite
+2021-09-07,19:04,Power Drop,Kp Spike,Medium,Satellite
+2019-09-26,20:00,Power Drop,Kp Spike,Medium,Satellite
+2024-03-17,04:57,Power Drop,Flare,Medium,Satellite
+2015-04-28,06:08,Power Drop,CME,Medium,Satellite
+2015-11-05,21:39,Power Drop,CME,Medium,Satellite
+2017-07-24,07:00,Power Drop,Flare,Medium,Satellite
+2021-05-27,19:28,Power Drop,Flare,Medium,Satellite
+2017-09-16,01:53,Communication Loss,Flare,High,Satellite
+2018-10-31,04:27,Power Drop,CME,Medium,Satellite
+2021-08-11,05:37,Power Drop,Flare,Medium,Satellite
+2015-10-16,17:38,Power Drop,CME,Medium,Satellite
+2020-05-22,10:19,Communication Loss,CME,High,Satellite
+2015-11-14,23:58,Orientation Error,CME,Low,Satellite
+2016-07-22,20:08,Power Drop,Kp Spike,Medium,Satellite
+2023-10-23,19:25,Communication Loss,Kp Spike,High,Satellite
+2021-05-03,10:12,Orientation Error,CME,Low,Satellite
+2018-11-02,01:13,Orientation Error,CME,Low,Satellite
+2022-01-08,02:11,Orientation Error,Kp Spike,Low,Satellite
+2022-01-30,04:23,Communication Loss,Flare,High,Satellite
+2019-10-18,21:26,Power Drop,Kp Spike,Medium,Satellite
+2017-02-25,16:48,Power Drop,Kp Spike,Medium,Satellite
+2015-05-30,09:12,Power Drop,Kp Spike,Medium,Satellite
+2023-12-24,13:51,Power Drop,CME,Medium,Satellite
+2020-06-17,08:32,Power Drop,CME,Medium,Satellite
+2016-04-10,22:59,Orientation Error,Flare,Low,Satellite
+2020-11-11,18:26,Power Drop,Kp Spike,Medium,Satellite
+2024-06-25,03:44,Power Drop,CME,Medium,Satellite
+2024-07-21,02:52,Power Drop,Kp Spike,Medium,Satellite
+2023-04-10,18:32,Power Drop,CME,Medium,Satellite
+2018-07-08,11:31,Communication Loss,CME,High,Satellite
+2021-08-13,00:28,Communication Loss,Flare,High,Satellite
+2015-08-08,02:27,Power Drop,CME,Medium,Satellite
+2018-07-28,04:14,Communication Loss,Kp Spike,High,Satellite
+2018-09-12,18:23,Power Drop,CME,Medium,Satellite
+2016-09-29,09:42,Orientation Error,CME,Low,Satellite
+2022-04-22,14:34,Communication Loss,CME,High,Satellite
+2015-02-26,11:55,Orientation Error,CME,Low,Satellite
+2023-06-15,19:35,Orientation Error,Kp Spike,Low,Satellite
+2023-04-02,21:43,Power Drop,Flare,Medium,Satellite
+2018-01-11,10:22,Orientation Error,Flare,Low,Satellite
+2015-03-25,18:07,Power Drop,Flare,Medium,Satellite
+2019-09-27,03:56,Power Drop,CME,Medium,Satellite
+2015-02-24,08:45,Communication Loss,Kp Spike,High,Satellite
+2020-01-30,14:05,Power Drop,Kp Spike,Medium,Satellite
+2020-06-14,08:16,Orientation Error,Kp Spike,Low,Satellite
+2019-03-29,09:53,Orientation Error,Flare,Low,Satellite
+2020-01-11,12:13,Orientation Error,Flare,Low,Satellite
+2024-08-24,07:26,Orientation Error,CME,Low,Satellite
+2015-08-01,04:32,Communication Loss,Kp Spike,High,Satellite
+2016-11-22,21:08,Communication Loss,Flare,High,Satellite
+2020-04-13,01:45,Power Drop,Kp Spike,Medium,Satellite
+2023-10-30,02:37,Orientation Error,Flare,Low,Satellite
+2021-11-05,20:21,Power Drop,Flare,Medium,Satellite
+2019-05-02,13:17,Orientation Error,Kp Spike,Low,Satellite
+2015-07-21,03:56,Communication Loss,CME,High,Satellite
+2016-10-29,12:51,Orientation Error,CME,Low,Satellite
+2015-11-12,04:20,Communication Loss,CME,High,Satellite
+2020-03-17,09:51,Communication Loss,Flare,High,Satellite
+2018-05-02,07:17,Orientation Error,CME,Low,Satellite
+2015-05-31,06:42,Power Drop,Flare,Medium,Satellite
+2016-11-18,08:57,Communication Loss,Flare,High,Satellite
+2023-03-12,05:09,Orientation Error,CME,Low,Satellite
+2024-05-25,09:39,Power Drop,CME,Medium,Satellite
+2022-07-14,19:49,Power Drop,Flare,Medium,Satellite
+2015-05-27,13:33,Orientation Error,Kp Spike,Low,Satellite
+2020-07-14,15:11,Power Drop,CME,Medium,Satellite
+2022-01-08,20:49,Power Drop,CME,Medium,Satellite
+2021-11-13,18:26,Communication Loss,CME,High,Satellite
+2015-02-16,18:25,Orientation Error,Flare,Low,Satellite
+2024-05-21,07:29,Orientation Error,Flare,Low,Satellite
+2020-02-04,20:09,Orientation Error,Flare,Low,Satellite
+2017-08-09,13:18,Power Drop,CME,Medium,Satellite
+2020-07-10,11:53,Orientation Error,Flare,Low,Satellite
+2019-06-14,13:28,Power Drop,Flare,Medium,Satellite
+2019-02-26,02:37,Power Drop,Kp Spike,Medium,Satellite
+2018-01-04,20:42,Communication Loss,CME,High,Satellite
+2018-01-27,00:03,Orientation Error,CME,Low,Satellite
+2018-02-20,03:55,Communication Loss,Kp Spike,High,Satellite
+2018-08-28,06:30,Communication Loss,Kp Spike,High,Satellite
+2020-04-08,17:32,Orientation Error,Kp Spike,Low,Satellite
+2018-04-29,22:47,Communication Loss,CME,High,Satellite
+2017-01-11,23:17,Power Drop,Flare,Medium,Satellite
+2024-09-15,18:31,Orientation Error,Flare,Low,Satellite
+2023-01-10,23:34,Orientation Error,Kp Spike,Low,Satellite
+2020-05-05,11:49,Orientation Error,Flare,Low,Satellite
+2015-10-13,17:24,Communication Loss,Flare,High,Satellite
+2015-01-07,22:32,Power Drop,CME,Medium,Satellite
+2018-09-17,02:56,Orientation Error,CME,Low,Satellite
+2023-01-08,16:39,Power Drop,Flare,Medium,Satellite
+2015-01-26,03:38,Power Drop,CME,Medium,Satellite
+2019-09-18,21:56,Orientation Error,CME,Low,Satellite
+2019-02-19,17:58,Power Drop,Flare,Medium,Satellite
+2020-08-13,03:43,Communication Loss,Flare,High,Satellite
+2016-07-27,02:19,Communication Loss,Flare,High,Satellite
+2018-04-16,08:07,Communication Loss,Kp Spike,High,Satellite
+2022-07-06,22:52,Power Drop,Flare,Medium,Satellite
+2018-10-19,13:02,Orientation Error,CME,Low,Satellite
+2023-07-07,19:22,Orientation Error,CME,Low,Satellite
+2016-09-14,07:37,Orientation Error,Flare,Low,Satellite
+2018-05-27,06:56,Communication Loss,Kp Spike,High,Satellite
+2020-12-25,18:10,Orientation Error,Flare,Low,Satellite
+2024-12-05,23:02,Power Drop,Flare,Medium,Satellite
+2018-11-03,10:22,Power Drop,Flare,Medium,Satellite
+2016-05-09,16:48,Power Drop,CME,Medium,Satellite
+2019-01-22,05:42,Orientation Error,CME,Low,Satellite
+2016-06-16,19:53,Communication Loss,Flare,High,Satellite
+2024-02-24,12:46,Communication Loss,Flare,High,Satellite
+2020-09-17,02:25,Communication Loss,Kp Spike,High,Satellite
+2017-05-16,21:22,Power Drop,CME,Medium,Satellite
+2019-02-04,12:53,Power Drop,Kp Spike,Medium,Satellite
+2022-09-06,15:40,Power Drop,CME,Medium,Satellite
+2020-10-28,08:24,Orientation Error,CME,Low,Satellite
+2016-06-28,09:24,Orientation Error,Flare,Low,Satellite
+2022-12-05,13:46,Orientation Error,CME,Low,Satellite
+2018-11-26,02:59,Power Drop,Kp Spike,Medium,Satellite
+2021-10-08,10:00,Communication Loss,Kp Spike,High,Satellite
+2024-04-05,00:11,Communication Loss,CME,High,Satellite
+2017-03-21,13:49,Power Drop,CME,Medium,Satellite
+2024-12-30,23:06,Power Drop,Flare,Medium,Satellite
+2021-06-21,09:24,Orientation Error,CME,Low,Satellite
+2022-10-23,13:35,Orientation Error,Kp Spike,Low,Satellite
+2016-09-01,11:41,Power Drop,Kp Spike,Medium,Satellite
+2020-06-22,13:42,Power Drop,CME,Medium,Satellite
+2015-07-24,02:58,Power Drop,Kp Spike,Medium,Satellite
+2022-12-12,00:33,Orientation Error,Kp Spike,Low,Satellite
+2021-11-08,15:27,Power Drop,Flare,Medium,Satellite
+2016-06-10,12:28,Orientation Error,Kp Spike,Low,Satellite
+2023-03-24,08:00,Communication Loss,Kp Spike,High,Satellite
+2021-04-18,04:52,Orientation Error,CME,Low,Satellite
+2024-11-28,17:38,Orientation Error,Flare,Low,Satellite
+2023-01-27,12:37,Power Drop,Flare,Medium,Satellite
+2018-11-06,06:46,Communication Loss,CME,High,Satellite
+2015-01-14,16:28,Orientation Error,CME,Low,Satellite
+2024-03-19,21:02,Orientation Error,CME,Low,Satellite
+2018-11-17,13:03,Orientation Error,Kp Spike,Low,Satellite
+2015-06-19,15:18,Power Drop,CME,Medium,Satellite
+2016-09-29,05:42,Power Drop,Kp Spike,Medium,Satellite
+2024-06-28,06:33,Power Drop,Flare,Medium,Satellite
+2024-09-19,07:18,Power Drop,Flare,Medium,Satellite
+2016-12-27,06:55,Communication Loss,Kp Spike,High,Satellite
+2022-10-02,06:03,Communication Loss,CME,High,Satellite
+2022-04-11,21:22,Orientation Error,Flare,Low,Satellite
+2024-11-21,11:56,Orientation Error,Kp Spike,Low,Satellite
+2017-01-17,01:49,Communication Loss,Kp Spike,High,Satellite
+2020-03-28,10:54,Power Drop,Flare,Medium,Satellite
+2015-11-15,06:42,Power Drop,Flare,Medium,Satellite
+2019-06-19,02:13,Power Drop,CME,Medium,Satellite
+2016-04-17,04:42,Orientation Error,Kp Spike,Low,Satellite
+2018-04-10,21:26,Communication Loss,CME,High,Satellite
+2022-11-23,18:42,Power Drop,CME,Medium,Satellite
+2018-12-14,13:34,Orientation Error,Flare,Low,Satellite
+2017-03-28,23:05,Communication Loss,CME,High,Satellite
+2015-01-31,05:27,Power Drop,CME,Medium,Satellite
+2018-05-18,02:52,Communication Loss,Kp Spike,High,Satellite
+2016-06-11,19:23,Orientation Error,Flare,Low,Satellite
+2018-03-27,09:12,Power Drop,CME,Medium,Satellite
+2023-11-05,10:19,Orientation Error,Flare,Low,Satellite
+2022-12-07,19:38,Power Drop,Flare,Medium,Satellite
+2023-06-09,03:00,Communication Loss,Flare,High,Satellite
+2019-05-16,02:24,Communication Loss,CME,High,Satellite
+2016-04-16,15:44,Communication Loss,Kp Spike,High,Satellite
+2016-12-19,19:56,Power Drop,Kp Spike,Medium,Satellite
+2022-03-12,02:07,Power Drop,CME,Medium,Satellite
+2020-05-07,13:52,Power Drop,CME,Medium,Satellite
+2016-09-20,14:11,Power Drop,Flare,Medium,Satellite
+2022-06-10,02:57,Orientation Error,Flare,Low,Satellite
+2024-04-16,16:23,Communication Loss,Kp Spike,High,Satellite
+2021-10-22,08:38,Power Drop,Kp Spike,Medium,Satellite
+2020-08-07,17:35,Communication Loss,Flare,High,Satellite
+2020-01-24,02:27,Communication Loss,CME,High,Satellite
+2020-07-21,22:08,Communication Loss,Kp Spike,High,Satellite
+2015-11-03,05:29,Communication Loss,Flare,High,Satellite
+2015-12-29,16:20,Power Drop,Flare,Medium,Satellite
+2017-01-31,22:50,Communication Loss,Kp Spike,High,Satellite
+2024-04-17,05:57,Power Drop,Flare,Medium,Satellite
+2024-08-25,12:34,Communication Loss,Kp Spike,High,Satellite
+2018-01-09,22:02,Power Drop,CME,Medium,Satellite
+2019-03-31,15:05,Communication Loss,CME,High,Satellite
+2022-11-21,07:34,Orientation Error,Flare,Low,Satellite
+2018-11-11,22:09,Power Drop,CME,Medium,Satellite
+2023-03-05,13:23,Communication Loss,CME,High,Satellite
+2020-06-15,06:48,Power Drop,Flare,Medium,Satellite
+2018-10-05,10:37,Orientation Error,Flare,Low,Satellite
+2021-05-05,05:12,Communication Loss,CME,High,Satellite
+2015-07-26,00:17,Power Drop,Kp Spike,Medium,Satellite
+2017-04-20,00:26,Communication Loss,Flare,High,Satellite
+2016-03-07,20:51,Power Drop,CME,Medium,Satellite
+2022-12-08,00:13,Orientation Error,Kp Spike,Low,Satellite
+2017-04-23,18:40,Communication Loss,Flare,High,Satellite
+2019-05-17,01:04,Orientation Error,Flare,Low,Satellite
+2022-09-23,18:04,Power Drop,Kp Spike,Medium,Satellite
+2016-09-29,01:11,Orientation Error,Kp Spike,Low,Satellite
+2015-03-13,23:43,Orientation Error,Flare,Low,Satellite
+2024-10-20,23:22,Power Drop,CME,Medium,Satellite
+2017-12-04,01:24,Power Drop,Kp Spike,Medium,Satellite
+2018-10-11,19:57,Orientation Error,Kp Spike,Low,Satellite
+2020-07-14,01:17,Orientation Error,Kp Spike,Low,Satellite
+2021-09-21,21:45,Power Drop,CME,Medium,Satellite
+2023-06-22,16:35,Communication Loss,Kp Spike,High,Satellite
+2016-08-23,21:54,Power Drop,Kp Spike,Medium,Satellite
+2020-08-10,04:22,Orientation Error,Kp Spike,Low,Satellite
+2023-12-21,18:59,Power Drop,CME,Medium,Satellite
+2017-02-09,16:20,Power Drop,Flare,Medium,Satellite
+2023-08-19,04:14,Power Drop,Flare,Medium,Satellite
+2022-07-20,22:49,Orientation Error,Kp Spike,Low,Satellite
+2016-05-03,15:03,Communication Loss,Flare,High,Satellite
+2021-11-05,21:34,Communication Loss,Kp Spike,High,Satellite
+2024-05-29,17:17,Orientation Error,CME,Low,Satellite
+2017-08-06,02:13,Communication Loss,Flare,High,Satellite
+2016-12-20,00:44,Power Drop,Kp Spike,Medium,Satellite
+2022-10-23,20:33,Power Drop,Kp Spike,Medium,Satellite
+2023-07-16,13:52,Orientation Error,Flare,Low,Satellite
+2023-05-12,14:40,Communication Loss,Flare,High,Satellite
+2017-01-05,12:42,Communication Loss,Flare,High,Satellite
+2024-05-15,01:20,Communication Loss,Kp Spike,High,Satellite
+2021-02-02,13:09,Orientation Error,CME,Low,Satellite
+2019-08-24,15:18,Power Drop,Kp Spike,Medium,Satellite
+2019-06-27,08:53,Communication Loss,Kp Spike,High,Satellite
+2022-11-22,07:49,Power Drop,Flare,Medium,Satellite
+2019-05-01,20:50,Communication Loss,Flare,High,Satellite
+2016-03-18,10:51,Orientation Error,Kp Spike,Low,Satellite
+2022-10-01,21:40,Communication Loss,Kp Spike,High,Satellite
+2015-03-13,04:58,Power Drop,CME,Medium,Satellite
+2015-07-23,04:23,Communication Loss,CME,High,Satellite
+2015-08-06,22:56,Communication Loss,Kp Spike,High,Satellite
+2024-11-10,04:50,Communication Loss,Kp Spike,High,Satellite
+2022-10-04,16:29,Power Drop,Flare,Medium,Satellite
+2015-06-22,22:04,Power Drop,Kp Spike,Medium,Satellite
+2017-04-04,19:18,Communication Loss,Flare,High,Satellite
+2023-09-12,07:46,Communication Loss,Flare,High,Satellite
+2023-03-20,09:17,Orientation Error,Flare,Low,Satellite
+2016-06-01,22:07,Power Drop,Flare,Medium,Satellite
+2020-05-18,19:25,Power Drop,Flare,Medium,Satellite
+2015-11-26,02:53,Communication Loss,Flare,High,Satellite
+2023-06-18,09:55,Power Drop,CME,Medium,Satellite
+2020-08-05,07:05,Orientation Error,CME,Low,Satellite
+2015-12-07,17:09,Communication Loss,Flare,High,Satellite
+2018-07-25,05:40,Power Drop,Flare,Medium,Satellite
+2016-12-01,23:22,Power Drop,Kp Spike,Medium,Satellite
+2015-04-13,14:35,Power Drop,Flare,Medium,Satellite
+2023-01-17,13:41,Power Drop,CME,Medium,Satellite
+2019-11-01,17:03,Power Drop,Flare,Medium,Satellite
+2017-11-02,21:18,Power Drop,Kp Spike,Medium,Satellite
+2022-10-22,10:16,Power Drop,CME,Medium,Satellite
+2017-12-25,23:23,Power Drop,Flare,Medium,Satellite
+2018-04-23,14:44,Orientation Error,Flare,Low,Satellite
+2021-06-21,14:16,Power Drop,CME,Medium,Satellite
+2023-07-19,20:35,Orientation Error,Kp Spike,Low,Satellite
+2020-04-10,16:27,Orientation Error,Flare,Low,Satellite
+2019-12-09,20:30,Orientation Error,Kp Spike,Low,Satellite
+2015-08-13,09:38,Communication Loss,Flare,High,Satellite
+2015-05-16,15:37,Orientation Error,Kp Spike,Low,Satellite
+2024-06-19,10:25,Power Drop,Flare,Medium,Satellite
+2024-02-29,11:03,Orientation Error,Flare,Low,Satellite
+2020-07-30,21:49,Power Drop,Flare,Medium,Satellite
+2019-08-28,22:57,Communication Loss,CME,High,Satellite
+2020-05-27,06:52,Orientation Error,Kp Spike,Low,Satellite
+2022-08-30,02:45,Orientation Error,CME,Low,Satellite
+2022-05-09,08:27,Orientation Error,Kp Spike,Low,Satellite
+2024-03-27,16:12,Power Drop,CME,Medium,Satellite
+2016-10-05,22:30,Orientation Error,CME,Low,Satellite
+2024-12-28,06:07,Communication Loss,Kp Spike,High,Satellite
+2015-11-28,05:06,Orientation Error,CME,Low,Satellite
+2021-07-01,22:24,Power Drop,Kp Spike,Medium,Satellite
+2021-06-09,18:02,Orientation Error,Kp Spike,Low,Satellite
+2016-08-01,01:04,Power Drop,CME,Medium,Satellite
+2017-03-28,03:10,Power Drop,CME,Medium,Satellite
+2019-09-25,09:34,Power Drop,CME,Medium,Satellite
+2023-04-02,07:34,Communication Loss,Flare,High,Satellite
+2022-11-21,06:41,Orientation Error,Kp Spike,Low,Satellite
+2015-10-22,17:45,Power Drop,CME,Medium,Satellite
+2016-07-13,23:16,Power Drop,CME,Medium,Satellite
+2015-08-07,18:16,Power Drop,Flare,Medium,Satellite
+2016-09-14,09:27,Power Drop,CME,Medium,Satellite
+2018-06-01,15:22,Power Drop,Kp Spike,Medium,Satellite
+2015-01-09,23:24,Communication Loss,CME,High,Satellite
+2016-09-15,19:29,Power Drop,Flare,Medium,Satellite
+2021-03-27,06:14,Communication Loss,Kp Spike,High,Satellite
+2020-08-11,19:06,Orientation Error,Kp Spike,Low,Satellite
+2019-09-03,09:47,Orientation Error,CME,Low,Satellite
+2019-04-20,05:37,Orientation Error,Kp Spike,Low,Satellite
+2018-06-12,23:04,Communication Loss,Kp Spike,High,Satellite
+2015-07-24,15:05,Power Drop,Flare,Medium,Satellite
+2018-04-27,04:19,Communication Loss,Kp Spike,High,Satellite
+2024-09-26,00:23,Communication Loss,Kp Spike,High,Satellite
+2020-06-29,02:09,Orientation Error,Kp Spike,Low,Satellite
+2020-02-29,11:50,Communication Loss,CME,High,Satellite
+2024-04-26,19:38,Orientation Error,Flare,Low,Satellite
+2017-07-15,06:10,Power Drop,CME,Medium,Satellite
+2019-09-13,14:17,Orientation Error,Kp Spike,Low,Satellite
+2020-08-21,10:45,Orientation Error,CME,Low,Satellite
+2022-05-23,12:46,Orientation Error,Flare,Low,Satellite
+2015-07-30,07:06,Communication Loss,Kp Spike,High,Satellite
+2019-05-01,21:04,Orientation Error,Flare,Low,Satellite
+2017-07-08,02:41,Power Drop,Kp Spike,Medium,Satellite
+2023-06-12,02:28,Power Drop,Kp Spike,Medium,Satellite
+2021-11-11,21:18,Orientation Error,Flare,Low,Satellite
+2018-12-13,00:40,Communication Loss,Flare,High,Satellite
+2023-10-29,15:57,Communication Loss,Flare,High,Satellite
+2023-09-22,16:55,Communication Loss,Flare,High,Satellite
+2020-04-12,22:51,Orientation Error,Kp Spike,Low,Satellite
+2016-10-13,10:10,Power Drop,CME,Medium,Satellite
+2018-04-13,07:36,Power Drop,Kp Spike,Medium,Satellite
+2024-07-24,13:57,Power Drop,CME,Medium,Satellite
+2022-08-31,14:30,Orientation Error,Kp Spike,Low,Satellite
+2016-10-20,23:06,Communication Loss,CME,High,Satellite
+2023-08-22,00:56,Power Drop,CME,Medium,Satellite
+2016-09-13,19:17,Power Drop,CME,Medium,Satellite
+2024-05-18,13:20,Orientation Error,CME,Low,Satellite
+2019-07-23,11:37,Power Drop,CME,Medium,Satellite
+2019-08-18,16:37,Communication Loss,CME,High,Satellite
+2024-09-05,19:54,Power Drop,Flare,Medium,Satellite
+2022-03-09,05:12,Power Drop,Kp Spike,Medium,Satellite
+2015-02-25,02:04,Power Drop,Flare,Medium,Satellite
+2016-06-21,05:33,Communication Loss,Kp Spike,High,Satellite
+2017-06-29,06:02,Orientation Error,CME,Low,Satellite
+2017-05-15,20:17,Communication Loss,Flare,High,Satellite
+2015-03-06,05:16,Power Drop,CME,Medium,Satellite
+2020-07-04,04:27,Orientation Error,CME,Low,Satellite
+2019-04-19,17:56,Power Drop,CME,Medium,Satellite
+2018-05-07,04:26,Power Drop,Flare,Medium,Satellite
+2015-07-15,14:51,Power Drop,Flare,Medium,Satellite
+2020-08-18,08:32,Orientation Error,Flare,Low,Satellite
+2015-08-27,08:50,Orientation Error,Kp Spike,Low,Satellite
+2018-11-09,05:21,Communication Loss,Kp Spike,High,Satellite
+2024-11-21,15:37,Orientation Error,Flare,Low,Satellite
+2021-09-08,01:56,Communication Loss,Kp Spike,High,Satellite
+2021-03-16,14:46,Orientation Error,CME,Low,Satellite
+2016-05-02,05:05,Orientation Error,Kp Spike,Low,Satellite
+2016-09-03,02:26,Power Drop,Kp Spike,Medium,Satellite
+2016-06-09,20:06,Power Drop,Kp Spike,Medium,Satellite
+2016-07-31,13:31,Orientation Error,Flare,Low,Satellite
+2022-04-24,21:35,Communication Loss,CME,High,Satellite
+2024-02-23,03:12,Power Drop,Flare,Medium,Satellite
+2015-12-31,20:34,Orientation Error,Flare,Low,Satellite
+2018-07-18,18:10,Power Drop,Kp Spike,Medium,Satellite
+2017-11-06,10:48,Power Drop,Flare,Medium,Satellite
+2016-03-14,03:54,Communication Loss,Flare,High,Satellite
+2017-01-14,22:40,Power Drop,Kp Spike,Medium,Satellite
+2017-08-31,02:54,Communication Loss,Kp Spike,High,Satellite
+2015-12-22,08:04,Power Drop,CME,Medium,Satellite
+2024-11-08,18:02,Orientation Error,CME,Low,Satellite
+2018-04-27,18:02,Communication Loss,CME,High,Satellite
+2017-01-12,02:32,Communication Loss,Kp Spike,High,Satellite
+2018-10-19,00:44,Orientation Error,Flare,Low,Satellite
+2021-01-18,11:50,Communication Loss,CME,High,Satellite
+2022-07-13,14:46,Orientation Error,Kp Spike,Low,Satellite
+2018-05-02,13:20,Communication Loss,Kp Spike,High,Satellite
+2023-12-05,23:19,Power Drop,Flare,Medium,Satellite
+2024-03-22,17:05,Orientation Error,Flare,Low,Satellite
+2022-12-12,22:42,Power Drop,Kp Spike,Medium,Satellite
+2018-05-07,09:45,Communication Loss,CME,High,Satellite
+2016-01-27,20:50,Power Drop,Kp Spike,Medium,Satellite
+2019-12-09,13:49,Communication Loss,CME,High,Satellite
+2021-02-10,13:40,Power Drop,Kp Spike,Medium,Satellite
+2024-09-09,08:19,Communication Loss,CME,High,Satellite
+2020-09-17,11:43,Orientation Error,Flare,Low,Satellite
+2015-09-19,20:57,Orientation Error,Kp Spike,Low,Satellite
+2015-05-02,22:41,Power Drop,Flare,Medium,Satellite
+2017-09-04,15:42,Power Drop,Flare,Medium,Satellite
+2019-06-13,00:28,Communication Loss,CME,High,Satellite
+2024-01-07,11:53,Communication Loss,Kp Spike,High,Satellite
+2023-02-26,21:17,Communication Loss,Flare,High,Satellite
+2021-06-18,15:16,Communication Loss,Kp Spike,High,Satellite
+2021-08-06,08:25,Communication Loss,Flare,High,Satellite
+2018-06-10,16:55,Communication Loss,Kp Spike,High,Satellite
+2016-08-15,21:52,Orientation Error,Kp Spike,Low,Satellite
+2021-01-14,09:40,Orientation Error,CME,Low,Satellite
+2015-05-21,01:51,Communication Loss,Flare,High,Satellite
+2019-04-02,10:38,Power Drop,Kp Spike,Medium,Satellite
+2022-11-06,04:13,Orientation Error,Flare,Low,Satellite
+2021-07-02,23:39,Orientation Error,Flare,Low,Satellite
+2018-12-03,11:45,Orientation Error,Flare,Low,Satellite
+2024-03-09,18:07,Power Drop,CME,Medium,Satellite
+2021-02-02,23:00,Power Drop,Flare,Medium,Satellite
+2016-07-31,06:18,Orientation Error,CME,Low,Satellite
+2022-05-17,01:09,Power Drop,Flare,Medium,Satellite
+2024-12-23,03:43,Communication Loss,Kp Spike,High,Satellite
+2015-08-14,00:31,Communication Loss,Kp Spike,High,Satellite
+2015-07-21,11:31,Communication Loss,CME,High,Satellite
+2020-02-25,23:32,Power Drop,Kp Spike,Medium,Satellite
+2019-11-02,17:02,Communication Loss,Kp Spike,High,Satellite
+2021-10-09,04:10,Power Drop,Flare,Medium,Satellite
+2021-12-17,16:42,Orientation Error,Kp Spike,Low,Satellite
+2018-03-05,18:16,Orientation Error,CME,Low,Satellite
+2022-01-12,00:24,Orientation Error,Kp Spike,Low,Satellite
+2015-01-26,15:45,Orientation Error,Flare,Low,Satellite
+2023-06-14,13:11,Orientation Error,CME,Low,Satellite
+2016-05-06,02:00,Orientation Error,Flare,Low,Satellite
+2018-07-23,03:25,Power Drop,CME,Medium,Satellite
+2023-08-18,12:16,Power Drop,Flare,Medium,Satellite
+2018-04-30,06:04,Orientation Error,Kp Spike,Low,Satellite
+2020-04-24,18:19,Communication Loss,Kp Spike,High,Satellite
+2015-09-28,05:26,Power Drop,CME,Medium,Satellite
+2021-06-30,11:48,Power Drop,Kp Spike,Medium,Satellite
+2016-10-14,12:44,Power Drop,CME,Medium,Satellite
+2015-06-18,07:15,Orientation Error,CME,Low,Satellite
+2015-05-03,01:26,Power Drop,Kp Spike,Medium,Satellite
+2016-04-25,09:30,Power Drop,CME,Medium,Satellite
+2017-11-15,05:52,Communication Loss,CME,High,Satellite
+2023-09-23,23:56,Communication Loss,Kp Spike,High,Satellite
+2023-12-03,04:15,Power Drop,Flare,Medium,Satellite
+2018-03-20,19:04,Power Drop,Kp Spike,Medium,Satellite
+2024-09-01,17:55,Communication Loss,Kp Spike,High,Satellite
+2019-05-13,16:49,Orientation Error,CME,Low,Satellite
+2024-11-17,10:58,Communication Loss,CME,High,Satellite
+2024-03-12,03:39,Power Drop,Kp Spike,Medium,Satellite
+2021-05-10,22:13,Communication Loss,Flare,High,Satellite
+2015-09-11,20:07,Power Drop,CME,Medium,Satellite
+2019-09-07,07:16,Power Drop,Flare,Medium,Satellite
+2022-09-12,21:02,Orientation Error,Flare,Low,Satellite
+2018-02-23,10:10,Power Drop,CME,Medium,Satellite
+2019-11-30,01:08,Orientation Error,Flare,Low,Satellite
+2020-09-14,06:30,Communication Loss,Kp Spike,High,Satellite
+2017-03-24,21:18,Orientation Error,Flare,Low,Satellite
+2022-03-26,03:22,Power Drop,CME,Medium,Satellite
+2024-01-29,20:11,Communication Loss,Flare,High,Satellite
+2017-09-18,17:29,Communication Loss,Kp Spike,High,Satellite
+2024-09-25,01:27,Communication Loss,CME,High,Satellite
+2020-03-16,00:32,Communication Loss,Kp Spike,High,Satellite
+2018-06-24,19:52,Orientation Error,Flare,Low,Satellite
+2015-08-16,21:44,Orientation Error,Kp Spike,Low,Satellite
+2022-07-23,09:30,Communication Loss,CME,High,Satellite
+2016-03-28,21:40,Communication Loss,Kp Spike,High,Satellite
+2020-03-06,14:57,Orientation Error,Flare,Low,Satellite
+2015-02-10,03:47,Communication Loss,CME,High,Satellite
+2018-02-17,20:27,Power Drop,CME,Medium,Satellite
+2024-09-19,12:45,Communication Loss,Flare,High,Satellite
+2024-10-01,11:55,Orientation Error,Kp Spike,Low,Satellite
+2022-01-15,11:24,Orientation Error,CME,Low,Satellite
+2016-08-28,00:31,Communication Loss,Flare,High,Satellite
+2020-10-29,13:00,Orientation Error,Kp Spike,Low,Satellite
+2016-05-09,18:16,Communication Loss,Kp Spike,High,Satellite
+2015-01-30,07:36,Orientation Error,Kp Spike,Low,Satellite
+2015-02-15,09:25,Power Drop,Flare,Medium,Satellite
+2024-08-21,03:36,Power Drop,CME,Medium,Satellite
+2024-11-14,19:43,Power Drop,CME,Medium,Satellite
+2018-08-29,19:14,Power Drop,Flare,Medium,Satellite
+2024-10-09,06:34,Orientation Error,Kp Spike,Low,Satellite
+2023-10-28,12:47,Power Drop,CME,Medium,Satellite
+2015-12-06,14:27,Communication Loss,Flare,High,Satellite
+2021-08-14,05:03,Orientation Error,Kp Spike,Low,Satellite
+2015-11-16,12:05,Orientation Error,CME,Low,Satellite
+2015-06-17,05:22,Communication Loss,Flare,High,Satellite
+2016-07-19,16:40,Orientation Error,Kp Spike,Low,Satellite
+2021-07-21,18:25,Orientation Error,Flare,Low,Satellite
+2017-11-10,04:57,Orientation Error,Flare,Low,Satellite
+2016-07-20,00:35,Communication Loss,Flare,High,Satellite
+2020-03-28,11:38,Power Drop,Kp Spike,Medium,Satellite
+2021-10-15,18:35,Orientation Error,Flare,Low,Satellite
+2024-01-28,08:21,Power Drop,CME,Medium,Satellite
+2021-12-30,00:19,Orientation Error,Kp Spike,Low,Satellite
+2015-11-28,02:19,Communication Loss,Kp Spike,High,Satellite
+2021-03-12,17:04,Power Drop,CME,Medium,Satellite
+2022-08-22,09:01,Power Drop,Flare,Medium,Satellite
+2019-04-23,21:43,Communication Loss,Kp Spike,High,Satellite
+2015-05-13,17:35,Orientation Error,Kp Spike,Low,Satellite
+2017-01-11,17:34,Power Drop,Flare,Medium,Satellite
+2015-10-16,17:03,Power Drop,Kp Spike,Medium,Satellite
+2021-11-23,12:04,Power Drop,CME,Medium,Satellite
+2016-09-11,12:18,Communication Loss,Kp Spike,High,Satellite
+2019-11-14,03:49,Power Drop,CME,Medium,Satellite
+2020-12-08,07:26,Communication Loss,CME,High,Satellite
+2022-03-05,05:53,Orientation Error,Kp Spike,Low,Satellite
+2018-07-26,13:45,Power Drop,Kp Spike,Medium,Satellite
+2023-05-03,11:22,Communication Loss,Flare,High,Satellite
+2024-05-08,05:32,Orientation Error,CME,Low,Satellite
