@@ -58,7 +58,12 @@ def prepare_features(df):
 def train_random_forest(df, n_estimators=100, max_depth=10, test_size=0.2):
     """Train Random Forest model for impact level prediction"""
     
-    X, y, label_encoders, feature_cols = prepare_features(df)
+    result = prepare_features(df)
+    if len(result) == 2:
+        X, y = result
+        label_encoders, feature_cols = {}, []
+    else:
+        X, y, label_encoders, feature_cols = result
     
     if X.empty or y.empty:
         return None, 0, [], []
@@ -93,8 +98,8 @@ def train_random_forest(df, n_estimators=100, max_depth=10, test_size=0.2):
     feature_importance = sorted(feature_importance, key=lambda x: x['importance'], reverse=True)
     
     # Store encoders in model for later use
-    model.label_encoders = label_encoders
-    model.feature_cols = feature_cols
+    setattr(model, 'label_encoders', label_encoders)
+    setattr(model, 'feature_cols', feature_cols)
     
     return model, accuracy, feature_importance, y_pred
 
@@ -145,6 +150,104 @@ def make_predictions(model, duration, region, cause, hour):
     prediction_proba = model.predict_proba(feature_df)[0]
     
     return prediction
+
+def generate_72_hour_predictions(model, base_data):
+    """Generate predictions for the next 72 hours"""
+    from datetime import datetime, timedelta
+    import plotly.graph_objects as go
+    
+    if model is None:
+        return go.Figure()
+    
+    # Generate hourly predictions for next 72 hours
+    current_time = datetime.now()
+    prediction_times = []
+    predictions = []
+    prediction_probabilities = []
+    
+    for i in range(72):  # 72 hours
+        future_time = current_time + timedelta(hours=i)
+        
+        # Create feature vector for prediction
+        features = {}
+        features['Duration'] = np.random.normal(30, 10)  # Simulate duration based on historical avg
+        features['Hour'] = future_time.hour
+        features['Month'] = future_time.month
+        features['DayOfWeek'] = future_time.weekday()
+        
+        # Add encoded categorical features with defaults
+        if hasattr(model, 'label_encoders'):
+            if 'Region' in model.label_encoders:
+                features['Region_encoded'] = 0  # Default region
+            if 'Cause' in model.label_encoders:
+                features['Cause_encoded'] = 0  # Default cause
+        
+        # Create DataFrame
+        feature_df = pd.DataFrame([features])
+        
+        # Ensure all required columns are present
+        for col in model.feature_cols:
+            if col not in feature_df.columns:
+                feature_df[col] = 0
+        
+        # Reorder columns
+        feature_df = feature_df[model.feature_cols]
+        
+        # Make prediction
+        try:
+            prediction = model.predict(feature_df)[0]
+            prediction_proba = model.predict_proba(feature_df)[0]
+            
+            prediction_times.append(future_time)
+            predictions.append(prediction)
+            prediction_probabilities.append(max(prediction_proba))
+        except Exception as e:
+            continue
+    
+    # Create continuous prediction chart
+    impact_level_numeric = {'Low': 1, 'Medium': 2, 'High': 3}
+    numeric_predictions = [impact_level_numeric.get(pred, 1) for pred in predictions]
+    
+    fig = go.Figure()
+    
+    # Add prediction line
+    fig.add_trace(go.Scatter(
+        x=prediction_times,
+        y=numeric_predictions,
+        mode='lines+markers',
+        name='Predicted Impact Level',
+        line=dict(color='#4A90E2', width=3),
+        marker=dict(size=6)
+    ))
+    
+    # Add confidence band
+    confidence_upper = [min(3, pred + 0.3) for pred in numeric_predictions]
+    confidence_lower = [max(1, pred - 0.3) for pred in numeric_predictions]
+    
+    fig.add_trace(go.Scatter(
+        x=prediction_times + prediction_times[::-1],
+        y=confidence_upper + confidence_lower[::-1],
+        fill='toself',
+        fillcolor='rgba(74, 144, 226, 0.2)',
+        line=dict(color='rgba(255,255,255,0)'),
+        showlegend=False,
+        name='Confidence Interval'
+    ))
+    
+    fig.update_layout(
+        title="72-Hour Space Weather Impact Predictions",
+        xaxis_title="Time",
+        yaxis_title="Predicted Impact Level",
+        yaxis=dict(
+            tickmode='array',
+            tickvals=[1, 2, 3],
+            ticktext=['Low', 'Medium', 'High']
+        ),
+        height=500,
+        hovermode='x unified'
+    )
+    
+    return fig
 
 def get_model_insights(model, X, y):
     """Get detailed model insights and performance metrics"""

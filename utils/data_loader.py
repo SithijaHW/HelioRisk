@@ -12,7 +12,10 @@ def load_all_data():
         'power_grid': 'attached_assets/power_grid_failures_1754061801584.csv',
         'satellite': 'attached_assets/satellite_anomalies_1754061801585.csv',
         'solar_flare': 'attached_assets/solar_flare_data_1754061801586.csv',
-        'solar_wind': 'attached_assets/solar_wind_data_1754061801586.csv'
+        'solar_wind': 'attached_assets/solar_wind_data_1754061801586.csv',
+        'gps_disruptions': 'attached_assets/gps_disruptions_1754061801582.csv',
+        'cme_data': 'attached_assets/cme_data_1754061801582.csv',
+        'kp_index': 'attached_assets/kp_index_data_1754061801583.csv'
     }
     
     for key, file_path in files.items():
@@ -70,6 +73,29 @@ def preprocess_data(df, data_type):
         for col in numeric_cols:
             if col in df.columns:
                 df[col] = pd.to_numeric(df[col], errors='coerce')
+    
+    elif data_type == 'gps_disruptions':
+        # Process GPS disruption data
+        if 'Duration' in df.columns:
+            df['Duration'] = pd.to_numeric(df['Duration'], errors='coerce')
+        if 'Region' in df.columns:
+            df['Region'] = df['Region'].str.strip()
+    
+    elif data_type == 'cme_data':
+        # Process CME data
+        numeric_cols = ['Speed', 'Width']
+        for col in numeric_cols:
+            if col in df.columns:
+                df[col] = pd.to_numeric(df[col], errors='coerce')
+        if 'Direction' in df.columns:
+            df['Direction'] = df['Direction'].str.strip()
+    
+    elif data_type == 'kp_index':
+        # Process Kp index data
+        if 'Kp_Index' in df.columns:
+            df['Kp_Index'] = pd.to_numeric(df['Kp_Index'], errors='coerce')
+        if 'Duration' in df.columns:
+            df['Duration'] = pd.to_numeric(df['Duration'], errors='coerce')
     
     # Remove rows with critical missing values
     df = df.dropna(subset=['Date'] if 'Date' in df.columns else [])

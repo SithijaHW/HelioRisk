@@ -10,7 +10,7 @@ warnings.filterwarnings('ignore')
 
 # Import utility modules
 from utils.data_loader import load_all_data, preprocess_data
-from utils.ml_models import train_random_forest, make_predictions
+from utils.ml_models import train_random_forest, make_predictions, generate_72_hour_predictions
 from utils.visualizations import (
     create_overview_charts, create_time_series_chart, 
     create_correlation_heatmap, create_impact_distribution,
@@ -183,11 +183,11 @@ def overview_dashboard(data, date_range, impact_levels, infrastructure_types):
     st.markdown('<div class="tab-content">', unsafe_allow_html=True)
     st.markdown("## 🌍 Space Weather Overview Dashboard")
     
-    # Key metrics row
+    # Key metrics row - First row
     col1, col2, col3, col4 = st.columns(4)
     
     with col1:
-        if not data['power_grid'].empty:
+        if 'power_grid' in data and not data['power_grid'].empty:
             power_events = len(data['power_grid'])
             st.markdown(f"""
             <div class="metric-card">
@@ -197,7 +197,7 @@ def overview_dashboard(data, date_range, impact_levels, infrastructure_types):
             """, unsafe_allow_html=True)
     
     with col2:
-        if not data['satellite'].empty:
+        if 'satellite' in data and not data['satellite'].empty:
             sat_events = len(data['satellite'])
             st.markdown(f"""
             <div class="metric-card">
@@ -207,7 +207,7 @@ def overview_dashboard(data, date_range, impact_levels, infrastructure_types):
             """, unsafe_allow_html=True)
     
     with col3:
-        if not data['solar_flare'].empty:
+        if 'solar_flare' in data and not data['solar_flare'].empty:
             flare_events = len(data['solar_flare'])
             st.markdown(f"""
             <div class="metric-card">
@@ -217,12 +217,45 @@ def overview_dashboard(data, date_range, impact_levels, infrastructure_types):
             """, unsafe_allow_html=True)
     
     with col4:
-        if not data['solar_wind'].empty:
+        if 'solar_wind' in data and not data['solar_wind'].empty:
             wind_events = len(data['solar_wind'])
             st.markdown(f"""
             <div class="metric-card">
                 <h4>🌊 Solar Wind Events</h4>
                 <h2>{wind_events:,}</h2>
+            </div>
+            """, unsafe_allow_html=True)
+    
+    # Second row for new datasets
+    col1, col2, col3 = st.columns(3)
+    
+    with col1:
+        if 'gps_disruptions' in data and not data['gps_disruptions'].empty:
+            gps_events = len(data['gps_disruptions'])
+            st.markdown(f"""
+            <div class="metric-card">
+                <h4>📡 GPS Disruptions</h4>
+                <h2>{gps_events:,}</h2>
+            </div>
+            """, unsafe_allow_html=True)
+    
+    with col2:
+        if 'cme_data' in data and not data['cme_data'].empty:
+            cme_events = len(data['cme_data'])
+            st.markdown(f"""
+            <div class="metric-card">
+                <h4>💥 CME Events</h4>
+                <h2>{cme_events:,}</h2>
+            </div>
+            """, unsafe_allow_html=True)
+    
+    with col3:
+        if 'kp_index' in data and not data['kp_index'].empty:
+            kp_events = len(data['kp_index'])
+            st.markdown(f"""
+            <div class="metric-card">
+                <h4>🌍 Geomagnetic Events</h4>
+                <h2>{kp_events:,}</h2>
             </div>
             """, unsafe_allow_html=True)
     
@@ -245,9 +278,21 @@ def overview_dashboard(data, date_range, impact_levels, infrastructure_types):
     
     # Regional analysis
     st.markdown("### 🌍 Regional Impact Analysis")
-    if not data['power_grid'].empty:
-        fig = create_geographical_analysis(data['power_grid'])
-        st.plotly_chart(fig, use_container_width=True)
+    
+    # Create tabs for different data types with regional data
+    regional_tab1, regional_tab2 = st.columns(2)
+    
+    with regional_tab1:
+        st.markdown("#### Power Grid Failures by Region")
+        if 'power_grid' in data and not data['power_grid'].empty:
+            fig = create_geographical_analysis(data['power_grid'], 'power_grid')
+            st.plotly_chart(fig, use_container_width=True)
+    
+    with regional_tab2:
+        st.markdown("#### GPS Disruptions by Region")
+        if 'gps_disruptions' in data and not data['gps_disruptions'].empty:
+            fig = create_geographical_analysis(data['gps_disruptions'], 'gps_disruptions')
+            st.plotly_chart(fig, use_container_width=True)
     
     # Event timeline
     st.markdown("### ⏰ Recent Event Timeline")
@@ -378,6 +423,33 @@ def ml_predictions_tab(data):
                     """, unsafe_allow_html=True)
             else:
                 st.warning("Please train the model first!")
+    
+    # 72-Hour Continuous Predictions
+    st.markdown("### 🔮 72-Hour Continuous Impact Predictions")
+    
+    if 'model' in st.session_state:
+        st.markdown("""
+        <div class="info-box">
+            <h4>📈 Continuous Forecasting</h4>
+            <p>This chart shows predicted impact levels for the next 72 hours based on historical patterns and current space weather conditions.</p>
+        </div>
+        """, unsafe_allow_html=True)
+        
+        # Generate and display 72-hour predictions
+        with st.spinner("Generating 72-hour predictions..."):
+            prediction_chart = generate_72_hour_predictions(st.session_state['model'], data.get('power_grid', pd.DataFrame()))
+            st.plotly_chart(prediction_chart, use_container_width=True)
+            
+        # Auto-refresh option
+        auto_refresh = st.checkbox("🔄 Auto-refresh predictions every 5 minutes")
+        if auto_refresh:
+            st.markdown("""
+            <div class="alert-low">
+                <p>🔄 Predictions will automatically update every 5 minutes to reflect the latest space weather conditions.</p>
+            </div>
+            """, unsafe_allow_html=True)
+    else:
+        st.info("Train the model first to see 72-hour continuous predictions.")
     
     st.markdown('</div>', unsafe_allow_html=True)
 

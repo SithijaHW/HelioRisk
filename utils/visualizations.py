@@ -122,21 +122,35 @@ def create_impact_distribution(df):
     
     return fig
 
-def create_geographical_analysis(df):
-    """Create geographical analysis chart"""
+def create_geographical_analysis(df, data_type='power_grid'):
+    """Create geographical analysis chart with proper regional data"""
     
-    if df.empty or 'Region' not in df.columns:
+    if df.empty:
         return go.Figure()
     
+    # Handle different regional columns based on data type
+    region_col = None
+    if 'Region' in df.columns:
+        region_col = 'Region'
+    elif 'Location' in df.columns:
+        region_col = 'Location'
+    
+    if region_col is None:
+        return go.Figure().add_annotation(
+            text="No regional data available for this dataset",
+            xref="paper", yref="paper",
+            x=0.5, y=0.5, showarrow=False
+        )
+    
     # Regional distribution
-    regional_data = df.groupby(['Region', 'Impact_Level']).size().reset_index(name='Count')
+    regional_data = df.groupby([region_col, 'Impact_Level']).size().reset_index(name='Count')
     
     fig = px.bar(
         regional_data,
-        x='Region',
+        x=region_col,
         y='Count',
         color='Impact_Level',
-        title="Events by Region and Impact Level",
+        title=f"Events by {region_col} and Impact Level",
         color_discrete_map={
             'Low': '#27AE60',
             'Medium': '#F39C12',
@@ -145,7 +159,7 @@ def create_geographical_analysis(df):
     )
     
     fig.update_layout(
-        xaxis_title="Region",
+        xaxis_title=region_col,
         yaxis_title="Number of Events",
         barmode='stack'
     )
