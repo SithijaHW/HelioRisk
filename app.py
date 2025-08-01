@@ -437,16 +437,26 @@ def ml_predictions_tab(data):
         
         # Generate and display 72-hour predictions
         with st.spinner("Generating 72-hour predictions..."):
-            prediction_chart = generate_72_hour_predictions(st.session_state['model'], data.get('power_grid', pd.DataFrame()))
+            prediction_chart = generate_72_hour_predictions(st.session_state['model'], data)
             st.plotly_chart(prediction_chart, use_container_width=True)
             
         # Auto-refresh option
-        auto_refresh = st.checkbox("🔄 Auto-refresh predictions every 5 minutes")
+        auto_refresh = st.checkbox("🔄 Auto-refresh predictions every 1 minute")
+        
         if auto_refresh:
             st.markdown("""
             <div class="alert-low">
-                <p>🔄 Predictions will automatically update every 5 minutes to reflect the latest space weather conditions.</p>
+                <p>🔄 Predictions will automatically update every 1 minute to reflect the latest space weather conditions.</p>
             </div>
+            """, unsafe_allow_html=True)
+            
+            # JavaScript for auto-refresh every minute
+            st.markdown("""
+            <script>
+            setTimeout(function(){
+                window.location.reload();
+            }, 60000); // 60 seconds
+            </script>
             """, unsafe_allow_html=True)
     else:
         st.info("Train the model first to see 72-hour continuous predictions.")
