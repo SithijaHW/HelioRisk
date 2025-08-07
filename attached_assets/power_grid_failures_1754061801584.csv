@@ -222,3 +222,2227 @@ Date,Time,Region,Duration,Cause,Impact_Level,Infrastructure
 2016-09-29,22:51,China,7,Geomagnetic Disturbance,High,Power Grid
 2024-10-06,18:29,USA,8,Hardware Fault,High,Power Grid
 2017-11-29,17:27,Europe,7,Geomagnetic Disturbance,High,Power Grid
+2015-09-14,03:31,China,7,Overload,High,Power Grid
+2024-11-27,09:10,USA,11,Overload,High,Power Grid
+2017-05-14,05:32,China,9,Geomagnetic Disturbance,High,Power Grid
+2024-12-13,09:04,Europe,9,Geomagnetic Disturbance,High,Power Grid
+2020-10-06,20:54,Europe,5,Overload,Medium,Power Grid
+2023-03-17,16:13,China,3,Geomagnetic Disturbance,Low,Power Grid
+2023-01-26,20:14,India,6,Hardware Fault,Medium,Power Grid
+2018-11-15,14:04,USA,4,Geomagnetic Disturbance,Medium,Power Grid
+2021-02-24,18:25,USA,1,Hardware Fault,Low,Power Grid
+2024-04-14,07:44,USA,4,Hardware Fault,Medium,Power Grid
+2016-04-22,12:08,India,4,Overload,Medium,Power Grid
+2024-10-23,08:51,USA,10,Geomagnetic Disturbance,High,Power Grid
+2021-03-11,13:00,Europe,5,Overload,Medium,Power Grid
+2017-02-08,15:07,China,6,Overload,Medium,Power Grid
+2018-06-02,07:52,USA,9,Hardware Fault,High,Power Grid
+2021-10-29,02:34,USA,3,Hardware Fault,Low,Power Grid
+2020-07-15,18:56,India,11,Overload,High,Power Grid
+2022-07-05,02:52,China,1,Geomagnetic Disturbance,Low,Power Grid
+2016-04-06,09:37,India,6,Geomagnetic Disturbance,Medium,Power Grid
+2018-03-22,14:02,USA,4,Geomagnetic Disturbance,Medium,Power Grid
+2021-09-28,01:53,India,2,Overload,Low,Power Grid
+2017-07-21,09:44,USA,5,Hardware Fault,Medium,Power Grid
+2022-06-28,23:01,USA,2,Overload,Low,Power Grid
+2015-08-16,20:25,Europe,2,Overload,Low,Power Grid
+2015-05-30,20:35,China,5,Overload,Medium,Power Grid
+2020-09-21,20:46,Europe,11,Geomagnetic Disturbance,High,Power Grid
+2021-12-21,01:29,China,5,Overload,Medium,Power Grid
+2016-02-13,13:33,Europe,3,Hardware Fault,Low,Power Grid
+2016-02-04,19:39,China,2,Hardware Fault,Low,Power Grid
+2021-05-20,02:11,China,1,Hardware Fault,Low,Power Grid
+2015-01-18,16:27,USA,7,Geomagnetic Disturbance,High,Power Grid
+2015-03-18,11:45,Europe,10,Hardware Fault,High,Power Grid
+2019-10-06,19:29,USA,9,Overload,High,Power Grid
+2020-09-01,14:42,USA,9,Overload,High,Power Grid
+2022-06-20,21:22,USA,4,Overload,Medium,Power Grid
+2024-07-28,05:08,China,3,Overload,Low,Power Grid
+2017-05-29,03:38,India,3,Hardware Fault,Low,Power Grid
+2015-04-11,06:40,China,7,Hardware Fault,High,Power Grid
+2023-05-19,16:42,USA,3,Hardware Fault,Low,Power Grid
+2020-06-13,08:24,USA,5,Overload,Medium,Power Grid
+2023-12-23,03:11,Europe,10,Overload,High,Power Grid
+2024-09-26,06:58,USA,9,Geomagnetic Disturbance,High,Power Grid
+2015-11-04,13:58,India,3,Geomagnetic Disturbance,Low,Power Grid
+2020-07-01,15:07,China,11,Hardware Fault,High,Power Grid
+2021-02-12,02:41,USA,1,Hardware Fault,Low,Power Grid
+2018-06-29,07:17,Europe,2,Hardware Fault,Low,Power Grid
+2020-04-08,23:58,Europe,5,Overload,Medium,Power Grid
+2019-05-07,23:32,USA,7,Hardware Fault,High,Power Grid
+2015-05-10,17:40,India,6,Overload,Medium,Power Grid
+2015-08-11,12:09,Europe,9,Geomagnetic Disturbance,High,Power Grid
+2017-11-05,07:53,Europe,4,Overload,Medium,Power Grid
+2024-03-29,00:49,India,4,Overload,Medium,Power Grid
+2023-08-25,18:30,Europe,1,Hardware Fault,Low,Power Grid
+2016-01-11,07:49,Europe,11,Geomagnetic Disturbance,High,Power Grid
+2019-04-16,12:14,India,11,Geomagnetic Disturbance,High,Power Grid
+2018-06-23,07:32,India,4,Hardware Fault,Medium,Power Grid
+2020-08-15,20:02,China,3,Geomagnetic Disturbance,Low,Power Grid
+2023-01-02,16:16,USA,4,Geomagnetic Disturbance,Medium,Power Grid
+2020-12-08,10:31,Europe,8,Overload,High,Power Grid
+2023-09-23,05:44,China,6,Geomagnetic Disturbance,Medium,Power Grid
+2020-09-16,15:14,China,3,Overload,Low,Power Grid
+2024-01-23,02:03,China,9,Geomagnetic Disturbance,High,Power Grid
+2018-07-10,19:35,India,10,Geomagnetic Disturbance,High,Power Grid
+2019-07-01,05:49,India,4,Geomagnetic Disturbance,Medium,Power Grid
+2022-11-08,17:43,USA,6,Overload,Medium,Power Grid
+2016-02-25,03:05,Europe,2,Geomagnetic Disturbance,Low,Power Grid
+2020-07-05,10:36,USA,9,Overload,High,Power Grid
+2017-08-18,10:19,USA,5,Geomagnetic Disturbance,Medium,Power Grid
+2018-08-19,13:24,India,10,Geomagnetic Disturbance,High,Power Grid
+2018-05-21,00:37,Europe,11,Overload,High,Power Grid
+2020-06-09,12:32,China,9,Geomagnetic Disturbance,High,Power Grid
+2016-03-18,19:18,India,11,Hardware Fault,High,Power Grid
+2020-02-14,09:33,Europe,10,Overload,High,Power Grid
+2024-05-11,18:51,China,5,Geomagnetic Disturbance,Medium,Power Grid
+2018-02-10,12:57,India,10,Geomagnetic Disturbance,High,Power Grid
+2020-12-26,11:28,China,6,Hardware Fault,Medium,Power Grid
+2024-08-01,18:02,India,6,Geomagnetic Disturbance,Medium,Power Grid
+2023-10-16,00:10,India,1,Overload,Low,Power Grid
+2022-10-22,07:51,India,6,Hardware Fault,Medium,Power Grid
+2016-07-09,03:12,India,7,Overload,High,Power Grid
+2020-12-31,06:39,China,2,Hardware Fault,Low,Power Grid
+2015-01-29,17:56,India,6,Geomagnetic Disturbance,Medium,Power Grid
+2017-12-11,00:04,USA,5,Overload,Medium,Power Grid
+2015-09-13,03:22,USA,11,Geomagnetic Disturbance,High,Power Grid
+2020-03-10,06:51,Europe,6,Geomagnetic Disturbance,Medium,Power Grid
+2015-02-20,22:52,India,5,Hardware Fault,Medium,Power Grid
+2023-07-18,17:06,China,6,Hardware Fault,Medium,Power Grid
+2017-06-30,00:18,USA,6,Geomagnetic Disturbance,Medium,Power Grid
+2019-02-12,22:59,India,1,Geomagnetic Disturbance,Low,Power Grid
+2017-10-13,22:01,USA,6,Geomagnetic Disturbance,Medium,Power Grid
+2021-01-10,21:42,USA,9,Hardware Fault,High,Power Grid
+2024-03-21,16:26,India,7,Geomagnetic Disturbance,High,Power Grid
+2023-07-08,09:39,Europe,2,Geomagnetic Disturbance,Low,Power Grid
+2024-05-14,11:24,India,4,Geomagnetic Disturbance,Medium,Power Grid
+2022-04-12,05:35,India,1,Overload,Low,Power Grid
+2018-09-23,02:45,USA,11,Overload,High,Power Grid
+2023-01-09,08:51,China,10,Geomagnetic Disturbance,High,Power Grid
+2016-01-11,17:48,India,10,Hardware Fault,High,Power Grid
+2017-03-18,13:53,China,5,Hardware Fault,Medium,Power Grid
+2017-08-01,23:37,Europe,10,Overload,High,Power Grid
+2023-02-16,15:40,USA,8,Hardware Fault,High,Power Grid
+2018-04-30,22:15,USA,8,Geomagnetic Disturbance,High,Power Grid
+2015-03-16,21:56,India,2,Geomagnetic Disturbance,Low,Power Grid
+2019-09-04,01:08,Europe,7,Geomagnetic Disturbance,High,Power Grid
+2020-05-11,12:24,India,7,Overload,High,Power Grid
+2024-08-13,22:43,Europe,10,Geomagnetic Disturbance,High,Power Grid
+2020-07-25,23:27,Europe,1,Hardware Fault,Low,Power Grid
+2019-03-06,12:02,Europe,4,Overload,Medium,Power Grid
+2021-06-08,10:10,China,8,Hardware Fault,High,Power Grid
+2015-01-25,09:22,USA,8,Hardware Fault,High,Power Grid
+2017-03-25,08:39,China,4,Overload,Medium,Power Grid
+2016-12-30,12:22,China,1,Geomagnetic Disturbance,Low,Power Grid
+2020-01-16,20:43,India,7,Overload,High,Power Grid
+2016-09-20,15:42,India,7,Geomagnetic Disturbance,High,Power Grid
+2021-10-12,23:16,USA,7,Overload,High,Power Grid
+2024-05-16,15:27,USA,4,Overload,Medium,Power Grid
+2018-07-31,15:30,USA,9,Overload,High,Power Grid
+2017-03-11,16:29,China,4,Hardware Fault,Medium,Power Grid
+2015-09-15,23:48,China,7,Overload,High,Power Grid
+2015-08-23,08:17,China,6,Hardware Fault,Medium,Power Grid
+2022-02-17,16:28,USA,3,Overload,Low,Power Grid
+2021-08-28,10:21,India,10,Hardware Fault,High,Power Grid
+2016-06-26,07:06,China,5,Hardware Fault,Medium,Power Grid
+2024-04-26,17:05,India,4,Hardware Fault,Medium,Power Grid
+2015-06-06,11:51,USA,11,Overload,High,Power Grid
+2021-03-06,06:01,China,2,Hardware Fault,Low,Power Grid
+2015-11-05,15:24,USA,2,Overload,Low,Power Grid
+2021-06-03,14:02,China,3,Hardware Fault,Low,Power Grid
+2015-01-14,15:32,China,10,Hardware Fault,High,Power Grid
+2019-09-13,15:09,Europe,6,Geomagnetic Disturbance,Medium,Power Grid
+2016-10-22,17:16,China,6,Overload,Medium,Power Grid
+2017-03-27,01:21,China,11,Overload,High,Power Grid
+2015-05-14,21:43,India,3,Geomagnetic Disturbance,Low,Power Grid
+2015-02-04,09:23,Europe,6,Hardware Fault,Medium,Power Grid
+2016-07-07,07:17,China,10,Geomagnetic Disturbance,High,Power Grid
+2021-01-22,09:11,USA,4,Overload,Medium,Power Grid
+2021-05-21,17:31,India,2,Overload,Low,Power Grid
+2016-08-30,03:13,USA,7,Overload,High,Power Grid
+2019-02-28,20:23,Europe,4,Geomagnetic Disturbance,Medium,Power Grid
+2024-02-02,15:06,USA,10,Geomagnetic Disturbance,High,Power Grid
+2015-10-24,16:13,Europe,11,Hardware Fault,High,Power Grid
+2019-03-10,21:38,China,7,Overload,High,Power Grid
+2018-11-18,03:42,USA,10,Geomagnetic Disturbance,High,Power Grid
+2021-04-06,04:59,USA,4,Overload,Medium,Power Grid
+2018-02-23,06:13,China,9,Hardware Fault,High,Power Grid
+2022-10-05,10:07,India,4,Hardware Fault,Medium,Power Grid
+2015-04-17,01:35,China,4,Overload,Medium,Power Grid
+2017-10-09,23:14,India,6,Overload,Medium,Power Grid
+2016-08-24,19:06,China,11,Overload,High,Power Grid
+2020-08-18,09:17,China,7,Overload,High,Power Grid
+2018-01-27,07:43,India,5,Geomagnetic Disturbance,Medium,Power Grid
+2022-08-16,10:11,USA,7,Geomagnetic Disturbance,High,Power Grid
+2024-11-28,20:19,China,9,Hardware Fault,High,Power Grid
+2022-08-19,01:37,Europe,1,Overload,Low,Power Grid
+2018-05-16,10:20,India,6,Overload,Medium,Power Grid
+2017-01-27,03:29,China,9,Overload,High,Power Grid
+2017-04-16,21:10,India,6,Geomagnetic Disturbance,Medium,Power Grid
+2015-02-04,01:36,India,10,Geomagnetic Disturbance,High,Power Grid
+2019-10-16,14:56,Europe,6,Overload,Medium,Power Grid
+2016-01-04,05:09,Europe,9,Overload,High,Power Grid
+2021-01-02,23:24,China,9,Geomagnetic Disturbance,High,Power Grid
+2020-11-23,18:52,India,10,Overload,High,Power Grid
+2024-07-23,16:40,USA,8,Hardware Fault,High,Power Grid
+2023-11-09,00:36,USA,2,Overload,Low,Power Grid
+2022-06-14,02:20,India,8,Overload,High,Power Grid
+2021-04-13,10:25,USA,4,Geomagnetic Disturbance,Medium,Power Grid
+2024-09-25,09:09,USA,5,Hardware Fault,Medium,Power Grid
+2019-08-29,00:48,USA,4,Overload,Medium,Power Grid
+2018-11-25,23:36,USA,10,Hardware Fault,High,Power Grid
+2022-12-22,06:26,China,10,Hardware Fault,High,Power Grid
+2019-04-17,04:30,China,6,Overload,Medium,Power Grid
+2020-07-24,04:38,China,5,Geomagnetic Disturbance,Medium,Power Grid
+2018-06-16,09:12,China,5,Hardware Fault,Medium,Power Grid
+2024-06-16,11:59,India,11,Overload,High,Power Grid
+2023-07-28,06:28,India,6,Overload,Medium,Power Grid
+2023-07-09,10:58,China,8,Geomagnetic Disturbance,High,Power Grid
+2017-04-30,20:04,India,11,Geomagnetic Disturbance,High,Power Grid
+2017-10-02,06:04,India,3,Hardware Fault,Low,Power Grid
+2024-05-23,12:31,India,3,Geomagnetic Disturbance,Low,Power Grid
+2021-11-14,11:19,India,11,Hardware Fault,High,Power Grid
+2016-10-02,00:47,USA,10,Hardware Fault,High,Power Grid
+2015-09-18,04:06,India,9,Overload,High,Power Grid
+2016-10-16,22:48,USA,11,Overload,High,Power Grid
+2017-02-23,18:30,Europe,10,Overload,High,Power Grid
+2023-04-14,17:44,Europe,2,Overload,Low,Power Grid
+2015-05-04,07:42,India,11,Geomagnetic Disturbance,High,Power Grid
+2023-10-20,03:04,USA,3,Geomagnetic Disturbance,Low,Power Grid
+2022-07-29,01:52,China,2,Geomagnetic Disturbance,Low,Power Grid
+2018-04-07,15:36,India,4,Overload,Medium,Power Grid
+2020-09-17,14:24,USA,5,Hardware Fault,Medium,Power Grid
+2020-02-01,16:45,Europe,6,Geomagnetic Disturbance,Medium,Power Grid
+2020-06-13,08:40,USA,5,Geomagnetic Disturbance,Medium,Power Grid
+2023-04-29,16:59,USA,8,Hardware Fault,High,Power Grid
+2019-10-05,08:30,USA,4,Hardware Fault,Medium,Power Grid
+2017-08-09,16:34,USA,6,Overload,Medium,Power Grid
+2022-01-24,00:28,Europe,5,Overload,Medium,Power Grid
+2017-06-15,21:39,Europe,1,Overload,Low,Power Grid
+2024-06-20,10:08,India,6,Hardware Fault,Medium,Power Grid
+2016-03-27,01:23,USA,6,Hardware Fault,Medium,Power Grid
+2023-11-28,00:42,USA,3,Hardware Fault,Low,Power Grid
+2022-07-31,18:58,Europe,3,Geomagnetic Disturbance,Low,Power Grid
+2024-04-04,11:58,Europe,7,Geomagnetic Disturbance,High,Power Grid
+2016-08-29,12:30,Europe,11,Overload,High,Power Grid
+2019-03-11,21:27,China,7,Hardware Fault,High,Power Grid
+2019-06-22,13:28,USA,2,Overload,Low,Power Grid
+2019-07-31,02:17,India,1,Geomagnetic Disturbance,Low,Power Grid
+2017-02-04,10:36,China,3,Hardware Fault,Low,Power Grid
+2022-06-17,12:25,Europe,9,Geomagnetic Disturbance,High,Power Grid
+2015-07-21,09:34,India,1,Overload,Low,Power Grid
+2017-04-08,06:09,India,8,Geomagnetic Disturbance,High,Power Grid
+2016-09-14,10:37,China,2,Hardware Fault,Low,Power Grid
+2021-02-07,19:28,USA,4,Hardware Fault,Medium,Power Grid
+2024-11-15,09:43,Europe,8,Geomagnetic Disturbance,High,Power Grid
+2018-05-11,18:49,India,2,Geomagnetic Disturbance,Low,Power Grid
+2023-05-27,03:53,Europe,5,Geomagnetic Disturbance,Medium,Power Grid
+2023-07-05,09:44,Europe,4,Hardware Fault,Medium,Power Grid
+2022-02-19,21:08,China,6,Hardware Fault,Medium,Power Grid
+2021-10-07,04:03,India,3,Hardware Fault,Low,Power Grid
+2021-03-19,13:02,China,8,Geomagnetic Disturbance,High,Power Grid
+2018-06-04,16:34,China,7,Hardware Fault,High,Power Grid
+2023-09-26,20:54,USA,8,Geomagnetic Disturbance,High,Power Grid
+2023-07-16,21:40,Europe,10,Overload,High,Power Grid
+2016-03-21,13:59,India,7,Overload,High,Power Grid
+2022-01-09,13:48,India,7,Overload,High,Power Grid
+2021-10-21,11:22,Europe,8,Geomagnetic Disturbance,High,Power Grid
+2024-09-09,05:32,China,11,Hardware Fault,High,Power Grid
+2015-01-29,12:53,India,5,Overload,Medium,Power Grid
+2024-10-28,02:34,China,9,Overload,High,Power Grid
+2023-11-14,17:47,India,2,Overload,Low,Power Grid
+2020-02-01,00:29,USA,4,Hardware Fault,Medium,Power Grid
+2015-12-22,09:34,Europe,6,Geomagnetic Disturbance,Medium,Power Grid
+2020-03-03,04:31,China,1,Geomagnetic Disturbance,Low,Power Grid
+2023-06-17,10:29,Europe,8,Overload,High,Power Grid
+2023-02-04,00:06,USA,11,Overload,High,Power Grid
+2015-05-08,23:10,Europe,10,Geomagnetic Disturbance,High,Power Grid
+2024-06-04,15:25,Europe,9,Geomagnetic Disturbance,High,Power Grid
+2015-02-04,07:45,China,4,Hardware Fault,Medium,Power Grid
+2023-02-10,07:12,India,3,Hardware Fault,Low,Power Grid
+2017-08-20,14:10,India,5,Overload,Medium,Power Grid
+2024-12-19,06:43,India,11,Hardware Fault,High,Power Grid
+2017-08-01,10:13,India,2,Overload,Low,Power Grid
+2017-02-22,00:54,USA,11,Overload,High,Power Grid
+2023-06-22,18:48,India,2,Geomagnetic Disturbance,Low,Power Grid
+2020-08-18,13:40,Europe,6,Overload,Medium,Power Grid
+2020-05-25,20:59,India,8,Hardware Fault,High,Power Grid
+2019-03-26,03:20,USA,2,Overload,Low,Power Grid
+2020-11-06,15:58,USA,2,Hardware Fault,Low,Power Grid
+2018-02-19,09:18,USA,5,Hardware Fault,Medium,Power Grid
+2019-03-10,10:31,USA,11,Hardware Fault,High,Power Grid
+2024-10-05,17:58,India,1,Hardware Fault,Low,Power Grid
+2015-05-27,19:29,China,4,Overload,Medium,Power Grid
+2022-07-24,12:10,Europe,2,Overload,Low,Power Grid
+2015-04-23,04:39,China,9,Hardware Fault,High,Power Grid
+2015-10-18,01:14,Europe,7,Hardware Fault,High,Power Grid
+2022-03-13,11:53,India,11,Overload,High,Power Grid
+2020-11-21,08:24,USA,10,Overload,High,Power Grid
+2021-09-12,10:10,Europe,11,Overload,High,Power Grid
+2016-11-25,10:39,China,2,Geomagnetic Disturbance,Low,Power Grid
+2016-11-17,06:01,India,11,Geomagnetic Disturbance,High,Power Grid
+2023-01-23,12:46,USA,6,Overload,Medium,Power Grid
+2024-03-13,16:04,China,2,Hardware Fault,Low,Power Grid
+2017-09-19,03:57,India,3,Hardware Fault,Low,Power Grid
+2019-06-17,22:18,China,8,Geomagnetic Disturbance,High,Power Grid
+2016-11-12,04:45,India,4,Geomagnetic Disturbance,Medium,Power Grid
+2018-06-08,05:22,China,10,Overload,High,Power Grid
+2020-04-07,13:30,Europe,9,Overload,High,Power Grid
+2018-10-16,18:43,Europe,11,Overload,High,Power Grid
+2022-12-17,21:03,Europe,11,Hardware Fault,High,Power Grid
+2021-10-02,16:40,China,7,Hardware Fault,High,Power Grid
+2015-12-04,14:02,Europe,1,Overload,Low,Power Grid
+2024-11-20,12:38,USA,10,Geomagnetic Disturbance,High,Power Grid
+2017-04-01,11:11,China,1,Hardware Fault,Low,Power Grid
+2015-10-03,03:16,USA,4,Overload,Medium,Power Grid
+2022-02-25,22:25,China,9,Geomagnetic Disturbance,High,Power Grid
+2015-12-23,18:59,India,4,Overload,Medium,Power Grid
+2015-06-19,00:24,Europe,9,Hardware Fault,High,Power Grid
+2023-10-26,10:36,China,4,Hardware Fault,Medium,Power Grid
+2021-05-14,19:04,Europe,4,Geomagnetic Disturbance,Medium,Power Grid
+2019-07-13,07:04,Europe,11,Geomagnetic Disturbance,High,Power Grid
+2024-01-03,18:35,USA,2,Geomagnetic Disturbance,Low,Power Grid
+2016-02-03,22:37,Europe,6,Geomagnetic Disturbance,Medium,Power Grid
+2020-04-08,21:40,Europe,3,Geomagnetic Disturbance,Low,Power Grid
+2020-05-28,22:56,India,8,Geomagnetic Disturbance,High,Power Grid
+2018-01-09,17:20,Europe,8,Overload,High,Power Grid
+2022-01-07,17:27,Europe,7,Overload,High,Power Grid
+2023-11-05,23:41,USA,4,Geomagnetic Disturbance,Medium,Power Grid
+2021-09-05,17:45,China,4,Hardware Fault,Medium,Power Grid
+2022-03-27,15:09,Europe,9,Hardware Fault,High,Power Grid
+2018-10-22,11:44,China,2,Geomagnetic Disturbance,Low,Power Grid
+2023-01-18,13:00,USA,2,Overload,Low,Power Grid
+2020-09-20,13:05,USA,2,Hardware Fault,Low,Power Grid
+2017-09-18,18:43,USA,10,Geomagnetic Disturbance,High,Power Grid
+2018-04-05,06:04,USA,8,Geomagnetic Disturbance,High,Power Grid
+2017-02-06,04:09,India,9,Geomagnetic Disturbance,High,Power Grid
+2015-12-19,01:21,USA,11,Hardware Fault,High,Power Grid
+2023-02-22,21:30,Europe,6,Hardware Fault,Medium,Power Grid
+2023-10-25,03:54,India,8,Geomagnetic Disturbance,High,Power Grid
+2016-12-17,12:00,India,3,Geomagnetic Disturbance,Low,Power Grid
+2021-02-10,00:16,Europe,1,Hardware Fault,Low,Power Grid
+2021-12-18,09:52,Europe,11,Hardware Fault,High,Power Grid
+2020-02-13,16:19,India,11,Geomagnetic Disturbance,High,Power Grid
+2021-12-09,21:43,India,1,Overload,Low,Power Grid
+2024-04-01,17:54,Europe,9,Hardware Fault,High,Power Grid
+2017-01-11,11:40,India,11,Geomagnetic Disturbance,High,Power Grid
+2023-12-04,23:09,China,4,Hardware Fault,Medium,Power Grid
+2019-05-16,09:25,China,1,Hardware Fault,Low,Power Grid
+2024-09-10,17:31,Europe,7,Overload,High,Power Grid
+2018-05-09,18:45,USA,7,Overload,High,Power Grid
+2018-12-26,04:41,USA,8,Hardware Fault,High,Power Grid
+2023-10-20,23:27,Europe,1,Geomagnetic Disturbance,Low,Power Grid
+2021-12-13,05:26,USA,9,Overload,High,Power Grid
+2022-10-12,00:44,China,10,Overload,High,Power Grid
+2022-11-19,00:27,China,7,Hardware Fault,High,Power Grid
+2016-02-22,06:05,Europe,8,Geomagnetic Disturbance,High,Power Grid
+2016-09-27,11:15,China,10,Overload,High,Power Grid
+2023-09-28,08:44,India,5,Overload,Medium,Power Grid
+2015-05-14,18:13,India,9,Hardware Fault,High,Power Grid
+2017-09-04,05:39,USA,3,Hardware Fault,Low,Power Grid
+2021-06-13,15:27,Europe,10,Overload,High,Power Grid
+2020-04-03,11:26,China,4,Overload,Medium,Power Grid
+2017-07-20,15:25,USA,8,Hardware Fault,High,Power Grid
+2017-02-22,20:00,India,11,Overload,High,Power Grid
+2018-10-21,10:15,USA,2,Overload,Low,Power Grid
+2015-08-11,17:12,India,6,Overload,Medium,Power Grid
+2016-10-04,15:28,India,1,Geomagnetic Disturbance,Low,Power Grid
+2017-05-08,22:27,USA,4,Hardware Fault,Medium,Power Grid
+2023-09-07,21:18,USA,1,Hardware Fault,Low,Power Grid
+2019-05-08,02:36,Europe,9,Overload,High,Power Grid
+2019-10-26,13:18,USA,2,Overload,Low,Power Grid
+2015-09-02,02:47,China,10,Overload,High,Power Grid
+2019-12-04,14:35,Europe,4,Overload,Medium,Power Grid
+2019-10-08,04:57,India,2,Overload,Low,Power Grid
+2016-10-20,07:10,China,6,Overload,Medium,Power Grid
+2023-10-03,12:38,India,9,Hardware Fault,High,Power Grid
+2022-11-09,12:08,USA,6,Hardware Fault,Medium,Power Grid
+2016-09-04,05:22,USA,2,Hardware Fault,Low,Power Grid
+2016-07-30,13:12,China,10,Geomagnetic Disturbance,High,Power Grid
+2015-01-14,06:48,USA,3,Overload,Low,Power Grid
+2018-02-12,22:47,Europe,9,Overload,High,Power Grid
+2016-09-24,10:59,India,2,Overload,Low,Power Grid
+2018-04-19,15:55,India,5,Hardware Fault,Medium,Power Grid
+2017-02-11,19:55,China,9,Overload,High,Power Grid
+2020-05-02,20:26,Europe,11,Geomagnetic Disturbance,High,Power Grid
+2017-06-04,21:14,India,11,Hardware Fault,High,Power Grid
+2020-08-17,06:16,China,3,Hardware Fault,Low,Power Grid
+2024-01-18,05:28,India,8,Geomagnetic Disturbance,High,Power Grid
+2023-01-30,03:27,India,1,Geomagnetic Disturbance,Low,Power Grid
+2023-05-06,02:53,Europe,10,Hardware Fault,High,Power Grid
+2024-04-18,14:00,India,4,Geomagnetic Disturbance,Medium,Power Grid
+2024-09-07,02:37,USA,2,Geomagnetic Disturbance,Low,Power Grid
+2022-11-14,03:44,Europe,8,Overload,High,Power Grid
+2016-10-25,20:47,Europe,6,Overload,Medium,Power Grid
+2021-04-19,04:32,China,11,Overload,High,Power Grid
+2019-06-21,03:02,USA,6,Overload,Medium,Power Grid
+2023-01-07,13:52,China,1,Geomagnetic Disturbance,Low,Power Grid
+2016-12-05,17:09,India,9,Geomagnetic Disturbance,High,Power Grid
+2022-01-20,15:47,India,7,Hardware Fault,High,Power Grid
+2016-05-02,01:47,Europe,2,Hardware Fault,Low,Power Grid
+2020-06-02,10:11,India,3,Hardware Fault,Low,Power Grid
+2024-01-25,06:10,India,9,Overload,High,Power Grid
+2015-03-17,11:49,USA,7,Overload,High,Power Grid
+2016-11-14,12:59,Europe,6,Geomagnetic Disturbance,Medium,Power Grid
+2021-10-23,17:39,China,11,Geomagnetic Disturbance,High,Power Grid
+2020-06-27,23:57,China,2,Geomagnetic Disturbance,Low,Power Grid
+2018-01-20,11:37,Europe,8,Overload,High,Power Grid
+2023-03-13,04:06,Europe,5,Geomagnetic Disturbance,Medium,Power Grid
+2016-07-05,06:04,India,6,Overload,Medium,Power Grid
+2022-04-10,21:40,Europe,3,Overload,Low,Power Grid
+2015-10-30,13:44,India,3,Geomagnetic Disturbance,Low,Power Grid
+2018-07-07,22:22,USA,8,Hardware Fault,High,Power Grid
+2023-01-25,04:52,Europe,1,Overload,Low,Power Grid
+2015-10-11,02:55,India,6,Hardware Fault,Medium,Power Grid
+2024-12-24,21:24,Europe,10,Geomagnetic Disturbance,High,Power Grid
+2022-03-29,06:04,Europe,2,Overload,Low,Power Grid
+2017-09-30,12:06,USA,6,Geomagnetic Disturbance,Medium,Power Grid
+2020-05-30,22:40,Europe,10,Geomagnetic Disturbance,High,Power Grid
+2017-06-17,09:27,India,3,Hardware Fault,Low,Power Grid
+2016-02-03,13:40,Europe,5,Hardware Fault,Medium,Power Grid
+2015-07-01,11:12,Europe,6,Geomagnetic Disturbance,Medium,Power Grid
+2015-08-24,07:40,India,2,Overload,Low,Power Grid
+2023-04-15,13:42,India,10,Geomagnetic Disturbance,High,Power Grid
+2021-01-06,23:04,India,6,Geomagnetic Disturbance,Medium,Power Grid
+2021-07-15,04:45,USA,1,Geomagnetic Disturbance,Low,Power Grid
+2024-06-11,02:45,Europe,3,Overload,Low,Power Grid
+2022-09-02,05:25,USA,10,Overload,High,Power Grid
+2024-12-12,23:04,China,10,Hardware Fault,High,Power Grid
+2023-12-06,00:40,USA,10,Overload,High,Power Grid
+2015-09-11,23:47,USA,9,Overload,High,Power Grid
+2015-01-30,00:42,India,9,Geomagnetic Disturbance,High,Power Grid
+2019-12-28,05:00,China,1,Overload,Low,Power Grid
+2020-09-09,19:50,India,9,Hardware Fault,High,Power Grid
+2020-09-15,17:25,USA,7,Hardware Fault,High,Power Grid
+2016-03-15,01:16,India,10,Geomagnetic Disturbance,High,Power Grid
+2024-10-13,07:40,USA,5,Geomagnetic Disturbance,Medium,Power Grid
+2019-04-07,04:32,India,4,Geomagnetic Disturbance,Medium,Power Grid
+2021-01-14,13:46,China,11,Hardware Fault,High,Power Grid
+2024-01-24,17:31,Europe,2,Hardware Fault,Low,Power Grid
+2018-05-16,17:03,India,1,Geomagnetic Disturbance,Low,Power Grid
+2018-09-09,01:53,China,6,Hardware Fault,Medium,Power Grid
+2016-04-08,03:52,India,8,Hardware Fault,High,Power Grid
+2020-03-11,12:12,China,9,Hardware Fault,High,Power Grid
+2019-04-13,20:57,China,3,Overload,Low,Power Grid
+2017-08-24,17:54,Europe,8,Hardware Fault,High,Power Grid
+2022-06-01,21:25,India,3,Geomagnetic Disturbance,Low,Power Grid
+2017-12-29,13:30,USA,2,Overload,Low,Power Grid
+2021-10-23,13:58,USA,1,Hardware Fault,Low,Power Grid
+2022-07-23,12:04,Europe,5,Geomagnetic Disturbance,Medium,Power Grid
+2023-08-19,00:32,Europe,11,Overload,High,Power Grid
+2020-05-05,17:29,Europe,9,Overload,High,Power Grid
+2019-05-10,04:08,India,8,Geomagnetic Disturbance,High,Power Grid
+2016-01-03,20:23,USA,2,Hardware Fault,Low,Power Grid
+2018-06-20,04:31,Europe,5,Overload,Medium,Power Grid
+2017-04-01,06:08,China,1,Hardware Fault,Low,Power Grid
+2023-06-27,18:11,China,4,Hardware Fault,Medium,Power Grid
+2015-04-15,23:30,India,7,Geomagnetic Disturbance,High,Power Grid
+2018-01-09,12:45,USA,9,Overload,High,Power Grid
+2022-12-16,18:12,China,8,Hardware Fault,High,Power Grid
+2018-06-12,08:19,Europe,4,Hardware Fault,Medium,Power Grid
+2021-07-10,12:21,India,1,Geomagnetic Disturbance,Low,Power Grid
+2023-07-30,02:52,Europe,10,Hardware Fault,High,Power Grid
+2021-11-07,16:24,India,1,Overload,Low,Power Grid
+2019-11-13,14:04,China,5,Geomagnetic Disturbance,Medium,Power Grid
+2020-03-20,01:29,China,10,Overload,High,Power Grid
+2020-09-05,00:04,USA,2,Geomagnetic Disturbance,Low,Power Grid
+2016-04-30,20:37,China,3,Geomagnetic Disturbance,Low,Power Grid
+2022-06-04,02:04,Europe,6,Hardware Fault,Medium,Power Grid
+2024-07-08,16:06,Europe,1,Geomagnetic Disturbance,Low,Power Grid
+2020-10-12,20:15,China,1,Hardware Fault,Low,Power Grid
+2023-03-30,22:46,China,6,Hardware Fault,Medium,Power Grid
+2021-03-29,08:58,USA,4,Geomagnetic Disturbance,Medium,Power Grid
+2015-04-17,15:25,USA,6,Hardware Fault,Medium,Power Grid
+2017-01-17,05:18,Europe,10,Geomagnetic Disturbance,High,Power Grid
+2024-06-30,18:26,USA,11,Hardware Fault,High,Power Grid
+2016-06-25,10:55,Europe,3,Geomagnetic Disturbance,Low,Power Grid
+2015-03-02,00:56,China,11,Overload,High,Power Grid
+2024-03-10,22:06,India,2,Geomagnetic Disturbance,Low,Power Grid
+2021-12-16,03:20,India,11,Geomagnetic Disturbance,High,Power Grid
+2016-04-23,10:39,USA,5,Hardware Fault,Medium,Power Grid
+2023-02-16,22:24,Europe,8,Overload,High,Power Grid
+2018-11-12,19:39,China,5,Hardware Fault,Medium,Power Grid
+2019-02-15,16:32,China,10,Overload,High,Power Grid
+2023-11-12,05:38,India,9,Overload,High,Power Grid
+2019-12-13,16:49,India,7,Hardware Fault,High,Power Grid
+2019-02-28,20:33,China,5,Hardware Fault,Medium,Power Grid
+2015-07-19,06:56,USA,10,Geomagnetic Disturbance,High,Power Grid
+2017-08-22,22:26,China,1,Geomagnetic Disturbance,Low,Power Grid
+2024-04-06,22:14,Europe,10,Geomagnetic Disturbance,High,Power Grid
+2018-12-20,09:29,Europe,8,Geomagnetic Disturbance,High,Power Grid
+2020-02-28,22:38,India,4,Geomagnetic Disturbance,Medium,Power Grid
+2023-08-30,07:20,China,7,Overload,High,Power Grid
+2024-05-19,09:25,China,5,Hardware Fault,Medium,Power Grid
+2020-09-02,06:44,USA,1,Geomagnetic Disturbance,Low,Power Grid
+2016-06-17,11:32,Europe,9,Overload,High,Power Grid
+2023-07-19,11:57,China,3,Overload,Low,Power Grid
+2020-09-09,04:14,Europe,5,Geomagnetic Disturbance,Medium,Power Grid
+2021-12-11,11:04,USA,3,Hardware Fault,Low,Power Grid
+2022-01-06,16:54,Europe,4,Geomagnetic Disturbance,Medium,Power Grid
+2021-10-05,09:28,China,1,Overload,Low,Power Grid
+2023-05-12,16:31,India,7,Hardware Fault,High,Power Grid
+2019-04-12,18:47,Europe,5,Hardware Fault,Medium,Power Grid
+2023-09-18,15:22,India,2,Geomagnetic Disturbance,Low,Power Grid
+2017-06-10,04:08,USA,9,Overload,High,Power Grid
+2020-06-27,23:54,China,11,Hardware Fault,High,Power Grid
+2015-06-09,12:16,China,3,Geomagnetic Disturbance,Low,Power Grid
+2019-08-12,05:26,India,8,Hardware Fault,High,Power Grid
+2020-07-18,21:23,India,5,Hardware Fault,Medium,Power Grid
+2022-10-09,12:18,India,10,Hardware Fault,High,Power Grid
+2019-10-21,20:34,Europe,9,Hardware Fault,High,Power Grid
+2023-02-13,12:26,Europe,1,Overload,Low,Power Grid
+2023-05-07,19:24,USA,5,Overload,Medium,Power Grid
+2017-10-25,14:00,China,2,Geomagnetic Disturbance,Low,Power Grid
+2018-12-15,13:07,China,3,Geomagnetic Disturbance,Low,Power Grid
+2022-12-21,14:54,China,9,Geomagnetic Disturbance,High,Power Grid
+2019-07-23,13:12,USA,1,Hardware Fault,Low,Power Grid
+2024-01-01,19:26,India,6,Hardware Fault,Medium,Power Grid
+2022-04-13,17:48,India,7,Geomagnetic Disturbance,High,Power Grid
+2016-06-26,23:27,USA,2,Overload,Low,Power Grid
+2019-09-27,18:43,India,6,Geomagnetic Disturbance,Medium,Power Grid
+2018-04-24,18:32,USA,9,Hardware Fault,High,Power Grid
+2021-06-18,23:01,Europe,4,Geomagnetic Disturbance,Medium,Power Grid
+2023-10-12,05:55,China,7,Hardware Fault,High,Power Grid
+2021-05-13,09:02,USA,4,Overload,Medium,Power Grid
+2015-09-03,21:41,India,10,Geomagnetic Disturbance,High,Power Grid
+2020-08-02,01:03,China,6,Hardware Fault,Medium,Power Grid
+2018-04-07,14:29,China,9,Overload,High,Power Grid
+2024-07-15,18:32,India,9,Overload,High,Power Grid
+2022-07-27,11:41,China,7,Geomagnetic Disturbance,High,Power Grid
+2019-04-18,14:44,China,8,Hardware Fault,High,Power Grid
+2024-09-04,14:12,USA,9,Geomagnetic Disturbance,High,Power Grid
+2019-09-28,00:42,Europe,10,Hardware Fault,High,Power Grid
+2016-11-28,11:49,China,10,Overload,High,Power Grid
+2015-11-13,02:44,India,11,Hardware Fault,High,Power Grid
+2018-04-15,17:42,China,7,Geomagnetic Disturbance,High,Power Grid
+2016-09-07,21:52,Europe,7,Geomagnetic Disturbance,High,Power Grid
+2016-03-18,11:07,China,9,Hardware Fault,High,Power Grid
+2018-04-04,12:40,Europe,8,Overload,High,Power Grid
+2020-02-12,20:26,China,5,Hardware Fault,Medium,Power Grid
+2020-02-08,07:55,India,9,Hardware Fault,High,Power Grid
+2018-02-12,16:52,USA,4,Hardware Fault,Medium,Power Grid
+2023-08-11,02:11,India,8,Geomagnetic Disturbance,High,Power Grid
+2018-12-29,08:54,China,4,Overload,Medium,Power Grid
+2015-04-05,22:51,Europe,11,Geomagnetic Disturbance,High,Power Grid
+2016-02-11,13:55,Europe,4,Overload,Medium,Power Grid
+2020-05-26,20:45,Europe,11,Geomagnetic Disturbance,High,Power Grid
+2015-03-14,12:33,USA,6,Overload,Medium,Power Grid
+2020-10-13,09:08,USA,4,Overload,Medium,Power Grid
+2016-12-14,06:56,China,9,Overload,High,Power Grid
+2023-10-19,20:59,China,2,Overload,Low,Power Grid
+2018-08-13,16:10,USA,5,Geomagnetic Disturbance,Medium,Power Grid
+2018-07-26,10:32,China,6,Geomagnetic Disturbance,Medium,Power Grid
+2021-09-30,00:07,USA,8,Geomagnetic Disturbance,High,Power Grid
+2022-03-30,02:46,USA,5,Overload,Medium,Power Grid
+2016-08-07,05:47,India,4,Hardware Fault,Medium,Power Grid
+2024-07-03,14:30,Europe,6,Overload,Medium,Power Grid
+2018-10-17,20:07,India,11,Overload,High,Power Grid
+2019-03-11,17:08,USA,5,Overload,Medium,Power Grid
+2020-12-28,00:24,USA,2,Overload,Low,Power Grid
+2020-09-04,06:27,USA,9,Geomagnetic Disturbance,High,Power Grid
+2018-02-21,00:16,Europe,10,Overload,High,Power Grid
+2018-06-30,00:57,China,11,Hardware Fault,High,Power Grid
+2015-02-06,23:09,Europe,4,Geomagnetic Disturbance,Medium,Power Grid
+2022-06-30,23:20,Europe,4,Overload,Medium,Power Grid
+2018-05-03,14:01,Europe,4,Hardware Fault,Medium,Power Grid
+2019-08-21,02:19,Europe,5,Overload,Medium,Power Grid
+2018-05-31,01:15,India,9,Overload,High,Power Grid
+2023-02-15,05:38,India,7,Overload,High,Power Grid
+2020-06-28,20:24,Europe,1,Hardware Fault,Low,Power Grid
+2016-01-28,13:35,China,10,Geomagnetic Disturbance,High,Power Grid
+2017-10-14,01:24,Europe,1,Geomagnetic Disturbance,Low,Power Grid
+2023-04-10,15:27,China,10,Overload,High,Power Grid
+2017-06-01,05:44,India,2,Geomagnetic Disturbance,Low,Power Grid
+2022-02-27,14:54,China,5,Overload,Medium,Power Grid
+2017-01-08,07:36,China,6,Hardware Fault,Medium,Power Grid
+2015-01-31,06:04,USA,8,Hardware Fault,High,Power Grid
+2024-03-09,06:07,India,3,Overload,Low,Power Grid
+2015-08-09,19:00,India,5,Overload,Medium,Power Grid
+2018-07-27,05:52,India,1,Hardware Fault,Low,Power Grid
+2018-03-29,04:47,India,4,Overload,Medium,Power Grid
+2020-04-24,07:54,Europe,2,Geomagnetic Disturbance,Low,Power Grid
+2020-12-11,13:59,India,5,Geomagnetic Disturbance,Medium,Power Grid
+2024-01-06,19:01,China,4,Overload,Medium,Power Grid
+2018-11-19,22:11,Europe,8,Geomagnetic Disturbance,High,Power Grid
+2024-01-10,16:32,Europe,10,Hardware Fault,High,Power Grid
+2021-09-15,07:47,Europe,1,Overload,Low,Power Grid
+2015-06-16,12:04,India,7,Overload,High,Power Grid
+2023-08-03,22:54,Europe,7,Hardware Fault,High,Power Grid
+2016-05-31,04:04,USA,8,Hardware Fault,High,Power Grid
+2023-06-19,04:01,India,3,Hardware Fault,Low,Power Grid
+2019-12-25,22:31,China,4,Overload,Medium,Power Grid
+2017-10-20,19:35,China,11,Geomagnetic Disturbance,High,Power Grid
+2023-04-09,15:11,China,7,Geomagnetic Disturbance,High,Power Grid
+2023-10-16,17:02,China,2,Geomagnetic Disturbance,Low,Power Grid
+2019-06-17,15:50,China,2,Overload,Low,Power Grid
+2015-12-12,05:03,India,2,Hardware Fault,Low,Power Grid
+2023-04-24,01:19,USA,1,Hardware Fault,Low,Power Grid
+2022-09-11,18:52,USA,5,Geomagnetic Disturbance,Medium,Power Grid
+2016-09-10,04:11,USA,3,Hardware Fault,Low,Power Grid
+2024-02-28,17:35,USA,8,Hardware Fault,High,Power Grid
+2020-02-14,19:49,Europe,10,Overload,High,Power Grid
+2017-11-12,11:26,Europe,2,Hardware Fault,Low,Power Grid
+2023-10-10,09:37,China,1,Overload,Low,Power Grid
+2016-12-14,21:08,India,1,Hardware Fault,Low,Power Grid
+2015-11-08,16:41,Europe,11,Geomagnetic Disturbance,High,Power Grid
+2019-09-19,12:37,USA,3,Overload,Low,Power Grid
+2019-07-18,10:51,China,4,Geomagnetic Disturbance,Medium,Power Grid
+2020-09-10,21:21,Europe,10,Overload,High,Power Grid
+2022-11-24,03:38,USA,1,Overload,Low,Power Grid
+2015-01-01,09:11,China,9,Geomagnetic Disturbance,High,Power Grid
+2024-07-21,18:14,India,8,Hardware Fault,High,Power Grid
+2020-02-11,10:12,India,5,Geomagnetic Disturbance,Medium,Power Grid
+2024-10-30,07:29,USA,3,Hardware Fault,Low,Power Grid
+2019-04-05,22:53,India,7,Hardware Fault,High,Power Grid
+2022-05-06,14:16,China,2,Geomagnetic Disturbance,Low,Power Grid
+2024-08-26,06:27,China,11,Overload,High,Power Grid
+2015-06-13,21:02,India,10,Overload,High,Power Grid
+2015-03-04,12:00,India,3,Overload,Low,Power Grid
+2019-12-31,01:06,USA,11,Hardware Fault,High,Power Grid
+2020-02-23,19:56,USA,9,Overload,High,Power Grid
+2016-12-14,07:30,USA,10,Hardware Fault,High,Power Grid
+2022-04-26,15:19,China,4,Hardware Fault,Medium,Power Grid
+2017-09-30,02:38,USA,11,Hardware Fault,High,Power Grid
+2018-08-15,16:14,USA,8,Hardware Fault,High,Power Grid
+2018-03-08,18:52,India,2,Overload,Low,Power Grid
+2016-03-25,03:06,Europe,7,Hardware Fault,High,Power Grid
+2015-05-26,01:28,India,10,Overload,High,Power Grid
+2016-08-19,11:54,USA,3,Hardware Fault,Low,Power Grid
+2020-10-30,17:54,China,1,Geomagnetic Disturbance,Low,Power Grid
+2021-07-24,17:03,Europe,7,Overload,High,Power Grid
+2023-09-17,05:20,USA,3,Overload,Low,Power Grid
+2022-11-29,12:16,India,1,Geomagnetic Disturbance,Low,Power Grid
+2023-08-12,05:36,USA,10,Hardware Fault,High,Power Grid
+2021-09-10,00:08,Europe,7,Hardware Fault,High,Power Grid
+2016-12-12,17:05,India,10,Overload,High,Power Grid
+2022-03-31,17:53,India,3,Geomagnetic Disturbance,Low,Power Grid
+2016-06-25,17:15,Europe,10,Overload,High,Power Grid
+2019-01-10,22:02,USA,3,Overload,Low,Power Grid
+2020-02-19,11:11,India,2,Overload,Low,Power Grid
+2019-09-29,07:52,India,5,Hardware Fault,Medium,Power Grid
+2021-07-19,04:22,China,6,Geomagnetic Disturbance,Medium,Power Grid
+2021-06-29,20:24,USA,3,Hardware Fault,Low,Power Grid
+2021-06-27,21:28,India,9,Hardware Fault,High,Power Grid
+2021-07-17,11:34,India,11,Geomagnetic Disturbance,High,Power Grid
+2019-08-14,20:11,USA,6,Hardware Fault,Medium,Power Grid
+2017-08-11,14:50,India,2,Hardware Fault,Low,Power Grid
+2015-03-27,07:38,Europe,7,Hardware Fault,High,Power Grid
+2019-06-04,06:29,India,7,Hardware Fault,High,Power Grid
+2020-05-13,08:20,Europe,10,Hardware Fault,High,Power Grid
+2021-01-04,07:22,China,5,Geomagnetic Disturbance,Medium,Power Grid
+2018-10-18,13:18,India,10,Hardware Fault,High,Power Grid
+2017-02-11,05:44,China,10,Hardware Fault,High,Power Grid
+2024-04-11,11:58,USA,6,Overload,Medium,Power Grid
+2024-12-23,22:04,India,2,Geomagnetic Disturbance,Low,Power Grid
+2015-01-05,03:21,China,6,Geomagnetic Disturbance,Medium,Power Grid
+2022-09-04,14:15,India,7,Geomagnetic Disturbance,High,Power Grid
+2017-09-25,23:35,China,8,Hardware Fault,High,Power Grid
+2015-10-25,11:26,China,9,Hardware Fault,High,Power Grid
+2015-11-07,01:04,India,8,Geomagnetic Disturbance,High,Power Grid
+2023-12-04,20:35,China,1,Geomagnetic Disturbance,Low,Power Grid
+2024-03-25,23:58,Europe,1,Overload,Low,Power Grid
+2023-03-25,00:29,USA,3,Geomagnetic Disturbance,Low,Power Grid
+2019-11-04,10:45,Europe,7,Hardware Fault,High,Power Grid
+2015-06-15,07:29,USA,11,Geomagnetic Disturbance,High,Power Grid
+2019-07-11,16:29,China,5,Geomagnetic Disturbance,Medium,Power Grid
+2019-07-08,11:28,USA,11,Hardware Fault,High,Power Grid
+2022-11-13,22:15,Europe,9,Geomagnetic Disturbance,High,Power Grid
+2018-08-23,07:53,India,1,Geomagnetic Disturbance,Low,Power Grid
+2018-01-06,08:49,China,8,Geomagnetic Disturbance,High,Power Grid
+2016-10-17,04:14,China,9,Geomagnetic Disturbance,High,Power Grid
+2024-08-22,14:38,USA,3,Overload,Low,Power Grid
+2022-07-27,01:40,India,6,Overload,Medium,Power Grid
+2023-04-19,08:57,India,1,Geomagnetic Disturbance,Low,Power Grid
+2023-11-17,10:13,USA,1,Geomagnetic Disturbance,Low,Power Grid
+2016-12-27,15:40,India,3,Overload,Low,Power Grid
+2022-11-28,15:37,USA,6,Geomagnetic Disturbance,Medium,Power Grid
+2021-12-05,08:27,USA,8,Hardware Fault,High,Power Grid
+2018-05-30,10:39,China,7,Overload,High,Power Grid
+2015-01-06,23:52,Europe,8,Hardware Fault,High,Power Grid
+2024-12-22,09:42,China,8,Hardware Fault,High,Power Grid
+2015-11-03,06:54,India,8,Overload,High,Power Grid
+2018-12-31,00:53,USA,7,Overload,High,Power Grid
+2019-04-30,01:29,China,4,Hardware Fault,Medium,Power Grid
+2019-11-02,01:25,Europe,7,Overload,High,Power Grid
+2015-12-27,05:35,USA,6,Geomagnetic Disturbance,Medium,Power Grid
+2023-06-16,07:34,India,4,Geomagnetic Disturbance,Medium,Power Grid
+2020-05-05,00:59,India,3,Overload,Low,Power Grid
+2015-12-17,06:44,India,10,Hardware Fault,High,Power Grid
+2016-05-16,23:26,India,6,Hardware Fault,Medium,Power Grid
+2019-05-22,05:20,Europe,11,Overload,High,Power Grid
+2020-12-22,11:29,China,11,Overload,High,Power Grid
+2022-07-14,04:14,USA,2,Geomagnetic Disturbance,Low,Power Grid
+2024-04-11,16:29,India,7,Geomagnetic Disturbance,High,Power Grid
+2020-12-24,02:44,India,11,Geomagnetic Disturbance,High,Power Grid
+2021-09-27,14:24,India,7,Geomagnetic Disturbance,High,Power Grid
+2024-03-07,22:39,China,6,Hardware Fault,Medium,Power Grid
+2016-02-21,23:41,China,6,Overload,Medium,Power Grid
+2023-11-06,11:32,USA,9,Hardware Fault,High,Power Grid
+2016-09-18,05:36,China,10,Geomagnetic Disturbance,High,Power Grid
+2016-11-19,01:58,China,7,Geomagnetic Disturbance,High,Power Grid
+2022-03-23,02:05,Europe,8,Geomagnetic Disturbance,High,Power Grid
+2021-08-03,12:28,USA,8,Hardware Fault,High,Power Grid
+2022-05-18,17:42,India,2,Geomagnetic Disturbance,Low,Power Grid
+2021-07-20,14:44,China,2,Overload,Low,Power Grid
+2018-04-26,11:28,USA,11,Hardware Fault,High,Power Grid
+2019-06-20,20:57,USA,4,Overload,Medium,Power Grid
+2024-01-30,04:49,China,9,Overload,High,Power Grid
+2015-06-05,17:08,China,4,Overload,Medium,Power Grid
+2019-01-10,08:49,India,2,Overload,Low,Power Grid
+2020-05-20,15:05,India,3,Hardware Fault,Low,Power Grid
+2024-08-02,15:53,Europe,1,Overload,Low,Power Grid
+2022-09-04,21:36,China,5,Hardware Fault,Medium,Power Grid
+2022-06-07,20:01,Europe,6,Overload,Medium,Power Grid
+2016-12-05,01:53,Europe,2,Hardware Fault,Low,Power Grid
+2016-03-24,22:02,USA,11,Hardware Fault,High,Power Grid
+2016-05-12,03:46,India,4,Overload,Medium,Power Grid
+2024-06-21,21:57,India,5,Hardware Fault,Medium,Power Grid
+2015-06-03,11:27,Europe,5,Geomagnetic Disturbance,Medium,Power Grid
+2023-11-21,13:34,China,11,Overload,High,Power Grid
+2015-01-29,06:50,India,4,Overload,Medium,Power Grid
+2018-01-29,12:35,India,4,Overload,Medium,Power Grid
+2024-09-20,08:12,USA,11,Overload,High,Power Grid
+2017-08-14,22:39,USA,8,Geomagnetic Disturbance,High,Power Grid
+2023-09-25,03:37,China,1,Geomagnetic Disturbance,Low,Power Grid
+2023-12-29,07:51,China,10,Overload,High,Power Grid
+2018-06-14,12:03,China,2,Overload,Low,Power Grid
+2019-08-19,05:11,India,1,Geomagnetic Disturbance,Low,Power Grid
+2016-06-09,02:51,Europe,2,Geomagnetic Disturbance,Low,Power Grid
+2016-12-21,16:39,China,2,Hardware Fault,Low,Power Grid
+2022-04-30,13:31,China,9,Hardware Fault,High,Power Grid
+2023-03-12,14:41,India,7,Overload,High,Power Grid
+2024-04-06,03:58,China,6,Overload,Medium,Power Grid
+2021-11-26,13:59,Europe,10,Geomagnetic Disturbance,High,Power Grid
+2020-10-11,18:01,USA,8,Hardware Fault,High,Power Grid
+2019-11-23,15:02,Europe,8,Overload,High,Power Grid
+2018-09-05,22:46,India,1,Hardware Fault,Low,Power Grid
+2015-04-03,09:33,India,10,Hardware Fault,High,Power Grid
+2019-03-14,16:27,India,10,Overload,High,Power Grid
+2024-06-26,08:29,Europe,11,Overload,High,Power Grid
+2017-10-16,21:32,India,9,Overload,High,Power Grid
+2019-02-25,05:56,Europe,7,Hardware Fault,High,Power Grid
+2020-06-29,07:53,India,6,Hardware Fault,Medium,Power Grid
+2018-11-15,23:11,Europe,8,Hardware Fault,High,Power Grid
+2021-01-03,23:50,USA,1,Geomagnetic Disturbance,Low,Power Grid
+2017-10-04,18:42,USA,6,Overload,Medium,Power Grid
+2015-03-04,18:00,China,4,Geomagnetic Disturbance,Medium,Power Grid
+2024-03-30,01:43,USA,3,Geomagnetic Disturbance,Low,Power Grid
+2019-12-01,08:10,Europe,2,Overload,Low,Power Grid
+2024-08-21,07:49,USA,8,Overload,High,Power Grid
+2024-07-27,10:59,USA,2,Overload,Low,Power Grid
+2018-07-06,17:53,India,4,Geomagnetic Disturbance,Medium,Power Grid
+2019-01-08,11:02,USA,4,Hardware Fault,Medium,Power Grid
+2021-04-15,07:56,India,5,Hardware Fault,Medium,Power Grid
+2020-03-27,10:47,USA,1,Hardware Fault,Low,Power Grid
+2019-10-09,02:42,USA,9,Geomagnetic Disturbance,High,Power Grid
+2016-05-09,16:09,USA,2,Geomagnetic Disturbance,Low,Power Grid
+2019-12-19,04:51,India,6,Overload,Medium,Power Grid
+2015-10-30,00:31,China,6,Overload,Medium,Power Grid
+2020-12-21,00:32,USA,7,Geomagnetic Disturbance,High,Power Grid
+2016-02-09,03:43,Europe,1,Overload,Low,Power Grid
+2017-01-21,20:14,China,5,Hardware Fault,Medium,Power Grid
+2023-02-04,05:04,China,4,Geomagnetic Disturbance,Medium,Power Grid
+2024-06-20,23:20,India,10,Overload,High,Power Grid
+2021-10-07,17:55,Europe,8,Overload,High,Power Grid
+2016-12-29,13:49,India,8,Geomagnetic Disturbance,High,Power Grid
+2017-03-19,12:57,Europe,8,Hardware Fault,High,Power Grid
+2024-01-27,21:16,India,3,Overload,Low,Power Grid
+2019-03-06,16:56,USA,4,Geomagnetic Disturbance,Medium,Power Grid
+2017-01-28,21:40,USA,5,Hardware Fault,Medium,Power Grid
+2018-06-21,14:36,India,1,Hardware Fault,Low,Power Grid
+2024-07-28,08:05,China,6,Overload,Medium,Power Grid
+2022-09-18,05:15,USA,9,Hardware Fault,High,Power Grid
+2020-07-19,23:54,China,4,Hardware Fault,Medium,Power Grid
+2024-10-26,11:50,Europe,11,Hardware Fault,High,Power Grid
+2020-01-17,15:07,India,2,Geomagnetic Disturbance,Low,Power Grid
+2019-01-12,06:44,USA,10,Overload,High,Power Grid
+2022-09-01,19:49,China,2,Hardware Fault,Low,Power Grid
+2015-08-15,12:11,USA,2,Overload,Low,Power Grid
+2018-02-19,21:46,USA,6,Hardware Fault,Medium,Power Grid
+2024-11-07,19:17,Europe,11,Overload,High,Power Grid
+2019-02-20,13:11,Europe,10,Hardware Fault,High,Power Grid
+2023-04-09,08:02,USA,6,Geomagnetic Disturbance,Medium,Power Grid
+2015-07-27,09:20,Europe,10,Hardware Fault,High,Power Grid
+2018-11-19,00:07,India,7,Geomagnetic Disturbance,High,Power Grid
+2017-06-15,21:47,India,7,Overload,High,Power Grid
+2022-07-08,00:24,USA,4,Geomagnetic Disturbance,Medium,Power Grid
+2024-11-08,08:36,Europe,6,Hardware Fault,Medium,Power Grid
+2018-09-13,18:44,Europe,4,Geomagnetic Disturbance,Medium,Power Grid
+2016-01-25,06:44,USA,5,Geomagnetic Disturbance,Medium,Power Grid
+2015-03-10,10:09,China,6,Overload,Medium,Power Grid
+2017-11-14,18:16,USA,6,Geomagnetic Disturbance,Medium,Power Grid
+2015-11-14,13:01,Europe,5,Overload,Medium,Power Grid
+2024-03-08,12:09,USA,8,Geomagnetic Disturbance,High,Power Grid
+2016-09-17,03:44,Europe,11,Hardware Fault,High,Power Grid
+2019-09-05,18:48,Europe,2,Overload,Low,Power Grid
+2019-10-11,06:22,USA,8,Overload,High,Power Grid
+2021-12-18,10:31,USA,6,Hardware Fault,Medium,Power Grid
+2019-10-10,12:15,Europe,9,Overload,High,Power Grid
+2021-11-08,01:57,India,4,Hardware Fault,Medium,Power Grid
+2015-02-17,03:43,USA,9,Geomagnetic Disturbance,High,Power Grid
+2020-04-19,10:21,China,1,Hardware Fault,Low,Power Grid
+2018-03-01,20:43,Europe,9,Hardware Fault,High,Power Grid
+2024-07-28,07:25,Europe,9,Overload,High,Power Grid
+2021-10-27,13:56,USA,3,Geomagnetic Disturbance,Low,Power Grid
+2024-11-30,19:28,Europe,1,Geomagnetic Disturbance,Low,Power Grid
+2021-10-09,13:14,USA,11,Geomagnetic Disturbance,High,Power Grid
+2022-06-04,13:14,Europe,8,Geomagnetic Disturbance,High,Power Grid
+2021-12-31,20:20,Europe,3,Hardware Fault,Low,Power Grid
+2019-02-15,23:30,USA,7,Hardware Fault,High,Power Grid
+2020-09-15,09:38,India,1,Overload,Low,Power Grid
+2019-04-16,18:57,Europe,10,Overload,High,Power Grid
+2016-09-12,09:25,China,2,Hardware Fault,Low,Power Grid
+2016-08-25,08:45,USA,8,Overload,High,Power Grid
+2022-03-22,09:12,China,2,Overload,Low,Power Grid
+2016-10-24,11:09,Europe,2,Overload,Low,Power Grid
+2017-04-30,05:12,China,11,Geomagnetic Disturbance,High,Power Grid
+2024-03-03,11:17,USA,7,Overload,High,Power Grid
+2017-05-04,07:02,India,3,Geomagnetic Disturbance,Low,Power Grid
+2015-03-25,09:11,USA,6,Overload,Medium,Power Grid
+2021-02-02,07:03,Europe,4,Geomagnetic Disturbance,Medium,Power Grid
+2019-08-26,14:05,USA,5,Overload,Medium,Power Grid
+2017-07-11,00:09,China,3,Geomagnetic Disturbance,Low,Power Grid
+2018-11-15,22:24,USA,8,Hardware Fault,High,Power Grid
+2020-11-02,05:30,China,7,Hardware Fault,High,Power Grid
+2024-08-21,02:02,China,5,Geomagnetic Disturbance,Medium,Power Grid
+2015-04-02,22:12,India,5,Geomagnetic Disturbance,Medium,Power Grid
+2017-06-10,13:14,India,11,Overload,High,Power Grid
+2021-09-02,13:28,India,7,Overload,High,Power Grid
+2023-01-19,11:08,China,7,Hardware Fault,High,Power Grid
+2022-09-03,22:58,USA,10,Geomagnetic Disturbance,High,Power Grid
+2023-05-27,19:07,Europe,11,Geomagnetic Disturbance,High,Power Grid
+2015-04-18,16:42,Europe,3,Overload,Low,Power Grid
+2021-10-08,00:31,USA,1,Hardware Fault,Low,Power Grid
+2024-11-30,21:59,Europe,3,Geomagnetic Disturbance,Low,Power Grid
+2021-12-31,16:20,China,10,Geomagnetic Disturbance,High,Power Grid
+2021-10-03,22:55,USA,7,Hardware Fault,High,Power Grid
+2017-12-17,00:38,China,9,Hardware Fault,High,Power Grid
+2023-03-11,13:28,India,9,Geomagnetic Disturbance,High,Power Grid
+2017-12-30,04:27,Europe,1,Geomagnetic Disturbance,Low,Power Grid
+2019-08-31,20:20,Europe,9,Hardware Fault,High,Power Grid
+2021-11-06,04:48,India,7,Overload,High,Power Grid
+2018-08-29,02:47,China,9,Hardware Fault,High,Power Grid
+2017-11-02,11:24,India,7,Hardware Fault,High,Power Grid
+2015-06-30,20:44,China,4,Hardware Fault,Medium,Power Grid
+2023-08-03,22:08,Europe,1,Overload,Low,Power Grid
+2016-02-14,02:08,India,4,Geomagnetic Disturbance,Medium,Power Grid
+2016-10-25,13:08,Europe,7,Hardware Fault,High,Power Grid
+2020-08-29,18:14,Europe,5,Hardware Fault,Medium,Power Grid
+2024-07-14,22:48,Europe,11,Geomagnetic Disturbance,High,Power Grid
+2015-07-16,11:32,India,11,Hardware Fault,High,Power Grid
+2017-12-31,22:54,USA,6,Geomagnetic Disturbance,Medium,Power Grid
+2023-11-30,16:28,India,3,Overload,Low,Power Grid
+2019-11-02,11:50,India,2,Geomagnetic Disturbance,Low,Power Grid
+2018-05-18,04:47,Europe,5,Geomagnetic Disturbance,Medium,Power Grid
+2024-03-10,21:25,Europe,4,Overload,Medium,Power Grid
+2020-09-06,01:01,Europe,10,Overload,High,Power Grid
+2016-02-17,01:09,China,3,Geomagnetic Disturbance,Low,Power Grid
+2019-09-15,21:12,Europe,1,Overload,Low,Power Grid
+2020-01-23,05:19,USA,3,Overload,Low,Power Grid
+2024-07-15,22:46,India,6,Hardware Fault,Medium,Power Grid
+2020-07-24,00:00,Europe,2,Hardware Fault,Low,Power Grid
+2021-12-12,22:43,China,6,Overload,Medium,Power Grid
+2020-11-08,00:26,USA,2,Hardware Fault,Low,Power Grid
+2024-01-03,13:59,USA,4,Hardware Fault,Medium,Power Grid
+2019-09-02,08:04,India,3,Hardware Fault,Low,Power Grid
+2017-10-09,13:45,Europe,5,Geomagnetic Disturbance,Medium,Power Grid
+2019-09-10,05:02,Europe,4,Hardware Fault,Medium,Power Grid
+2017-05-28,06:32,India,6,Hardware Fault,Medium,Power Grid
+2018-03-02,19:49,USA,4,Overload,Medium,Power Grid
+2021-05-03,09:21,USA,10,Overload,High,Power Grid
+2024-11-08,01:19,China,4,Overload,Medium,Power Grid
+2016-11-07,03:10,China,10,Geomagnetic Disturbance,High,Power Grid
+2024-08-04,09:36,Europe,9,Overload,High,Power Grid
+2017-11-08,15:45,China,7,Hardware Fault,High,Power Grid
+2021-04-10,03:12,China,4,Overload,Medium,Power Grid
+2021-03-30,20:46,USA,10,Hardware Fault,High,Power Grid
+2023-02-10,08:48,USA,8,Hardware Fault,High,Power Grid
+2023-03-03,12:14,China,8,Geomagnetic Disturbance,High,Power Grid
+2021-01-28,12:12,USA,3,Geomagnetic Disturbance,Low,Power Grid
+2015-03-20,07:43,India,1,Overload,Low,Power Grid
+2018-01-26,21:54,India,10,Geomagnetic Disturbance,High,Power Grid
+2017-05-26,21:35,USA,6,Overload,Medium,Power Grid
+2022-03-26,03:52,Europe,8,Hardware Fault,High,Power Grid
+2020-08-10,22:48,USA,4,Hardware Fault,Medium,Power Grid
+2018-08-05,16:30,India,3,Geomagnetic Disturbance,Low,Power Grid
+2021-09-10,22:14,India,1,Geomagnetic Disturbance,Low,Power Grid
+2017-05-03,19:17,China,7,Geomagnetic Disturbance,High,Power Grid
+2022-06-22,12:06,Europe,3,Overload,Low,Power Grid
+2022-06-06,03:28,China,9,Overload,High,Power Grid
+2024-03-26,11:57,USA,4,Hardware Fault,Medium,Power Grid
+2016-11-06,08:59,USA,1,Overload,Low,Power Grid
+2019-04-04,01:59,Europe,3,Geomagnetic Disturbance,Low,Power Grid
+2016-05-18,18:17,China,9,Overload,High,Power Grid
+2018-12-15,00:50,China,10,Hardware Fault,High,Power Grid
+2019-01-16,06:02,Europe,9,Overload,High,Power Grid
+2022-06-10,19:52,Europe,6,Geomagnetic Disturbance,Medium,Power Grid
+2021-08-12,21:35,USA,11,Overload,High,Power Grid
+2015-11-12,08:55,China,11,Overload,High,Power Grid
+2017-08-12,01:05,China,7,Hardware Fault,High,Power Grid
+2021-07-18,02:32,Europe,3,Hardware Fault,Low,Power Grid
+2015-05-19,03:36,USA,5,Hardware Fault,Medium,Power Grid
+2021-02-14,23:48,Europe,9,Overload,High,Power Grid
+2020-05-21,22:32,Europe,2,Overload,Low,Power Grid
+2017-02-02,05:03,USA,3,Overload,Low,Power Grid
+2019-12-05,21:28,USA,4,Hardware Fault,Medium,Power Grid
+2017-09-11,12:44,Europe,8,Overload,High,Power Grid
+2024-07-15,09:29,India,9,Overload,High,Power Grid
+2021-11-26,11:54,Europe,10,Hardware Fault,High,Power Grid
+2019-05-06,19:17,China,11,Hardware Fault,High,Power Grid
+2020-12-05,05:23,China,10,Geomagnetic Disturbance,High,Power Grid
+2018-10-24,05:32,Europe,6,Geomagnetic Disturbance,Medium,Power Grid
+2019-06-22,17:07,USA,8,Hardware Fault,High,Power Grid
+2020-11-12,16:12,China,2,Hardware Fault,Low,Power Grid
+2017-09-15,08:33,India,2,Overload,Low,Power Grid
+2022-07-23,23:56,Europe,4,Geomagnetic Disturbance,Medium,Power Grid
+2015-01-05,13:49,USA,6,Hardware Fault,Medium,Power Grid
+2019-11-17,14:14,India,5,Geomagnetic Disturbance,Medium,Power Grid
+2017-11-03,02:36,USA,4,Overload,Medium,Power Grid
+2021-01-12,09:40,China,2,Overload,Low,Power Grid
+2015-05-16,20:30,India,4,Overload,Medium,Power Grid
+2022-02-27,12:07,Europe,9,Hardware Fault,High,Power Grid
+2022-01-09,15:37,Europe,1,Geomagnetic Disturbance,Low,Power Grid
+2018-02-07,14:16,Europe,3,Hardware Fault,Low,Power Grid
+2024-06-11,13:08,China,2,Hardware Fault,Low,Power Grid
+2015-02-07,10:44,India,8,Overload,High,Power Grid
+2017-07-14,22:49,Europe,2,Hardware Fault,Low,Power Grid
+2024-05-15,06:59,China,4,Overload,Medium,Power Grid
+2015-04-18,00:16,China,2,Overload,Low,Power Grid
+2019-09-06,21:39,India,7,Geomagnetic Disturbance,High,Power Grid
+2019-03-21,14:45,Europe,3,Geomagnetic Disturbance,Low,Power Grid
+2024-04-06,03:20,India,2,Geomagnetic Disturbance,Low,Power Grid
+2022-08-05,01:41,USA,11,Overload,High,Power Grid
+2023-07-02,20:48,USA,10,Geomagnetic Disturbance,High,Power Grid
+2015-10-12,23:18,USA,9,Geomagnetic Disturbance,High,Power Grid
+2023-09-12,21:54,India,1,Geomagnetic Disturbance,Low,Power Grid
+2019-11-02,06:59,Europe,10,Geomagnetic Disturbance,High,Power Grid
+2022-11-25,09:15,Europe,3,Overload,Low,Power Grid
+2021-10-25,00:42,China,1,Hardware Fault,Low,Power Grid
+2020-09-21,15:13,China,9,Overload,High,Power Grid
+2022-08-29,22:20,Europe,3,Geomagnetic Disturbance,Low,Power Grid
+2017-07-30,17:00,India,1,Hardware Fault,Low,Power Grid
+2024-11-27,15:48,Europe,1,Geomagnetic Disturbance,Low,Power Grid
+2018-07-19,01:41,China,2,Hardware Fault,Low,Power Grid
+2022-05-08,19:42,USA,11,Geomagnetic Disturbance,High,Power Grid
+2021-03-24,01:58,Europe,5,Hardware Fault,Medium,Power Grid
+2023-10-27,16:40,USA,11,Overload,High,Power Grid
+2020-01-15,04:46,India,8,Overload,High,Power Grid
+2016-10-14,13:34,China,4,Overload,Medium,Power Grid
+2022-03-23,22:41,India,9,Geomagnetic Disturbance,High,Power Grid
+2018-03-29,06:50,Europe,6,Geomagnetic Disturbance,Medium,Power Grid
+2020-12-08,20:20,India,2,Overload,Low,Power Grid
+2017-01-17,03:26,Europe,2,Overload,Low,Power Grid
+2015-07-21,18:00,Europe,11,Overload,High,Power Grid
+2023-11-19,09:36,USA,10,Overload,High,Power Grid
+2019-10-05,17:45,Europe,3,Hardware Fault,Low,Power Grid
+2021-09-04,09:49,Europe,5,Hardware Fault,Medium,Power Grid
+2016-10-11,16:11,USA,3,Geomagnetic Disturbance,Low,Power Grid
+2017-06-13,23:46,USA,10,Geomagnetic Disturbance,High,Power Grid
+2022-01-07,09:33,USA,8,Geomagnetic Disturbance,High,Power Grid
+2024-02-02,18:42,India,1,Hardware Fault,Low,Power Grid
+2021-08-27,03:16,USA,11,Geomagnetic Disturbance,High,Power Grid
+2022-03-21,19:21,Europe,10,Geomagnetic Disturbance,High,Power Grid
+2019-05-17,03:36,India,2,Geomagnetic Disturbance,Low,Power Grid
+2020-02-09,09:03,Europe,8,Overload,High,Power Grid
+2023-10-25,22:49,Europe,4,Geomagnetic Disturbance,Medium,Power Grid
+2019-05-11,08:40,Europe,3,Hardware Fault,Low,Power Grid
+2018-12-11,01:34,Europe,11,Hardware Fault,High,Power Grid
+2019-06-04,13:39,China,2,Hardware Fault,Low,Power Grid
+2015-03-27,05:51,USA,7,Hardware Fault,High,Power Grid
+2017-04-11,13:43,USA,1,Hardware Fault,Low,Power Grid
+2018-10-26,00:50,Europe,10,Geomagnetic Disturbance,High,Power Grid
+2022-06-03,11:55,India,6,Geomagnetic Disturbance,Medium,Power Grid
+2020-11-05,04:23,India,5,Geomagnetic Disturbance,Medium,Power Grid
+2024-10-29,13:44,USA,4,Geomagnetic Disturbance,Medium,Power Grid
+2015-09-04,03:42,Europe,7,Hardware Fault,High,Power Grid
+2015-02-25,04:31,China,3,Overload,Low,Power Grid
+2016-05-17,07:43,India,10,Geomagnetic Disturbance,High,Power Grid
+2023-04-16,23:35,India,4,Overload,Medium,Power Grid
+2020-09-02,09:01,Europe,9,Geomagnetic Disturbance,High,Power Grid
+2017-05-15,06:33,China,6,Geomagnetic Disturbance,Medium,Power Grid
+2016-01-19,11:20,China,6,Geomagnetic Disturbance,Medium,Power Grid
+2016-08-13,13:21,China,1,Hardware Fault,Low,Power Grid
+2017-12-05,04:34,China,6,Overload,Medium,Power Grid
+2016-03-16,07:49,India,2,Hardware Fault,Low,Power Grid
+2022-03-28,20:35,China,5,Overload,Medium,Power Grid
+2023-02-12,11:43,India,6,Overload,Medium,Power Grid
+2015-08-25,20:27,China,1,Overload,Low,Power Grid
+2015-12-26,05:56,India,2,Hardware Fault,Low,Power Grid
+2019-09-04,23:58,India,5,Overload,Medium,Power Grid
+2016-08-04,10:56,Europe,10,Hardware Fault,High,Power Grid
+2024-08-05,15:38,India,11,Hardware Fault,High,Power Grid
+2021-07-20,15:24,China,6,Hardware Fault,Medium,Power Grid
+2016-11-02,14:48,USA,5,Geomagnetic Disturbance,Medium,Power Grid
+2023-10-28,19:38,China,4,Overload,Medium,Power Grid
+2016-10-17,08:09,China,2,Geomagnetic Disturbance,Low,Power Grid
+2016-05-23,14:26,USA,8,Overload,High,Power Grid
+2018-12-25,23:31,China,11,Overload,High,Power Grid
+2018-11-23,05:20,India,8,Hardware Fault,High,Power Grid
+2017-02-28,18:11,USA,8,Hardware Fault,High,Power Grid
+2023-03-23,23:15,China,2,Overload,Low,Power Grid
+2021-04-29,02:08,China,11,Hardware Fault,High,Power Grid
+2021-12-28,12:12,USA,4,Geomagnetic Disturbance,Medium,Power Grid
+2020-07-22,15:05,Europe,10,Overload,High,Power Grid
+2022-02-05,14:14,Europe,7,Overload,High,Power Grid
+2022-12-08,23:03,Europe,3,Hardware Fault,Low,Power Grid
+2020-01-09,08:54,USA,2,Overload,Low,Power Grid
+2020-06-23,04:25,USA,3,Hardware Fault,Low,Power Grid
+2021-05-30,14:50,USA,6,Geomagnetic Disturbance,Medium,Power Grid
+2022-02-23,06:26,Europe,11,Geomagnetic Disturbance,High,Power Grid
+2018-12-13,08:06,USA,4,Overload,Medium,Power Grid
+2020-03-03,20:27,China,7,Overload,High,Power Grid
+2016-05-28,02:10,Europe,1,Hardware Fault,Low,Power Grid
+2022-12-22,11:25,India,4,Geomagnetic Disturbance,Medium,Power Grid
+2018-10-17,20:54,India,4,Hardware Fault,Medium,Power Grid
+2020-06-15,15:57,Europe,5,Hardware Fault,Medium,Power Grid
+2020-03-29,12:32,India,6,Hardware Fault,Medium,Power Grid
+2018-12-20,10:24,USA,5,Hardware Fault,Medium,Power Grid
+2019-03-26,14:33,China,5,Hardware Fault,Medium,Power Grid
+2018-09-02,03:10,USA,5,Geomagnetic Disturbance,Medium,Power Grid
+2019-10-04,07:39,India,5,Overload,Medium,Power Grid
+2018-05-14,05:32,Europe,3,Geomagnetic Disturbance,Low,Power Grid
+2020-10-29,02:55,India,4,Overload,Medium,Power Grid
+2018-01-09,07:37,India,6,Geomagnetic Disturbance,Medium,Power Grid
+2020-06-16,23:25,Europe,8,Overload,High,Power Grid
+2024-01-26,12:08,Europe,5,Geomagnetic Disturbance,Medium,Power Grid
+2019-07-23,18:18,China,6,Hardware Fault,Medium,Power Grid
+2018-03-26,00:51,Europe,7,Geomagnetic Disturbance,High,Power Grid
+2017-06-02,15:12,USA,8,Hardware Fault,High,Power Grid
+2020-06-20,06:44,Europe,5,Overload,Medium,Power Grid
+2022-01-20,13:17,USA,1,Geomagnetic Disturbance,Low,Power Grid
+2024-04-21,19:21,USA,2,Hardware Fault,Low,Power Grid
+2023-11-29,09:22,India,1,Overload,Low,Power Grid
+2024-01-08,09:12,Europe,6,Geomagnetic Disturbance,Medium,Power Grid
+2017-04-06,05:23,India,4,Hardware Fault,Medium,Power Grid
+2016-05-08,18:56,China,1,Overload,Low,Power Grid
+2019-03-13,22:34,India,5,Hardware Fault,Medium,Power Grid
+2018-06-29,08:24,China,8,Hardware Fault,High,Power Grid
+2015-04-18,06:42,India,5,Hardware Fault,Medium,Power Grid
+2016-05-11,04:07,India,11,Geomagnetic Disturbance,High,Power Grid
+2021-12-30,04:20,USA,11,Overload,High,Power Grid
+2019-10-07,01:18,India,5,Overload,Medium,Power Grid
+2022-06-29,01:55,China,1,Geomagnetic Disturbance,Low,Power Grid
+2022-03-12,22:28,China,7,Overload,High,Power Grid
+2023-08-31,17:51,India,10,Hardware Fault,High,Power Grid
+2017-10-01,23:56,China,9,Hardware Fault,High,Power Grid
+2016-07-17,21:56,India,7,Hardware Fault,High,Power Grid
+2020-07-22,21:09,USA,3,Overload,Low,Power Grid
+2018-05-19,23:37,China,5,Hardware Fault,Medium,Power Grid
+2016-05-30,15:36,USA,1,Overload,Low,Power Grid
+2019-04-01,10:27,China,10,Overload,High,Power Grid
+2022-07-08,05:09,China,4,Overload,Medium,Power Grid
+2020-09-03,15:57,India,5,Hardware Fault,Medium,Power Grid
+2015-03-19,16:07,USA,4,Overload,Medium,Power Grid
+2021-05-03,12:21,China,3,Geomagnetic Disturbance,Low,Power Grid
+2018-12-17,17:22,China,4,Overload,Medium,Power Grid
+2018-10-18,13:36,USA,4,Hardware Fault,Medium,Power Grid
+2022-12-19,03:23,China,1,Geomagnetic Disturbance,Low,Power Grid
+2019-06-17,05:10,Europe,10,Hardware Fault,High,Power Grid
+2015-02-22,12:08,China,1,Geomagnetic Disturbance,Low,Power Grid
+2016-03-26,22:36,China,2,Hardware Fault,Low,Power Grid
+2019-11-27,19:59,China,2,Overload,Low,Power Grid
+2019-04-27,21:41,China,6,Overload,Medium,Power Grid
+2016-01-17,08:06,Europe,1,Hardware Fault,Low,Power Grid
+2022-03-09,02:27,USA,2,Geomagnetic Disturbance,Low,Power Grid
+2016-07-21,21:58,USA,9,Hardware Fault,High,Power Grid
+2016-04-24,10:57,USA,11,Overload,High,Power Grid
+2021-11-15,01:21,Europe,7,Geomagnetic Disturbance,High,Power Grid
+2017-01-28,13:17,China,11,Overload,High,Power Grid
+2021-12-13,11:10,Europe,3,Overload,Low,Power Grid
+2020-02-05,10:36,India,11,Hardware Fault,High,Power Grid
+2020-01-08,01:15,Europe,3,Hardware Fault,Low,Power Grid
+2023-08-07,18:25,China,3,Geomagnetic Disturbance,Low,Power Grid
+2021-07-09,07:58,India,3,Overload,Low,Power Grid
+2022-04-24,10:44,Europe,6,Geomagnetic Disturbance,Medium,Power Grid
+2018-06-20,08:13,Europe,2,Hardware Fault,Low,Power Grid
+2024-12-13,23:21,China,3,Hardware Fault,Low,Power Grid
+2019-07-14,23:32,Europe,1,Geomagnetic Disturbance,Low,Power Grid
+2016-11-23,11:23,India,7,Hardware Fault,High,Power Grid
+2016-10-21,06:08,USA,7,Overload,High,Power Grid
+2020-03-19,13:57,India,10,Overload,High,Power Grid
+2015-08-02,03:03,India,8,Hardware Fault,High,Power Grid
+2016-02-06,00:30,India,3,Geomagnetic Disturbance,Low,Power Grid
+2016-11-06,16:54,USA,1,Hardware Fault,Low,Power Grid
+2016-12-10,06:18,USA,7,Overload,High,Power Grid
+2019-11-24,17:58,USA,4,Overload,Medium,Power Grid
+2019-05-26,22:04,China,3,Geomagnetic Disturbance,Low,Power Grid
+2017-08-30,05:02,India,11,Hardware Fault,High,Power Grid
+2018-07-10,06:03,China,2,Overload,Low,Power Grid
+2020-11-20,04:40,India,10,Geomagnetic Disturbance,High,Power Grid
+2021-02-16,02:22,India,1,Hardware Fault,Low,Power Grid
+2016-03-24,11:56,China,6,Hardware Fault,Medium,Power Grid
+2018-10-29,12:43,China,11,Hardware Fault,High,Power Grid
+2017-05-01,13:03,China,6,Geomagnetic Disturbance,Medium,Power Grid
+2015-08-17,01:54,India,2,Hardware Fault,Low,Power Grid
+2016-07-10,05:12,India,5,Geomagnetic Disturbance,Medium,Power Grid
+2019-06-23,15:19,Europe,11,Overload,High,Power Grid
+2024-06-27,03:43,India,5,Hardware Fault,Medium,Power Grid
+2020-07-23,03:19,China,10,Hardware Fault,High,Power Grid
+2021-03-27,18:14,Europe,2,Geomagnetic Disturbance,Low,Power Grid
+2019-10-06,22:18,USA,9,Overload,High,Power Grid
+2023-01-25,11:26,Europe,5,Geomagnetic Disturbance,Medium,Power Grid
+2015-06-05,19:54,India,1,Hardware Fault,Low,Power Grid
+2024-06-09,22:27,USA,5,Overload,Medium,Power Grid
+2017-08-10,02:45,Europe,3,Geomagnetic Disturbance,Low,Power Grid
+2017-09-16,00:41,USA,2,Geomagnetic Disturbance,Low,Power Grid
+2020-06-11,12:21,Europe,6,Hardware Fault,Medium,Power Grid
+2017-08-13,13:42,USA,7,Overload,High,Power Grid
+2017-02-18,06:04,China,7,Overload,High,Power Grid
+2021-01-10,16:43,India,9,Geomagnetic Disturbance,High,Power Grid
+2017-08-18,11:48,India,6,Hardware Fault,Medium,Power Grid
+2015-10-20,22:09,China,1,Geomagnetic Disturbance,Low,Power Grid
+2022-05-03,21:13,China,6,Hardware Fault,Medium,Power Grid
+2020-06-06,01:55,China,7,Overload,High,Power Grid
+2018-08-10,16:47,USA,5,Overload,Medium,Power Grid
+2018-04-27,00:12,Europe,11,Overload,High,Power Grid
+2015-03-21,12:02,China,10,Geomagnetic Disturbance,High,Power Grid
+2017-05-16,12:45,Europe,2,Overload,Low,Power Grid
+2015-06-23,18:26,China,8,Geomagnetic Disturbance,High,Power Grid
+2017-04-14,21:18,Europe,1,Hardware Fault,Low,Power Grid
+2015-04-13,08:48,USA,10,Hardware Fault,High,Power Grid
+2016-09-27,07:17,Europe,9,Hardware Fault,High,Power Grid
+2024-08-15,23:48,China,9,Hardware Fault,High,Power Grid
+2019-06-09,03:43,India,6,Overload,Medium,Power Grid
+2023-12-15,11:11,China,10,Geomagnetic Disturbance,High,Power Grid
+2020-03-26,04:08,India,6,Hardware Fault,Medium,Power Grid
+2022-08-01,22:43,India,7,Geomagnetic Disturbance,High,Power Grid
+2020-10-25,17:48,USA,11,Geomagnetic Disturbance,High,Power Grid
+2024-03-21,09:39,China,5,Geomagnetic Disturbance,Medium,Power Grid
+2020-08-07,14:37,China,11,Overload,High,Power Grid
+2016-06-15,16:00,Europe,6,Geomagnetic Disturbance,Medium,Power Grid
+2024-12-30,10:00,China,2,Overload,Low,Power Grid
+2018-04-06,13:06,India,8,Hardware Fault,High,Power Grid
+2018-11-03,15:21,USA,2,Hardware Fault,Low,Power Grid
+2020-11-09,07:19,Europe,3,Geomagnetic Disturbance,Low,Power Grid
+2021-05-30,04:34,USA,7,Overload,High,Power Grid
+2017-06-19,13:10,China,8,Overload,High,Power Grid
+2019-11-07,04:42,India,10,Overload,High,Power Grid
+2015-06-03,15:31,India,7,Hardware Fault,High,Power Grid
+2016-11-30,11:56,USA,1,Hardware Fault,Low,Power Grid
+2024-08-29,09:09,Europe,1,Overload,Low,Power Grid
+2023-07-05,10:17,India,2,Overload,Low,Power Grid
+2022-11-11,03:53,India,3,Hardware Fault,Low,Power Grid
+2020-12-24,00:25,Europe,8,Geomagnetic Disturbance,High,Power Grid
+2022-01-27,19:46,Europe,10,Overload,High,Power Grid
+2017-02-11,19:28,China,5,Hardware Fault,Medium,Power Grid
+2021-11-17,20:17,India,11,Hardware Fault,High,Power Grid
+2018-08-24,04:38,China,6,Overload,Medium,Power Grid
+2020-01-24,01:22,India,1,Overload,Low,Power Grid
+2023-01-13,07:00,Europe,3,Overload,Low,Power Grid
+2016-11-28,16:26,India,4,Geomagnetic Disturbance,Medium,Power Grid
+2022-07-05,11:11,India,11,Geomagnetic Disturbance,High,Power Grid
+2017-08-16,01:14,USA,7,Overload,High,Power Grid
+2019-01-02,02:54,India,10,Hardware Fault,High,Power Grid
+2020-04-07,10:47,USA,5,Overload,Medium,Power Grid
+2016-02-19,02:44,India,10,Geomagnetic Disturbance,High,Power Grid
+2024-02-15,10:00,China,1,Hardware Fault,Low,Power Grid
+2019-02-16,21:59,USA,6,Overload,Medium,Power Grid
+2021-09-01,00:26,China,8,Hardware Fault,High,Power Grid
+2023-02-21,04:39,USA,3,Geomagnetic Disturbance,Low,Power Grid
+2016-09-30,21:34,USA,7,Hardware Fault,High,Power Grid
+2023-03-10,20:09,Europe,4,Overload,Medium,Power Grid
+2016-04-01,08:49,Europe,9,Hardware Fault,High,Power Grid
+2020-07-17,18:16,USA,3,Geomagnetic Disturbance,Low,Power Grid
+2015-01-01,15:32,Europe,10,Hardware Fault,High,Power Grid
+2023-02-13,00:43,India,5,Geomagnetic Disturbance,Medium,Power Grid
+2018-05-08,01:52,USA,1,Geomagnetic Disturbance,Low,Power Grid
+2023-09-26,11:42,China,1,Geomagnetic Disturbance,Low,Power Grid
+2021-09-15,08:03,India,5,Geomagnetic Disturbance,Medium,Power Grid
+2021-06-01,08:11,USA,5,Hardware Fault,Medium,Power Grid
+2019-05-10,04:09,Europe,4,Overload,Medium,Power Grid
+2018-03-24,11:29,Europe,10,Geomagnetic Disturbance,High,Power Grid
+2024-01-23,02:09,Europe,4,Hardware Fault,Medium,Power Grid
+2017-01-06,15:07,China,10,Hardware Fault,High,Power Grid
+2015-08-01,08:11,China,1,Hardware Fault,Low,Power Grid
+2023-08-11,08:22,China,3,Hardware Fault,Low,Power Grid
+2023-08-12,00:15,USA,5,Hardware Fault,Medium,Power Grid
+2023-02-08,03:18,Europe,10,Hardware Fault,High,Power Grid
+2016-07-20,03:40,China,7,Overload,High,Power Grid
+2016-05-07,07:23,India,4,Geomagnetic Disturbance,Medium,Power Grid
+2024-12-28,13:48,China,3,Overload,Low,Power Grid
+2018-09-09,03:23,Europe,11,Hardware Fault,High,Power Grid
+2018-04-05,19:22,China,8,Overload,High,Power Grid
+2015-03-16,11:06,China,3,Hardware Fault,Low,Power Grid
+2016-02-03,23:01,China,3,Geomagnetic Disturbance,Low,Power Grid
+2017-08-09,16:34,China,9,Overload,High,Power Grid
+2023-10-27,05:40,China,6,Hardware Fault,Medium,Power Grid
+2017-12-31,18:38,Europe,9,Hardware Fault,High,Power Grid
+2015-08-08,22:51,USA,9,Overload,High,Power Grid
+2015-10-06,06:26,China,1,Hardware Fault,Low,Power Grid
+2024-08-26,07:33,USA,5,Hardware Fault,Medium,Power Grid
+2016-10-03,05:27,USA,2,Hardware Fault,Low,Power Grid
+2016-09-30,09:25,India,10,Geomagnetic Disturbance,High,Power Grid
+2022-06-29,03:56,Europe,11,Hardware Fault,High,Power Grid
+2017-04-19,11:04,Europe,9,Geomagnetic Disturbance,High,Power Grid
+2019-08-23,15:15,China,5,Hardware Fault,Medium,Power Grid
+2021-03-01,23:02,China,2,Geomagnetic Disturbance,Low,Power Grid
+2019-09-05,11:04,USA,7,Overload,High,Power Grid
+2023-03-21,05:58,China,5,Hardware Fault,Medium,Power Grid
+2017-07-25,18:39,Europe,3,Geomagnetic Disturbance,Low,Power Grid
+2019-01-17,03:13,India,11,Geomagnetic Disturbance,High,Power Grid
+2021-07-29,10:05,China,9,Overload,High,Power Grid
+2015-04-03,17:50,China,4,Hardware Fault,Medium,Power Grid
+2021-05-16,11:40,USA,6,Hardware Fault,Medium,Power Grid
+2018-06-01,06:48,USA,10,Overload,High,Power Grid
+2022-11-22,04:31,China,11,Hardware Fault,High,Power Grid
+2015-01-27,21:58,Europe,7,Overload,High,Power Grid
+2019-07-15,19:21,Europe,8,Geomagnetic Disturbance,High,Power Grid
+2017-09-01,06:21,USA,4,Hardware Fault,Medium,Power Grid
+2016-05-14,14:14,India,9,Overload,High,Power Grid
+2019-03-06,12:52,India,4,Geomagnetic Disturbance,Medium,Power Grid
+2016-09-12,02:07,Europe,11,Geomagnetic Disturbance,High,Power Grid
+2019-01-17,07:00,China,11,Geomagnetic Disturbance,High,Power Grid
+2022-02-22,12:48,China,10,Overload,High,Power Grid
+2015-07-10,10:22,Europe,5,Hardware Fault,Medium,Power Grid
+2021-02-24,11:36,China,3,Overload,Low,Power Grid
+2021-10-11,18:34,USA,10,Geomagnetic Disturbance,High,Power Grid
+2018-11-10,14:07,Europe,6,Hardware Fault,Medium,Power Grid
+2018-10-20,12:33,India,2,Hardware Fault,Low,Power Grid
+2024-06-17,14:58,India,8,Overload,High,Power Grid
+2023-08-15,12:56,China,5,Hardware Fault,Medium,Power Grid
+2020-05-21,22:14,India,11,Hardware Fault,High,Power Grid
+2023-04-02,13:59,China,7,Hardware Fault,High,Power Grid
+2023-04-08,03:31,India,2,Overload,Low,Power Grid
+2020-05-09,06:29,India,2,Hardware Fault,Low,Power Grid
+2024-06-09,04:45,India,6,Overload,Medium,Power Grid
+2024-05-27,19:58,Europe,8,Overload,High,Power Grid
+2019-05-22,01:28,Europe,1,Hardware Fault,Low,Power Grid
+2023-08-14,07:52,Europe,6,Geomagnetic Disturbance,Medium,Power Grid
+2021-10-09,01:34,China,5,Hardware Fault,Medium,Power Grid
+2015-10-03,03:15,India,6,Hardware Fault,Medium,Power Grid
+2021-07-04,19:52,China,11,Hardware Fault,High,Power Grid
+2016-09-09,22:14,China,3,Overload,Low,Power Grid
+2021-10-20,08:33,India,10,Geomagnetic Disturbance,High,Power Grid
+2019-03-18,17:39,Europe,1,Hardware Fault,Low,Power Grid
+2021-10-19,19:55,Europe,4,Geomagnetic Disturbance,Medium,Power Grid
+2018-01-17,13:58,India,8,Overload,High,Power Grid
+2019-06-07,18:04,Europe,4,Overload,Medium,Power Grid
+2024-02-12,19:29,USA,1,Hardware Fault,Low,Power Grid
+2022-06-26,23:22,China,11,Overload,High,Power Grid
+2015-04-17,05:08,Europe,3,Hardware Fault,Low,Power Grid
+2022-02-26,06:43,China,7,Hardware Fault,High,Power Grid
+2021-04-28,06:53,India,10,Hardware Fault,High,Power Grid
+2017-01-30,21:23,USA,1,Overload,Low,Power Grid
+2022-04-12,01:54,India,6,Hardware Fault,Medium,Power Grid
+2020-05-22,22:47,Europe,3,Hardware Fault,Low,Power Grid
+2023-04-26,17:39,Europe,2,Geomagnetic Disturbance,Low,Power Grid
+2019-09-19,23:27,USA,6,Overload,Medium,Power Grid
+2024-06-02,23:54,USA,8,Overload,High,Power Grid
+2024-01-09,18:26,USA,2,Hardware Fault,Low,Power Grid
+2023-06-22,12:32,Europe,2,Overload,Low,Power Grid
+2016-09-14,06:55,China,11,Hardware Fault,High,Power Grid
+2023-05-28,01:11,India,9,Hardware Fault,High,Power Grid
+2018-04-02,12:20,USA,9,Geomagnetic Disturbance,High,Power Grid
+2023-05-20,04:57,India,7,Hardware Fault,High,Power Grid
+2017-12-15,17:38,China,1,Hardware Fault,Low,Power Grid
+2017-01-22,01:59,India,8,Hardware Fault,High,Power Grid
+2021-06-16,18:36,China,8,Hardware Fault,High,Power Grid
+2020-11-15,04:43,China,1,Overload,Low,Power Grid
+2021-03-09,21:18,Europe,4,Overload,Medium,Power Grid
+2018-03-05,17:02,Europe,4,Hardware Fault,Medium,Power Grid
+2019-02-09,20:30,USA,3,Geomagnetic Disturbance,Low,Power Grid
+2021-10-24,18:09,China,5,Overload,Medium,Power Grid
+2020-08-21,00:47,USA,3,Overload,Low,Power Grid
+2021-04-03,06:37,Europe,2,Hardware Fault,Low,Power Grid
+2016-03-10,02:07,China,3,Overload,Low,Power Grid
+2017-05-16,07:19,USA,5,Geomagnetic Disturbance,Medium,Power Grid
+2022-05-19,00:00,China,1,Geomagnetic Disturbance,Low,Power Grid
+2020-04-29,22:59,Europe,5,Hardware Fault,Medium,Power Grid
+2020-01-16,07:15,India,4,Overload,Medium,Power Grid
+2020-11-17,11:41,USA,5,Overload,Medium,Power Grid
+2023-11-08,14:51,India,11,Overload,High,Power Grid
+2024-09-27,12:24,USA,3,Overload,Low,Power Grid
+2018-01-01,13:32,Europe,5,Geomagnetic Disturbance,Medium,Power Grid
+2018-04-14,04:06,USA,1,Geomagnetic Disturbance,Low,Power Grid
+2016-01-28,19:52,India,6,Overload,Medium,Power Grid
+2022-08-21,22:47,USA,10,Overload,High,Power Grid
+2015-09-17,11:15,USA,7,Overload,High,Power Grid
+2017-07-21,20:39,USA,3,Overload,Low,Power Grid
+2021-11-13,22:48,Europe,4,Hardware Fault,Medium,Power Grid
+2019-05-26,17:28,USA,7,Hardware Fault,High,Power Grid
+2017-03-25,06:17,USA,6,Hardware Fault,Medium,Power Grid
+2020-03-10,00:24,India,1,Geomagnetic Disturbance,Low,Power Grid
+2015-01-31,10:22,USA,11,Hardware Fault,High,Power Grid
+2016-04-04,09:39,China,4,Hardware Fault,Medium,Power Grid
+2020-08-08,05:33,India,4,Overload,Medium,Power Grid
+2022-02-11,21:38,Europe,3,Geomagnetic Disturbance,Low,Power Grid
+2023-03-03,14:59,China,2,Geomagnetic Disturbance,Low,Power Grid
+2015-04-04,17:44,Europe,5,Overload,Medium,Power Grid
+2015-07-16,04:09,China,7,Geomagnetic Disturbance,High,Power Grid
+2015-05-05,09:29,USA,10,Overload,High,Power Grid
+2019-01-29,23:07,India,11,Overload,High,Power Grid
+2022-05-08,15:10,USA,2,Hardware Fault,Low,Power Grid
+2018-07-06,00:13,India,7,Overload,High,Power Grid
+2023-10-21,12:42,India,7,Overload,High,Power Grid
+2015-01-02,09:13,USA,4,Geomagnetic Disturbance,Medium,Power Grid
+2024-12-20,20:13,Europe,11,Geomagnetic Disturbance,High,Power Grid
+2018-04-16,10:09,USA,10,Overload,High,Power Grid
+2018-04-12,23:46,India,11,Hardware Fault,High,Power Grid
+2024-09-23,12:43,USA,9,Geomagnetic Disturbance,High,Power Grid
+2021-07-20,23:50,India,3,Geomagnetic Disturbance,Low,Power Grid
+2020-02-10,17:11,India,3,Hardware Fault,Low,Power Grid
+2015-07-26,10:30,Europe,11,Hardware Fault,High,Power Grid
+2015-05-29,01:49,India,11,Hardware Fault,High,Power Grid
+2019-05-01,04:01,China,10,Geomagnetic Disturbance,High,Power Grid
+2023-04-21,12:39,India,6,Overload,Medium,Power Grid
+2015-04-21,19:53,USA,6,Overload,Medium,Power Grid
+2017-05-13,13:35,India,3,Geomagnetic Disturbance,Low,Power Grid
+2020-08-25,19:14,China,10,Hardware Fault,High,Power Grid
+2020-02-15,04:17,India,10,Geomagnetic Disturbance,High,Power Grid
+2020-07-15,15:29,Europe,11,Hardware Fault,High,Power Grid
+2019-11-25,22:03,USA,3,Geomagnetic Disturbance,Low,Power Grid
+2016-02-25,04:14,India,6,Geomagnetic Disturbance,Medium,Power Grid
+2018-07-02,11:18,India,5,Geomagnetic Disturbance,Medium,Power Grid
+2020-07-20,22:52,Europe,7,Geomagnetic Disturbance,High,Power Grid
+2015-06-06,02:18,USA,2,Overload,Low,Power Grid
+2024-07-23,10:19,Europe,2,Hardware Fault,Low,Power Grid
+2016-02-03,14:56,India,1,Overload,Low,Power Grid
+2015-01-12,17:50,China,11,Geomagnetic Disturbance,High,Power Grid
+2021-02-01,04:14,USA,9,Hardware Fault,High,Power Grid
+2019-09-15,14:06,Europe,8,Geomagnetic Disturbance,High,Power Grid
+2020-02-10,22:18,India,5,Geomagnetic Disturbance,Medium,Power Grid
+2017-07-23,23:30,India,11,Geomagnetic Disturbance,High,Power Grid
+2024-02-11,14:52,USA,10,Geomagnetic Disturbance,High,Power Grid
+2017-06-25,09:06,India,10,Hardware Fault,High,Power Grid
+2016-06-04,22:42,USA,9,Overload,High,Power Grid
+2019-01-04,20:55,Europe,4,Overload,Medium,Power Grid
+2023-11-19,17:40,China,10,Geomagnetic Disturbance,High,Power Grid
+2018-12-16,01:04,USA,3,Hardware Fault,Low,Power Grid
+2015-10-30,21:35,India,8,Overload,High,Power Grid
+2020-02-16,08:23,China,7,Overload,High,Power Grid
+2019-02-21,22:38,China,1,Hardware Fault,Low,Power Grid
+2024-11-02,23:54,USA,2,Overload,Low,Power Grid
+2018-05-12,07:01,USA,11,Overload,High,Power Grid
+2023-08-27,16:24,USA,9,Overload,High,Power Grid
+2021-08-31,00:19,India,3,Overload,Low,Power Grid
+2022-09-07,23:15,India,7,Geomagnetic Disturbance,High,Power Grid
+2017-10-22,15:50,USA,9,Overload,High,Power Grid
+2018-04-29,07:55,Europe,10,Geomagnetic Disturbance,High,Power Grid
+2022-12-08,23:46,India,11,Hardware Fault,High,Power Grid
+2024-02-12,10:16,China,6,Overload,Medium,Power Grid
+2019-11-08,04:45,India,4,Hardware Fault,Medium,Power Grid
+2019-03-30,21:59,Europe,1,Geomagnetic Disturbance,Low,Power Grid
+2024-10-02,16:32,USA,1,Overload,Low,Power Grid
+2024-12-26,17:54,India,1,Hardware Fault,Low,Power Grid
+2022-05-24,04:07,China,10,Geomagnetic Disturbance,High,Power Grid
+2019-02-26,02:39,USA,1,Geomagnetic Disturbance,Low,Power Grid
+2021-09-03,15:26,Europe,10,Geomagnetic Disturbance,High,Power Grid
+2017-11-10,13:49,USA,3,Geomagnetic Disturbance,Low,Power Grid
+2015-07-07,11:33,China,4,Overload,Medium,Power Grid
+2017-05-20,13:18,USA,9,Overload,High,Power Grid
+2020-01-23,18:31,Europe,4,Hardware Fault,Medium,Power Grid
+2018-02-03,14:01,USA,7,Hardware Fault,High,Power Grid
+2019-04-06,20:36,USA,3,Hardware Fault,Low,Power Grid
+2024-01-27,11:23,USA,2,Geomagnetic Disturbance,Low,Power Grid
+2022-04-11,13:35,USA,2,Overload,Low,Power Grid
+2015-03-19,01:15,Europe,11,Geomagnetic Disturbance,High,Power Grid
+2019-10-31,15:17,China,5,Overload,Medium,Power Grid
+2016-12-04,00:58,India,4,Geomagnetic Disturbance,Medium,Power Grid
+2023-04-28,17:41,Europe,9,Overload,High,Power Grid
+2019-01-11,21:34,Europe,10,Hardware Fault,High,Power Grid
+2024-12-16,10:36,Europe,6,Geomagnetic Disturbance,Medium,Power Grid
+2015-03-09,18:14,China,2,Overload,Low,Power Grid
+2021-12-30,17:16,USA,10,Hardware Fault,High,Power Grid
+2020-04-13,07:00,Europe,2,Geomagnetic Disturbance,Low,Power Grid
+2021-01-11,05:47,Europe,9,Hardware Fault,High,Power Grid
+2024-01-14,11:54,India,8,Overload,High,Power Grid
+2022-10-15,16:18,India,8,Geomagnetic Disturbance,High,Power Grid
+2018-01-27,06:59,India,4,Geomagnetic Disturbance,Medium,Power Grid
+2021-12-27,14:22,India,3,Hardware Fault,Low,Power Grid
+2020-01-20,15:26,China,3,Geomagnetic Disturbance,Low,Power Grid
+2015-09-29,00:27,China,8,Hardware Fault,High,Power Grid
+2023-03-14,19:22,Europe,5,Hardware Fault,Medium,Power Grid
+2021-06-07,20:56,USA,11,Hardware Fault,High,Power Grid
+2019-08-31,14:56,Europe,11,Geomagnetic Disturbance,High,Power Grid
+2021-06-28,16:59,USA,10,Overload,High,Power Grid
+2018-12-09,10:22,India,2,Geomagnetic Disturbance,Low,Power Grid
+2022-01-07,10:52,India,10,Overload,High,Power Grid
+2021-04-04,09:34,China,6,Overload,Medium,Power Grid
+2020-07-28,19:39,China,7,Overload,High,Power Grid
+2016-05-19,17:39,China,4,Overload,Medium,Power Grid
+2019-12-23,02:06,Europe,4,Overload,Medium,Power Grid
+2016-10-31,11:14,India,9,Hardware Fault,High,Power Grid
+2017-10-25,08:09,USA,6,Overload,Medium,Power Grid
+2016-11-25,20:13,USA,9,Geomagnetic Disturbance,High,Power Grid
+2018-09-23,19:53,China,3,Hardware Fault,Low,Power Grid
+2017-10-11,05:17,USA,11,Overload,High,Power Grid
+2017-12-29,07:20,China,4,Hardware Fault,Medium,Power Grid
+2024-09-27,21:12,USA,3,Geomagnetic Disturbance,Low,Power Grid
+2022-02-17,06:42,USA,8,Geomagnetic Disturbance,High,Power Grid
+2019-01-09,13:00,Europe,10,Geomagnetic Disturbance,High,Power Grid
+2020-10-29,09:28,Europe,1,Geomagnetic Disturbance,Low,Power Grid
+2015-06-27,20:09,USA,7,Geomagnetic Disturbance,High,Power Grid
+2020-11-05,19:47,India,10,Overload,High,Power Grid
+2021-03-14,00:46,Europe,2,Hardware Fault,Low,Power Grid
+2024-08-29,17:16,Europe,9,Hardware Fault,High,Power Grid
+2017-03-04,01:47,China,5,Geomagnetic Disturbance,Medium,Power Grid
+2018-11-10,20:21,Europe,7,Hardware Fault,High,Power Grid
+2020-06-28,21:29,Europe,5,Hardware Fault,Medium,Power Grid
+2024-10-06,09:14,India,11,Hardware Fault,High,Power Grid
+2019-10-06,16:23,Europe,10,Hardware Fault,High,Power Grid
+2023-09-03,14:32,Europe,8,Hardware Fault,High,Power Grid
+2020-11-28,14:33,India,8,Hardware Fault,High,Power Grid
+2021-11-11,14:34,USA,7,Overload,High,Power Grid
+2022-04-17,14:21,India,2,Overload,Low,Power Grid
+2019-04-25,13:58,China,8,Hardware Fault,High,Power Grid
+2018-09-26,03:45,China,6,Hardware Fault,Medium,Power Grid
+2017-06-29,07:18,USA,3,Geomagnetic Disturbance,Low,Power Grid
+2022-11-14,03:07,Europe,6,Overload,Medium,Power Grid
+2018-11-08,16:45,USA,10,Geomagnetic Disturbance,High,Power Grid
+2024-06-28,13:05,India,1,Overload,Low,Power Grid
+2018-12-11,01:28,Europe,5,Geomagnetic Disturbance,Medium,Power Grid
+2018-05-25,07:50,China,7,Hardware Fault,High,Power Grid
+2017-12-16,17:11,Europe,2,Geomagnetic Disturbance,Low,Power Grid
+2022-12-04,17:45,China,3,Geomagnetic Disturbance,Low,Power Grid
+2015-11-04,22:28,Europe,1,Geomagnetic Disturbance,Low,Power Grid
+2024-07-17,04:09,USA,6,Hardware Fault,Medium,Power Grid
+2016-04-25,06:24,India,9,Hardware Fault,High,Power Grid
+2020-05-11,05:57,USA,7,Overload,High,Power Grid
+2023-10-02,05:33,India,7,Hardware Fault,High,Power Grid
+2016-05-18,12:11,USA,5,Overload,Medium,Power Grid
+2022-11-22,01:41,USA,8,Overload,High,Power Grid
+2024-04-12,16:10,India,1,Geomagnetic Disturbance,Low,Power Grid
+2020-08-18,14:57,USA,11,Geomagnetic Disturbance,High,Power Grid
+2015-05-28,09:03,India,2,Hardware Fault,Low,Power Grid
+2019-03-28,19:07,India,8,Geomagnetic Disturbance,High,Power Grid
+2017-06-20,09:03,India,1,Geomagnetic Disturbance,Low,Power Grid
+2018-08-26,20:51,India,4,Hardware Fault,Medium,Power Grid
+2018-11-27,01:18,India,3,Hardware Fault,Low,Power Grid
+2020-11-24,07:23,Europe,3,Geomagnetic Disturbance,Low,Power Grid
+2018-03-14,13:02,Europe,4,Geomagnetic Disturbance,Medium,Power Grid
+2021-09-14,02:12,India,7,Overload,High,Power Grid
+2021-10-01,22:05,Europe,6,Overload,Medium,Power Grid
+2017-04-11,00:50,China,1,Overload,Low,Power Grid
+2019-12-30,03:24,Europe,5,Geomagnetic Disturbance,Medium,Power Grid
+2019-08-28,22:32,USA,7,Hardware Fault,High,Power Grid
+2016-12-26,16:06,USA,6,Geomagnetic Disturbance,Medium,Power Grid
+2020-08-11,10:00,China,7,Overload,High,Power Grid
+2016-04-07,16:48,Europe,10,Overload,High,Power Grid
+2022-04-04,10:29,Europe,11,Hardware Fault,High,Power Grid
+2016-02-07,21:25,China,11,Overload,High,Power Grid
+2015-12-28,08:57,India,6,Geomagnetic Disturbance,Medium,Power Grid
+2020-10-27,20:08,India,5,Geomagnetic Disturbance,Medium,Power Grid
+2024-08-19,19:51,India,3,Geomagnetic Disturbance,Low,Power Grid
+2017-09-25,16:01,China,11,Overload,High,Power Grid
+2019-07-27,12:14,India,7,Hardware Fault,High,Power Grid
+2024-05-26,01:59,Europe,1,Overload,Low,Power Grid
+2015-08-24,07:37,USA,5,Hardware Fault,Medium,Power Grid
+2020-09-03,16:17,India,7,Hardware Fault,High,Power Grid
+2017-05-02,05:02,China,11,Overload,High,Power Grid
+2021-10-14,09:37,India,5,Geomagnetic Disturbance,Medium,Power Grid
+2016-09-09,20:04,China,10,Geomagnetic Disturbance,High,Power Grid
+2022-01-07,06:10,India,7,Overload,High,Power Grid
+2016-10-31,00:25,USA,8,Geomagnetic Disturbance,High,Power Grid
+2020-11-08,01:53,India,1,Overload,Low,Power Grid
+2018-11-01,18:19,Europe,6,Hardware Fault,Medium,Power Grid
+2023-11-08,15:50,USA,7,Geomagnetic Disturbance,High,Power Grid
+2018-08-19,23:44,India,7,Overload,High,Power Grid
+2019-06-21,21:04,India,7,Geomagnetic Disturbance,High,Power Grid
+2024-08-01,18:45,USA,7,Geomagnetic Disturbance,High,Power Grid
+2022-08-10,07:28,India,8,Hardware Fault,High,Power Grid
+2024-07-21,19:43,India,7,Geomagnetic Disturbance,High,Power Grid
+2024-04-27,06:46,India,1,Overload,Low,Power Grid
+2024-04-21,23:34,Europe,9,Geomagnetic Disturbance,High,Power Grid
+2023-11-24,14:13,USA,8,Overload,High,Power Grid
+2018-06-27,12:41,China,2,Overload,Low,Power Grid
+2022-08-01,09:36,India,1,Geomagnetic Disturbance,Low,Power Grid
+2017-12-24,13:32,Europe,8,Hardware Fault,High,Power Grid
+2024-05-18,15:49,Europe,6,Geomagnetic Disturbance,Medium,Power Grid
+2023-03-10,14:18,Europe,6,Hardware Fault,Medium,Power Grid
+2019-05-12,15:29,China,9,Geomagnetic Disturbance,High,Power Grid
+2022-04-09,01:45,Europe,5,Hardware Fault,Medium,Power Grid
+2021-06-26,14:24,India,1,Geomagnetic Disturbance,Low,Power Grid
+2019-02-16,11:22,Europe,2,Overload,Low,Power Grid
+2019-09-22,01:43,USA,1,Hardware Fault,Low,Power Grid
+2020-03-26,10:13,USA,6,Overload,Medium,Power Grid
+2020-02-15,18:11,India,1,Geomagnetic Disturbance,Low,Power Grid
+2015-06-01,16:40,China,11,Hardware Fault,High,Power Grid
+2023-10-06,12:44,USA,8,Geomagnetic Disturbance,High,Power Grid
+2020-04-25,02:17,Europe,5,Geomagnetic Disturbance,Medium,Power Grid
+2015-03-23,13:19,China,8,Hardware Fault,High,Power Grid
+2015-07-30,06:27,USA,10,Overload,High,Power Grid
+2016-07-10,04:04,China,8,Hardware Fault,High,Power Grid
+2021-01-26,13:46,India,8,Hardware Fault,High,Power Grid
+2017-03-26,06:32,USA,6,Hardware Fault,Medium,Power Grid
+2024-06-07,03:33,India,11,Overload,High,Power Grid
+2017-02-19,08:37,USA,5,Hardware Fault,Medium,Power Grid
+2020-01-06,16:53,Europe,6,Hardware Fault,Medium,Power Grid
+2023-01-04,04:36,China,5,Hardware Fault,Medium,Power Grid
+2023-06-04,05:55,USA,1,Hardware Fault,Low,Power Grid
+2018-01-04,13:09,Europe,8,Overload,High,Power Grid
+2018-12-06,12:00,Europe,11,Overload,High,Power Grid
+2016-01-04,12:18,Europe,3,Overload,Low,Power Grid
+2018-05-03,01:47,USA,3,Overload,Low,Power Grid
+2017-03-05,19:17,USA,2,Geomagnetic Disturbance,Low,Power Grid
+2018-09-18,22:32,USA,6,Overload,Medium,Power Grid
+2021-07-29,01:33,USA,3,Geomagnetic Disturbance,Low,Power Grid
+2017-01-24,14:17,India,6,Overload,Medium,Power Grid
+2020-12-28,18:58,China,1,Hardware Fault,Low,Power Grid
+2022-03-17,09:16,India,1,Geomagnetic Disturbance,Low,Power Grid
+2024-08-19,02:20,India,11,Overload,High,Power Grid
+2022-04-03,20:33,USA,9,Hardware Fault,High,Power Grid
+2024-04-04,02:18,USA,5,Hardware Fault,Medium,Power Grid
+2022-03-27,16:11,USA,4,Overload,Medium,Power Grid
+2022-11-24,15:21,India,8,Hardware Fault,High,Power Grid
+2018-08-31,08:40,India,11,Overload,High,Power Grid
+2020-02-21,04:39,China,5,Hardware Fault,Medium,Power Grid
+2021-04-19,23:15,USA,1,Geomagnetic Disturbance,Low,Power Grid
+2015-04-13,09:45,China,10,Hardware Fault,High,Power Grid
+2019-10-01,01:55,USA,1,Geomagnetic Disturbance,Low,Power Grid
+2021-02-09,23:20,India,9,Overload,High,Power Grid
+2020-05-07,16:30,Europe,9,Geomagnetic Disturbance,High,Power Grid
+2017-10-09,13:36,Europe,4,Hardware Fault,Medium,Power Grid
+2015-07-08,21:06,Europe,3,Hardware Fault,Low,Power Grid
+2022-07-31,20:32,India,6,Geomagnetic Disturbance,Medium,Power Grid
+2022-08-12,00:26,Europe,7,Geomagnetic Disturbance,High,Power Grid
+2024-01-27,03:36,China,9,Hardware Fault,High,Power Grid
+2017-01-07,07:39,Europe,9,Hardware Fault,High,Power Grid
+2023-05-18,12:07,Europe,8,Overload,High,Power Grid
+2024-08-19,16:15,China,9,Overload,High,Power Grid
+2018-02-05,11:14,USA,8,Geomagnetic Disturbance,High,Power Grid
+2017-11-04,00:31,China,4,Geomagnetic Disturbance,Medium,Power Grid
+2020-03-15,14:04,India,10,Overload,High,Power Grid
+2019-09-23,20:11,China,3,Geomagnetic Disturbance,Low,Power Grid
+2021-12-17,18:07,USA,9,Overload,High,Power Grid
+2016-11-15,20:35,Europe,11,Hardware Fault,High,Power Grid
+2023-03-12,01:30,USA,7,Geomagnetic Disturbance,High,Power Grid
+2015-04-17,21:34,China,9,Overload,High,Power Grid
+2024-01-16,17:25,India,6,Overload,Medium,Power Grid
+2022-10-13,15:27,Europe,3,Hardware Fault,Low,Power Grid
+2019-05-01,16:04,India,8,Overload,High,Power Grid
+2024-10-08,00:09,Europe,9,Hardware Fault,High,Power Grid
+2024-11-21,05:21,Europe,8,Overload,High,Power Grid
+2022-06-30,04:56,China,11,Overload,High,Power Grid
+2020-02-07,01:37,India,7,Overload,High,Power Grid
+2018-01-15,14:21,USA,11,Overload,High,Power Grid
+2024-03-04,08:08,China,4,Hardware Fault,Medium,Power Grid
+2023-10-14,16:48,USA,9,Hardware Fault,High,Power Grid
+2017-08-01,08:47,China,1,Geomagnetic Disturbance,Low,Power Grid
+2020-09-15,20:09,Europe,6,Geomagnetic Disturbance,Medium,Power Grid
+2020-12-25,05:43,India,11,Geomagnetic Disturbance,High,Power Grid
+2020-09-19,17:20,China,11,Hardware Fault,High,Power Grid
+2021-08-02,21:54,Europe,1,Hardware Fault,Low,Power Grid
+2023-11-16,21:55,Europe,1,Geomagnetic Disturbance,Low,Power Grid
+2023-09-25,16:44,India,4,Geomagnetic Disturbance,Medium,Power Grid
+2019-01-23,02:43,China,11,Overload,High,Power Grid
+2017-07-11,02:51,Europe,9,Geomagnetic Disturbance,High,Power Grid
+2020-11-27,18:21,USA,3,Geomagnetic Disturbance,Low,Power Grid
+2015-04-17,00:23,USA,6,Hardware Fault,Medium,Power Grid
+2021-04-10,12:54,USA,2,Geomagnetic Disturbance,Low,Power Grid
+2022-05-05,10:41,India,11,Hardware Fault,High,Power Grid
+2023-02-23,23:47,Europe,9,Overload,High,Power Grid
+2020-04-02,18:11,USA,3,Overload,Low,Power Grid
+2015-02-02,02:26,India,8,Overload,High,Power Grid
+2016-10-11,04:48,China,10,Overload,High,Power Grid
+2022-04-30,23:12,Europe,6,Geomagnetic Disturbance,Medium,Power Grid
+2015-03-28,23:32,India,7,Overload,High,Power Grid
+2023-05-14,22:27,China,1,Overload,Low,Power Grid
+2019-01-25,08:59,Europe,1,Overload,Low,Power Grid
+2020-04-26,19:06,USA,11,Overload,High,Power Grid
+2017-01-02,08:27,Europe,1,Hardware Fault,Low,Power Grid
+2017-11-27,02:45,China,5,Geomagnetic Disturbance,Medium,Power Grid
+2023-11-05,02:05,China,3,Geomagnetic Disturbance,Low,Power Grid
+2019-02-17,09:58,China,4,Hardware Fault,Medium,Power Grid
+2021-06-09,13:38,China,8,Hardware Fault,High,Power Grid
+2021-09-27,05:17,India,1,Geomagnetic Disturbance,Low,Power Grid
+2021-12-02,15:24,Europe,2,Hardware Fault,Low,Power Grid
+2017-10-09,21:42,Europe,3,Hardware Fault,Low,Power Grid
+2022-03-18,11:01,China,3,Hardware Fault,Low,Power Grid
+2019-03-20,13:01,Europe,6,Overload,Medium,Power Grid
+2020-11-02,23:18,China,4,Hardware Fault,Medium,Power Grid
+2024-12-15,14:39,India,8,Geomagnetic Disturbance,High,Power Grid
+2023-06-28,01:06,China,9,Geomagnetic Disturbance,High,Power Grid
+2024-08-12,08:20,India,10,Overload,High,Power Grid
+2017-03-16,11:04,Europe,11,Hardware Fault,High,Power Grid
+2016-08-16,00:23,China,1,Overload,Low,Power Grid
+2022-01-17,09:36,Europe,5,Hardware Fault,Medium,Power Grid
+2016-06-29,16:48,India,5,Geomagnetic Disturbance,Medium,Power Grid
+2020-12-05,12:41,USA,4,Overload,Medium,Power Grid
+2015-08-01,17:12,India,7,Overload,High,Power Grid
+2017-04-08,01:37,China,4,Hardware Fault,Medium,Power Grid
+2017-12-20,02:04,USA,9,Geomagnetic Disturbance,High,Power Grid
+2020-12-23,01:03,India,11,Hardware Fault,High,Power Grid
+2015-09-25,11:26,China,5,Overload,Medium,Power Grid
+2022-02-04,17:38,Europe,9,Geomagnetic Disturbance,High,Power Grid
+2023-05-23,08:41,USA,2,Hardware Fault,Low,Power Grid
+2016-08-18,19:10,China,2,Overload,Low,Power Grid
+2021-03-31,10:56,India,7,Hardware Fault,High,Power Grid
+2019-02-10,22:03,China,11,Overload,High,Power Grid
+2018-06-08,19:29,Europe,1,Hardware Fault,Low,Power Grid
+2018-06-23,13:45,China,6,Overload,Medium,Power Grid
+2024-02-02,20:19,China,5,Overload,Medium,Power Grid
+2018-03-13,06:29,India,10,Geomagnetic Disturbance,High,Power Grid
+2022-07-21,04:18,China,3,Overload,Low,Power Grid
+2019-11-07,14:09,USA,3,Overload,Low,Power Grid
+2024-06-12,23:36,China,10,Hardware Fault,High,Power Grid
+2015-04-02,23:55,Europe,6,Hardware Fault,Medium,Power Grid
+2015-09-30,23:57,USA,7,Overload,High,Power Grid
+2021-04-23,15:11,USA,9,Hardware Fault,High,Power Grid
+2015-06-18,15:01,Europe,7,Overload,High,Power Grid
+2021-05-05,21:18,China,2,Overload,Low,Power Grid
+2021-12-13,20:11,Europe,10,Overload,High,Power Grid
+2015-10-09,22:38,China,4,Overload,Medium,Power Grid
+2019-04-16,18:00,China,9,Geomagnetic Disturbance,High,Power Grid
+2019-05-25,11:19,India,2,Overload,Low,Power Grid
+2016-09-14,16:03,USA,7,Geomagnetic Disturbance,High,Power Grid
+2017-08-24,14:47,India,9,Geomagnetic Disturbance,High,Power Grid
+2018-09-25,07:29,USA,10,Overload,High,Power Grid
+2018-08-27,17:16,USA,10,Overload,High,Power Grid
+2024-02-28,18:17,USA,6,Hardware Fault,Medium,Power Grid
+2020-07-11,18:39,USA,2,Geomagnetic Disturbance,Low,Power Grid
+2024-10-21,04:15,USA,2,Overload,Low,Power Grid
+2022-04-19,05:05,China,11,Hardware Fault,High,Power Grid
+2022-02-25,01:52,Europe,10,Overload,High,Power Grid
+2017-03-05,04:16,Europe,1,Hardware Fault,Low,Power Grid
+2018-01-28,11:28,India,11,Overload,High,Power Grid
+2022-06-02,12:45,India,6,Hardware Fault,Medium,Power Grid
+2020-06-13,04:37,India,2,Hardware Fault,Low,Power Grid
+2024-12-08,07:51,USA,11,Geomagnetic Disturbance,High,Power Grid
+2021-01-21,05:18,India,8,Overload,High,Power Grid
+2024-01-11,11:33,Europe,5,Hardware Fault,Medium,Power Grid
+2016-11-11,14:14,Europe,9,Geomagnetic Disturbance,High,Power Grid
+2015-04-20,19:02,USA,5,Geomagnetic Disturbance,Medium,Power Grid
+2021-09-05,14:21,China,11,Hardware Fault,High,Power Grid
+2024-10-31,01:14,Europe,4,Overload,Medium,Power Grid
+2016-09-30,11:36,USA,9,Geomagnetic Disturbance,High,Power Grid
+2015-11-05,11:25,China,4,Overload,Medium,Power Grid
+2024-04-29,07:18,India,7,Hardware Fault,High,Power Grid
+2023-12-21,21:43,China,2,Hardware Fault,Low,Power Grid
+2017-09-19,23:14,China,1,Hardware Fault,Low,Power Grid
+2021-10-15,21:43,USA,3,Geomagnetic Disturbance,Low,Power Grid
+2021-11-19,17:33,Europe,6,Overload,Medium,Power Grid
+2022-01-06,08:53,USA,6,Overload,Medium,Power Grid
+2023-01-23,04:43,Europe,5,Geomagnetic Disturbance,Medium,Power Grid
+2020-12-19,15:07,China,8,Overload,High,Power Grid
+2022-04-19,04:43,India,4,Geomagnetic Disturbance,Medium,Power Grid
+2019-09-24,20:50,Europe,11,Overload,High,Power Grid
+2020-12-12,01:19,China,7,Hardware Fault,High,Power Grid
+2020-03-14,22:18,Europe,11,Hardware Fault,High,Power Grid
+2015-02-07,20:39,USA,11,Overload,High,Power Grid
+2016-01-27,21:13,USA,4,Hardware Fault,Medium,Power Grid
+2024-05-11,17:38,India,4,Hardware Fault,Medium,Power Grid
+2024-10-17,02:52,USA,11,Hardware Fault,High,Power Grid
+2019-04-28,05:32,USA,2,Hardware Fault,Low,Power Grid
+2024-10-03,19:34,India,7,Hardware Fault,High,Power Grid
+2017-12-25,23:57,Europe,7,Geomagnetic Disturbance,High,Power Grid
+2022-02-13,03:24,India,6,Geomagnetic Disturbance,Medium,Power Grid
+2016-04-21,10:02,India,10,Hardware Fault,High,Power Grid
+2022-09-09,13:42,India,10,Overload,High,Power Grid
+2017-07-27,16:01,Europe,11,Hardware Fault,High,Power Grid
+2018-02-13,21:00,Europe,7,Hardware Fault,High,Power Grid
+2021-10-27,01:26,India,2,Geomagnetic Disturbance,Low,Power Grid
+2022-01-05,22:37,China,5,Hardware Fault,Medium,Power Grid
+2019-03-14,05:39,USA,5,Geomagnetic Disturbance,Medium,Power Grid
+2018-08-28,14:41,Europe,5,Overload,Medium,Power Grid
+2018-08-20,00:27,China,8,Overload,High,Power Grid
+2015-08-06,15:55,Europe,11,Hardware Fault,High,Power Grid
+2022-05-31,21:19,USA,8,Hardware Fault,High,Power Grid
+2023-07-31,20:19,China,8,Hardware Fault,High,Power Grid
+2019-10-11,00:08,India,10,Overload,High,Power Grid
+2017-07-09,08:55,India,2,Hardware Fault,Low,Power Grid
+2015-11-04,09:18,India,2,Hardware Fault,Low,Power Grid
+2018-11-19,04:27,USA,5,Overload,Medium,Power Grid
+2021-10-06,15:18,USA,4,Geomagnetic Disturbance,Medium,Power Grid
+2019-07-07,09:39,Europe,1,Geomagnetic Disturbance,Low,Power Grid
+2015-02-12,08:56,Europe,4,Geomagnetic Disturbance,Medium,Power Grid
+2017-10-23,10:00,India,5,Overload,Medium,Power Grid
+2020-11-05,02:55,USA,1,Hardware Fault,Low,Power Grid
+2021-09-18,10:14,Europe,10,Hardware Fault,High,Power Grid
+2017-03-31,10:48,India,10,Overload,High,Power Grid
+2023-07-29,10:33,India,2,Overload,Low,Power Grid
+2021-10-24,09:47,USA,8,Hardware Fault,High,Power Grid
+2021-11-29,20:05,India,8,Hardware Fault,High,Power Grid
+2017-03-21,17:12,USA,11,Overload,High,Power Grid
+2024-06-13,05:49,USA,9,Hardware Fault,High,Power Grid
+2020-03-25,05:54,USA,11,Geomagnetic Disturbance,High,Power Grid
+2017-12-02,02:10,India,9,Overload,High,Power Grid
+2024-08-20,16:07,China,7,Overload,High,Power Grid
+2017-12-13,06:13,China,8,Hardware Fault,High,Power Grid
+2021-03-19,13:17,India,7,Hardware Fault,High,Power Grid
+2019-05-08,12:10,USA,9,Hardware Fault,High,Power Grid
+2024-05-09,19:36,USA,6,Hardware Fault,Medium,Power Grid
+2016-02-09,03:05,Europe,8,Geomagnetic Disturbance,High,Power Grid
+2018-11-18,14:07,India,7,Hardware Fault,High,Power Grid
+2020-02-21,21:07,Europe,4,Geomagnetic Disturbance,Medium,Power Grid
+2016-03-20,05:44,China,10,Hardware Fault,High,Power Grid
+2015-12-07,02:36,USA,10,Geomagnetic Disturbance,High,Power Grid
+2018-02-18,05:31,China,8,Geomagnetic Disturbance,High,Power Grid
+2018-09-08,08:43,India,3,Overload,Low,Power Grid
+2021-11-16,10:23,China,7,Overload,High,Power Grid
+2020-10-29,17:29,Europe,5,Overload,Medium,Power Grid
+2023-03-21,10:33,USA,7,Geomagnetic Disturbance,High,Power Grid
+2021-11-07,12:19,Europe,6,Overload,Medium,Power Grid
+2024-12-18,11:27,USA,8,Overload,High,Power Grid
+2021-07-03,03:36,China,8,Overload,High,Power Grid
+2024-04-14,03:54,India,1,Overload,Low,Power Grid
+2024-02-29,02:00,USA,3,Geomagnetic Disturbance,Low,Power Grid
+2019-01-12,06:52,Europe,4,Overload,Medium,Power Grid
+2023-09-23,13:54,Europe,7,Geomagnetic Disturbance,High,Power Grid
+2019-01-08,20:25,China,8,Overload,High,Power Grid
+2021-01-17,13:03,China,11,Hardware Fault,High,Power Grid
+2017-11-08,13:16,USA,8,Geomagnetic Disturbance,High,Power Grid
+2023-03-23,06:01,USA,6,Hardware Fault,Medium,Power Grid
+2016-08-18,13:33,Europe,6,Hardware Fault,Medium,Power Grid
+2021-03-27,13:47,Europe,7,Overload,High,Power Grid
+2016-06-11,22:45,Europe,8,Hardware Fault,High,Power Grid
+2015-02-23,16:32,China,4,Overload,Medium,Power Grid
+2020-09-26,10:28,USA,10,Hardware Fault,High,Power Grid
+2022-09-01,23:28,Europe,2,Overload,Low,Power Grid
+2018-01-30,22:55,India,8,Geomagnetic Disturbance,High,Power Grid
+2016-09-15,13:35,USA,3,Geomagnetic Disturbance,Low,Power Grid
+2019-02-10,09:32,India,7,Geomagnetic Disturbance,High,Power Grid
+2016-10-23,22:46,Europe,7,Geomagnetic Disturbance,High,Power Grid
+2017-04-03,08:08,Europe,6,Overload,Medium,Power Grid
+2015-11-19,19:31,Europe,3,Hardware Fault,Low,Power Grid
+2016-01-13,03:30,Europe,9,Geomagnetic Disturbance,High,Power Grid
+2022-09-08,19:10,Europe,11,Hardware Fault,High,Power Grid
+2024-10-05,06:34,India,7,Hardware Fault,High,Power Grid
+2022-11-18,20:39,USA,5,Hardware Fault,Medium,Power Grid
+2023-01-04,14:15,Europe,8,Hardware Fault,High,Power Grid
+2022-01-30,22:45,USA,1,Hardware Fault,Low,Power Grid
+2018-05-12,14:28,USA,4,Overload,Medium,Power Grid
+2016-12-02,02:00,Europe,3,Hardware Fault,Low,Power Grid
+2016-01-13,06:25,USA,8,Hardware Fault,High,Power Grid
+2022-10-17,01:32,USA,2,Overload,Low,Power Grid
+2023-06-24,18:28,USA,7,Hardware Fault,High,Power Grid
+2024-10-26,18:58,Europe,5,Hardware Fault,Medium,Power Grid
+2020-04-30,13:40,USA,9,Hardware Fault,High,Power Grid
+2017-07-07,15:01,India,4,Overload,Medium,Power Grid
+2023-07-18,17:57,China,5,Hardware Fault,Medium,Power Grid
+2015-07-25,13:12,India,5,Overload,Medium,Power Grid
+2017-11-12,05:11,India,2,Hardware Fault,Low,Power Grid
+2021-02-05,08:20,Europe,6,Overload,Medium,Power Grid
+2021-10-01,16:44,Europe,3,Geomagnetic Disturbance,Low,Power Grid
+2022-05-18,11:58,USA,5,Geomagnetic Disturbance,Medium,Power Grid
+2022-07-07,06:59,China,6,Overload,Medium,Power Grid
+2022-02-25,00:40,USA,3,Geomagnetic Disturbance,Low,Power Grid
+2022-04-01,15:35,USA,10,Geomagnetic Disturbance,High,Power Grid
+2020-12-08,09:31,China,4,Geomagnetic Disturbance,Medium,Power Grid
+2024-06-01,04:24,India,3,Geomagnetic Disturbance,Low,Power Grid
+2015-01-25,08:31,Europe,4,Overload,Medium,Power Grid
+2023-05-26,13:14,Europe,1,Overload,Low,Power Grid
+2020-12-29,08:45,India,8,Geomagnetic Disturbance,High,Power Grid
+2018-08-03,02:35,India,1,Overload,Low,Power Grid
+2016-07-03,09:11,USA,7,Hardware Fault,High,Power Grid
+2020-08-30,18:43,Europe,6,Overload,Medium,Power Grid
+2018-12-09,15:29,USA,9,Overload,High,Power Grid
+2024-01-17,13:19,USA,2,Geomagnetic Disturbance,Low,Power Grid
+2017-06-19,14:13,India,10,Geomagnetic Disturbance,High,Power Grid
+2017-01-30,20:03,India,6,Hardware Fault,Medium,Power Grid
+2024-12-27,08:25,Europe,2,Hardware Fault,Low,Power Grid
+2022-12-10,16:42,Europe,11,Hardware Fault,High,Power Grid
+2022-11-08,16:43,USA,10,Overload,High,Power Grid
+2024-10-11,21:57,India,7,Hardware Fault,High,Power Grid
+2016-04-19,10:46,USA,2,Geomagnetic Disturbance,Low,Power Grid
+2024-05-28,22:39,USA,1,Overload,Low,Power Grid
+2018-10-29,15:42,India,2,Overload,Low,Power Grid
+2018-10-18,08:27,Europe,5,Hardware Fault,Medium,Power Grid
+2017-07-05,04:09,India,9,Geomagnetic Disturbance,High,Power Grid
+2016-09-26,23:40,China,1,Geomagnetic Disturbance,Low,Power Grid
+2019-09-24,21:43,India,1,Overload,Low,Power Grid
+2022-12-22,09:07,China,3,Geomagnetic Disturbance,Low,Power Grid
+2017-06-18,16:21,China,8,Hardware Fault,High,Power Grid
+2022-03-23,15:38,India,1,Hardware Fault,Low,Power Grid
+2024-08-30,16:39,Europe,3,Overload,Low,Power Grid
+2022-03-27,22:08,Europe,2,Geomagnetic Disturbance,Low,Power Grid
+2022-07-13,08:41,USA,4,Hardware Fault,Medium,Power Grid
+2021-09-08,00:27,Europe,1,Geomagnetic Disturbance,Low,Power Grid
+2018-01-08,20:31,China,9,Hardware Fault,High,Power Grid
+2020-07-30,03:19,USA,11,Geomagnetic Disturbance,High,Power Grid
+2023-11-22,13:24,China,11,Hardware Fault,High,Power Grid
+2023-07-29,06:00,USA,1,Hardware Fault,Low,Power Grid
+2017-12-20,15:45,USA,5,Overload,Medium,Power Grid
+2020-05-13,23:51,China,8,Hardware Fault,High,Power Grid
+2022-07-15,19:27,USA,1,Geomagnetic Disturbance,Low,Power Grid
+2021-08-12,18:35,India,3,Geomagnetic Disturbance,Low,Power Grid
+2022-05-24,18:02,China,3,Geomagnetic Disturbance,Low,Power Grid
+2019-01-11,12:18,Europe,2,Overload,Low,Power Grid
+2017-01-11,21:15,China,4,Overload,Medium,Power Grid
+2021-07-23,13:46,USA,2,Hardware Fault,Low,Power Grid
+2020-03-18,12:54,India,1,Overload,Low,Power Grid
+2018-02-13,14:09,China,11,Overload,High,Power Grid
+2016-12-28,04:51,China,5,Hardware Fault,Medium,Power Grid
+2018-12-22,13:00,India,2,Geomagnetic Disturbance,Low,Power Grid
+2021-08-08,02:45,USA,5,Hardware Fault,Medium,Power Grid
+2024-03-21,19:24,USA,10,Hardware Fault,High,Power Grid
+2021-07-09,10:14,India,10,Overload,High,Power Grid
+2017-10-31,13:38,China,11,Overload,High,Power Grid
+2015-09-18,21:53,China,11,Geomagnetic Disturbance,High,Power Grid
+2021-02-08,19:15,USA,11,Overload,High,Power Grid
+2018-01-24,08:02,USA,10,Overload,High,Power Grid
+2019-06-30,22:20,USA,9,Hardware Fault,High,Power Grid
+2021-06-18,21:41,India,1,Overload,Low,Power Grid
+2023-03-24,18:09,China,1,Hardware Fault,Low,Power Grid
+2021-10-11,15:03,China,7,Overload,High,Power Grid
+2019-05-04,02:20,USA,2,Hardware Fault,Low,Power Grid
+2024-02-12,05:53,USA,9,Geomagnetic Disturbance,High,Power Grid
+2024-02-15,11:34,China,5,Hardware Fault,Medium,Power Grid
+2017-05-20,08:00,China,11,Geomagnetic Disturbance,High,Power Grid
+2024-02-29,00:55,Europe,3,Geomagnetic Disturbance,Low,Power Grid
+2015-06-30,03:07,India,1,Geomagnetic Disturbance,Low,Power Grid
+2021-12-03,03:45,India,10,Overload,High,Power Grid
+2022-11-17,02:23,USA,5,Overload,Medium,Power Grid
+2023-06-23,10:15,India,10,Geomagnetic Disturbance,High,Power Grid
+2020-12-04,08:01,India,6,Hardware Fault,Medium,Power Grid
+2018-05-11,12:21,India,9,Geomagnetic Disturbance,High,Power Grid
+2021-03-11,13:26,USA,2,Overload,Low,Power Grid
+2024-08-23,21:15,Europe,3,Overload,Low,Power Grid
+2016-12-26,02:09,India,2,Hardware Fault,Low,Power Grid
+2024-05-29,16:36,China,7,Hardware Fault,High,Power Grid
+2022-03-07,20:50,China,10,Hardware Fault,High,Power Grid
+2017-12-23,00:45,China,3,Hardware Fault,Low,Power Grid
+2024-03-20,01:34,China,4,Geomagnetic Disturbance,Medium,Power Grid
+2017-11-28,02:38,USA,7,Hardware Fault,High,Power Grid
+2015-09-29,07:06,China,6,Geomagnetic Disturbance,Medium,Power Grid
+2016-09-26,11:00,India,9,Hardware Fault,High,Power Grid
+2018-03-23,07:25,China,8,Overload,High,Power Grid
+2020-06-28,20:51,USA,6,Hardware Fault,Medium,Power Grid
+2024-10-18,19:55,Europe,2,Overload,Low,Power Grid
+2020-01-17,05:15,Europe,2,Hardware Fault,Low,Power Grid
+2016-02-22,19:07,Europe,8,Overload,High,Power Grid
+2021-09-25,17:59,Europe,9,Hardware Fault,High,Power Grid
+2023-08-21,02:54,USA,3,Overload,Low,Power Grid
+2017-12-10,19:56,China,4,Hardware Fault,Medium,Power Grid
+2019-09-13,09:06,Europe,4,Geomagnetic Disturbance,Medium,Power Grid
+2021-12-28,05:23,China,1,Geomagnetic Disturbance,Low,Power Grid
+2024-05-19,09:20,USA,3,Hardware Fault,Low,Power Grid
+2017-12-20,06:09,Europe,11,Geomagnetic Disturbance,High,Power Grid
+2017-12-10,07:40,China,11,Overload,High,Power Grid
+2018-04-09,21:12,China,6,Overload,Medium,Power Grid
+2016-11-06,10:51,India,1,Hardware Fault,Low,Power Grid
+2024-02-25,17:13,USA,1,Hardware Fault,Low,Power Grid
+2022-02-21,03:45,Europe,11,Overload,High,Power Grid
+2016-07-14,02:08,Europe,1,Hardware Fault,Low,Power Grid
+2024-06-16,01:23,India,3,Hardware Fault,Low,Power Grid
+2024-08-19,06:25,Europe,5,Geomagnetic Disturbance,Medium,Power Grid
+2016-06-30,08:42,India,1,Overload,Low,Power Grid
+2023-08-28,16:33,Europe,6,Geomagnetic Disturbance,Medium,Power Grid
+2020-02-07,00:33,USA,8,Overload,High,Power Grid
+2024-10-05,13:09,India,9,Hardware Fault,High,Power Grid
+2015-05-28,09:45,Europe,11,Geomagnetic Disturbance,High,Power Grid
+2021-05-19,01:50,China,11,Overload,High,Power Grid
+2023-02-24,23:30,Europe,8,Geomagnetic Disturbance,High,Power Grid
+2017-02-22,09:52,Europe,7,Geomagnetic Disturbance,High,Power Grid
+2020-10-19,00:39,China,8,Hardware Fault,High,Power Grid
+2017-12-09,02:31,India,3,Overload,Low,Power Grid
+2018-11-27,00:28,Europe,8,Hardware Fault,High,Power Grid
+2020-03-01,06:48,India,9,Geomagnetic Disturbance,High,Power Grid
+2017-03-12,23:13,China,4,Geomagnetic Disturbance,Medium,Power Grid
+2017-02-19,07:11,Europe,5,Geomagnetic Disturbance,Medium,Power Grid
+2019-05-30,10:13,India,10,Geomagnetic Disturbance,High,Power Grid
+2022-10-13,13:37,China,11,Hardware Fault,High,Power Grid
+2017-04-01,03:17,India,3,Hardware Fault,Low,Power Grid
+2021-02-27,14:04,China,7,Overload,High,Power Grid
+2018-12-03,12:52,India,8,Geomagnetic Disturbance,High,Power Grid
+2015-02-21,22:01,India,4,Overload,Medium,Power Grid
+2017-06-11,02:37,China,7,Overload,High,Power Grid
+2017-03-19,15:46,India,2,Overload,Low,Power Grid
+2015-12-12,09:40,Europe,4,Geomagnetic Disturbance,Medium,Power Grid
+2023-06-30,20:49,India,4,Hardware Fault,Medium,Power Grid
+2015-05-01,08:26,India,5,Geomagnetic Disturbance,Medium,Power Grid
+2018-12-04,04:44,USA,7,Hardware Fault,High,Power Grid
+2024-02-23,04:03,USA,3,Hardware Fault,Low,Power Grid
+2023-11-26,13:42,USA,10,Overload,High,Power Grid
+2019-10-01,05:54,USA,9,Hardware Fault,High,Power Grid
+2023-10-06,18:21,Europe,8,Hardware Fault,High,Power Grid
+2017-01-07,00:47,USA,1,Overload,Low,Power Grid
+2023-09-22,00:41,China,9,Geomagnetic Disturbance,High,Power Grid
+2019-09-20,16:36,China,1,Geomagnetic Disturbance,Low,Power Grid
+2024-10-16,04:41,China,10,Overload,High,Power Grid
+2017-08-21,23:41,India,10,Geomagnetic Disturbance,High,Power Grid
+2018-01-22,11:13,USA,5,Hardware Fault,Medium,Power Grid
+2024-12-01,00:21,India,3,Overload,Low,Power Grid
+2022-08-14,18:37,China,1,Hardware Fault,Low,Power Grid
+2024-01-17,18:18,India,9,Geomagnetic Disturbance,High,Power Grid
+2023-02-01,17:05,Europe,6,Hardware Fault,Medium,Power Grid
+2018-04-20,23:23,China,2,Geomagnetic Disturbance,Low,Power Grid
+2017-02-04,08:28,USA,4,Hardware Fault,Medium,Power Grid
+2024-09-07,21:41,Europe,8,Hardware Fault,High,Power Grid
+2020-02-04,02:49,China,8,Hardware Fault,High,Power Grid
+2015-12-14,07:05,India,8,Overload,High,Power Grid
+2023-01-15,21:53,Europe,11,Overload,High,Power Grid
+2020-10-23,06:50,China,9,Overload,High,Power Grid
+2021-11-03,18:56,Europe,6,Hardware Fault,Medium,Power Grid
+2015-03-24,14:20,China,8,Overload,High,Power Grid
+2018-07-23,15:54,USA,2,Geomagnetic Disturbance,Low,Power Grid
+2018-06-25,03:14,USA,6,Hardware Fault,Medium,Power Grid
+2021-12-26,10:29,India,11,Hardware Fault,High,Power Grid
+2021-12-21,12:51,China,9,Geomagnetic Disturbance,High,Power Grid
+2023-05-28,23:54,Europe,5,Geomagnetic Disturbance,Medium,Power Grid
+2016-03-10,23:48,India,5,Geomagnetic Disturbance,Medium,Power Grid
+2016-11-06,04:19,China,7,Geomagnetic Disturbance,High,Power Grid
+2019-02-02,14:22,India,6,Geomagnetic Disturbance,Medium,Power Grid
+2023-07-07,11:56,China,7,Overload,High,Power Grid
+2019-08-05,15:15,USA,7,Overload,High,Power Grid
+2019-05-30,10:49,Europe,9,Hardware Fault,High,Power Grid
+2023-09-28,10:37,USA,2,Overload,Low,Power Grid
+2017-10-16,20:56,China,9,Overload,High,Power Grid
+2021-11-10,17:56,India,1,Overload,Low,Power Grid
+2017-04-05,09:11,USA,2,Geomagnetic Disturbance,Low,Power Grid
+2018-05-15,14:17,India,10,Overload,High,Power Grid
+2020-12-11,17:48,India,9,Geomagnetic Disturbance,High,Power Grid
+2024-11-25,13:32,China,11,Overload,High,Power Grid
+2018-06-12,08:49,USA,7,Hardware Fault,High,Power Grid
+2015-02-10,21:51,Europe,3,Geomagnetic Disturbance,Low,Power Grid
+2016-07-10,10:00,China,11,Hardware Fault,High,Power Grid
+2023-08-21,17:53,USA,2,Hardware Fault,Low,Power Grid
+2018-06-23,12:06,India,3,Overload,Low,Power Grid
+2017-11-14,16:47,USA,3,Geomagnetic Disturbance,Low,Power Grid
+2021-09-21,10:26,Europe,7,Geomagnetic Disturbance,High,Power Grid
+2021-03-07,08:35,Europe,9,Hardware Fault,High,Power Grid
+2019-02-20,04:29,Europe,1,Geomagnetic Disturbance,Low,Power Grid
+2015-05-29,10:35,India,7,Hardware Fault,High,Power Grid
+2016-12-03,13:08,China,9,Geomagnetic Disturbance,High,Power Grid
+2019-09-15,03:01,USA,11,Hardware Fault,High,Power Grid
+2024-03-08,18:21,China,6,Geomagnetic Disturbance,Medium,Power Grid
+2020-03-24,13:16,USA,3,Overload,Low,Power Grid
+2018-05-23,11:59,India,9,Hardware Fault,High,Power Grid
+2016-12-23,19:15,China,9,Geomagnetic Disturbance,High,Power Grid
+2022-02-16,15:05,China,11,Hardware Fault,High,Power Grid
+2023-08-09,11:11,India,10,Hardware Fault,High,Power Grid
+2017-01-11,04:52,USA,6,Overload,Medium,Power Grid
+2024-12-30,04:07,India,9,Overload,High,Power Grid
+2021-05-12,00:18,China,10,Overload,High,Power Grid
+2016-11-30,17:35,India,5,Overload,Medium,Power Grid
+2019-09-30,23:00,India,8,Overload,High,Power Grid
+2024-09-21,07:36,India,3,Overload,Low,Power Grid
+2019-12-27,15:05,India,11,Geomagnetic Disturbance,High,Power Grid
+2020-03-24,01:45,Europe,11,Hardware Fault,High,Power Grid
+2018-08-12,01:51,Europe,3,Geomagnetic Disturbance,Low,Power Grid
+2023-02-23,18:38,China,1,Hardware Fault,Low,Power Grid
+2016-06-15,16:04,Europe,4,Overload,Medium,Power Grid
+2020-01-25,17:33,India,2,Hardware Fault,Low,Power Grid
+2021-09-28,17:05,India,4,Hardware Fault,Medium,Power Grid
+2020-08-20,12:18,India,11,Geomagnetic Disturbance,High,Power Grid
+2024-07-06,17:13,India,5,Overload,Medium,Power Grid
+2021-10-20,08:51,China,4,Geomagnetic Disturbance,Medium,Power Grid
+2018-06-25,08:07,Europe,10,Geomagnetic Disturbance,High,Power Grid
+2018-02-16,08:53,Europe,2,Overload,Low,Power Grid
+2017-04-27,21:41,India,10,Geomagnetic Disturbance,High,Power Grid
+2021-10-29,02:39,USA,7,Hardware Fault,High,Power Grid
+2018-08-02,06:29,Europe,6,Geomagnetic Disturbance,Medium,Power Grid
+2022-11-15,23:02,USA,3,Geomagnetic Disturbance,Low,Power Grid
+2017-03-20,14:24,Europe,10,Overload,High,Power Grid
+2015-01-30,08:38,USA,10,Overload,High,Power Grid
+2024-08-17,23:47,India,5,Geomagnetic Disturbance,Medium,Power Grid
+2021-12-29,01:44,India,9,Overload,High,Power Grid
+2017-04-12,08:23,China,4,Geomagnetic Disturbance,Medium,Power Grid
+2024-01-30,11:10,China,5,Geomagnetic Disturbance,Medium,Power Grid
+2017-09-12,20:53,India,10,Hardware Fault,High,Power Grid
+2020-03-04,04:41,USA,8,Overload,High,Power Grid
+2022-08-12,11:07,USA,2,Hardware Fault,Low,Power Grid
+2023-08-26,02:36,India,10,Overload,High,Power Grid
+2017-02-14,03:57,China,8,Geomagnetic Disturbance,High,Power Grid
+2016-04-02,04:53,USA,3,Overload,Low,Power Grid
+2018-07-25,03:30,Europe,1,Overload,Low,Power Grid
+2015-01-30,13:06,Europe,10,Overload,High,Power Grid
+2023-03-10,00:22,India,5,Geomagnetic Disturbance,Medium,Power Grid
+2022-11-18,18:49,USA,10,Geomagnetic Disturbance,High,Power Grid
+2023-04-27,16:36,China,3,Overload,Low,Power Grid
+2015-03-06,22:36,Europe,3,Overload,Low,Power Grid
+2022-07-02,07:40,Europe,1,Overload,Low,Power Grid
+2022-12-17,20:52,Europe,7,Geomagnetic Disturbance,High,Power Grid
+2015-09-11,06:28,India,4,Overload,Medium,Power Grid
+2018-09-07,16:42,India,7,Hardware Fault,High,Power Grid
+2020-07-23,07:17,China,5,Hardware Fault,Medium,Power Grid
+2016-06-30,06:23,China,7,Geomagnetic Disturbance,High,Power Grid
+2019-09-04,16:59,China,3,Overload,Low,Power Grid
+2024-07-30,00:13,China,6,Overload,Medium,Power Grid
+2019-08-29,13:33,India,11,Overload,High,Power Grid
+2022-12-17,00:11,India,11,Overload,High,Power Grid
+2018-07-01,05:53,China,1,Overload,Low,Power Grid
+2024-09-18,19:01,India,4,Geomagnetic Disturbance,Medium,Power Grid
+2015-12-16,18:49,China,6,Hardware Fault,Medium,Power Grid
+2021-07-28,15:34,China,1,Overload,Low,Power Grid
+2021-08-12,19:43,USA,3,Hardware Fault,Low,Power Grid
+2015-02-13,09:34,China,1,Overload,Low,Power Grid
+2017-01-24,22:10,USA,4,Overload,Medium,Power Grid
+2019-11-29,04:43,India,6,Overload,Medium,Power Grid
+2019-11-04,22:44,China,10,Hardware Fault,High,Power Grid
+2019-10-07,16:09,China,8,Overload,High,Power Grid
+2015-02-25,20:04,China,2,Geomagnetic Disturbance,Low,Power Grid
+2021-08-15,04:55,Europe,2,Overload,Low,Power Grid
+2017-05-18,13:03,Europe,3,Geomagnetic Disturbance,Low,Power Grid
+2022-12-04,03:30,Europe,3,Hardware Fault,Low,Power Grid
+2019-07-16,18:49,India,5,Hardware Fault,Medium,Power Grid
+2023-10-16,21:25,USA,7,Overload,High,Power Grid
+2019-12-11,16:52,China,10,Hardware Fault,High,Power Grid
+2016-02-26,17:59,USA,5,Overload,Medium,Power Grid
+2020-02-10,01:23,Europe,2,Hardware Fault,Low,Power Grid
+2022-03-04,11:30,China,4,Overload,Medium,Power Grid
+2015-12-14,23:20,China,8,Geomagnetic Disturbance,High,Power Grid
+2024-10-15,20:04,USA,11,Overload,High,Power Grid
+2016-05-28,17:20,India,4,Geomagnetic Disturbance,Medium,Power Grid
+2015-03-16,21:42,China,11,Geomagnetic Disturbance,High,Power Grid
+2021-06-13,17:02,China,3,Overload,Low,Power Grid
+2019-06-26,06:14,India,11,Hardware Fault,High,Power Grid
+2021-01-13,14:47,India,6,Hardware Fault,Medium,Power Grid
+2015-07-15,14:47,USA,4,Overload,Medium,Power Grid
+2018-03-18,02:58,Europe,2,Hardware Fault,Low,Power Grid
+2017-05-03,23:16,India,1,Overload,Low,Power Grid
+2016-04-25,08:50,China,2,Overload,Low,Power Grid
+2016-11-26,18:03,China,1,Overload,Low,Power Grid
+2021-12-09,23:01,USA,4,Geomagnetic Disturbance,Medium,Power Grid
+2020-03-07,06:02,USA,4,Overload,Medium,Power Grid
+2022-08-09,17:17,India,1,Geomagnetic Disturbance,Low,Power Grid
+2019-11-27,07:08,Europe,10,Geomagnetic Disturbance,High,Power Grid
+2021-05-01,05:47,India,8,Hardware Fault,High,Power Grid
+2022-03-06,21:57,China,11,Hardware Fault,High,Power Grid
+2018-04-27,03:24,India,8,Hardware Fault,High,Power Grid
+2024-06-23,07:36,China,2,Overload,Low,Power Grid
+2016-08-28,13:35,China,8,Geomagnetic Disturbance,High,Power Grid
+2020-07-31,15:15,Europe,2,Overload,Low,Power Grid
+2024-04-11,04:56,China,5,Geomagnetic Disturbance,Medium,Power Grid
+2022-10-30,04:26,China,1,Hardware Fault,Low,Power Grid
+2019-09-22,22:01,China,7,Geomagnetic Disturbance,High,Power Grid
+2024-09-12,21:38,India,7,Hardware Fault,High,Power Grid
+2022-01-18,17:26,USA,9,Overload,High,Power Grid
+2016-08-07,23:21,India,7,Geomagnetic Disturbance,High,Power Grid
+2024-10-06,17:45,India,4,Overload,Medium,Power Grid
+2015-09-06,16:48,India,8,Overload,High,Power Grid
+2020-10-27,03:50,China,1,Overload,Low,Power Grid
+2022-10-26,21:53,China,4,Geomagnetic Disturbance,Medium,Power Grid
+2018-10-17,14:51,China,3,Geomagnetic Disturbance,Low,Power Grid
+2020-10-11,23:21,India,1,Hardware Fault,Low,Power Grid
+2018-07-06,08:18,China,9,Hardware Fault,High,Power Grid
+2016-05-13,11:11,USA,1,Overload,Low,Power Grid
+2023-07-23,06:37,China,4,Geomagnetic Disturbance,Medium,Power Grid
+2023-09-25,19:35,China,11,Overload,High,Power Grid
+2016-07-11,12:34,China,5,Hardware Fault,Medium,Power Grid
+2021-03-18,14:16,China,3,Hardware Fault,Low,Power Grid
+2020-07-21,04:43,China,4,Geomagnetic Disturbance,Medium,Power Grid
+2018-08-28,13:47,USA,3,Hardware Fault,Low,Power Grid
+2017-09-30,10:19,India,2,Geomagnetic Disturbance,Low,Power Grid
+2016-04-26,08:08,China,3,Hardware Fault,Low,Power Grid
+2023-11-19,18:37,Europe,4,Geomagnetic Disturbance,Medium,Power Grid
+2017-02-04,21:33,USA,5,Geomagnetic Disturbance,Medium,Power Grid
+2021-09-10,05:00,Europe,8,Hardware Fault,High,Power Grid
+2021-11-19,15:44,Europe,7,Overload,High,Power Grid
+2016-10-13,11:12,India,10,Hardware Fault,High,Power Grid
+2021-05-28,07:10,India,2,Geomagnetic Disturbance,Low,Power Grid
+2020-05-09,15:12,India,1,Geomagnetic Disturbance,Low,Power Grid
+2015-04-18,03:09,China,9,Geomagnetic Disturbance,High,Power Grid
+2022-03-29,10:57,India,4,Geomagnetic Disturbance,Medium,Power Grid
+2024-10-12,10:20,India,7,Geomagnetic Disturbance,High,Power Grid
+2024-08-30,08:46,Europe,2,Hardware Fault,Low,Power Grid
+2017-08-22,20:31,USA,3,Hardware Fault,Low,Power Grid
+2018-09-26,22:41,USA,3,Geomagnetic Disturbance,Low,Power Grid
+2017-06-16,23:53,China,3,Hardware Fault,Low,Power Grid
+2015-10-27,12:16,China,10,Overload,High,Power Grid
+2020-11-18,16:23,USA,7,Overload,High,Power Grid
+2024-03-31,16:18,Europe,3,Geomagnetic Disturbance,Low,Power Grid
+2020-06-05,19:23,Europe,5,Overload,Medium,Power Grid
+2022-10-29,21:48,USA,5,Geomagnetic Disturbance,Medium,Power Grid
+2022-10-30,17:00,Europe,9,Overload,High,Power Grid
+2018-01-23,07:00,China,2,Overload,Low,Power Grid
+2023-05-06,06:00,India,3,Hardware Fault,Low,Power Grid
+2016-04-23,00:21,China,1,Overload,Low,Power Grid
+2020-06-21,20:37,India,3,Hardware Fault,Low,Power Grid
+2017-10-31,02:54,USA,5,Overload,Medium,Power Grid
+2024-10-29,09:35,USA,10,Hardware Fault,High,Power Grid
+2018-04-02,00:08,India,3,Overload,Low,Power Grid
+2021-05-24,06:46,USA,7,Hardware Fault,High,Power Grid
+2016-06-02,09:28,Europe,1,Geomagnetic Disturbance,Low,Power Grid
+2017-01-06,19:46,Europe,4,Geomagnetic Disturbance,Medium,Power Grid
+2024-06-09,03:16,India,10,Overload,High,Power Grid
+2022-12-26,02:40,India,1,Overload,Low,Power Grid
+2018-11-13,18:08,Europe,4,Overload,Medium,Power Grid
+2018-02-17,04:38,India,2,Geomagnetic Disturbance,Low,Power Grid
+2015-04-13,15:44,Europe,1,Overload,Low,Power Grid
+2020-11-17,22:43,Europe,4,Geomagnetic Disturbance,Medium,Power Grid
+2023-06-16,05:28,China,8,Geomagnetic Disturbance,High,Power Grid
+2021-07-02,09:57,India,6,Overload,Medium,Power Grid
+2023-02-28,09:45,China,8,Hardware Fault,High,Power Grid
+2015-09-20,18:45,USA,6,Geomagnetic Disturbance,Medium,Power Grid
+2016-05-15,22:21,India,8,Hardware Fault,High,Power Grid
+2024-07-06,09:31,USA,7,Hardware Fault,High,Power Grid
+2016-01-13,13:26,Europe,10,Hardware Fault,High,Power Grid
+2020-12-29,01:14,India,9,Overload,High,Power Grid
+2018-12-14,00:41,China,9,Geomagnetic Disturbance,High,Power Grid
+2019-12-06,21:31,USA,2,Overload,Low,Power Grid
+2024-10-15,10:25,India,9,Geomagnetic Disturbance,High,Power Grid
+2017-03-04,02:32,China,6,Geomagnetic Disturbance,Medium,Power Grid
+2015-01-17,15:15,India,8,Overload,High,Power Grid
+2015-04-10,01:48,China,5,Overload,Medium,Power Grid
+2018-09-14,21:37,India,2,Overload,Low,Power Grid
+2023-02-16,13:45,China,3,Hardware Fault,Low,Power Grid
+2020-06-30,18:37,India,3,Overload,Low,Power Grid
+2023-01-14,03:01,USA,1,Hardware Fault,Low,Power Grid
+2016-12-01,06:16,Europe,1,Hardware Fault,Low,Power Grid
+2023-02-12,23:27,India,5,Hardware Fault,Medium,Power Grid
+2020-08-28,14:01,Europe,6,Overload,Medium,Power Grid
+2022-09-07,10:32,China,3,Overload,Low,Power Grid
+2016-04-26,02:27,China,8,Hardware Fault,High,Power Grid
+2023-04-11,16:41,China,4,Hardware Fault,Medium,Power Grid
+2020-05-06,18:58,Europe,9,Hardware Fault,High,Power Grid
+2019-06-01,23:48,USA,4,Hardware Fault,Medium,Power Grid
+2022-08-02,17:15,China,2,Hardware Fault,Low,Power Grid
+2018-03-31,01:34,Europe,4,Hardware Fault,Medium,Power Grid
+2019-02-16,13:35,Europe,4,Geomagnetic Disturbance,Medium,Power Grid
+2019-11-22,04:34,USA,7,Hardware Fault,High,Power Grid
+2024-02-22,07:01,India,9,Geomagnetic Disturbance,High,Power Grid
+2022-05-10,19:57,Europe,2,Overload,Low,Power Grid
+2016-07-13,18:09,China,3,Overload,Low,Power Grid
+2018-05-26,12:49,China,8,Overload,High,Power Grid
+2021-05-08,02:25,Europe,1,Hardware Fault,Low,Power Grid
+2018-03-09,03:37,China,11,Overload,High,Power Grid
+2016-11-23,16:49,China,2,Hardware Fault,Low,Power Grid
+2021-07-02,12:09,India,1,Geomagnetic Disturbance,Low,Power Grid
+2016-10-28,03:50,USA,7,Hardware Fault,High,Power Grid
+2020-04-15,08:29,Europe,2,Geomagnetic Disturbance,Low,Power Grid
+2017-07-12,19:11,USA,5,Hardware Fault,Medium,Power Grid
+2019-03-17,14:46,Europe,9,Hardware Fault,High,Power Grid
+2024-08-19,09:24,USA,1,Geomagnetic Disturbance,Low,Power Grid
+2017-12-09,12:20,India,6,Overload,Medium,Power Grid
+2023-09-19,21:16,Europe,3,Overload,Low,Power Grid
+2023-09-03,18:15,India,1,Hardware Fault,Low,Power Grid
+2021-06-07,16:30,China,4,Hardware Fault,Medium,Power Grid
+2023-03-01,17:03,USA,2,Overload,Low,Power Grid
+2020-08-26,18:37,Europe,5,Geomagnetic Disturbance,Medium,Power Grid
+2020-06-24,07:25,China,2,Hardware Fault,Low,Power Grid
+2019-12-17,15:28,USA,7,Hardware Fault,High,Power Grid
+2019-03-17,23:15,USA,1,Geomagnetic Disturbance,Low,Power Grid
+2024-07-15,15:26,China,9,Hardware Fault,High,Power Grid
+2020-10-06,19:26,China,8,Hardware Fault,High,Power Grid
+2017-05-23,21:25,USA,6,Hardware Fault,Medium,Power Grid
+2020-01-22,03:20,USA,8,Hardware Fault,High,Power Grid
+2022-12-14,09:53,India,5,Hardware Fault,Medium,Power Grid
+2023-11-21,09:38,Europe,11,Geomagnetic Disturbance,High,Power Grid
+2016-12-15,23:56,Europe,6,Geomagnetic Disturbance,Medium,Power Grid
+2016-01-28,20:06,India,2,Overload,Low,Power Grid
+2017-09-09,23:02,China,10,Hardware Fault,High,Power Grid
+2024-05-07,13:33,Europe,4,Overload,Medium,Power Grid
+2019-01-26,14:42,USA,9,Overload,High,Power Grid
+2017-10-11,13:03,India,7,Geomagnetic Disturbance,High,Power Grid
+2023-02-21,18:28,India,11,Geomagnetic Disturbance,High,Power Grid
+2019-01-26,11:26,India,1,Overload,Low,Power Grid
+2019-06-29,22:25,India,5,Geomagnetic Disturbance,Medium,Power Grid
+2022-10-24,13:31,China,5,Hardware Fault,Medium,Power Grid
+2017-10-28,05:55,Europe,7,Geomagnetic Disturbance,High,Power Grid
+2019-03-22,18:17,USA,3,Overload,Low,Power Grid
+2021-07-10,14:47,India,7,Geomagnetic Disturbance,High,Power Grid
+2023-04-01,12:44,China,6,Geomagnetic Disturbance,Medium,Power Grid
+2018-10-18,05:50,India,8,Overload,High,Power Grid
+2017-10-07,20:32,USA,9,Overload,High,Power Grid
+2015-04-22,18:25,Europe,2,Geomagnetic Disturbance,Low,Power Grid
+2019-02-14,10:07,Europe,5,Geomagnetic Disturbance,Medium,Power Grid
+2022-09-02,04:53,China,4,Hardware Fault,Medium,Power Grid
+2018-02-27,21:31,Europe,9,Hardware Fault,High,Power Grid
+2019-01-14,11:07,USA,7,Overload,High,Power Grid
+2020-03-17,06:39,Europe,4,Geomagnetic Disturbance,Medium,Power Grid
+2021-01-04,20:20,China,5,Overload,Medium,Power Grid
+2016-05-27,11:42,USA,9,Hardware Fault,High,Power Grid
+2020-12-11,06:30,Europe,2,Geomagnetic Disturbance,Low,Power Grid
+2018-01-15,07:36,China,2,Overload,Low,Power Grid
+2016-12-02,09:12,USA,8,Hardware Fault,High,Power Grid
+2022-06-17,08:55,China,1,Geomagnetic Disturbance,Low,Power Grid
+2024-12-27,14:56,Europe,4,Geomagnetic Disturbance,Medium,Power Grid
+2016-08-17,14:25,India,4,Geomagnetic Disturbance,Medium,Power Grid
+2020-04-21,10:46,China,5,Overload,Medium,Power Grid
+2019-05-23,10:28,China,7,Hardware Fault,High,Power Grid
+2023-01-21,16:31,USA,10,Hardware Fault,High,Power Grid
+2015-10-24,20:06,India,10,Hardware Fault,High,Power Grid
+2020-01-07,03:22,Europe,8,Overload,High,Power Grid
+2023-10-16,13:49,India,6,Hardware Fault,Medium,Power Grid
+2018-11-27,19:52,USA,7,Geomagnetic Disturbance,High,Power Grid
+2021-08-02,04:08,India,9,Overload,High,Power Grid
+2018-08-31,09:29,China,4,Geomagnetic Disturbance,Medium,Power Grid
+2021-07-23,10:33,China,10,Geomagnetic Disturbance,High,Power Grid
+2020-01-23,20:54,India,11,Overload,High,Power Grid
+2018-08-17,18:42,India,5,Hardware Fault,Medium,Power Grid
+2022-01-31,01:13,China,8,Geomagnetic Disturbance,High,Power Grid
+2018-01-26,09:05,USA,11,Geomagnetic Disturbance,High,Power Grid
+2024-08-29,05:09,India,4,Overload,Medium,Power Grid
+2015-12-20,12:08,Europe,7,Geomagnetic Disturbance,High,Power Grid
+2015-05-03,20:16,Europe,5,Hardware Fault,Medium,Power Grid
+2024-09-11,02:07,Europe,7,Overload,High,Power Grid
+2018-12-21,02:48,China,2,Geomagnetic Disturbance,Low,Power Grid
+2020-01-07,08:59,India,2,Overload,Low,Power Grid
+2019-08-27,08:07,USA,2,Overload,Low,Power Grid
+2023-11-26,12:14,Europe,2,Geomagnetic Disturbance,Low,Power Grid
+2017-01-16,21:28,Europe,2,Overload,Low,Power Grid
+2023-09-15,23:13,USA,11,Geomagnetic Disturbance,High,Power Grid
+2016-03-20,15:15,USA,10,Overload,High,Power Grid
+2016-06-25,04:03,India,4,Overload,Medium,Power Grid
+2017-08-11,11:42,India,2,Hardware Fault,Low,Power Grid
+2020-04-16,03:52,China,3,Hardware Fault,Low,Power Grid
+2021-12-25,01:47,USA,2,Hardware Fault,Low,Power Grid
+2017-11-13,17:14,India,11,Geomagnetic Disturbance,High,Power Grid
+2020-01-10,07:17,USA,11,Hardware Fault,High,Power Grid
+2019-07-21,02:22,USA,8,Overload,High,Power Grid
+2024-04-13,08:56,Europe,9,Overload,High,Power Grid
+2023-02-22,11:34,USA,9,Hardware Fault,High,Power Grid
+2015-08-24,22:41,USA,2,Hardware Fault,Low,Power Grid
+2015-11-10,00:31,China,6,Overload,Medium,Power Grid
+2016-12-24,10:22,China,1,Overload,Low,Power Grid
+2023-06-04,10:40,China,5,Hardware Fault,Medium,Power Grid
+2015-08-01,17:36,USA,1,Overload,Low,Power Grid
+2024-06-17,04:45,India,2,Overload,Low,Power Grid
+2020-08-16,13:08,USA,1,Geomagnetic Disturbance,Low,Power Grid
+2019-01-21,02:38,USA,4,Hardware Fault,Medium,Power Grid
+2017-06-26,12:36,USA,11,Geomagnetic Disturbance,High,Power Grid
+2020-11-20,15:07,China,3,Hardware Fault,Low,Power Grid
+2017-07-05,16:07,Europe,8,Overload,High,Power Grid
+2022-07-31,10:43,India,1,Geomagnetic Disturbance,Low,Power Grid
+2024-12-23,06:28,Europe,11,Hardware Fault,High,Power Grid
+2021-06-19,10:07,India,11,Overload,High,Power Grid
+2023-11-27,14:14,India,11,Geomagnetic Disturbance,High,Power Grid
+2024-11-12,13:18,Europe,11,Overload,High,Power Grid
+2024-02-16,23:55,Europe,2,Overload,Low,Power Grid
+2017-12-07,18:20,India,6,Geomagnetic Disturbance,Medium,Power Grid
+2019-02-17,01:13,China,2,Geomagnetic Disturbance,Low,Power Grid
+2020-09-16,10:11,Europe,2,Overload,Low,Power Grid
+2022-06-12,17:40,USA,5,Overload,Medium,Power Grid
+2022-07-09,09:26,India,4,Geomagnetic Disturbance,Medium,Power Grid
+2016-04-02,08:09,USA,11,Geomagnetic Disturbance,High,Power Grid
+2023-10-14,06:57,Europe,3,Geomagnetic Disturbance,Low,Power Grid
+2023-04-25,09:54,India,7,Hardware Fault,High,Power Grid
+2016-11-04,07:18,Europe,4,Overload,Medium,Power Grid
+2020-10-04,04:10,India,5,Geomagnetic Disturbance,Medium,Power Grid
+2019-05-27,18:54,Europe,5,Overload,Medium,Power Grid
+2016-07-08,10:33,USA,5,Overload,Medium,Power Grid
+2016-01-01,15:18,Europe,1,Hardware Fault,Low,Power Grid
+2017-08-05,09:20,China,10,Overload,High,Power Grid
+2017-02-25,06:11,China,11,Geomagnetic Disturbance,High,Power Grid
+2022-03-07,21:54,Europe,5,Geomagnetic Disturbance,Medium,Power Grid
+2023-01-05,17:49,USA,5,Hardware Fault,Medium,Power Grid
+2015-09-04,05:32,USA,9,Hardware Fault,High,Power Grid
+2016-02-29,22:39,China,1,Geomagnetic Disturbance,Low,Power Grid
+2017-12-23,13:41,China,3,Hardware Fault,Low,Power Grid
+2017-03-06,20:19,USA,4,Hardware Fault,Medium,Power Grid
+2018-03-20,01:50,USA,8,Geomagnetic Disturbance,High,Power Grid
+2017-08-12,10:14,China,1,Hardware Fault,Low,Power Grid
+2021-04-01,10:44,Europe,8,Hardware Fault,High,Power Grid
+2020-11-29,13:58,Europe,1,Hardware Fault,Low,Power Grid
+2015-10-22,05:58,India,7,Geomagnetic Disturbance,High,Power Grid
+2024-04-22,07:10,USA,9,Geomagnetic Disturbance,High,Power Grid
+2023-12-11,19:07,Europe,1,Geomagnetic Disturbance,Low,Power Grid
+2023-11-01,20:33,Europe,1,Overload,Low,Power Grid
+2022-10-04,02:16,India,2,Hardware Fault,Low,Power Grid
+2017-12-05,10:53,USA,8,Overload,High,Power Grid
+2019-05-11,01:01,China,11,Geomagnetic Disturbance,High,Power Grid
+2022-03-09,12:25,India,2,Hardware Fault,Low,Power Grid
+2024-09-09,08:38,USA,4,Hardware Fault,Medium,Power Grid
+2018-08-29,06:52,USA,1,Geomagnetic Disturbance,Low,Power Grid
+2022-02-07,18:38,USA,2,Hardware Fault,Low,Power Grid
+2019-04-21,11:01,Europe,9,Geomagnetic Disturbance,High,Power Grid
+2024-02-03,07:58,USA,9,Geomagnetic Disturbance,High,Power Grid
+2015-05-06,16:37,India,1,Hardware Fault,Low,Power Grid
+2024-12-17,07:11,India,3,Overload,Low,Power Grid
+2016-08-19,02:03,China,1,Geomagnetic Disturbance,Low,Power Grid
+2016-12-25,09:41,India,10,Overload,High,Power Grid
+2022-03-29,20:57,India,5,Hardware Fault,Medium,Power Grid
+2019-07-22,01:35,India,4,Geomagnetic Disturbance,Medium,Power Grid
+2016-05-13,00:55,Europe,10,Geomagnetic Disturbance,High,Power Grid
+2024-01-06,19:40,Europe,7,Overload,High,Power Grid
+2021-01-09,22:54,India,2,Geomagnetic Disturbance,Low,Power Grid
+2015-01-01,08:55,USA,7,Hardware Fault,High,Power Grid
+2024-08-17,19:53,India,11,Overload,High,Power Grid
+2022-02-10,13:31,USA,4,Hardware Fault,Medium,Power Grid
+2022-11-12,03:05,Europe,11,Hardware Fault,High,Power Grid
+2018-03-10,11:10,India,5,Hardware Fault,Medium,Power Grid
+2017-09-28,12:22,India,8,Hardware Fault,High,Power Grid
+2015-10-21,02:21,Europe,4,Overload,Medium,Power Grid
+2021-01-30,10:28,India,6,Geomagnetic Disturbance,Medium,Power Grid
+2019-08-27,20:40,USA,8,Geomagnetic Disturbance,High,Power Grid
+2017-01-07,00:04,USA,3,Geomagnetic Disturbance,Low,Power Grid
