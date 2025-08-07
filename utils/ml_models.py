@@ -108,17 +108,14 @@ def make_predictions(model, duration, region, cause, hour):
     
     if model is None:
         return "Model not trained"
-    
     # Create feature vector
-    features = {}
-    
-    # Numeric features
-    features['Duration'] = duration
-    features['Hour'] = hour
-    features['Month'] = 6  # Default month
-    features['DayOfWeek'] = 1  # Default day
-    
     # Encode categorical features
+    features = {
+        'Duration': duration,
+        'Hour': hour,
+        'Month': 6,
+        'DayOfWeek': 1
+    }
     if hasattr(model, 'label_encoders'):
         if 'Region' in model.label_encoders:
             try:
@@ -174,45 +171,37 @@ def generate_72_hour_predictions(models_data, all_data):
     for dataset_key, info in dataset_info.items():
         if dataset_key in all_data and not all_data[dataset_key].empty:
             # Create more realistic predictions with temporal patterns
+            df = all_data[dataset_key]
+            model_info = train_random_forest(df)
+            model, _, _, _ = model_info
+            if model is None:
+                continue
             predictions = []
             
-            for i, future_time in enumerate(prediction_times):
                 # Create more balanced prediction logic
+            for future_time in prediction_times:
                 hour = future_time.hour
-                day_progress = i / 72.0  # Progress through 3 days
-                
-                # Base probability influenced by time patterns and dataset characteristics
-                if dataset_key == 'power_grid':
-                    # Higher risk during peak hours (8-10, 18-20)
-                    base_risk = 0.3 + 0.2 * np.sin(2 * np.pi * hour / 24) if hour in [8,9,18,19,20] else 0.2
-                elif dataset_key == 'gps_disruptions':
-                    # More consistent moderate risk
-                    base_risk = 0.25 + 0.1 * np.sin(2 * np.pi * day_progress)
-                elif dataset_key == 'solar_flare':
-                    # Variable risk with some periodic patterns
-                    base_risk = 0.35 + 0.15 * np.sin(4 * np.pi * day_progress)
-                elif dataset_key == 'solar_wind':
-                    # Generally lower but with occasional spikes
-                    base_risk = 0.2 + 0.1 * np.sin(6 * np.pi * day_progress)
-                else:  # satellite
-                    # Moderate baseline with gradual changes
-                    base_risk = 0.3 + 0.05 * np.sin(3 * np.pi * day_progress)
-                
-                # Add some randomness but keep it realistic
-                noise = np.random.normal(0, 0.1)
-                final_risk = np.clip(base_risk + noise, 0.1, 0.9)
-                
-                # Convert to impact level with more balanced distribution
-                if final_risk < 0.4:
-                    impact_level = 1  # Low
-                elif final_risk < 0.65:
-                    impact_level = 2  # Medium
-                else:
-                    impact_level = 3  # High
-                
-                predictions.append(impact_level)
             
-            # Add trace for this dataset
+                month = future_time.month
+                dayofweek = future_time.weekday()
+                sample_row = {
+                    'Duration': df['Duration'].mean() if 'Duration' in df.columns else 1.0,
+                    'Hour': hour,
+                    'Month': month,
+                    'DayOfWeek': dayofweek
+                }
+                if hasattr(model, 'label_encoders'):
+                    region_encoder = model.label_encoders.get('Region')
+                    cause_encoder = model.label_encoders.get('Cause')
+                    sample_row['Region_encoded'] = 0 if region_encoder is None else 0
+                    sample_row['Cause_encoded'] = 0 if cause_encoder is None else 0
+                row_df = pd.DataFrame([sample_row])
+                for col in model.feature_cols:
+                    if col not in row_df.columns:
+                        row_df[col] = 0
+                row_df = row_df[model.feature_cols]
+                impact = model.predict(row_df)[0]
+                predictions.append(impact)
             fig.add_trace(go.Scatter(
                 x=prediction_times,
                 y=predictions,
