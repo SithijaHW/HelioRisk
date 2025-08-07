@@ -1,3 +1,4 @@
+from streamlit_autorefresh import st_autorefresh
 import streamlit as st
 import pandas as pd
 import plotly.express as px
@@ -305,6 +306,7 @@ def overview_dashboard(data, date_range, impact_levels, infrastructure_types):
 def ml_predictions_tab(data):
     st.markdown('<div class="tab-content">', unsafe_allow_html=True)
     st.markdown("## 🤖 Machine Learning Predictions")
+    st_autorefresh(interval=60000, key="72_hour_refresh")
     
     st.markdown("""
     <div class="info-box">
@@ -451,13 +453,6 @@ def ml_predictions_tab(data):
             """, unsafe_allow_html=True)
             
             # JavaScript for auto-refresh every minute
-            st.markdown("""
-            <script>
-            setTimeout(function(){
-                window.location.reload();
-            }, 60000); // 60 seconds
-            </script>
-            """, unsafe_allow_html=True)
     else:
         st.info("Train the model first to see 72-hour continuous predictions.")
     
