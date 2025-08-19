@@ -145,52 +145,79 @@ def _safe_row_dict(feature_cols, values_dict):
 
 # ---------------------------- Single-sample predictions ----------------------------
 
-def make_predictions(model, duration, region, cause, hour, source='power_grid'):
+def make_predictions(model, date, all_data):
     """
-    Make a single prediction using a trained model (must have label_encoders & feature_cols attached).
-    Returns predicted label string ('Low'|'Medium'|'High') or error message.
+    Predict impact level, infrastructure, and region for a given date.
+    Works for both past (dataset present) and future (synthetic features) dates.
+    Returns: list of dicts, one per dataset.
     """
     if model is None:
-        return "Model not trained"
-
-    # Raw values with sensible defaults
-    sample = {
-        'Duration': float(duration) if duration is not None else 1.0,
-        'Hour': int(hour) if hour is not None else 12,
-        'Month': datetime.now().month,
-        'DayOfWeek': datetime.now().weekday(),
-        'Region': str(region) if region is not None else 'Unknown',
-        'Cause': str(cause) if cause is not None else 'Unknown',
-        'source': str(source) if source is not None else 'power_grid'
-    }
-
-    encs = getattr(model, 'label_encoders', {})
-    # Add encoded fields using encoders; unseen -> fallback to 0
-    for col in ['Region', 'Cause', 'source']:
-        encoded_key = f'{col}_encoded'
-        le = encs.get(col)
-        if le:
-            try:
-                sample[encoded_key] = int(le.transform([sample[col]])[0])
-            except Exception:
-                sample[encoded_key] = 0
-        else:
-            sample[encoded_key] = 0
-
-    feat_cols = getattr(model, 'feature_cols', None)
-    if not feat_cols:
-        feat_cols = ['Duration', 'Hour', 'Month', 'DayOfWeek', 'Region_encoded', 'Cause_encoded', 'source_encoded']
-
-    feature_df = _safe_row_dict(feat_cols, sample)
+        return [{"Impact_Level": "Model not trained", "Infrastructure": None, "Region": None}]
 
     try:
-        pred = model.predict(feature_df)[0]
+        dt = pd.to_datetime(date)
     except Exception:
-        # In unlikely case prediction fails, fallback to Low
-        pred = 'Low'
+        dt = datetime.now()
 
-    return pred
+    feat_cols = getattr(
+        model,
+        "feature_cols",
+        ["Duration","Hour","Month","DayOfWeek","Region_encoded","Cause_encoded","source_encoded"]
+    )
+    encs = getattr(model, "label_encoders", {})
 
+    results = []
+
+    # Loop through each dataset in training
+    dataset_keys = ['power_grid','gps_disruptions','solar_flare','solar_wind','satellite']
+    for key in dataset_keys:
+        df = all_data.get(key)
+        region, cause, dur = "Unknown", "Unknown", 1.0
+
+        if df is not None and not df.empty and "Date" in df.columns:
+            day_rows = df[df["Date"].dt.date == dt.date()]
+            if not day_rows.empty:
+                dur = float(day_rows["Duration"].mean()) if "Duration" in day_rows.columns else 1.0
+                region = day_rows["Region"].mode()[0] if "Region" in day_rows.columns and not day_rows["Region"].mode().empty else "Unknown"
+                cause = day_rows["Cause"].mode()[0] if "Cause" in day_rows.columns and not day_rows["Cause"].mode().empty else "Unknown"
+
+        # Build synthetic or real sample
+        sample = {
+            "Duration": dur,
+            "Hour": 12,
+            "Month": dt.month,
+            "DayOfWeek": dt.weekday(),
+            "Region": region,
+            "Cause": cause,
+            "source": key
+        }
+
+        # Encode with label encoders
+        for col in ["Region","Cause","source"]:
+            enc_key = f"{col}_encoded"
+            le = encs.get(col)
+            if le:
+                try:
+                    sample[enc_key] = int(le.transform([sample[col]])[0])
+                except Exception:
+                    sample[enc_key] = 0
+            else:
+                sample[enc_key] = 0
+
+        row_df = _safe_row_dict(feat_cols, sample)
+
+        try:
+            pred_label = model.predict(row_df)[0]
+        except Exception:
+            pred_label = "Low"
+
+        results.append({
+            "Impact_Level": str(pred_label).title(),
+            "Infrastructure": key.replace("_"," ").title(),
+            "Region": region
+        })
+
+    return results
 
 # ---------------------------- 72-hour predictions ----------------------------
 
