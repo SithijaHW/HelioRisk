@@ -12,6 +12,7 @@ warnings.filterwarnings('ignore')
 # Import utility modules
 from utils.data_loader import load_all_data, preprocess_data
 from utils.ml_models import train_random_forest, make_predictions, generate_72_hour_predictions
+from utils.ml_models import (train_random_forest, make_predictions, generate_72_hour_predictions, load_saved_model)
 from utils.visualizations import (
     create_overview_charts, create_time_series_chart, 
     create_correlation_heatmap, create_impact_distribution,
@@ -100,6 +101,9 @@ def main():
     @st.cache_data
     def load_data():
         return load_all_data()
+    
+    if 'model' not in st.session_state:
+        st.session_state['model'] = load_saved_model('model_payload.pkl')
     
     try:
         data = load_data()
@@ -327,18 +331,16 @@ def ml_predictions_tab(data):
         test_size = st.slider("Test Size", 0.1, 0.4, 0.2)
         
         if st.button("🚀 Train Model", type="primary"):
-            with st.spinner("Training Random Forest model..."):
-                if not data['power_grid'].empty:
-                    model, accuracy, feature_importance, predictions = train_random_forest(
-                        data['power_grid'], n_estimators, max_depth, test_size
-                    )
-                    
+            with st.spinner("Training Random Forest model on all datasets..."):
+                model, accuracy, _, _ = train_random_forest(
+                    data, n_estimators=n_estimators, max_depth=max_depth, test_size=test_size, save_path='model_payload.pkl'
+                )
+                if model:
                     st.session_state['model'] = model
                     st.session_state['accuracy'] = accuracy
-                    st.session_state['feature_importance'] = feature_importance
-                    st.session_state['predictions'] = predictions
-                    
-                    st.success(f"✅ Model trained! Accuracy: {accuracy:.2%}")
+                    st.success(f"✅ Combined model trained and saved! Accuracy: {accuracy:.2%}")
+                else:
+                    st.error("❌ Model training failed — check if your datasets have Impact_Level labels.")
     
     with col2:
         st.markdown("### 📈 Model Performance")
@@ -439,7 +441,7 @@ def ml_predictions_tab(data):
         
         # Generate and display 72-hour predictions
         with st.spinner("Generating 72-hour predictions..."):
-            prediction_chart = generate_72_hour_predictions(st.session_state['model'], data)
+            prediction_chart = generate_72_hour_predictions(st.session_state['model'], all_data=data)
             st.plotly_chart(prediction_chart, use_container_width=True)
             
         # Auto-refresh option

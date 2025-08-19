@@ -3,270 +3,325 @@ import numpy as np
 from sklearn.ensemble import RandomForestClassifier
 from sklearn.model_selection import train_test_split
 from sklearn.preprocessing import LabelEncoder
-from sklearn.metrics import accuracy_score, classification_report
+from sklearn.metrics import accuracy_score
+import joblib
+from datetime import datetime, timedelta
+import plotly.graph_objects as go
 import warnings
 warnings.filterwarnings('ignore')
 
-# ---------------------------- Feature Preparation ----------------------------
+# Mapping between labels and numeric ticks for plotting
+IMPACT_TO_NUM = {'Low': 1, 'Medium': 2, 'High': 3}
+NUM_TO_IMPACT = {v: k for k, v in IMPACT_TO_NUM.items()}
 
-def prepare_features(df):
-    """Prepare the input features and labels for training a machine learning model."""
-    if df.empty:
-        return pd.DataFrame(), pd.Series()
-    
-    df_model = df.copy()
 
-    # Convert Date and extract temporal features
-    if 'Date' in df_model.columns:
-        df_model['Date'] = pd.to_datetime(df_model['Date'])
-        df_model['Year'] = df_model['Date'].dt.year
-        df_model['Month'] = df_model['Date'].dt.month
-        df_model['DayOfWeek'] = df_model['Date'].dt.dayofweek
+# ---------------------------- Dataset builder ----------------------------
 
-    # Convert Time and extract Hour
-    if 'Time' in df_model.columns:
-        df_model['Time'] = pd.to_datetime(df_model['Time'], format='%H:%M', errors='coerce')
-        df_model['Hour'] = df_model['Time'].dt.hour
+def build_combined_dataset(all_data):
+    """
+    Combine data from provided dict of DataFrames into a single dataset suitable for training.
+    Returns: X, y, encoders, feature_cols
+    """
+    frames = []
+    keys_to_check = ['power_grid', 'gps_disruptions', 'solar_flare', 'solar_wind', 'satellite']
 
-    # Encode categorical variables
-    categorical_cols = ['Region', 'Cause']
-    label_encoders = {}
-    for col in categorical_cols:
-        if col in df_model.columns:
-            le = LabelEncoder()
-            df_model[f'{col}_encoded'] = le.fit_transform(df_model[col].astype(str))
-            label_encoders[col] = le
+    for key in keys_to_check:
+        if key in all_data and not all_data[key].empty:
+            df = all_data[key].copy()
 
-    # Select numeric + encoded features
-    feature_cols = ['Duration', 'Hour', 'Month', 'DayOfWeek']
-    for col in categorical_cols:
-        if col in df_model.columns:
-            feature_cols.append(f'{col}_encoded')
+            # Need Impact_Level to train
+            if 'Impact_Level' not in df.columns:
+                continue
 
-    # Ensure only columns present in the data are used
-    feature_cols = [col for col in feature_cols if col in df_model.columns]
+            # Normalize datetimes
+            if 'Date' in df.columns:
+                df['Date'] = pd.to_datetime(df['Date'], errors='coerce')
+            if 'Time' in df.columns:
+                df['Time'] = pd.to_datetime(df['Time'], format='%H:%M', errors='coerce')
 
-    X = df_model[feature_cols]
-    y = df_model['Impact_Level'] if 'Impact_Level' in df_model.columns else pd.Series()
+            # Temporal features with safe defaults
+            df['Hour'] = df['Time'].dt.hour.fillna(12).astype(int) if 'Time' in df.columns else 12
+            df['Month'] = df['Date'].dt.month.fillna(datetime.now().month).astype(int) if 'Date' in df.columns else datetime.now().month
+            df['DayOfWeek'] = df['Date'].dt.weekday.fillna(1).astype(int) if 'Date' in df.columns else 1
 
-    X = X.fillna(X.mean() if not X.empty else 0)
+            # Duration
+            if 'Duration' in df.columns:
+                df['Duration'] = pd.to_numeric(df['Duration'], errors='coerce')
+                if df['Duration'].isna().all():
+                    df['Duration'] = 1.0
+                else:
+                    df['Duration'] = df['Duration'].fillna(df['Duration'].median())
+            else:
+                df['Duration'] = 1.0
 
-    return X, y, label_encoders, feature_cols
+            # Region & Cause
+            df['Region'] = df.get('Region', pd.Series(['Unknown'] * len(df))).fillna('Unknown').astype(str)
+            df['Cause'] = df.get('Cause', pd.Series(['Unknown'] * len(df))).fillna('Unknown').astype(str)
 
-# ---------------------------- Model Training ----------------------------
+            df['source'] = key
 
-def train_random_forest(df, n_estimators=100, max_depth=10, test_size=0.2):
-    """Train a Random Forest model on the dataset."""
-    result = prepare_features(df)
-    if len(result) == 2:
-        X, y = result
-        label_encoders, feature_cols = {}, []
-    else:
-        X, y, label_encoders, feature_cols = result
+            # Standardize Impact_Level and keep only known classes
+            df['Impact_Level'] = df['Impact_Level'].astype(str).str.strip().str.title()
+            df = df[df['Impact_Level'].isin(['Low', 'Medium', 'High'])]
 
+            frames.append(df[['Duration', 'Hour', 'Month', 'DayOfWeek', 'Region', 'Cause', 'source', 'Impact_Level']])
+
+    if not frames:
+        return pd.DataFrame(), pd.Series(dtype=object), {}, []
+
+    combined = pd.concat(frames, ignore_index=True)
+
+    # Encode categorical columns
+    encoders = {}
+    for col in ['Region', 'Cause', 'source']:
+        le = LabelEncoder()
+        combined[f'{col}_encoded'] = le.fit_transform(combined[col].astype(str))
+        encoders[col] = le
+
+    feature_cols = ['Duration', 'Hour', 'Month', 'DayOfWeek', 'Region_encoded', 'Cause_encoded', 'source_encoded']
+
+    X = combined[feature_cols].copy()
+    y = combined['Impact_Level'].copy()
+
+    return X, y, encoders, feature_cols
+
+
+# ---------------------------- Training ----------------------------
+
+def train_combined_model(all_data, n_estimators=100, max_depth=10, test_size=0.2, save_path=None):
+    """
+    Train a RandomForest on combined datasets.
+    Returns: model, accuracy, encoders, feature_cols
+    """
+    X, y, encoders, feature_cols = build_combined_dataset(all_data)
     if X.empty or y.empty:
-        return None, 0, [], []
+        return None, 0.0, {}, []
 
-    # Train-test split
     X_train, X_test, y_train, y_test = train_test_split(X, y, test_size=test_size, stratify=y, random_state=42)
 
-    # Define and train the model
     model = RandomForestClassifier(n_estimators=n_estimators, max_depth=max_depth, class_weight='balanced', random_state=42)
     model.fit(X_train, y_train)
 
     y_pred = model.predict(X_test)
     accuracy = accuracy_score(y_test, y_pred)
 
-    # Feature importance
-    feature_importance = [{
-        'feature': col,
-        'importance': model.feature_importances_[i]
-    } for i, col in enumerate(feature_cols)]
-    feature_importance = sorted(feature_importance, key=lambda x: x['importance'], reverse=True)
+    # Attach metadata
+    model.feature_cols = feature_cols
+    model.label_encoders = encoders
 
-    # Save encoders and feature columns
-    setattr(model, 'label_encoders', label_encoders)
-    setattr(model, 'feature_cols', feature_cols)
+    if save_path:
+        try:
+            payload = {'model': model, 'encoders': encoders, 'feature_cols': feature_cols}
+            joblib.dump(payload, save_path)
+        except Exception:
+            pass  # saving is optional; don't crash if disk issues
 
-    return model, accuracy, feature_importance, y_pred
+    return model, accuracy, encoders, feature_cols
 
-# ---------------------------- Prediction ----------------------------
 
-def make_predictions(model, duration, region, cause, hour):
-    """Make prediction using the trained model for given inputs."""
+def train_random_forest(df_or_all_data, n_estimators=100, max_depth=10, test_size=0.2, save_path=None):
+    """
+    Backwards-compatible wrapper: accepts either a single dataframe (legacy) or the whole dict of dataframes.
+    """
+    if isinstance(df_or_all_data, dict):
+        return train_combined_model(df_or_all_data, n_estimators=n_estimators, max_depth=max_depth, test_size=test_size, save_path=save_path)
+    # If single dataframe provided, wrap into dict as 'power_grid'
+    return train_combined_model({'power_grid': df_or_all_data}, n_estimators=n_estimators, max_depth=max_depth, test_size=test_size, save_path=save_path)
+
+
+# ---------------------------- Utilities for safe row creation ----------------------------
+
+def _safe_row_dict(feature_cols, values_dict):
+    """
+    Build a 1-row DataFrame that has exactly feature_cols columns.
+    Missing values are filled with 0 (or sensible defaults if provided in values_dict).
+    """
+    if not feature_cols:
+        # default feature columns (safe fallback)
+        feature_cols = ['Duration', 'Hour', 'Month', 'DayOfWeek', 'Region_encoded', 'Cause_encoded', 'source_encoded']
+    row = {col: values_dict.get(col, 0) for col in feature_cols}
+    return pd.DataFrame([row], columns=feature_cols)
+
+
+# ---------------------------- Single-sample predictions ----------------------------
+
+def make_predictions(model, duration, region, cause, hour, source='power_grid'):
+    """
+    Make a single prediction using a trained model (must have label_encoders & feature_cols attached).
+    Returns predicted label string ('Low'|'Medium'|'High') or error message.
+    """
     if model is None:
         return "Model not trained"
 
-    features = {
-        'Duration': duration,
-        'Hour': hour,
-        'Month': 6,
-        'DayOfWeek': 1
+    # Raw values with sensible defaults
+    sample = {
+        'Duration': float(duration) if duration is not None else 1.0,
+        'Hour': int(hour) if hour is not None else 12,
+        'Month': datetime.now().month,
+        'DayOfWeek': datetime.now().weekday(),
+        'Region': str(region) if region is not None else 'Unknown',
+        'Cause': str(cause) if cause is not None else 'Unknown',
+        'source': str(source) if source is not None else 'power_grid'
     }
 
-    # Encode Region and Cause
-    if hasattr(model, 'label_encoders'):
-        if 'Region' in model.label_encoders:
+    encs = getattr(model, 'label_encoders', {})
+    # Add encoded fields using encoders; unseen -> fallback to 0
+    for col in ['Region', 'Cause', 'source']:
+        encoded_key = f'{col}_encoded'
+        le = encs.get(col)
+        if le:
             try:
-                features['Region_encoded'] = model.label_encoders['Region'].transform([region])[0]
-            except ValueError:
-                features['Region_encoded'] = 0
-        if 'Cause' in model.label_encoders:
-            try:
-                features['Cause_encoded'] = model.label_encoders['Cause'].transform([cause])[0]
-            except ValueError:
-                features['Cause_encoded'] = 0
+                sample[encoded_key] = int(le.transform([sample[col]])[0])
+            except Exception:
+                sample[encoded_key] = 0
+        else:
+            sample[encoded_key] = 0
 
-    feature_df = pd.DataFrame([features])
+    feat_cols = getattr(model, 'feature_cols', None)
+    if not feat_cols:
+        feat_cols = ['Duration', 'Hour', 'Month', 'DayOfWeek', 'Region_encoded', 'Cause_encoded', 'source_encoded']
 
-    for col in model.feature_cols:
-        if col not in feature_df.columns:
-            feature_df[col] = 0
+    feature_df = _safe_row_dict(feat_cols, sample)
 
-    feature_df = feature_df[model.feature_cols]
+    try:
+        pred = model.predict(feature_df)[0]
+    except Exception:
+        # In unlikely case prediction fails, fallback to Low
+        pred = 'Low'
 
-    prediction = model.predict(feature_df)[0]
-    return prediction
+    return pred
 
-# ---------------------------- 72-Hour ML Prediction ----------------------------
 
-def generate_72_hour_predictions(models_data, all_data):
-    """Generate real ML-based predictions for the next 72 hours using trained models."""
-    from datetime import datetime, timedelta
-    import plotly.graph_objects as go
+# ---------------------------- 72-hour predictions ----------------------------
 
-    dataset_info = {
-        'power_grid': {'name': 'Power Grid', 'color': '#E74C3C'},
-        'gps_disruptions': {'name': 'GPS Systems', 'color': '#3498DB'},
-        'solar_flare': {'name': 'Solar Flares', 'color': '#F39C12'},
-        'solar_wind': {'name': 'Solar Wind', 'color': '#27AE60'},
-        'satellite': {'name': 'Satellites', 'color': '#9B59B6'}
-    }
+def generate_72_hour_predictions(model_or_data, all_data=None):
+    """
+    Optimized 72-hour prediction generator.
+    - Builds batched DataFrames (one per system) and predicts all 72 rows at once.
+    - Avoids repeated retraining if model already exists.
+    """
+    # Determine inputs
+    if isinstance(model_or_data, dict):
+        all_data = model_or_data
+        model = None
+    else:
+        model = model_or_data
 
-    current_time = datetime.now()
-    prediction_times = [current_time + timedelta(hours=i) for i in range(72)]
+    # If no model is provided, train only once
+    if model is None:
+        if not isinstance(all_data, dict) or not any(k in all_data and not all_data[k].empty for k in ['power_grid','gps_disruptions','solar_flare','solar_wind','satellite']):
+            fig = go.Figure()
+            fig.update_layout(title="72-Hour Space Weather Impact Predictions (No training data available)")
+            return fig
+        model, _, _, _ = train_combined_model(all_data)
+        if model is None:
+            fig = go.Figure()
+            fig.update_layout(title="72-Hour Space Weather Impact Predictions (Failed to train model)")
+            return fig
+
+    # Prediction times (72 hours)
+    now = datetime.now()
+    prediction_times = [now + timedelta(hours=i) for i in range(72)]
+
+    # Systems to predict for
+    dataset_keys = []
+    if isinstance(all_data, dict):
+        dataset_keys = [k for k in ['power_grid','gps_disruptions','solar_flare','solar_wind','satellite']
+                        if k in all_data and not all_data[k].empty]
+
+    if not dataset_keys:
+        encs = getattr(model, 'label_encoders', {})
+        src_le = encs.get('source')
+        dataset_keys = list(src_le.classes_) if src_le is not None else ['combined']
+
+    feat_cols = getattr(model, 'feature_cols', ['Duration','Hour','Month','DayOfWeek','Region_encoded','Cause_encoded','source_encoded'])
+    encs = getattr(model, 'label_encoders', {})
 
     fig = go.Figure()
 
-    for dataset_key, info in dataset_info.items():
-        if dataset_key in all_data and not all_data[dataset_key].empty:
-            df = all_data[dataset_key]
+    for key in dataset_keys:
+        # Determine representative values from dataset
+        if isinstance(all_data, dict) and key in all_data and not all_data[key].empty:
+            df = all_data[key]
+            dur = float(df['Duration'].mean()) if 'Duration' in df.columns else 1.0
+            region = df['Region'].mode()[0] if 'Region' in df.columns and not df['Region'].mode().empty else 'Unknown'
+            cause = df['Cause'].mode()[0] if 'Cause' in df.columns and not df['Cause'].mode().empty else 'Unknown'
+        else:
+            dur, region, cause = 1.0, 'Unknown', 'Unknown'
 
-            # Re-train or reuse the trained model
-            model_info = train_random_forest(df)
-            model, _, _, _ = model_info
-            if model is None:
-                continue
+        # Build all 72 rows at once
+        samples = []
+        for t in prediction_times:
+            vals = {
+                'Duration': dur,
+                'Hour': t.hour,
+                'Month': t.month,
+                'DayOfWeek': t.weekday(),
+                'Region': region,
+                'Cause': cause,
+                'source': key
+            }
+            # Encoded fields
+            for col in ['Region','Cause','source']:
+                le = encs.get(col)
+                enc_key = f"{col}_encoded"
+                if le:
+                    try:
+                        vals[enc_key] = int(le.transform([vals[col]])[0])
+                    except Exception:
+                        vals[enc_key] = 0
+                else:
+                    vals[enc_key] = 0
+            samples.append(vals)
 
-            predictions = []
-            for future_time in prediction_times:
-                hour = future_time.hour
-                month = future_time.month
-                dayofweek = future_time.weekday()
+        batch_df = pd.DataFrame([{c: v.get(c,0) for c in feat_cols} for v in samples], columns=feat_cols)
 
-                # Create sample input based on feature averages
-                sample_row = {
-                    'Duration': df['Duration'].mean() if 'Duration' in df.columns else 1.0,
-                    'Hour': hour,
-                    'Month': month,
-                    'DayOfWeek': dayofweek
-                }
+        # Single batched predict
+        try:
+            pred_labels = model.predict(batch_df)
+        except Exception:
+            pred_labels = ['Low'] * len(batch_df)
 
-                # Encode region and cause
-                if hasattr(model, 'label_encoders'):
-                    sample_row['Region_encoded'] = 0
-                    sample_row['Cause_encoded'] = 0
+        pred_nums = [IMPACT_TO_NUM.get(str(lbl).title(),1) for lbl in pred_labels]
 
-                row_df = pd.DataFrame([sample_row])
-                for col in model.feature_cols:
-                    if col not in row_df.columns:
-                        row_df[col] = 0
-                row_df = row_df[model.feature_cols]
-
-                impact = model.predict(row_df)[0]
-                predictions.append(impact)
-
-            fig.add_trace(go.Scatter(
-                x=prediction_times,
-                y=predictions,
-                mode='lines+markers',
-                name=info['name'],
-                line=dict(color=info['color'], width=2),
-                marker=dict(size=4)
-            ))
+        # Add one line trace
+        fig.add_trace(go.Scatter(
+            x=prediction_times,
+            y=pred_nums,
+            mode='lines+markers',
+            name=(key if key != 'combined' else 'Combined'),
+            line=dict(width=2),
+            marker=dict(size=4)
+        ))
 
     fig.update_layout(
-        title="72-Hour Space Weather Impact Predictions by System",
+        title="72-Hour Space Weather Impact Predictions by System (ML-based, Optimized)",
         xaxis_title="Time",
         yaxis_title="Predicted Impact Level",
         yaxis=dict(
             tickmode='array',
             tickvals=[1, 2, 3],
-            ticktext=['Low', 'Medium', 'High'],
+            ticktext=['Low','Medium','High'],
             range=[0.5, 3.5]
         ),
-        height=500,
+        height=480,
         hovermode='x unified',
-        legend=dict(
-            orientation="h",
-            yanchor="bottom",
-            y=1.02,
-            xanchor="right",
-            x=1
-        )
+        legend=dict(orientation="h", yanchor="bottom", y=1.02, xanchor="right", x=1)
     )
-
     return fig
 
-# ---------------------------- Model Insights ----------------------------
+# ---------------------------- Utilities ----------------------------
 
-def get_model_insights(model, X, y):
-    """Generate metrics and insights about the model performance."""
-    if model is None:
-        return {}
-
-    feature_importance = dict(zip(model.feature_cols, model.feature_importances_))
-    y_pred = model.predict(X)
-    accuracy = accuracy_score(y, y_pred)
-    class_distribution = pd.Series(y).value_counts().to_dict()
-
-    insights = {
-        'accuracy': accuracy,
-        'feature_importance': feature_importance,
-        'class_distribution': class_distribution,
-        'n_estimators': model.n_estimators,
-        'max_depth': model.max_depth
-    }
-
-    return insights
-
-# ---------------------------- Cross Validation ----------------------------
-
-def cross_validate_model(df, cv_folds=5):
-    """Cross-validation for performance evaluation."""
-    from sklearn.model_selection import cross_val_score
-
-    X, y, _, _ = prepare_features(df)
-    if X.empty or y.empty:
-        return []
-
-    model = RandomForestClassifier(n_estimators=100, random_state=42)
-    scores = cross_val_score(model, X, y, cv=cv_folds, scoring='accuracy')
-
-    return scores
-
-# ---------------------------- Feature Ranking ----------------------------
-
-def feature_selection(df, top_k=10):
-    """Select the top k most important features using Random Forest."""
-    X, y, label_encoders, feature_cols = prepare_features(df)
-    if X.empty or y.empty:
-        return []
-
-    model = RandomForestClassifier(n_estimators=50, random_state=42)
-    model.fit(X, y)
-
-    importance_scores = list(zip(feature_cols, model.feature_importances_))
-    importance_scores = sorted(importance_scores, key=lambda x: x[1], reverse=True)
-
-    return importance_scores[:top_k]
+def load_saved_model(path):
+    """Load a saved model payload from joblib (returns model or None)"""
+    try:
+        payload = joblib.load(path)
+        model = payload.get('model')
+        if model is None:
+            return None
+        # Restore metadata
+        model.feature_cols = payload.get('feature_cols', getattr(model, 'feature_cols', None))
+        model.label_encoders = payload.get('encoders', getattr(model, 'label_encoders', {}))
+        return model
+    except Exception:
+        return None
