@@ -15,7 +15,7 @@ from utils.ml_models import train_random_forest, make_predictions, generate_72_h
 from utils.ml_models import (train_random_forest, make_predictions, generate_72_hour_predictions, load_saved_model)
 from utils.visualizations import (
     create_overview_charts, create_time_series_chart, 
-    create_correlation_heatmap, create_impact_distribution,
+    plot_feature_importance, create_impact_distribution,
     create_geographical_analysis, create_event_timeline
 )
 from utils.pdf_generator import generate_pdf_report
@@ -387,46 +387,49 @@ def ml_predictions_tab(data):
                 st.plotly_chart(fig, use_container_width=True)
     
     # Prediction interface
+
     st.markdown("### 🔮 Make Predictions")
-    
-    pred_col1, pred_col2, pred_col3 = st.columns(3)
-    
-    with pred_col1:
-        duration = st.number_input("Event Duration (hours)", min_value=1, max_value=24, value=5)
-        region = st.selectbox("Region", ["USA", "Europe", "China", "India"])
-    
-    with pred_col2:
-        cause = st.selectbox("Cause", ["Overload", "Hardware Fault", "Geomagnetic Disturbance"])
-        hour = st.slider("Hour of Day", 0, 23, 12)
-    
-    with pred_col3:
-        if st.button("🎯 Predict Impact Level", type="primary"):
-            if 'model' in st.session_state:
-                prediction = make_predictions(st.session_state['model'], duration, region, cause, hour)
-                
-                if prediction == 'High':
+
+    date = st.date_input("Select a Date for Prediction")
+
+    if st.button("🎯 Predict Impact", type="primary"):
+        if 'model' in st.session_state and st.session_state['model'] is not None:
+            results = make_predictions(st.session_state['model'], date, data)
+
+            for res in results:
+                impact_level = res["Impact_Level"]
+                infra = res["Infrastructure"]
+                region = res["Region"]
+
+                if impact_level == 'High':
                     st.markdown(f"""
                     <div class="alert-high">
-                        <h4>⚠️ Predicted Impact: HIGH RISK</h4>
-                        <p>Immediate attention required. Implement emergency protocols.</p>
+                        <h4>⚠️ {infra} Impact: HIGH RISK</h4>
+                        <p>Region at risk: <b>{region}</b></p>
                     </div>
                     """, unsafe_allow_html=True)
-                elif prediction == 'Medium':
+
+                elif impact_level == 'Medium':
                     st.markdown(f"""
                     <div class="alert-medium">
-                        <h4>⚡ Predicted Impact: MEDIUM RISK</h4>
-                        <p>Monitor situation closely. Prepare contingency measures.</p>
+                        <h4>⚡ {infra} Impact: MEDIUM RISK</h4>
+                        <p>Region at risk: <b>{region}</b></p>
                     </div>
                     """, unsafe_allow_html=True)
-                else:
+
+                elif impact_level == 'Low':
                     st.markdown(f"""
                     <div class="alert-low">
-                        <h4>✅ Predicted Impact: LOW RISK</h4>
-                        <p>Normal operations can continue with standard monitoring.</p>
+                        <h4>✅ {infra} Impact: LOW RISK</h4>
+                        <p>Region at risk: <b>{region}</b></p>
                     </div>
                     """, unsafe_allow_html=True)
-            else:
-                st.warning("Please train the model first!")
+
+                else:
+                    st.info(f"{infra}: Prediction unavailable")
+        else:
+            st.warning("⚠️ Please train the model first!")
+
     
     # 72-Hour Continuous Predictions
     st.markdown("### 🔮 72-Hour Continuous Impact Predictions")
@@ -675,11 +678,17 @@ def data_analysis_tab(data):
     st.markdown("## 📈 Advanced Data Analysis")
     
     # Correlation analysis
-    st.markdown("### 🔗 Correlation Analysis")
-    
-    if not data['power_grid'].empty:
-        fig = create_correlation_heatmap(data['power_grid'])
-        st.plotly_chart(fig, use_container_width=True)
+    st.markdown("### 🔗 Which factors matter most for prediction?")
+
+    if 'model' in st.session_state and st.session_state['model'] is not None:
+        fig = plot_feature_importance(st.session_state['model'])
+        if fig:
+            st.plotly_chart(fig, use_container_width=True)
+        else:
+            st.info("Train a model to see feature importance.")
+    else:
+        st.warning("Please train the model first to see feature importance.")
+
     
     # Time series analysis
     col1, col2 = st.columns(2)

@@ -63,36 +63,32 @@ def create_time_series_chart(df):
     
     return fig
 
-def create_correlation_heatmap(df):
-    """Create correlation heatmap for numeric columns"""
-    
-    if df.empty:
-        return go.Figure()
-    
-    # Select numeric columns
-    numeric_cols = df.select_dtypes(include=[np.number]).columns
-    
-    if len(numeric_cols) < 2:
-        return go.Figure()
-    
-    # Calculate correlation matrix
-    corr_matrix = df[numeric_cols].corr()
-    
-    # Create heatmap
-    fig = px.imshow(
-        corr_matrix,
-        title="Correlation Heatmap",
-        color_continuous_scale="RdBu",
-        aspect="auto"
+def plot_feature_importance(model):
+    """
+    Plot feature importance from a trained RandomForest model.
+    """
+    if not hasattr(model, "feature_importances_"):
+        return None
+
+    feat_cols = getattr(model, "feature_cols", [])
+    importance = model.feature_importances_
+
+    df = pd.DataFrame({
+        "Feature": feat_cols,
+        "Importance": importance
+    }).sort_values("Importance", ascending=False)
+
+    fig = px.bar(
+        df,
+        x="Importance",
+        y="Feature",
+        orientation="h",
+        title="Feature Importance (RandomForest)",
+        labels={"Importance": "Relative Importance", "Feature": "Feature"}
     )
-    
-    fig.update_layout(
-        title="Feature Correlation Analysis",
-        width=600,
-        height=500
-    )
-    
+    fig.update_layout(yaxis=dict(categoryorder="total ascending"))
     return fig
+
 
 def create_impact_distribution(df):
     """Create impact level distribution chart"""
