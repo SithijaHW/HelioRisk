@@ -87,6 +87,94 @@ st.markdown("""
 </style>
 """, unsafe_allow_html=True)
 
+def get_current_alerts(data):
+    """Check datasets and return threshold alerts using simulated streaming."""
+    alerts = []
+
+    # Increment index for streaming effect
+    st.session_state["alert_index"] += 1
+    idx = st.session_state["alert_index"]
+
+    # --- Power Grid ---
+    if 'power_grid' in data and not data['power_grid'].empty:
+        df = data['power_grid'].sort_values("Date")
+        row = df.iloc[idx % len(df)]   # cycle through rows
+        if row.get("Impact_Level") == "High":
+            alerts.append({
+                "level": "High",
+                "infrastructure": "Power Grid",
+                "region": row.get("Region", "Unknown"),
+                "time": row.get("Date", "")
+            })
+
+    # --- Kp Index ---
+    if 'kp_index' in data and not data['kp_index'].empty:
+        df = data['kp_index'].sort_values("Date")
+        row = df.iloc[idx % len(df)]
+        kp_val = row.get("Kp_Index", 0)
+        if kp_val > 6:
+            alerts.append({
+                "level": "High",
+                "infrastructure": "Geomagnetic Field",
+                "region": "Global",
+                "time": row.get("Date", "")
+            })
+        elif kp_val > 4:
+            alerts.append({
+                "level": "Medium",
+                "infrastructure": "Geomagnetic Field",
+                "region": "Global",
+                "time": row.get("Date", "")
+            })
+
+    # --- Solar Wind ---
+    if 'solar_wind' in data and not data['solar_wind'].empty:
+        df = data['solar_wind'].sort_values("Date")
+        row = df.iloc[idx % len(df)]
+        speed = row.get("Speed", 0)
+        bz = row.get("Bz", 0)
+        if speed > 700 or bz < -10:
+            alerts.append({
+                "level": "High",
+                "infrastructure": "Solar Wind",
+                "region": "Global",
+                "time": row.get("Date", "")
+            })
+        elif speed > 500:
+            alerts.append({
+                "level": "Medium",
+                "infrastructure": "Solar Wind",
+                "region": "Global",
+                "time": row.get("Date", "")
+            })
+
+    # --- Solar Flare ---
+    if 'solar_flare' in data and not data['solar_flare'].empty:
+        df = data['solar_flare'].sort_values("Date")
+        row = df.iloc[idx % len(df)]
+        flux = row.get("Peak_Flux", 0)
+        if flux > 1.0:
+            alerts.append({
+                "level": "High",
+                "infrastructure": "Solar Flare",
+                "region": "Global",
+                "time": row.get("Date", "")
+            })
+        elif flux > 0.1:
+            alerts.append({
+                "level": "Medium",
+                "infrastructure": "Solar Flare",
+                "region": "Global",
+                "time": row.get("Date", "")
+            })
+
+    return alerts
+
+
+        # Initialize streaming index for simulated alerts
+if "alert_index" not in st.session_state:
+    st.session_state["alert_index"] = 0
+
 def main():
     # Header
     st.markdown("""
@@ -96,7 +184,7 @@ def main():
         <p>Advanced Analytics • Machine Learning Predictions • Real-time Monitoring</p>
     </div>
     """, unsafe_allow_html=True)
-    
+
     # Load data
     @st.cache_data
     def load_data():
@@ -104,9 +192,34 @@ def main():
     
     if 'model' not in st.session_state:
         st.session_state['model'] = load_saved_model('model_payload.pkl')
+
     
     try:
         data = load_data()
+
+            # --- Notification Bar (Hybrid) ---
+        threshold_alerts = get_current_alerts(data)
+        ml_alerts = get_ml_alerts(st.session_state.get("model"), data)
+        all_alerts = sorted(threshold_alerts + ml_alerts, key=lambda x: x["time"], reverse=True)
+
+
+
+        if all_alerts:
+            latest = all_alerts[0]
+            source_tag = "🔮 ML" if latest.get("source") == "ML Prediction" else "⚡ Observed"
+            st.markdown(f"""
+            <div style="background:#FFE6E6;padding:0.7rem;border-radius:8px;margin-bottom:1rem;">
+                ⚠️ <b>{latest['level']} Impact</b> | {latest['infrastructure']} | Region: {latest['region']} | {latest['time']} | {source_tag}
+            </div>
+            """, unsafe_allow_html=True)
+        else:
+            st.markdown("""
+            <div style="background:#E8F5E8;padding:0.7rem;border-radius:8px;margin-bottom:1rem;">
+                ✅ No critical alerts at this time.
+            </div>
+            """, unsafe_allow_html=True)
+
+
         
         # Sidebar for global filters
         with st.sidebar:
@@ -809,9 +922,50 @@ def interactive_viz_tab(data):
     st.markdown('<div class="tab-content">', unsafe_allow_html=True)
     st.markdown("## 🎯 Interactive Visualizations")
     
-    # Interactive filters
-    st.markdown("### 🎛️ Dynamic Filters")
+    # Dataset selector
+    st.markdown("### 📂 Select Dataset")
+    available_datasets = [k for k, v in data.items() if not v.empty]
+    dataset_choice = st.selectbox("Choose dataset", available_datasets + ["Combined"])
     
+    # Prepare data
+    if dataset_choice == "Combined":
+        # Combine datasets with common columns
+        combined_frames = []
+        for k, df in data.items():
+            if not df.empty:
+                temp = df.copy()
+                temp['Dataset'] = k
+                combined_frames.append(temp)
+        if combined_frames:
+            df = pd.concat(combined_frames, ignore_index=True)
+        else:
+            st.warning("No datasets available to combine.")
+            st.markdown('</div>', unsafe_allow_html=True)
+            return
+    else:
+        df = data[dataset_choice].copy()
+    
+    if df.empty:
+        st.info("No data available for visualization.")
+        st.markdown('</div>', unsafe_allow_html=True)
+        return
+    
+    # Ensure Time -> Hour exists
+    if 'Time' in df.columns:
+        df['Time'] = pd.to_datetime(df['Time'], format='%H:%M', errors='coerce')
+        df['Hour'] = df['Time'].dt.hour
+    
+    # Encode categorical columns
+    categorical_cols = ['Region', 'Cause', 'Impact_Level', 'Dataset']
+    encoders = {}
+    for col in categorical_cols:
+        if col in df.columns:
+            df[f'{col}_encoded'] = pd.Categorical(df[col])
+            encoders[col] = dict(enumerate(df[f'{col}_encoded'].cat.categories))
+            df[f'{col}_encoded'] = df[f'{col}_encoded'].cat.codes
+    
+    # User axis selection
+    st.markdown("### 🎛️ Dynamic Filters")
     filter_col1, filter_col2, filter_col3 = st.columns(3)
     
     with filter_col1:
@@ -821,134 +975,106 @@ def interactive_viz_tab(data):
         )
     
     with filter_col2:
-        if not data['power_grid'].empty:
-            x_axis = st.selectbox(
-                "X-Axis",
-                ['Duration', 'Region', 'Cause', 'Impact_Level']
-            )
+        x_axis = st.selectbox(
+            "X-Axis",
+            [c for c in ['Duration', 'Region', 'Cause', 'Impact_Level', 'Hour', 'Dataset'] if c in df.columns]
+        )
     
     with filter_col3:
-        if not data['power_grid'].empty:
-            y_axis = st.selectbox(
-                "Y-Axis", 
-                ['Duration', 'Impact_Level', 'Cause', 'Region']
-            )
+        y_axis = st.selectbox(
+            "Y-Axis",
+            [c for c in ['Duration', 'Impact_Level', 'Cause', 'Region', 'Hour', 'Dataset'] if c in df.columns]
+        )
     
-    # Generate interactive visualization
-    if not data['power_grid'].empty:
-        df = data['power_grid'].copy()
-        
-        if viz_type == "Scatter Plot":
-            if x_axis == 'Duration' and y_axis == 'Duration':
-                # Create hour vs duration scatter
-                df['Time'] = pd.to_datetime(df['Time'], format='%H:%M')
-                df['Hour'] = df['Time'].dt.hour
-                
-                fig = px.scatter(
-                    df,
-                    x='Hour',
-                    y='Duration',
-                    color='Impact_Level',
-                    size='Duration',
-                    hover_data=['Region', 'Cause'],
-                    title="Event Duration vs Hour of Day",
-                    color_discrete_map={
-                        'Low': '#27AE60',
-                        'Medium': '#F39C12',
-                        'High': '#E74C3C'
-                    }
-                )
-                
-            else:
-                # Encode categorical variables
-                if x_axis in ['Region', 'Cause', 'Impact_Level']:
-                    df[f'{x_axis}_encoded'] = pd.Categorical(df[x_axis]).codes
-                    x_col = f'{x_axis}_encoded'
-                else:
-                    x_col = x_axis
-                
-                if y_axis in ['Region', 'Cause', 'Impact_Level']:
-                    df[f'{y_axis}_encoded'] = pd.Categorical(df[y_axis]).codes
-                    y_col = f'{y_axis}_encoded'
-                else:
-                    y_col = y_axis
-                
-                fig = px.scatter(
-                    df,
-                    x=x_col,
-                    y=y_col,
-                    color='Impact_Level',
-                    title=f"{x_axis} vs {y_axis}",
-                    color_discrete_map={
-                        'Low': '#27AE60',
-                        'Medium': '#F39C12',
-                        'High': '#E74C3C'
-                    }
-                )
-        
-        elif viz_type == "3D Analysis":
-            df['Time'] = pd.to_datetime(df['Time'], format='%H:%M')
-            df['Hour'] = df['Time'].dt.hour
-            
-            fig = px.scatter_3d(
-                df,
-                x='Hour',
-                y='Duration',
-                z=pd.Categorical(df['Impact_Level']).codes,
-                color='Impact_Level',
-                title="3D Analysis: Hour vs Duration vs Impact Level",
-                color_discrete_map={
-                    'Low': '#27AE60',
-                    'Medium': '#F39C12',
-                    'High': '#E74C3C'
-                }
-            )
-        
-        elif viz_type == "Sunburst":
-            fig = px.sunburst(
-                df,
-                path=['Region', 'Cause', 'Impact_Level'],
-                title="Hierarchical View: Region > Cause > Impact Level"
-            )
-        
-        elif viz_type == "Treemap":
-            impact_counts = df.groupby(['Region', 'Impact_Level']).size().reset_index(name='Count')
-            
+    def get_axis(axis):
+        return f"{axis}_encoded" if axis in encoders else axis
+    
+    x_col = get_axis(x_axis)
+    y_col = get_axis(y_axis)
+    
+    # ---- Scatter Plot ----
+    if viz_type == "Scatter Plot":
+        fig = px.scatter(
+            df,
+            x=x_col,
+            y=y_col,
+            color='Impact_Level' if 'Impact_Level' in df.columns else None,
+            hover_data=[c for c in ['Region', 'Cause', 'Dataset'] if c in df.columns],
+            title=f"{dataset_choice}: {x_axis} vs {y_axis}"
+        )
+        if x_axis in encoders:
+            fig.update_xaxes(tickmode='array',
+                             tickvals=list(encoders[x_axis].keys()),
+                             ticktext=list(encoders[x_axis].values()))
+        if y_axis in encoders:
+            fig.update_yaxes(tickmode='array',
+                             tickvals=list(encoders[y_axis].keys()),
+                             ticktext=list(encoders[y_axis].values()))
+    
+    # ---- 3D Analysis ----
+    elif viz_type == "3D Analysis":
+        if 'Hour' not in df.columns:
+            st.warning("Hour column not available for 3D Analysis.")
+            return
+        fig = px.scatter_3d(
+            df,
+            x='Hour',
+            y='Duration' if 'Duration' in df.columns else x_col,
+            z='Impact_Level_encoded' if 'Impact_Level' in df.columns else y_col,
+            color='Impact_Level' if 'Impact_Level' in df.columns else None,
+            hover_data=[c for c in ['Region', 'Cause', 'Dataset'] if c in df.columns],
+            title=f"{dataset_choice}: 3D Analysis"
+        )
+    
+    # ---- Sunburst ----
+    elif viz_type == "Sunburst":
+        path_cols = [c for c in ['Region', 'Cause', 'Impact_Level', 'Dataset'] if c in df.columns]
+        if len(path_cols) >= 2:
+            fig = px.sunburst(df, path=path_cols, title=f"{dataset_choice}: Hierarchical Breakdown")
+        else:
+            st.warning("Not enough categorical columns for Sunburst.")
+            return
+    
+    # ---- Treemap ----
+    elif viz_type == "Treemap":
+        group_cols = [c for c in ['Region', 'Impact_Level', 'Dataset'] if c in df.columns]
+        if group_cols:
+            impact_counts = df.groupby(group_cols).size().reset_index(name='Count')
             fig = px.treemap(
                 impact_counts,
-                path=['Region', 'Impact_Level'],
+                path=group_cols,
                 values='Count',
-                title="Treemap: Events by Region and Impact Level",
+                title=f"{dataset_choice}: Events Breakdown Treemap",
                 color='Count',
                 color_continuous_scale='Blues'
             )
+        else:
+            st.warning("Not enough columns for Treemap.")
+            return
+    
+    # ---- Bubble Chart ----
+    else:
+        if 'Hour' not in df.columns or 'Duration' not in df.columns:
+            st.warning("Hour/Duration column not available for Bubble Chart.")
+            return
+        bubble_data = df.groupby([c for c in ['Region', 'Impact_Level', 'Dataset'] if c in df.columns]).agg({
+            'Duration': 'mean',
+            'Hour': 'mean'
+        }).reset_index()
+        bubble_data['Count'] = df.groupby([c for c in ['Region', 'Impact_Level', 'Dataset'] if c in df.columns]).size().values
         
-        else:  # Bubble Chart
-            df['Time'] = pd.to_datetime(df['Time'], format='%H:%M')
-            df['Hour'] = df['Time'].dt.hour
-            
-            bubble_data = df.groupby(['Region', 'Impact_Level']).agg({
-                'Duration': 'mean',
-                'Hour': 'mean'
-            }).reset_index()
-            bubble_data['Count'] = df.groupby(['Region', 'Impact_Level']).size().values
-            
-            fig = px.scatter(
-                bubble_data,
-                x='Hour',
-                y='Duration',
-                size='Count',
-                color='Impact_Level',
-                hover_name='Region',
-                title="Bubble Chart: Average Duration vs Hour (Size = Event Count)",
-                color_discrete_map={
-                    'Low': '#27AE60',
-                    'Medium': '#F39C12',
-                    'High': '#E74C3C'
-                }
-            )
-        
-        st.plotly_chart(fig, use_container_width=True)
+        fig = px.scatter(
+            bubble_data,
+            x='Hour',
+            y='Duration',
+            size='Count',
+            color='Impact_Level' if 'Impact_Level' in df.columns else None,
+            hover_name='Region' if 'Region' in bubble_data.columns else None,
+            title=f"{dataset_choice}: Bubble Chart (Avg Duration vs Hour)"
+        )
+    
+    st.plotly_chart(fig, use_container_width=True)
+    st.markdown('</div>', unsafe_allow_html=True)
     
     # Multi-dataset comparison
     st.markdown("### 📊 Multi-Dataset Comparison")
@@ -1003,63 +1129,105 @@ def interactive_viz_tab(data):
     
     st.markdown('</div>', unsafe_allow_html=True)
 
+def get_ml_alerts(model, data):
+    """Generate ML-based alerts using simulated streaming for all datasets."""
+    alerts = []
+    if model is None:
+        return alerts
+
+    idx = st.session_state["alert_index"]
+
+    for dataset_key, df in data.items():
+        if df.empty:
+            continue
+
+        df = df.sort_values("Date")
+        row = df.iloc[idx % len(df)]
+
+        try:
+            duration = row.get("Duration", 1)
+            region = row.get("Region", "Unknown")
+            cause = row.get("Cause", "Unknown")
+            hour = (pd.to_datetime(row.get("Time", "12:00"), errors='coerce').hour
+                    if "Time" in row else 12)
+
+            pred = make_predictions(model, duration, region, cause, hour)
+
+            alerts.append({
+                "level": pred,
+                "infrastructure": dataset_key.replace("_", " ").title(),
+                "region": region,
+                "time": row.get("Date", ""),
+                "source": "ML Prediction"
+            })
+        except Exception as e:
+            print(f"ML alert failed for {dataset_key}: {e}")
+            continue
+
+    return alerts
+
 def alert_system_tab(data):
+    st_autorefresh(interval=60000, key="alert_refresh")  # refresh every 60s
+
     st.markdown('<div class="tab-content">', unsafe_allow_html=True)
     st.markdown("## 🚨 Real-time Alert System")
-    
-    # Current status overview
-    st.markdown("### 🌐 Current Space Weather Status")
-    
-    status_col1, status_col2, status_col3 = st.columns(3)
-    
-    with status_col1:
-        st.markdown("""
-        <div class="alert-low">
-            <h4>🟢 Solar Activity</h4>
-            <p><strong>Status:</strong> Normal</p>
-            <p><strong>Last Update:</strong> 2 minutes ago</p>
-        </div>
-        """, unsafe_allow_html=True)
-    
-    with status_col2:
-        st.markdown("""
-        <div class="alert-medium">
-            <h4>🟡 Geomagnetic Field</h4>
-            <p><strong>Status:</strong> Moderate</p>
-            <p><strong>Last Update:</strong> 5 minutes ago</p>
-        </div>
-        """, unsafe_allow_html=True)
-    
-    with status_col3:
-        st.markdown("""
-        <div class="alert-high">
-            <h4>🔴 Solar Wind</h4>
-            <p><strong>Status:</strong> Elevated</p>
-            <p><strong>Last Update:</strong> 1 minute ago</p>
-        </div>
-        """, unsafe_allow_html=True)
-    
-    # Recent alerts
-    st.markdown("### 📢 Recent Alerts")
-    
-    if not data['power_grid'].empty:
-        # Get recent high-impact events
-        df = data['power_grid'].copy()
-        df['Date'] = pd.to_datetime(df['Date'])
-        
-        recent_high = df[df['Impact_Level'] == 'High'].nlargest(5, 'Date')
-        
-        for _, event in recent_high.iterrows():
-            alert_time = event['Date'].strftime('%Y-%m-%d')
+
+    threshold_alerts = get_current_alerts(data)
+    ml_alerts = get_ml_alerts(st.session_state.get("models", {}), data)
+    all_alerts = sorted(threshold_alerts + ml_alerts, key=lambda x: x["time"], reverse=True)
+
+
+    # Current Alerts Overview
+    st.markdown("### 🌐 Current Alerts Overview")
+    if not all_alerts:
+        st.success("✅ No active alerts at this time.")
+    else:
+        for alert in all_alerts[:10]:  # Show top 10 alerts
+            level_class = "alert-high" if alert["level"] == "High" else "alert-medium" if alert["level"] == "Medium" else "alert-low"
+            source_tag = "🔮 ML Prediction" if alert.get("source") == "ML Prediction" else "⚡ Observed"
             st.markdown(f"""
-            <div class="alert-high">
-                <h5>⚠️ High Impact Event Alert</h5>
-                <p><strong>Date:</strong> {alert_time}</p>
-                <p><strong>Region:</strong> {event['Region']}</p>
-                <p><strong>Cause:</strong> {event['Cause']}</p>
-                <p><strong>Duration:</strong> {event['Duration']} hours</p>
+            <div class="{level_class}">
+                <h4>{alert['level']} Impact - {alert['infrastructure']}</h4>
+                <p><b>Region:</b> {alert['region']} | <b>Time:</b> {alert['time']} | {source_tag}</p>
             </div>
             """, unsafe_allow_html=True)
+
+    # Detailed Dataset Checks
+    st.markdown("### 📊 Detailed Status by Dataset")
+
+    if 'power_grid' in data and not data['power_grid'].empty:
+        st.markdown("#### ⚡ Power Grid Events")
+        latest = data['power_grid'].sort_values("Date").iloc[-1]
+        st.write(latest)
+
+    if 'kp_index' in data and not data['kp_index'].empty:
+        st.markdown("#### 🌍 Geomagnetic Activity (Kp Index)")
+        latest = data['kp_index'].sort_values("Date").iloc[-1]
+        st.write(latest)
+
+    if 'solar_wind' in data and not data['solar_wind'].empty:
+        st.markdown("#### 🌊 Solar Wind Conditions")
+        latest = data['solar_wind'].sort_values("Date").iloc[-1]
+        st.write(latest)
+
+    if 'solar_flare' in data and not data['solar_flare'].empty:
+        st.markdown("#### ☀️ Solar Flare Data")
+        latest = data['solar_flare'].sort_values("Date").iloc[-1]
+        st.write(latest)
+
+    # Recent High-Impact Events (Threshold only)
+    st.markdown("### ⏰ Recent High-Impact Events (Observed)")
+    if 'power_grid' in data and not data['power_grid'].empty:
+        df = data['power_grid'].copy()
+        df = df[df['Impact_Level'] == 'High'].sort_values("Date", ascending=False)
+        limit = st.slider("Number of events to display", 5, 50, 10)
+        if not df.empty:
+            st.dataframe(df.head(limit))
+        else:
+            st.info("No recent high-impact power grid events.")
+
+    st.markdown('</div>', unsafe_allow_html=True)
+
     
     # Alert configuration
     st.markdown("### ⚙️ Alert Configuration")
