@@ -322,7 +322,7 @@ def generate_72_hour_predictions(model_or_data, all_data=None):
         ))
 
     fig.update_layout(
-        title="72-Hour Space Weather Impact Predictions by System (ML-based, Optimized)",
+        title="72-Hour Space Weather Impact Predictions",
         xaxis_title="Time",
         yaxis_title="Predicted Impact Level",
         yaxis=dict(
