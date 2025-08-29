@@ -7,6 +7,7 @@ from plotly.subplots import make_subplots
 import numpy as np
 from datetime import datetime, timedelta
 import warnings
+import random
 warnings.filterwarnings('ignore')
 
 # Import utility modules
@@ -19,7 +20,7 @@ from utils.visualizations import (
     create_geographical_analysis, create_event_timeline
 )
 from utils.pdf_generator import generate_pdf_report
-from utils.educational_content import get_educational_content
+from utils.educational_content import get_educational_content, get_space_weather_glossary, get_educational_videos, get_case_studies
 
 # Page configuration
 st.set_page_config(
@@ -580,55 +581,247 @@ def educational_tab():
     st.markdown('<div class="tab-content">', unsafe_allow_html=True)
     st.markdown("## 📚 Space Weather Education Center")
     
-    content = get_educational_content()
-    
-    # Educational sections
-    for section in content:
-        with st.expander(f"🔍 {section['title']}", expanded=False):
-            st.markdown(section['content'])
-            
-            if 'image_url' in section:
-                st.image(section['image_url'], caption=section.get('image_caption', ''))
-            
-            if 'video_url' in section:
-                st.video(section['video_url'])
-    
-    # Interactive learning quiz
-    st.markdown("### 🧠 Test Your Knowledge")
-    
-    quiz_questions = [
-        {
-            "question": "What is a Coronal Mass Ejection (CME)?",
-            "options": [
-                "A solar flare that releases electromagnetic radiation",
-                "A large expulsion of plasma and magnetic field from the Sun's corona",
-                "A temporary reduction in solar wind speed",
-                "A type of geomagnetic storm"
-            ],
-            "correct": 1
-        },
-        {
-            "question": "Which space weather event is most likely to affect satellite operations?",
-            "options": [
-                "Solar wind variations",
-                "Geomagnetic storms",
-                "Solar flares",
-                "All of the above"
-            ],
-            "correct": 3
-        }
+    # Professional fact header
+    space_facts = [
+        "Solar flares can release energy equivalent to billions of megatons of TNT",
+        "Geomagnetic storms can induce currents powerful enough to disrupt power grids",
+        "The solar cycle follows an approximately 11-year pattern of activity",
+        "Space weather monitoring is critical for satellite and aviation safety"
     ]
-    
-    for i, quiz in enumerate(quiz_questions):
-        st.markdown(f"**Question {i+1}:** {quiz['question']}")
-        answer = st.radio(f"Select answer for question {i+1}:", quiz['options'], key=f"quiz_{i}")
+    st.info(f"**Scientific Insight:** {random.choice(space_facts)}")
+
+    # Sub-tabs for different types of educational material
+    edu_tab1, edu_tab2, edu_tab3, edu_tab4, edu_tab5 = st.tabs(
+        ["📖 Articles", "📔 Glossary", "🎥 Videos", "📑 Case Studies", "🎯 Knowledge Assessment"]
+    )
+
+    with edu_tab1:
+        st.markdown("### 📚 Educational Resources")
+        search_term = st.text_input("🔍 Search articles...", placeholder="Enter keywords: solar flares, CME, geomagnetic storms")
         
-        if st.button(f"Check Answer {i+1}", key=f"check_{i}"):
-            if quiz['options'].index(answer) == quiz['correct']:
-                st.success("✅ Correct! Well done!")
+        articles = get_educational_content()
+        st.caption(f"Displaying {len(articles)} comprehensive articles on space weather phenomena")
+        
+        for section in articles:
+            if search_term.lower() in section['content'].lower() or search_term.lower() in section['title'].lower() or not search_term:
+                with st.expander(f"{section['title']}"):
+                    st.markdown(section['content'])
+                    st.caption(section.get('image_caption', ''))
+                    
+                    # Professional comprehension check
+                    if st.button("Assess Understanding", key=f"assess_btn_{section['title']}"):
+                        st.info("Review key concepts from this section")
+
+    with edu_tab2:
+        st.markdown("### 📖 Technical Terminology")
+        
+        # Professional filtering
+        col1, col2 = st.columns([3, 1])
+        with col2:
+            show_all = st.checkbox("Display All Terms", value=True)
+            if not show_all:
+                selected_letter = st.selectbox("Filter by initial letter:", 
+                                              [""] + list("ABCDEFGHIJKLMNOPQRSTUVWXYZ"))
+        
+        glossary = get_space_weather_glossary()
+        st.caption(f"Comprehensive glossary containing {len(glossary)} key space weather terms")
+        
+        for term, definition in glossary.items():
+            if show_all or (selected_letter and term.strip('*').strip().startswith(selected_letter)):
+                with st.expander(f"{term}"):
+                    st.markdown(definition)
+                    st.caption("Technical reference term")
+
+    with edu_tab3:
+        st.markdown("### 🎬 Instructional Media")
+        
+        for i, video in enumerate(get_educational_videos()):
+            col1, col2 = st.columns([3, 1])
+            
+            with col1:
+                st.subheader(video['title'])
+                st.markdown(f"*{video['description']}*")
+                st.caption(f"Duration: {video['duration']}")
+                
+            with col2:
+                if st.button(f"View Content", key=f"vid_{i}"):
+                    st.video(video['url'])
+            
+            if i < len(get_educational_videos()) - 1:
+                st.markdown("---")
+
+    with edu_tab4:
+        st.markdown("### 📊 Historical Analysis")
+        
+        for case in get_case_studies():
+            with st.expander(f"{case['title']}"):
+                st.markdown(case['description'])
+                
+                # Professional impact assessment
+                st.markdown("**Impact Assessment:**")
+                col1, col2, col3 = st.columns(3)
+                with col1:
+                    st.metric("Economic Impact", "Significant")
+                with col2:
+                    st.metric("Duration", "Hours to Days")
+                with col3:
+                    st.metric("Infrastructure Affected", "Multiple Sectors")
+                
+                st.markdown("**Key Lessons Learned:**")
+                for lesson in case['lessons']:
+                    st.markdown(f"• {lesson}")
+                
+                # Professional reflection
+                st.text_area("Professional Analysis:", 
+                           placeholder="Document observations and mitigation strategies...",
+                           key=f"analysis_{case['title']}")
+
+    with edu_tab5:
+        st.markdown("### 🎯 Knowledge Assessment")
+        
+        # Initialize session state for quiz if not exists
+        if 'quiz_submitted' not in st.session_state:
+            st.session_state.quiz_submitted = False
+        if 'quiz_score' not in st.session_state:
+            st.session_state.quiz_score = 0
+        if 'user_answers' not in st.session_state:
+            st.session_state.user_answers = [None] * 2  # Adjust based on number of questions
+        
+        quiz_questions = [
+            {
+                "question": "What is a Coronal Mass Ejection (CME)?",
+                "options": [
+                    "A solar flare that releases electromagnetic radiation",
+                    "A large expulsion of plasma and magnetic field from the Sun's corona",
+                    "A temporary reduction in solar wind speed",
+                    "A type of geomagnetic storm"
+                ],
+                "correct": 1,
+                "explanation": "CMEs are massive bursts of solar material that can travel through space and impact Earth's magnetosphere"
+            },
+            {
+                "question": "How long does it take for electromagnetic radiation from a solar flare to reach Earth?",
+                "options": [
+                    "Approximately 8 minutes",
+                    "1-3 hours",
+                    "24-48 hours",
+                    "Instantaneously"
+                ],
+                "correct": 0,
+                "explanation": "Electromagnetic radiation travels at light speed, taking about 8 minutes to reach Earth from the Sun"
+            }
+        ]
+        
+        # Display quiz questions
+        st.markdown("#### Space Weather Competency Evaluation")
+        st.warning("Complete this assessment to validate your understanding of space weather concepts")
+        
+        if not st.session_state.quiz_submitted:
+            for i, quiz in enumerate(quiz_questions):
+                st.markdown(f"**Question {i+1}:** {quiz['question']}")
+                answer = st.radio(
+                    f"Select your answer for Question {i+1}:",
+                    quiz['options'],
+                    key=f"quiz_{i}",
+                    index=st.session_state.user_answers[i] if st.session_state.user_answers[i] is not None else None
+                )
+                st.session_state.user_answers[i] = quiz['options'].index(answer) if answer else None
+                
+                if i < len(quiz_questions) - 1:
+                    st.markdown("---")
+            
+            # Submit button
+            if st.button("Submit Assessment"):
+                if all(answer is not None for answer in st.session_state.user_answers):
+                    st.session_state.quiz_submitted = True
+                    # Calculate score
+                    st.session_state.quiz_score = sum(
+                        1 for i, quiz in enumerate(quiz_questions)
+                        if st.session_state.user_answers[i] == quiz['correct']
+                    )
+                    st.rerun()
+                else:
+                    st.error("Please answer all questions before submitting.")
+        
+        else:
+            # Display results
+            score = st.session_state.quiz_score
+            total_questions = len(quiz_questions)
+            percentage = (score / total_questions) * 100
+            
+            st.markdown("---")
+            st.markdown("### Assessment Results")
+            
+            col1, col2 = st.columns(2)
+            with col1:
+                st.metric("Score", f"{score}/{total_questions}")
+            with col2:
+                st.metric("Percentage", f"{percentage:.1f}%")
+            
+            # Display feedback for each question
+            st.markdown("### Question Review")
+            for i, quiz in enumerate(quiz_questions):
+                user_answer_index = st.session_state.user_answers[i]
+                is_correct = user_answer_index == quiz['correct']
+                
+                st.markdown(f"**Question {i+1}:** {quiz['question']}")
+                st.markdown(f"**Your Answer:** {quiz['options'][user_answer_index]}")
+                st.markdown(f"**Correct Answer:** {quiz['options'][quiz['correct']]}")
+                st.markdown(f"**Explanation:** {quiz['explanation']}")
+                
+                if is_correct:
+                    st.success("✓ Correct")
+                else:
+                    st.error("✗ Incorrect")
+                
+                st.markdown("---")
+            
+            # Overall feedback
+            if percentage >= 90:
+                st.success("🎯 Excellent comprehension - Mastery level achieved")
+            elif percentage >= 70:
+                st.warning("📊 Proficient understanding - Review recommended")
             else:
-                st.error(f"❌ Incorrect. The correct answer is: {quiz['options'][quiz['correct']]}")
+                st.info("📚 Developing understanding - Additional study advised")
+            
+            # Retake button
+            if st.button("Retake Assessment"):
+                st.session_state.quiz_submitted = False
+                st.session_state.user_answers = [None] * len(quiz_questions)
+                st.session_state.quiz_score = 0
+                st.rerun()
+
+        # Professional resources section with actual links
+        st.markdown("---")
+        st.markdown("### 📋 Additional Resources")
+        
+        resources = [
+            {"name": "NOAA Space Weather Prediction Center", "url": "https://www.swpc.noaa.gov", "description": "Official US government space weather forecasts and alerts"},
+            {"name": "NASA Heliophysics Division", "url": "https://science.nasa.gov/heliophysics", "description": "NASA's research on the Sun and its effects on the solar system"},
+            {"name": "ESA Space Weather Service", "url": "https://www.esa.int/Space_Safety/Space_weather", "description": "European Space Agency's space weather monitoring and research"},
+            {"name": "SpaceWeatherLive", "url": "https://www.spaceweatherlive.com", "description": "Real-time space weather data and educational resources"},
+            {"name": "NASA Solar Dynamics Observatory", "url": "https://sdo.gsfc.nasa.gov", "description": "Real-time solar imagery and data"}
+        ]
+        
+        for resource in resources:
+            with st.expander(f"🌐 {resource['name']}"):
+                st.markdown(f"**Description:** {resource['description']}")
+                st.markdown(f"**Website:** [{resource['url']}]({resource['url']})")
+                if st.button(f"Visit {resource['name']}", key=f"visit_{resource['name']}"):
+                    st.markdown(f'<meta http-equiv="refresh" content="0; url={resource["url"]}" />', unsafe_allow_html=True)
+
+    # Professional progress tracking
+    st.sidebar.markdown("### 📈 Learning Progress")
+    progress = st.sidebar.slider("Content comprehension level", 0, 100, 25)
+    st.sidebar.progress(progress)
     
+    if progress > 85:
+        st.sidebar.success("Advanced Understanding")
+    elif progress > 60:
+        st.sidebar.info("Proficient Level")
+    else:
+        st.sidebar.warning("Developing Knowledge")
+
     st.markdown('</div>', unsafe_allow_html=True)
 
 def download_center_tab(data):
