@@ -5,7 +5,7 @@ import pandas as pd
 import numpy as np
 
 def create_overview_charts(df):
-    """Create overview charts for dashboard"""
+    #Create overview charts for dashboard
     charts = {}
     
     if df.empty:
@@ -28,7 +28,7 @@ def create_overview_charts(df):
     return charts
 
 def create_time_series_chart(df):
-    """Create time series chart showing events over time"""
+    #Create time series chart showing events over time"""
     
     if df.empty or 'Date' not in df.columns:
         return go.Figure()
@@ -64,9 +64,8 @@ def create_time_series_chart(df):
     return fig
 
 def plot_feature_importance(model):
-    """
-    Plot feature importance from a trained RandomForest model.
-    """
+    #Plot feature importance from a trained RandomForest model.
+
     if not hasattr(model, "feature_importances_"):
         return None
 
@@ -91,7 +90,7 @@ def plot_feature_importance(model):
 
 
 def create_impact_distribution(df):
-    """Create impact level distribution chart"""
+    #Create impact level distribution chart
     
     if df.empty or 'Impact_Level' not in df.columns:
         return go.Figure()
@@ -119,7 +118,7 @@ def create_impact_distribution(df):
     return fig
 
 def create_geographical_analysis(df, data_type='power_grid'):
-    """Create geographical analysis chart with proper regional data"""
+    #Create geographical analysis chart with proper regional data
     
     if df.empty:
         return go.Figure()
@@ -163,7 +162,7 @@ def create_geographical_analysis(df, data_type='power_grid'):
     return fig
 
 def create_event_timeline(df):
-    """Create event timeline visualization"""
+    #Create event timeline visualization
     
     if df.empty or 'Date' not in df.columns:
         return go.Figure()
@@ -198,7 +197,7 @@ def create_event_timeline(df):
     return fig
 
 def create_cause_analysis(df):
-    """Create cause analysis visualization"""
+    #Create cause analysis visualization
     
     if df.empty or 'Cause' not in df.columns:
         return go.Figure()
@@ -215,7 +214,7 @@ def create_cause_analysis(df):
     return fig
 
 def create_duration_analysis(df):
-    """Create duration analysis charts"""
+    #Create duration analysis charts
     
     if df.empty or 'Duration' not in df.columns:
         return go.Figure()
@@ -242,7 +241,7 @@ def create_duration_analysis(df):
     return fig
 
 def create_seasonal_analysis(df):
-    """Create seasonal analysis visualization"""
+    #Create seasonal analysis visualization
     
     if df.empty or 'Date' not in df.columns:
         return go.Figure()
@@ -275,7 +274,7 @@ def create_seasonal_analysis(df):
     return fig
 
 def create_multi_dataset_comparison(datasets):
-    """Create comparison chart for multiple datasets"""
+    #Create comparison chart for multiple datasets
     
     fig = make_subplots(
         rows=2, cols=2,
@@ -316,7 +315,7 @@ def create_multi_dataset_comparison(datasets):
     return fig
 
 def create_seasonal_decomposition(df):
-    """Create seasonal decomposition analysis using moving averages"""
+    #Create seasonal decomposition analysis using moving averages
     if df.empty or 'Date' not in df.columns:
         return go.Figure()
     
@@ -372,7 +371,7 @@ def create_seasonal_decomposition(df):
     return fig
 
 def detect_anomalies(df):
-    """Detect anomalies in the dataset using IQR method"""
+    #Detect anomalies in the dataset using IQR method
     if df.empty:
         return go.Figure()
     
@@ -455,7 +454,7 @@ def detect_anomalies(df):
     return fig
 
 def create_risk_assessment(df):
-    """Create risk assessment visualization"""
+    #Create risk assessment visualization
     if df.empty:
         return go.Figure()
     

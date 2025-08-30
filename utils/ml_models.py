@@ -18,10 +18,6 @@ NUM_TO_IMPACT = {v: k for k, v in IMPACT_TO_NUM.items()}
 # ---------------------------- Dataset builder ----------------------------
 
 def build_combined_dataset(all_data):
-    """
-    Combine data from provided dict of DataFrames into a single dataset suitable for training.
-    Returns: X, y, encoders, feature_cols
-    """
     frames = []
     keys_to_check = ['power_grid', 'gps_disruptions', 'solar_flare', 'solar_wind', 'satellite']
 
@@ -89,10 +85,8 @@ def build_combined_dataset(all_data):
 # ---------------------------- Training ----------------------------
 
 def train_combined_model(all_data, n_estimators=100, max_depth=10, test_size=0.2, save_path=None):
-    """
-    Train a RandomForest on combined datasets.
-    Returns: model, accuracy, encoders, feature_cols
-    """
+    #Train a RandomForest on combined datasets. Returns: model, accuracy, encoders, feature_cols
+
     X, y, encoders, feature_cols = build_combined_dataset(all_data)
     if X.empty or y.empty:
         return None, 0.0, {}, []
@@ -120,9 +114,6 @@ def train_combined_model(all_data, n_estimators=100, max_depth=10, test_size=0.2
 
 
 def train_random_forest(df_or_all_data, n_estimators=100, max_depth=10, test_size=0.2, save_path=None):
-    """
-    Backwards-compatible wrapper: accepts either a single dataframe (legacy) or the whole dict of dataframes.
-    """
     if isinstance(df_or_all_data, dict):
         return train_combined_model(df_or_all_data, n_estimators=n_estimators, max_depth=max_depth, test_size=test_size, save_path=save_path)
     # If single dataframe provided, wrap into dict as 'power_grid'
@@ -132,10 +123,7 @@ def train_random_forest(df_or_all_data, n_estimators=100, max_depth=10, test_siz
 # ---------------------------- Utilities for safe row creation ----------------------------
 
 def _safe_row_dict(feature_cols, values_dict):
-    """
-    Build a 1-row DataFrame that has exactly feature_cols columns.
-    Missing values are filled with 0 (or sensible defaults if provided in values_dict).
-    """
+    #Missing values are filled with 0
     if not feature_cols:
         # default feature columns (safe fallback)
         feature_cols = ['Duration', 'Hour', 'Month', 'DayOfWeek', 'Region_encoded', 'Cause_encoded', 'source_encoded']
@@ -146,11 +134,10 @@ def _safe_row_dict(feature_cols, values_dict):
 # ---------------------------- Single-sample predictions ----------------------------
 
 def make_predictions(model, date, all_data):
-    """
-    Predict impact level, infrastructure, and region for a given date.
-    Works for both past (dataset present) and future (synthetic features) dates.
-    Returns: list of dicts, one per dataset.
-    """
+    #Predict impact level, infrastructure, and region for a given date.
+    #Works for both past (dataset present) and future (synthetic features) dates.
+    #Returns: list of dicts, one per dataset.
+
     if model is None:
         return [{"Impact_Level": "Model not trained", "Infrastructure": None, "Region": None}]
 
@@ -222,11 +209,6 @@ def make_predictions(model, date, all_data):
 # ---------------------------- 72-hour predictions ----------------------------
 
 def generate_72_hour_predictions(model_or_data, all_data=None):
-    """
-    Optimized 72-hour prediction generator.
-    - Builds batched DataFrames (one per system) and predicts all 72 rows at once.
-    - Avoids repeated retraining if model already exists.
-    """
     # Determine inputs
     if isinstance(model_or_data, dict):
         all_data = model_or_data
@@ -340,7 +322,6 @@ def generate_72_hour_predictions(model_or_data, all_data=None):
 # ---------------------------- Utilities ----------------------------
 
 def load_saved_model(path):
-    """Load a saved model payload from joblib (returns model or None)"""
     try:
         payload = joblib.load(path)
         model = payload.get('model')

@@ -16,10 +16,7 @@ from reportlab.lib import colors
 def generate_pdf_report(filtered_data, report_title, date_range=None,
                         include_charts=True, include_predictions=True,
                         include_recommendations=True):
-    """
-    Generate a polished, professional PDF report with structured sections,
-    stats, charts, and narrative insights.
-    """
+
     buffer = io.BytesIO()
     doc = SimpleDocTemplate(buffer, pagesize=A4,
                             rightMargin=40, leftMargin=40,

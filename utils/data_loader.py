@@ -4,7 +4,7 @@ from datetime import datetime
 import os
 
 def load_all_data():
-    """Load all CSV files and return as dictionary"""
+    #Load all CSV files and return as dictionary
     data = {}
     
     # File paths
@@ -33,7 +33,7 @@ def load_all_data():
     return data
 
 def preprocess_data(df, data_type):
-    """Preprocess data based on type"""
+    #Preprocess data based on type
     if df.empty:
         return df
     
@@ -103,7 +103,7 @@ def preprocess_data(df, data_type):
     return df
 
 def get_summary_statistics(data):
-    """Generate summary statistics for all datasets"""
+    #Generate summary statistics for all datasets
     summary = {}
     
     for key, df in data.items():
@@ -126,7 +126,7 @@ def get_summary_statistics(data):
     return summary
 
 def filter_data_by_date(data, start_date, end_date):
-    """Filter all datasets by date range"""
+    #Filter all datasets by date range
     filtered_data = {}
     
     for key, df in data.items():
@@ -139,7 +139,7 @@ def filter_data_by_date(data, start_date, end_date):
     return filtered_data
 
 def get_regional_statistics(df):
-    """Get statistics by region"""
+    #Get statistics by region
     if df.empty or 'Region' not in df.columns:
         return {}
     
