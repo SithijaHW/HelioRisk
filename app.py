@@ -17,8 +17,7 @@ from utils.ml_models import (train_random_forest, make_predictions, generate_72_
 from utils.visualizations import (
     create_overview_charts, create_time_series_chart, 
     plot_feature_importance, create_impact_distribution,
-    create_geographical_analysis, create_event_timeline,
-    create_seasonal_decomposition, detect_anomalies, create_risk_assessment
+    create_geographical_analysis, create_event_timeline
 )
 from utils.pdf_generator import generate_pdf_report
 from utils.educational_content import get_educational_content, get_space_weather_glossary, get_educational_videos, get_case_studies
