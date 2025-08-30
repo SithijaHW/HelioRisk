@@ -314,3 +314,188 @@ def create_multi_dataset_comparison(datasets):
     )
     
     return fig
+
+def create_seasonal_decomposition(df):
+    """Create seasonal decomposition analysis using moving averages"""
+    if df.empty or 'Date' not in df.columns:
+        return go.Figure()
+    
+    # Prepare data - use event count by date
+    df_temp = df.copy()
+    df_temp['Date'] = pd.to_datetime(df_temp['Date'])
+    daily_counts = df_temp.groupby(df_temp['Date'].dt.date).size()
+    
+    # Create a time series with regular frequency
+    date_range = pd.date_range(start=daily_counts.index.min(), 
+                              end=daily_counts.index.max(), 
+                              freq='D')
+    ts_data = daily_counts.reindex(date_range, fill_value=0)
+    
+    # Simple seasonal decomposition using moving averages
+    window_size = 7  # weekly seasonality
+    trend = ts_data.rolling(window=window_size, center=True).mean()
+    seasonal = ts_data - trend
+    residual = ts_data - (trend + seasonal)
+    
+    # Create subplots
+    fig = make_subplots(
+        rows=4, cols=1,
+        subplot_titles=['Original Time Series', 'Trend', 'Seasonal', 'Residual'],
+        vertical_spacing=0.1
+    )
+    
+    # Original data
+    fig.add_trace(
+        go.Scatter(x=ts_data.index, y=ts_data.values, name='Original'),
+        row=1, col=1
+    )
+    
+    # Trend component
+    fig.add_trace(
+        go.Scatter(x=trend.index, y=trend.values, name='Trend', line=dict(color='red')),
+        row=2, col=1
+    )
+    
+    # Seasonal component
+    fig.add_trace(
+        go.Scatter(x=seasonal.index, y=seasonal.values, name='Seasonal'),
+        row=3, col=1
+    )
+    
+    # Residual component
+    fig.add_trace(
+        go.Scatter(x=residual.index, y=residual.values, name='Residual'),
+        row=4, col=1
+    )
+    
+    fig.update_layout(height=600, title_text="Seasonal Decomposition Analysis")
+    return fig
+
+def detect_anomalies(df):
+    """Detect anomalies in the dataset using IQR method"""
+    if df.empty:
+        return go.Figure()
+    
+    fig = go.Figure()
+    
+    # Check which columns to analyze
+    numeric_cols = df.select_dtypes(include=[np.number]).columns.tolist()
+    
+    if not numeric_cols:
+        # If no numeric columns, use event counts by date
+        if 'Date' in df.columns:
+            df_temp = df.copy()
+            df_temp['Date'] = pd.to_datetime(df_temp['Date'])
+            daily_counts = df_temp.groupby(df_temp['Date'].dt.date).size().reset_index(name='Count')
+            
+            # Detect anomalies in daily counts
+            Q1 = daily_counts['Count'].quantile(0.25)
+            Q3 = daily_counts['Count'].quantile(0.75)
+            IQR = Q3 - Q1
+            lower_bound = Q1 - 1.5 * IQR
+            upper_bound = Q3 + 1.5 * IQR
+            
+            # Identify anomalies
+            daily_counts['Anomaly'] = (daily_counts['Count'] < lower_bound) | (daily_counts['Count'] > upper_bound)
+            
+            # Create plot
+            fig.add_trace(go.Scatter(
+                x=daily_counts['Date'], 
+                y=daily_counts['Count'],
+                mode='markers',
+                name='Daily Events',
+                marker=dict(color='blue')
+            ))
+            
+            # Highlight anomalies
+            anomalies = daily_counts[daily_counts['Anomaly']]
+            if not anomalies.empty:
+                fig.add_trace(go.Scatter(
+                    x=anomalies['Date'],
+                    y=anomalies['Count'],
+                    mode='markers',
+                    name='Anomalies',
+                    marker=dict(color='red', size=10, symbol='x')
+                ))
+            
+            fig.update_layout(
+                title="Anomaly Detection in Daily Event Counts",
+                xaxis_title="Date",
+                yaxis_title="Number of Events"
+            )
+        return fig
+    
+    # For each numeric column, detect anomalies
+    for i, col in enumerate(numeric_cols[:3]):  # Limit to first 3 numeric columns
+        # Calculate IQR
+        Q1 = df[col].quantile(0.25)
+        Q3 = df[col].quantile(0.75)
+        IQR = Q3 - Q1
+        lower_bound = Q1 - 1.5 * IQR
+        upper_bound = Q3 + 1.5 * IQR
+        
+        # Identify anomalies
+        anomalies = df[(df[col] < lower_bound) | (df[col] > upper_bound)]
+        
+        if not anomalies.empty:
+            fig.add_trace(go.Scatter(
+                x=anomalies.index if 'Date' not in df.columns else anomalies['Date'],
+                y=anomalies[col],
+                mode='markers',
+                name=f'Anomalies in {col}',
+                marker=dict(color='red', size=10, symbol='x')
+            ))
+    
+    if len(fig.data) == 0:
+        fig.add_annotation(text="No anomalies detected in the selected data",
+                          xref="paper", yref="paper",
+                          x=0.5, y=0.5, showarrow=False)
+    
+    fig.update_layout(title="Anomaly Detection Results")
+    return fig
+
+def create_risk_assessment(df):
+    """Create risk assessment visualization"""
+    if df.empty:
+        return go.Figure()
+    
+    # Check if we have the required columns
+    has_cause = 'Cause' in df.columns
+    has_impact = 'Impact_Level' in df.columns
+    
+    if not has_cause or not has_impact:
+        # Alternative visualization if missing required columns
+        if 'Duration' in df.columns:
+            # Show duration distribution by impact level if available
+            impact_duration = df.groupby('Impact_Level' if has_impact else None)['Duration'].agg(['mean', 'count']).reset_index()
+            fig = px.bar(
+                impact_duration,
+                x='Impact_Level' if has_impact else 'count',
+                y='mean',
+                title="Average Duration by Impact Level" if has_impact else "Duration Statistics"
+            )
+            return fig
+        else:
+            # Fallback: simple value counts of impact level
+            impact_counts = df['Impact_Level'].value_counts() if has_impact else pd.Series([len(df)], index=['All Events'])
+            fig = px.pie(
+                values=impact_counts.values,
+                names=impact_counts.index,
+                title="Impact Level Distribution" if has_impact else "Event Count"
+            )
+            return fig
+    
+    # Create risk matrix if we have both Cause and Impact_Level
+    risk_matrix = df.groupby(['Cause', 'Impact_Level']).size().reset_index(name='Count')
+    
+    fig = px.scatter(
+        risk_matrix,
+        x='Cause',
+        y='Impact_Level',
+        size='Count',
+        color='Count',
+        title="Risk Matrix: Cause vs Impact Level",
+        color_continuous_scale='Reds'
+    )
+    
+    return fig

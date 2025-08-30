@@ -17,7 +17,8 @@ from utils.ml_models import (train_random_forest, make_predictions, generate_72_
 from utils.visualizations import (
     create_overview_charts, create_time_series_chart, 
     plot_feature_importance, create_impact_distribution,
-    create_geographical_analysis, create_event_timeline
+    create_geographical_analysis, create_event_timeline,
+    create_seasonal_decomposition, detect_anomalies, create_risk_assessment
 )
 from utils.pdf_generator import generate_pdf_report
 from utils.educational_content import get_educational_content, get_space_weather_glossary, get_educational_videos, get_case_studies
@@ -983,18 +984,25 @@ def data_analysis_tab(data):
     st.markdown('<div class="tab-content">', unsafe_allow_html=True)
     st.markdown("## 📈 Advanced Data Analysis")
     
+    # Use power grid data as default for analysis
+    analysis_df = data['power_grid'].copy() if 'power_grid' in data and not data['power_grid'].empty else pd.DataFrame()
+    
+    if analysis_df.empty:
+        st.warning("No data available for advanced analysis.")
+        st.markdown('</div>', unsafe_allow_html=True)
+        return
+    
     # Correlation analysis
-    st.markdown("### 🔗 Which factors matter most for prediction?")
+    st.markdown("### 🔗 Feature Importance Analysis")
 
     if 'model' in st.session_state and st.session_state['model'] is not None:
         fig = plot_feature_importance(st.session_state['model'])
         if fig:
             st.plotly_chart(fig, use_container_width=True)
         else:
-            st.info("Train a model to see feature importance.")
+            st.info("Feature importance data not available for the current model.")
     else:
         st.warning("Please train the model first to see feature importance.")
-
     
     # Time series analysis
     col1, col2 = st.columns(2)
@@ -1002,31 +1010,36 @@ def data_analysis_tab(data):
     with col1:
         st.markdown("### 📅 Temporal Patterns")
         
-        if not data['power_grid'].empty:
-            # Monthly distribution
-            df_temp = data['power_grid'].copy()
-            df_temp['Date'] = pd.to_datetime(df_temp['Date'])
-            df_temp['Month'] = df_temp['Date'].dt.month_name()
-            
-            monthly_counts = df_temp.groupby('Month').size().reset_index(name='Count')
-            
-            fig = px.bar(
-                monthly_counts,
-                x='Month',
-                y='Count',
-                title="Events by Month",
-                color='Count',
-                color_continuous_scale='Blues'
-            )
-            fig.update_xaxes(tickangle=45)
-            st.plotly_chart(fig, use_container_width=True)
+        # Monthly distribution
+        df_temp = analysis_df.copy()
+        df_temp['Date'] = pd.to_datetime(df_temp['Date'])
+        df_temp['Month'] = df_temp['Date'].dt.month_name()
+        
+        monthly_counts = df_temp.groupby('Month').size().reset_index(name='Count')
+        
+        # Ensure proper month order
+        month_order = ['January', 'February', 'March', 'April', 'May', 'June', 
+                      'July', 'August', 'September', 'October', 'November', 'December']
+        monthly_counts['Month'] = pd.Categorical(monthly_counts['Month'], categories=month_order, ordered=True)
+        monthly_counts = monthly_counts.sort_values('Month')
+        
+        fig = px.bar(
+            monthly_counts,
+            x='Month',
+            y='Count',
+            title="Events by Month",
+            color='Count',
+            color_continuous_scale='Blues'
+        )
+        fig.update_xaxes(tickangle=45)
+        st.plotly_chart(fig, use_container_width=True)
     
     with col2:
         st.markdown("### ⏰ Hourly Distribution")
         
-        if not data['power_grid'].empty:
-            df_temp = data['power_grid'].copy()
-            df_temp['Time'] = pd.to_datetime(df_temp['Time'], format='%H:%M')
+        if 'Time' in analysis_df.columns:
+            df_temp = analysis_df.copy()
+            df_temp['Time'] = pd.to_datetime(df_temp['Time'], format='%H:%M', errors='coerce')
             df_temp['Hour'] = df_temp['Time'].dt.hour
             
             hourly_counts = df_temp.groupby('Hour').size().reset_index(name='Count')
@@ -1040,6 +1053,8 @@ def data_analysis_tab(data):
             )
             fig.update_traces(line_color='#4A90E2', marker_color='#4A90E2')
             st.plotly_chart(fig, use_container_width=True)
+        else:
+            st.info("Time data not available for hourly analysis.")
     
     # Statistical insights
     st.markdown("### 📊 Statistical Insights")
@@ -1047,19 +1062,26 @@ def data_analysis_tab(data):
     insight_col1, insight_col2, insight_col3 = st.columns(3)
     
     with insight_col1:
-        if not data['power_grid'].empty:
-            avg_duration = data['power_grid']['Duration'].mean()
+        if 'Duration' in analysis_df.columns:
+            avg_duration = analysis_df['Duration'].mean()
             st.metric("Average Duration", f"{avg_duration:.1f} hours")
+        else:
+            st.metric("Total Events", len(analysis_df))
     
     with insight_col2:
-        if not data['power_grid'].empty:
-            most_common_cause = data['power_grid']['Cause'].mode()[0]
+        if 'Cause' in analysis_df.columns:
+            most_common_cause = analysis_df['Cause'].mode()[0] if not analysis_df['Cause'].mode().empty else "N/A"
             st.metric("Most Common Cause", most_common_cause)
+        else:
+            st.metric("Date Range", f"{analysis_df['Date'].min().date()} to {analysis_df['Date'].max().date()}")
     
     with insight_col3:
-        if not data['power_grid'].empty:
-            most_affected_region = data['power_grid']['Region'].mode()[0]
+        if 'Region' in analysis_df.columns:
+            most_affected_region = analysis_df['Region'].mode()[0] if not analysis_df['Region'].mode().empty else "N/A"
             st.metric("Most Affected Region", most_affected_region)
+        elif 'Impact_Level' in analysis_df.columns:
+            impact_dist = analysis_df['Impact_Level'].value_counts()
+            st.metric("Most Common Impact", impact_dist.index[0] if not impact_dist.empty else "N/A")
     
     # Advanced analytics
     st.markdown("### 🧮 Advanced Analytics")
@@ -1069,45 +1091,56 @@ def data_analysis_tab(data):
         ["Trend Analysis", "Seasonal Decomposition", "Anomaly Detection", "Risk Assessment"]
     )
     
-    if analysis_option == "Trend Analysis" and not data['power_grid'].empty:
+    if analysis_option == "Trend Analysis":
         st.markdown("#### 📈 Long-term Trends")
         
-        df_temp = data['power_grid'].copy()
+        df_temp = analysis_df.copy()
         df_temp['Date'] = pd.to_datetime(df_temp['Date'])
         df_temp['Year'] = df_temp['Date'].dt.year
         
-        yearly_trends = df_temp.groupby(['Year', 'Impact_Level']).size().reset_index(name='Count')
-        
-        fig = px.line(
-            yearly_trends,
-            x='Year',
-            y='Count',
-            color='Impact_Level',
-            title="Event Trends by Impact Level Over Years",
-            color_discrete_map={
-                'Low': '#27AE60',
-                'Medium': '#F39C12',
-                'High': '#E74C3C'
-            }
-        )
+        if 'Impact_Level' in df_temp.columns:
+            yearly_trends = df_temp.groupby(['Year', 'Impact_Level']).size().reset_index(name='Count')
+            
+            fig = px.line(
+                yearly_trends,
+                x='Year',
+                y='Count',
+                color='Impact_Level',
+                title="Event Trends by Impact Level Over Years",
+                color_discrete_map={
+                    'Low': '#27AE60',
+                    'Medium': '#F39C12',
+                    'High': '#E74C3C'
+                }
+            )
+            st.plotly_chart(fig, use_container_width=True)
+        else:
+            yearly_trends = df_temp.groupby('Year').size().reset_index(name='Count')
+            fig = px.line(
+                yearly_trends,
+                x='Year',
+                y='Count',
+                title="Event Trends Over Years"
+            )
+            st.plotly_chart(fig, use_container_width=True)
+    
+    elif analysis_option == "Seasonal Decomposition":
+        st.markdown("#### 📆 Seasonal Patterns Analysis")
+        fig = create_seasonal_decomposition(analysis_df)
         st.plotly_chart(fig, use_container_width=True)
+        st.info("This analysis decomposes the time series into trend, seasonal, and residual components to identify patterns.")
+    
+    elif analysis_option == "Anomaly Detection":
+        st.markdown("#### ⚠️ Anomaly Detection")
+        fig = detect_anomalies(analysis_df)
+        st.plotly_chart(fig, use_container_width=True)
+        st.info("Anomalies are detected using the Interquartile Range (IQR) method. Red markers indicate unusual patterns.")
     
     elif analysis_option == "Risk Assessment":
         st.markdown("#### ⚠️ Risk Assessment Matrix")
-        
-        if not data['power_grid'].empty:
-            risk_matrix = data['power_grid'].groupby(['Cause', 'Impact_Level']).size().reset_index(name='Count')
-            
-            fig = px.scatter(
-                risk_matrix,
-                x='Cause',
-                y='Impact_Level',
-                size='Count',
-                color='Count',
-                title="Risk Matrix: Cause vs Impact Level",
-                color_continuous_scale='Reds'
-            )
-            st.plotly_chart(fig, use_container_width=True)
+        fig = create_risk_assessment(analysis_df)
+        st.plotly_chart(fig, use_container_width=True)
+        st.info("This matrix shows the relationship between event causes and their impact levels. Larger circles indicate more frequent occurrences.")
     
     st.markdown('</div>', unsafe_allow_html=True)
 
@@ -1118,6 +1151,12 @@ def interactive_viz_tab(data):
     # Dataset selector
     st.markdown("### 📂 Select Dataset")
     available_datasets = [k for k, v in data.items() if not v.empty]
+    
+    if not available_datasets:
+        st.warning("No datasets available for visualization.")
+        st.markdown('</div>', unsafe_allow_html=True)
+        return
+        
     dataset_choice = st.selectbox("Choose dataset", available_datasets + ["Combined"])
     
     # Prepare data
@@ -1146,16 +1185,7 @@ def interactive_viz_tab(data):
     # Ensure Time -> Hour exists
     if 'Time' in df.columns:
         df['Time'] = pd.to_datetime(df['Time'], format='%H:%M', errors='coerce')
-        df['Hour'] = df['Time'].dt.hour
-    
-    # Encode categorical columns
-    categorical_cols = ['Region', 'Cause', 'Impact_Level', 'Dataset']
-    encoders = {}
-    for col in categorical_cols:
-        if col in df.columns:
-            df[f'{col}_encoded'] = pd.Categorical(df[col])
-            encoders[col] = dict(enumerate(df[f'{col}_encoded'].cat.categories))
-            df[f'{col}_encoded'] = df[f'{col}_encoded'].cat.codes
+        df['Hour'] = df['Time'].dt.hour.fillna(12).astype(int)
     
     # User axis selection
     st.markdown("### 🎛️ Dynamic Filters")
@@ -1164,109 +1194,174 @@ def interactive_viz_tab(data):
     with filter_col1:
         viz_type = st.selectbox(
             "Visualization Type",
-            ["Scatter Plot", "3D Analysis", "Bubble Chart", "Sunburst", "Treemap"]
+            ["Scatter Plot", "Bar Chart", "Line Chart", "3D Analysis", "Bubble Chart", "Sunburst", "Treemap"]
         )
+    
+    # Get available columns for selection
+    numeric_cols = df.select_dtypes(include=[np.number]).columns.tolist()
+    categorical_cols = df.select_dtypes(include=['object']).columns.tolist()
+    all_cols = df.columns.tolist()
+    
+    # Default axis options
+    default_x = 'Duration' if 'Duration' in df.columns else (numeric_cols[0] if numeric_cols else all_cols[0])
+    default_y = 'Impact_Level' if 'Impact_Level' in df.columns else (all_cols[1] if len(all_cols) > 1 else all_cols[0])
     
     with filter_col2:
         x_axis = st.selectbox(
             "X-Axis",
-            [c for c in ['Duration', 'Region', 'Cause', 'Impact_Level', 'Hour', 'Dataset'] if c in df.columns]
+            options=all_cols,
+            index=all_cols.index(default_x) if default_x in all_cols else 0
         )
     
     with filter_col3:
         y_axis = st.selectbox(
             "Y-Axis",
-            [c for c in ['Duration', 'Impact_Level', 'Cause', 'Region', 'Hour', 'Dataset'] if c in df.columns]
+            options=all_cols,
+            index=all_cols.index(default_y) if default_y in all_cols else min(1, len(all_cols)-1)
         )
     
-    def get_axis(axis):
-        return f"{axis}_encoded" if axis in encoders else axis
-    
-    x_col = get_axis(x_axis)
-    y_col = get_axis(y_axis)
-    
-    # ---- Scatter Plot ----
-    if viz_type == "Scatter Plot":
-        fig = px.scatter(
-            df,
-            x=x_col,
-            y=y_col,
-            color='Impact_Level' if 'Impact_Level' in df.columns else None,
-            hover_data=[c for c in ['Region', 'Cause', 'Dataset'] if c in df.columns],
-            title=f"{dataset_choice}: {x_axis} vs {y_axis}"
-        )
-        if x_axis in encoders:
-            fig.update_xaxes(tickmode='array',
-                             tickvals=list(encoders[x_axis].keys()),
-                             ticktext=list(encoders[x_axis].values()))
-        if y_axis in encoders:
-            fig.update_yaxes(tickmode='array',
-                             tickvals=list(encoders[y_axis].keys()),
-                             ticktext=list(encoders[y_axis].values()))
-    
-    # ---- 3D Analysis ----
-    elif viz_type == "3D Analysis":
-        if 'Hour' not in df.columns:
-            st.warning("Hour column not available for 3D Analysis.")
-            return
-        fig = px.scatter_3d(
-            df,
-            x='Hour',
-            y='Duration' if 'Duration' in df.columns else x_col,
-            z='Impact_Level_encoded' if 'Impact_Level' in df.columns else y_col,
-            color='Impact_Level' if 'Impact_Level' in df.columns else None,
-            hover_data=[c for c in ['Region', 'Cause', 'Dataset'] if c in df.columns],
-            title=f"{dataset_choice}: 3D Analysis"
+    # Additional options for 3D visualization
+    z_axis = None
+    if viz_type == "3D Analysis":
+        z_axis = st.selectbox(
+            "Z-Axis",
+            options=all_cols,
+            index=all_cols.index(numeric_cols[0]) if numeric_cols else 0
         )
     
-    # ---- Sunburst ----
-    elif viz_type == "Sunburst":
-        path_cols = [c for c in ['Region', 'Cause', 'Impact_Level', 'Dataset'] if c in df.columns]
-        if len(path_cols) >= 2:
-            fig = px.sunburst(df, path=path_cols, title=f"{dataset_choice}: Hierarchical Breakdown")
-        else:
-            st.warning("Not enough categorical columns for Sunburst.")
-            return
+    # Color option
+    color_by = st.selectbox(
+        "Color By",
+        options=["None"] + categorical_cols,
+        index=0
+    )
+    color_by = None if color_by == "None" else color_by
     
-    # ---- Treemap ----
-    elif viz_type == "Treemap":
-        group_cols = [c for c in ['Region', 'Impact_Level', 'Dataset'] if c in df.columns]
-        if group_cols:
-            impact_counts = df.groupby(group_cols).size().reset_index(name='Count')
-            fig = px.treemap(
-                impact_counts,
-                path=group_cols,
-                values='Count',
-                title=f"{dataset_choice}: Events Breakdown Treemap",
-                color='Count',
-                color_continuous_scale='Blues'
+    # Generate visualization based on selection
+    try:
+        if viz_type == "Scatter Plot":
+            fig = px.scatter(
+                df,
+                x=x_axis,
+                y=y_axis,
+                color=color_by,
+                title=f"{dataset_choice}: {x_axis} vs {y_axis}",
+                hover_data=df.columns.tolist()
             )
-        else:
-            st.warning("Not enough columns for Treemap.")
-            return
-    
-    # ---- Bubble Chart ----
-    else:
-        if 'Hour' not in df.columns or 'Duration' not in df.columns:
-            st.warning("Hour/Duration column not available for Bubble Chart.")
-            return
-        bubble_data = df.groupby([c for c in ['Region', 'Impact_Level', 'Dataset'] if c in df.columns]).agg({
-            'Duration': 'mean',
-            'Hour': 'mean'
-        }).reset_index()
-        bubble_data['Count'] = df.groupby([c for c in ['Region', 'Impact_Level', 'Dataset'] if c in df.columns]).size().values
+            
+        elif viz_type == "Bar Chart":
+            # For categorical data, show value counts
+            if df[x_axis].dtype == 'object':
+                value_counts = df[x_axis].value_counts().reset_index()
+                value_counts.columns = [x_axis, 'Count']
+                fig = px.bar(
+                    value_counts,
+                    x=x_axis,
+                    y='Count',
+                    color=x_axis,
+                    title=f"{dataset_choice}: Distribution of {x_axis}"
+                )
+            else:
+                fig = px.histogram(
+                    df,
+                    x=x_axis,
+                    color=color_by,
+                    title=f"{dataset_choice}: Distribution of {x_axis}"
+                )
+                
+        elif viz_type == "Line Chart":
+            # Need a time-based column for line charts
+            time_col = 'Date' if 'Date' in df.columns else x_axis
+            if df[time_col].dtype == 'object':
+                try:
+                    df[time_col] = pd.to_datetime(df[time_col])
+                except:
+                    st.warning("Cannot convert selected column to datetime for line chart.")
+                    time_col = x_axis
+            
+            fig = px.line(
+                df.sort_values(time_col),
+                x=time_col,
+                y=y_axis,
+                color=color_by,
+                title=f"{dataset_choice}: {y_axis} over Time"
+            )
+            
+        elif viz_type == "3D Analysis":
+            fig = px.scatter_3d(
+                df,
+                x=x_axis,
+                y=y_axis,
+                z=z_axis,
+                color=color_by,
+                title=f"{dataset_choice}: 3D Analysis - {x_axis}, {y_axis}, {z_axis}"
+            )
+            
+        elif viz_type == "Bubble Chart":
+            # Use a numeric column for size if available
+            size_by = None
+            if numeric_cols:
+                size_by = st.selectbox(
+                    "Size By",
+                    options=["None"] + numeric_cols,
+                    index=0
+                )
+                size_by = None if size_by == "None" else size_by
+            
+            fig = px.scatter(
+                df,
+                x=x_axis,
+                y=y_axis,
+                size=size_by,
+                color=color_by,
+                title=f"{dataset_choice}: Bubble Chart - {x_axis} vs {y_axis}",
+                hover_data=df.columns.tolist()
+            )
+            
+        elif viz_type == "Sunburst":
+            path_cols = st.multiselect(
+                "Select hierarchy path",
+                options=categorical_cols,
+                default=categorical_cols[:min(3, len(categorical_cols))]
+            )
+            
+            if len(path_cols) >= 2:
+                fig = px.sunburst(
+                    df, 
+                    path=path_cols, 
+                    title=f"{dataset_choice}: Hierarchical Breakdown"
+                )
+            else:
+                st.warning("Select at least 2 columns for sunburst chart.")
+                return
+                
+        elif viz_type == "Treemap":
+            path_cols = st.multiselect(
+                "Select hierarchy path",
+                options=categorical_cols,
+                default=categorical_cols[:min(2, len(categorical_cols))]
+            )
+            
+            if path_cols:
+                # Use count as value
+                agg_data = df.groupby(path_cols).size().reset_index(name='Count')
+                fig = px.treemap(
+                    agg_data,
+                    path=path_cols,
+                    values='Count',
+                    title=f"{dataset_choice}: Events Breakdown Treemap"
+                )
+            else:
+                st.warning("Select at least 1 column for treemap.")
+                return
         
-        fig = px.scatter(
-            bubble_data,
-            x='Hour',
-            y='Duration',
-            size='Count',
-            color='Impact_Level' if 'Impact_Level' in df.columns else None,
-            hover_name='Region' if 'Region' in bubble_data.columns else None,
-            title=f"{dataset_choice}: Bubble Chart (Avg Duration vs Hour)"
-        )
+        # Display the figure
+        st.plotly_chart(fig, use_container_width=True)
+        
+    except Exception as e:
+        st.error(f"Error generating visualization: {str(e)}")
+        st.info("Try selecting different columns or visualization type.")
     
-    st.plotly_chart(fig, use_container_width=True)
     st.markdown('</div>', unsafe_allow_html=True)
     
     # Multi-dataset comparison
